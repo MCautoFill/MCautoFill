@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>MC Autofill</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  :root { --bg:#14161b; --panel:#1d2027; --panel2:#262a33; --line:#343945; --text:#e6e8ee; --muted:#9aa1b1; --accent:#e23636; --ok:#3fb950; --warn:#d29922; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--text); font:14px/1.4 system-ui, Segoe UI, sans-serif; }
+  header { display:flex; flex-wrap:wrap; gap:14px; align-items:center; padding:12px 18px; background:var(--panel); border-bottom:1px solid var(--line); position:sticky; top:0; z-index:5; }
+  header h1 { font-size:18px; margin:0 12px 0 0; letter-spacing:.5px; }
+  header h1 span { color:var(--accent); }
+  .opt { display:flex; align-items:center; gap:6px; color:var(--muted); font-size:13px; }
+  .opt select, .opt input[type=text], .dd input[type=search] { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:5px 8px; }
+  button { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:7px 12px; cursor:pointer; font-weight:600; }
+  button.primary { background:var(--accent); border-color:var(--accent); }
+  button.small { padding:4px 8px; font-size:12px; font-weight:500; }
+  button:disabled { opacity:.45; cursor:default; }
+  .status { margin-left:auto; color:var(--muted); font-size:13px; }
+  nav { display:flex; gap:4px; padding:10px 18px 0; }
+  nav button { border-radius:8px 8px 0 0; border-bottom:none; }
+  nav button.active { background:var(--accent); border-color:var(--accent); }
+  main { padding:16px 18px 60px; margin-right:340px; }
+  body.nosb main { margin-right:0; }
+  body:not(.nosb) header, body:not(.nosb) nav { margin-right:340px; }
+  aside#orderList { position:fixed; top:0; right:0; bottom:0; width:340px; background:var(--panel); border-left:1px solid var(--line); display:flex; flex-direction:column; z-index:6; }
+  body.nosb aside#orderList { display:none; }
+  aside#orderList .top { padding:10px 12px; border-bottom:1px solid var(--line); display:flex; align-items:center; gap:8px; }
+  aside#orderList .top b { flex:1; }
+  aside#orderList .top .k { color:var(--muted); font-size:12px; }
+  aside#orderList .rows { overflow:auto; flex:1; padding:4px 0 20px; }
+  aside#orderList h5 { margin:10px 12px 4px; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
+  .orow { display:flex; align-items:center; gap:8px; padding:3px 12px; }
+  .orow img { width:28px; height:39px; object-fit:cover; border-radius:3px; background:#000; flex:none; }
+  .orow .n { flex:1; font-size:12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:1.25; }
+  .orow .n small { color:var(--muted); }
+  .orow input { width:52px; background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:3px 6px; text-align:center; font-size:13px; }
+  .orow.zero .n, .orow.zero img { opacity:.35; }
+  .orow.changed input { border-color:var(--accent); }
+  .orow.missing .n { color:var(--warn); }
+  #sbToggle { position:fixed; right:12px; top:12px; z-index:7; }
+  body:not(.nosb) #sbToggle { display:none; }
+  .tab { display:none; } .tab.active { display:block; }
+  .toolbar { display:flex; gap:10px; align-items:center; margin-bottom:12px; flex-wrap:wrap; }
+  /* multi-select dropdown */
+  .dd { position:relative; }
+  .dd > button { min-width:260px; text-align:left; display:flex; justify-content:space-between; gap:10px; }
+  .dd .panel { display:none; position:absolute; top:calc(100% + 4px); left:0; width:360px; max-height:460px; background:var(--panel); border:1px solid var(--line); border-radius:10px; box-shadow:0 12px 30px rgba(0,0,0,.5); z-index:10; flex-direction:column; }
+  .dd.open .panel { display:flex; }
+  .dd .panel .top { display:flex; gap:6px; padding:8px; border-bottom:1px solid var(--line); }
+  .dd .panel .top input { flex:1; }
+  .dd .list { overflow:auto; padding:4px 0; }
+  .dd label.item { display:flex; align-items:center; gap:10px; padding:6px 12px; cursor:pointer; }
+  .dd label.item:hover { background:var(--panel2); }
+  .dd label.item .sub { color:var(--muted); font-size:12px; margin-left:auto; white-space:nowrap; }
+  .dd .letter { padding:6px 12px 2px; color:var(--muted); font-size:11px; letter-spacing:1px; }
+  /* hero groups */
+  .hgroup { background:var(--panel); border:1px solid var(--line); border-radius:10px; margin-bottom:14px; }
+  .hgroup .head { display:flex; align-items:center; gap:12px; padding:10px 14px; border-bottom:1px solid var(--line); flex-wrap:wrap; }
+  .hgroup .head b { font-size:15px; }
+  .hgroup .head .k { color:var(--muted); font-size:12px; }
+  .hgroup .head .ctl { margin-left:auto; display:flex; gap:12px; align-items:center; font-size:12px; color:var(--muted); }
+  .hgroup .head select { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:4px 6px; }
+  .hgroup .body { padding:10px 14px 14px; }
+  .hgroup h4 { margin:8px 0 6px; font-size:12px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
+  .empty { color:var(--muted); padding:30px; text-align:center; border:1px dashed var(--line); border-radius:10px; }
+  /* packs */
+  .pack { background:var(--panel); border:1px solid var(--line); border-radius:10px; margin-bottom:10px; }
+  .pack > .head { display:flex; align-items:center; gap:10px; padding:10px 12px; cursor:pointer; }
+  .pack > .head b { flex:1; }
+  .pack > .head .k { color:var(--muted); font-size:12px; }
+  .pack .body { display:none; padding:4px 12px 12px 36px; border-top:1px solid var(--line); }
+  .pack.open .body { display:block; }
+  .set { display:flex; align-items:center; gap:8px; padding:4px 0; }
+  .set .k { color:var(--muted); font-size:12px; }
+  .set .cnt { margin-left:auto; color:var(--muted); font-size:12px; }
+  h2 { font-size:15px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; margin:18px 0 8px; }
+  /* campaign expansions: left component panel + card groups */
+  .cwrap { display:flex; gap:14px; align-items:flex-start; }
+  #boxSide { width:300px; flex:none; position:sticky; top:calc(var(--hdr, 54px) + 10px); max-height:calc(100vh - var(--hdr, 54px) - 28px); overflow:auto; background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:4px 0; }
+  #boxSide .cbox { padding:6px 0 8px; border-bottom:1px solid var(--line); }
+  #boxSide .cbox:last-child { border-bottom:none; }
+  #boxSide .hd { display:flex; align-items:center; gap:6px; padding:4px 12px; }
+  #boxSide .hd b { flex:1; font-size:13px; }
+  #boxSide h5 { margin:8px 12px 2px; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
+  #boxSide label.c { display:flex; align-items:center; gap:8px; padding:3px 12px 3px 18px; font-size:13px; cursor:pointer; }
+  #boxSide label.c:hover { background:var(--panel2); }
+  #boxSide label.c .k { color:var(--muted); font-size:11px; }
+  #boxSide label.c .cnt { margin-left:auto; color:var(--muted); font-size:12px; }
+  #boxSide label.c.off span:not(.cnt) { opacity:.5; }
+  #boxSide .empty { margin:12px; padding:20px 10px; font-size:13px; }
+  #boxGroups { flex:1; min-width:0; }
+  /* card grids */
+  .cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(120px, 1fr)); gap:10px; }
+  .card { position:relative; }
+  .card img { width:100%; aspect-ratio:63/88; object-fit:cover; border-radius:6px; background:#000; display:block; cursor:zoom-in; }
+  .card .q { position:absolute; top:6px; right:6px; background:rgba(0,0,0,.75); border-radius:12px; padding:1px 8px; font-size:12px; font-weight:700; }
+  .card .ds { position:absolute; top:6px; left:6px; background:rgba(0,0,0,.75); border-radius:12px; padding:1px 7px; font-size:11px; }
+  .card .nm { font-size:11px; color:var(--muted); margin-top:3px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .card.missing img { outline:2px dashed var(--warn); }
+  .card.zero img { opacity:.3; }
+  .card .also { color:#7f8797; font-size:10px; }
+  .card .also b { color:var(--warn); font-weight:600; }
+  .group h3 { font-size:13px; margin:14px 0 6px; color:var(--text); }
+  .summary { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:14px; display:flex; gap:24px; flex-wrap:wrap; }
+  .summary b { font-size:20px; display:block; }
+  .summary .warn { color:var(--warn); }
+  .summary .ok { color:var(--ok); }
+  #lightbox { display:none; position:fixed; inset:0; background:rgba(0,0,0,.85); z-index:20; align-items:center; justify-content:center; cursor:zoom-out; gap:16px; }
+  #lightbox img { max-height:92vh; max-width:45vw; border-radius:12px; }
+  /* autofill status strip + settings modal */
+  #afStatus { display:none; position:sticky; top:0; z-index:8; background:#1a2230; border-bottom:2px solid var(--accent); padding:10px 18px; }
+  body:not(.nosb) #afStatus { margin-right:340px; }
+  #afStatus.show { display:block; }
+  #afStatus .row { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+  #afStatus .st { font-weight:700; }
+  #afStatus .act { color:var(--muted); }
+  #afStatus .bar { flex:1; min-width:160px; height:8px; background:var(--panel2); border-radius:4px; overflow:hidden; }
+  #afStatus .bar i { display:block; height:100%; background:var(--ok); width:0; transition:width .3s; }
+  #afStatus .log { color:var(--muted); font-size:12px; margin-top:6px; font-family:Consolas, monospace; white-space:pre-wrap; max-height:64px; overflow:auto; }
+  #afStatus .q { margin-top:8px; padding:10px 12px; background:var(--panel); border:1px solid var(--warn); border-radius:8px; }
+  #afStatus .q b { display:block; margin-bottom:6px; }
+  #afStatus .q button { margin:2px 6px 2px 0; }
+  #afStatus.signin { border-color:var(--warn); }
+  #afStatus.error { border-color:var(--accent); }
+  #afStatus.done { border-color:var(--ok); }
+  #modal { display:none; position:fixed; inset:0; background:rgba(0,0,0,.7); z-index:25; align-items:center; justify-content:center; }
+  #modal.show { display:flex; }
+  #modal .box { background:var(--panel); border:1px solid var(--line); border-radius:12px; padding:18px 20px; width:520px; max-width:94vw; }
+  #modal h3 { margin:0 0 12px; }
+  #modal .f { display:grid; grid-template-columns:190px 1fr; gap:8px 12px; align-items:center; font-size:13px; }
+  #modal .f select, #modal .f input[type=number], #modal .f input[type=text] { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:5px 8px; width:100%; }
+  #modal .f .hint { grid-column:2; color:var(--muted); font-size:11px; margin-top:-4px; }
+  #modal .btns { display:flex; gap:8px; justify-content:flex-end; margin-top:16px; }
+  #toast { position:fixed; bottom:18px; left:50%; transform:translateX(-50%); background:var(--panel2); border:1px solid var(--line); padding:10px 16px; border-radius:8px; display:none; z-index:30; max-width:80vw; }
+  input[type=checkbox] { accent-color:var(--accent); width:16px; height:16px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>MC <span>Autofill</span></h1>
+  <label class="opt">Order name <input type="text" id="orderName" value="marvel-order" size="16"></label>
+  <label class="opt">Card back <select id="backStyle"><option value="original">Original</option><option value="promo">Promo</option></select></label>
+  <label class="opt">Copies <select id="copies"><option value="pack">As printed in pack</option><option value="single">1 of each player card</option></select></label>
+  <label class="opt" title="Aspect/basic cards that are reprints of Core Set cards are set to 0 copies unless this is on"><input type="checkbox" id="coreReprints"> include Core Set reprints</label>
+  <label class="opt" title="Cards first printed in another (non-Core) set are set to 0 copies unless this is on; the earliest printing keeps its copies"><input type="checkbox" id="dupReprints"> include duplicates from other sets</label>
+  <button id="btnBuild">Build order folder</button>
+  <button id="btnLaunch" class="primary">Build &amp; autofill…</button>
+  <span class="status" id="status">loading…</span>
+</header>
+<div id="afStatus">
+  <div class="row"><span class="st" id="afState">Idle</span><span class="act" id="afAction"></span><div class="bar"><i id="afBar"></i></div><span class="act" id="afCount"></span><button class="small" id="afAbort">Stop</button><button class="small" id="afHide">hide</button></div>
+  <div class="log" id="afLog"></div>
+  <div class="q" id="afQ" hidden></div>
+</div>
+<div id="modal"><div class="box">
+  <h3>Autofill settings</h3>
+  <div class="f">
+    <label>Upload as</label><select id="sMethod"></select>
+    <span class="hint">New project, add these cards to a saved project, or continue editing one (you'll be asked to open it in the browser).</span>
+    <label>Browser</label><select id="sBrowser"></select>
+    <label>Site</label><select id="sSite"></select>
+    <label>Auto-save to your account</label><span><input type="checkbox" id="sAutoSave" checked> every <input type="number" id="sThreshold" value="5" min="1" style="width:64px"> cards</span>
+    <span class="hint">Needs you to be signed in; the app pauses and shows a sign-in banner until you are.</span>
+    <label>Post-process images</label><span><input type="checkbox" id="sPost"> downscale above <input type="number" id="sDpi" value="800" min="100" max="1200" style="width:72px"> DPI</span>
+    <span class="hint">Off by default: the library is already at the scans' native 600 DPI.</span>
+    <label>Allow PC to sleep</label><span><input type="checkbox" id="sSleep"></span>
+    <label>Browser binary (optional)</label><input type="text" id="sBinary" placeholder="only if the browser can't be found">
+  </div>
+  <div class="btns"><button id="sCancel">Cancel</button><button class="primary" id="sStart">Build &amp; start</button></div>
+</div></div>
+<nav>
+  <button data-tab="heroes" class="active">Heroes</button>
+  <button data-tab="campaigns">Campaign expansions</button>
+  <button data-tab="scenarios">Scenario packs</button>
+  <button data-tab="review">Selected cards <span id="selCount"></span></button>
+</nav>
+<main>
+  <section id="tab-heroes" class="tab active">
+    <div class="toolbar">
+      <div class="dd" id="heroDD">
+        <button id="heroDDBtn"><span id="heroDDLabel">Select heroes…</span><span>▾</span></button>
+        <div class="panel">
+          <div class="top"><input type="search" id="heroFilter" placeholder="Filter…"><button class="small" id="heroAll">All</button><button class="small" id="heroNone">None</button></div>
+          <div class="list" id="heroList"></div>
+        </div>
+      </div>
+      <label class="opt">Default for new picks <select id="defaultMode"><option value="hero">Hero cards only</option><option value="hero+pack">Hero + pack's aspect/basic cards</option></select></label>
+      <label class="opt"><input type="checkbox" id="showPack"> show pack cards inline</label>
+    </div>
+    <div id="heroGroups"></div>
+  </section>
+  <section id="tab-campaigns" class="tab">
+    <div class="toolbar">
+      <div class="dd" id="boxDD">
+        <button id="boxDDBtn"><span id="boxDDLabel">Select expansions…</span><span>▾</span></button>
+        <div class="panel">
+          <div class="top"><input type="search" id="boxFilter" placeholder="Filter…"><button class="small" id="boxAll">All</button><button class="small" id="boxNone">None</button></div>
+          <div class="list" id="boxList"></div>
+        </div>
+      </div>
+      <span class="opt">Everything in a box is on by default — untick heroes, aspect cards or encounter sets in the left panel.</span>
+    </div>
+    <div class="cwrap"><aside id="boxSide"></aside><div id="boxGroups"></div></div>
+  </section>
+  <section id="tab-scenarios" class="tab">
+    <div class="toolbar"><button id="packNone">Clear all</button><span class="opt">Tick a pack to include all of it, or expand it and pick individual encounter sets.</span></div>
+    <div id="packList"></div>
+  </section>
+  <section id="tab-review" class="tab">
+    <div class="summary" id="summary"></div>
+    <div id="reviewCards"></div>
+  </section>
+</main>
+<aside id="orderList">
+  <div class="top"><b>Order list</b><span class="k" id="olTotal"></span><button class="small" id="olReset" title="Put every quantity back to the printed count">reset</button><button class="small" id="olHide" title="Hide this panel">×</button></div>
+  <div class="rows" id="olRows"><div class="empty" style="margin:12px">Nothing selected yet.</div></div>
+</aside>
+<button id="sbToggle" class="small">Order list</button>
+<div id="lightbox"><img id="lightImg" alt=""><img id="lightBack" alt="" hidden></div>
+<div id="toast"></div>
+<script>
+const $ = s => document.querySelector(s);
+let CAT = null, LIB = new Set(), ALIAS = {}, PRINT = {}, CORE = new Set(), DUP = {}, PREV = {}, state = load();
+
+function load() {
+  const d = {heroes:{}, packs:{}, boxes:{}, qty:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false};
+  try { return Object.assign(d, JSON.parse(localStorage.getItem('mc_state')||'{}')); } catch (e) { return d; }
+}
+function save() { try { localStorage.setItem('mc_state', JSON.stringify(state)); } catch (e) {} }
+function toast(msg, ms=4000) { const t=$('#toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none', ms); }
+function imgUrl(code, name) { return `/img/${encodeURIComponent(code)}?name=${encodeURIComponent(name||code)}`; }
+function have(code) { if (LIB.has(code) || ALIAS[code]) return true; const b = code.slice(0,-1); return 'abcd'.includes(code.slice(-1)) && ['a','b','c','d'].some(l => LIB.has(b+l)); }
+function imgCode(code) { if (LIB.has(code)) return code; const b = code.slice(0,-1); for (const l of 'abcd') if (LIB.has(b+l)) return b+l; return ALIAS[code] || code; }
+
+/* collapse MarvelCDB a/b entries into physical cards (mirrors mc_order.physical_cards) */
+function physical(cards) {
+  const codes = new Set(cards.map(c => c.code)), out = [];
+  for (const c of cards) {
+    if (c.code.endsWith('b') && codes.has(c.code.slice(0,-1)+'a')) continue;
+    if (c.code.endsWith('~side')) continue;
+    if (codes.has(c.code+'a')) continue;
+    out.push({front:c.code, back:(c.linked && codes.has(c.linked)) ? c.linked : null, name:c.name, type:c.type, qty:c.qty||1});
+  }
+  return out;
+}
+
+async function init() {
+  const [cat, lib] = await Promise.all([fetch('/api/catalog').then(r=>r.json()), fetch('/api/library').then(r=>r.json())]);
+  CAT = cat; LIB = new Set(lib.codes); ALIAS = lib.aliases || {}; PRINT = lib.printings || {}; CORE = new Set(lib.core_reprints || []); DUP = lib.dup_reprints || {};
+  $('#coreReprints').checked = !!state.coreReprints; $('#dupReprints').checked = !!state.dupReprints;
+  CAT.heroes.sort((a,b) => a.name.localeCompare(b.name) || (a.alter_ego||'').localeCompare(b.alter_ego||''));
+  $('#status').textContent = `${lib.count} card images in library · autofill exe ${lib.exe?'found':'NOT found'}`;
+  $('#orderName').value = state.name; $('#backStyle').value = state.back; $('#copies').value = state.copies; $('#defaultMode').value = state.defaultMode; $('#showPack').checked = state.showPack !== false;
+  state.boxes = state.boxes || {};
+  for (const p of CAT.packs) {                       // older saved state kept campaign boxes under packs: carry the sets over
+    if (isBox(p) && state.packs[p.code]) {
+      const v = state.packs[p.code];
+      if (v.encounter_sets.length && !state.boxes[p.code]) state.boxes[p.code] = {heroes:[], player_cards:false, encounter_sets:[...v.encounter_sets]};
+      delete state.packs[p.code];
+    }
+  }
+  renderHeroList(); renderHeroGroups(); renderBoxList(); renderBoxSide(); renderBoxGroups(); renderPacks(); updateCount();
+}
+
+/* ---------- hero dropdown ---------- */
+function heroLabel(h) { return h.alter_ego ? `${h.name} (${h.alter_ego})` : h.name; }
+function renderHeroList() {
+  const q = ($('#heroFilter').value||'').toLowerCase();
+  const list = $('#heroList'); list.innerHTML = '';
+  let letter = '';
+  for (const h of CAT.heroes) {
+    if (q && !(heroLabel(h).toLowerCase().includes(q) || h.pack_name.toLowerCase().includes(q))) continue;
+    const L = h.name[0].toUpperCase();
+    if (L !== letter && !q) { letter = L; const d = document.createElement('div'); d.className='letter'; d.textContent = L; list.appendChild(d); }
+    const row = document.createElement('label'); row.className = 'item';
+    row.innerHTML = `<input type="checkbox" ${state.heroes[h.set]?'checked':''}> <span>${heroLabel(h)}</span><span class="sub">${h.pack_name}</span>`;
+    row.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) state.heroes[h.set] = state.heroes[h.set] || {mode: state.defaultMode, nemesis: true};
+      else delete state.heroes[h.set];
+      save(); updateDDLabel(); renderHeroGroups(); updateCount();
+    });
+    list.appendChild(row);
+  }
+  updateDDLabel();
+}
+function updateDDLabel() {
+  const n = Object.keys(state.heroes).length;
+  $('#heroDDLabel').textContent = n ? `${n} hero${n>1?'es':''} selected` : 'Select heroes…';
+}
+
+/* ---------- hero groups ---------- */
+function alsoIn(code) { const p = PRINT[code]; return p && p.length > 1 ? p.slice(1) : []; }
+function cardEl(pc) {
+  const live = PREV[pc.front]; const qty = live ? live.qty : pc.qty;
+  const also = alsoIn(pc.front);
+  const e = document.createElement('div'); e.className = 'card' + (have(pc.front)?'':' missing') + (qty===0?' zero':'');
+  e.innerHTML = `<img src="${imgUrl(imgCode(pc.front), pc.name)}" loading="lazy" alt="" title="${pc.name}${also.length?' — also printed in: '+also.join(', '):''}">` +
+    (qty > 1 ? `<span class="q">×${qty}</span>` : (qty === 0 ? `<span class="q">×0</span>` : '')) + (pc.back ? `<span class="ds">2-sided</span>` : '') +
+    `<div class="nm">${pc.name}</div>` + (also.length ? `<div class="nm also" title="also printed in: ${also.join(', ')}">${CORE.has(pc.front)?'<b>core</b> · ':(DUP[pc.front]?`<b>reprint of ${DUP[pc.front]}</b> · `:'')}also in ${also.join(', ')}</div>` : '');
+  e.querySelector('img').addEventListener('click', () => {
+    if (!have(pc.front)) return;
+    $('#lightImg').src = `/img/${encodeURIComponent(imgCode(pc.front))}?full=1`;
+    const lb = $('#lightBack'); if (pc.back && have(pc.back)) { lb.src = `/img/${encodeURIComponent(imgCode(pc.back))}?full=1`; lb.hidden = false; } else lb.hidden = true;
+    $('#lightbox').style.display='flex';
+  });
+  return e;
+}
+function grid(cards) { const g = document.createElement('div'); g.className='cards'; for (const pc of cards) g.appendChild(cardEl(pc)); return g; }
+function renderHeroGroups() {
+  const wrap = $('#heroGroups'); wrap.innerHTML = '';
+  const packs = Object.fromEntries(CAT.packs.map(p => [p.code, p]));
+  const chosen = CAT.heroes.filter(h => state.heroes[h.set]);
+  if (!chosen.length) { wrap.innerHTML = '<div class="empty">Pick heroes from the dropdown to see their decks here.</div>'; return; }
+  for (const h of chosen) {
+    const st = state.heroes[h.set];
+    const heroCards = physical(h.hero_cards), nem = physical(h.nemesis_cards);
+    const pack = packs[h.pack]; const packCards = pack ? physical(pack.player_cards) : [];
+    const modSets = (pack && pack.kind==='hero') ? pack.encounter_sets.map(es => ({name: es.name, cards: physical(es.cards)})) : [];
+    const modCount = modSets.reduce((a,s)=>a+s.cards.reduce((b,c)=>b+c.qty,0),0);
+    const total = heroCards.reduce((a,c)=>a+c.qty,0) + (st.nemesis!==false ? nem.reduce((a,c)=>a+c.qty,0) : 0) + (st.mode==='hero+pack' ? packCards.reduce((a,c)=>a+c.qty,0) : 0) + (st.modular!==false ? modCount : 0);
+    const g = document.createElement('div'); g.className='hgroup';
+    g.innerHTML = `<div class="head"><b>${h.name}</b><span class="k">${h.alter_ego ? h.alter_ego + ' · ' : ''}${h.pack_name} · ${total} cards</span>
+      <div class="ctl"><select data-k="mode"><option value="hero">Hero cards only</option><option value="hero+pack">Hero + pack's aspect/basic cards</option></select>
+      <label><input type="checkbox" data-k="nemesis" ${st.nemesis===false?'':'checked'}> nemesis set</label>${modSets.length?`<label><input type="checkbox" data-k="modular" ${st.modular===false?'':'checked'}> modular set (${modSets.map(s=>s.name).join(', ')})</label>`:''}<button class="small" data-k="remove">remove</button></div></div><div class="body"></div>`;
+    g.querySelector('[data-k=mode]').value = st.mode;
+    g.querySelector('[data-k=mode]').addEventListener('change', e => { st.mode = e.target.value; save(); renderHeroGroups(); updateCount(); });
+    g.querySelector('[data-k=nemesis]').addEventListener('change', e => { st.nemesis = e.target.checked; save(); renderHeroGroups(); updateCount(); });
+    const mod = g.querySelector('[data-k=modular]'); if (mod) mod.addEventListener('change', e => { st.modular = e.target.checked; save(); renderHeroGroups(); updateCount(); });
+    g.querySelector('[data-k=remove]').addEventListener('click', () => { delete state.heroes[h.set]; save(); renderHeroList(); renderHeroGroups(); updateCount(); });
+    const body = g.querySelector('.body');
+    const h4 = t => { const x = document.createElement('h4'); x.textContent = t; return x; };
+    body.appendChild(h4(`Hero cards · ${heroCards.length}`)); body.appendChild(grid(heroCards));
+    if (st.nemesis !== false && nem.length) { body.appendChild(h4(`Nemesis set · ${nem.length}`)); body.appendChild(grid(nem)); }
+    if (st.modular !== false) for (const ms of modSets) { body.appendChild(h4(`Modular set: ${ms.name} · ${ms.cards.length}`)); body.appendChild(grid(ms.cards)); }
+    if (st.mode === 'hero+pack' && packCards.length && state.showPack !== false) { body.appendChild(h4(`${pack.name} aspect & basic cards · ${packCards.length}`)); body.appendChild(grid(packCards)); }
+    wrap.appendChild(g);
+  }
+}
+
+/* ---------- campaign expansions (Core Set + campaign boxes) ---------- */
+const isBox = p => p.kind === 'core' || p.kind === 'campaign';
+const qsum = cards => physical(cards).reduce((a,c)=>a+c.qty,0);
+function boxes() { return CAT.packs.filter(isBox); }
+function boxHeroes(p) { return CAT.heroes.filter(h => h.pack === p.code); }
+function defaultBox(p) { return {heroes: boxHeroes(p).map(h=>h.set), player_cards: true, encounter_sets: p.encounter_sets.map(s=>s.code)}; }
+function boxTotal(p, b) {
+  let n = 0;
+  for (const h of boxHeroes(p)) if (b.heroes.includes(h.set)) n += qsum(h.hero_cards) + qsum(h.nemesis_cards);
+  if (b.player_cards) n += qsum(p.player_cards);
+  for (const es of p.encounter_sets) if (b.encounter_sets.includes(es.code)) n += qsum(es.cards);
+  return n;
+}
+function renderBoxList() {
+  const q = ($('#boxFilter').value||'').toLowerCase();
+  const list = $('#boxList'); list.innerHTML = '';
+  for (const p of boxes()) {
+    const hs = boxHeroes(p).map(h=>h.name).join(', ');
+    if (q && !(p.name.toLowerCase().includes(q) || hs.toLowerCase().includes(q))) continue;
+    const row = document.createElement('label'); row.className = 'item';
+    row.innerHTML = `<input type="checkbox" ${state.boxes[p.code]?'checked':''}> <span>${p.name}</span><span class="sub">${hs}</span>`;
+    row.querySelector('input').addEventListener('change', e => {
+      if (e.target.checked) state.boxes[p.code] = state.boxes[p.code] || defaultBox(p);
+      else delete state.boxes[p.code];
+      save(); updateBoxLabel(); renderBoxSide(); renderBoxGroups(); updateCount();
+    });
+    list.appendChild(row);
+  }
+  updateBoxLabel();
+}
+function updateBoxLabel() {
+  const n = Object.keys(state.boxes).length;
+  $('#boxDDLabel').textContent = n ? `${n} expansion${n>1?'s':''} selected` : 'Select expansions…';
+}
+function boxChanged() { save(); renderBoxSide(); renderBoxGroups(); updateCount(); }
+function renderBoxSide() {
+  const side = $('#boxSide'); side.innerHTML = '';
+  const chosen = boxes().filter(p => state.boxes[p.code]);
+  if (!chosen.length) { side.innerHTML = '<div class="empty">Pick expansions from the dropdown; their heroes, aspect cards and encounter sets show up here.</div>'; return; }
+  for (const p of chosen) {
+    const b = state.boxes[p.code];
+    const d = document.createElement('div'); d.className = 'cbox';
+    d.innerHTML = `<div class="hd"><b>${p.name}</b><button class="small" data-k="all">all</button><button class="small" data-k="none">none</button></div>`;
+    d.querySelector('[data-k=all]').addEventListener('click', () => { state.boxes[p.code] = defaultBox(p); boxChanged(); });
+    d.querySelector('[data-k=none]').addEventListener('click', () => { state.boxes[p.code] = {heroes:[], player_cards:false, encounter_sets:[]}; boxChanged(); });
+    const row = (label, sub, checked, count, onchange) => {
+      const l = document.createElement('label'); l.className = 'c' + (checked?'':' off');
+      l.innerHTML = `<input type="checkbox" ${checked?'checked':''}> <span>${label}</span>${sub?`<span class="k">${sub}</span>`:''}<span class="cnt">${count}</span>`;
+      l.querySelector('input').addEventListener('change', e => onchange(e.target.checked));
+      return l;
+    };
+    const h5 = t => { const x = document.createElement('h5'); x.textContent = t; return x; };
+    const hs = boxHeroes(p);
+    if (hs.length) {
+      d.appendChild(h5('Heroes'));
+      for (const h of hs) d.appendChild(row(h.name, h.alter_ego||'', b.heroes.includes(h.set), qsum(h.hero_cards)+qsum(h.nemesis_cards), on => {
+        b.heroes = b.heroes.filter(x=>x!==h.set); if (on) b.heroes.push(h.set); boxChanged(); }));
+    }
+    if (p.player_cards.length) {
+      d.appendChild(h5('Player cards'));
+      d.appendChild(row('Aspect & basic cards', '', b.player_cards, qsum(p.player_cards), on => { b.player_cards = on; boxChanged(); }));
+    }
+    if (p.encounter_sets.length) {
+      d.appendChild(h5('Encounter sets'));
+      for (const es of p.encounter_sets) d.appendChild(row(es.name, es.kind, b.encounter_sets.includes(es.code), qsum(es.cards), on => {
+        b.encounter_sets = b.encounter_sets.filter(x=>x!==es.code); if (on) b.encounter_sets.push(es.code); boxChanged(); }));
+    }
+    side.appendChild(d);
+  }
+}
+function renderBoxGroups() {
+  const wrap = $('#boxGroups'); wrap.innerHTML = '';
+  const chosen = boxes().filter(p => state.boxes[p.code]);
+  if (!chosen.length) { wrap.innerHTML = '<div class="empty">Pick expansions from the dropdown to see their cards here.</div>'; return; }
+  const h4 = t => { const x = document.createElement('h4'); x.textContent = t; return x; };
+  for (const p of chosen) {
+    const b = state.boxes[p.code];
+    const g = document.createElement('div'); g.className = 'hgroup';
+    g.innerHTML = `<div class="head"><b>${p.name}</b><span class="k">${boxTotal(p, b)} cards</span><div class="ctl"><button class="small" data-k="remove">remove</button></div></div><div class="body"></div>`;
+    g.querySelector('[data-k=remove]').addEventListener('click', () => { delete state.boxes[p.code]; save(); renderBoxList(); renderBoxSide(); renderBoxGroups(); updateCount(); });
+    const body = g.querySelector('.body');
+    let any = false;
+    for (const h of boxHeroes(p)) {
+      if (!b.heroes.includes(h.set)) continue;
+      any = true;
+      const hc = physical(h.hero_cards), nc = physical(h.nemesis_cards);
+      body.appendChild(h4(`Hero: ${h.name}${h.alter_ego?' ('+h.alter_ego+')':''} · ${hc.length}`)); body.appendChild(grid(hc));
+      if (nc.length) { body.appendChild(h4(`Nemesis set: ${h.name} · ${nc.length}`)); body.appendChild(grid(nc)); }
+    }
+    if (b.player_cards && p.player_cards.length) { any = true; const pc = physical(p.player_cards); body.appendChild(h4(`Aspect & basic cards · ${pc.length}`)); body.appendChild(grid(pc)); }
+    for (const es of p.encounter_sets) {
+      if (!b.encounter_sets.includes(es.code)) continue;
+      any = true;
+      const ec = physical(es.cards); body.appendChild(h4(`${es.name} (${es.kind}) · ${ec.length}`)); body.appendChild(grid(ec));
+    }
+    if (!any) body.innerHTML = '<div class="empty">Everything in this box is unticked.</div>';
+    wrap.appendChild(g);
+  }
+}
+
+/* ---------- scenario packs ---------- */
+function renderPacks() {
+  const list = $('#packList'); list.innerHTML = '';
+  for (const p of CAT.packs.filter(p => p.kind==='scenario' && p.encounter_sets.length)) list.appendChild(packEl(p));
+}
+function packEl(p) {
+  const st = state.packs[p.code] || {player_cards:false, encounter_sets:[]};
+  const allSets = p.encounter_sets.map(s=>s.code);
+  const el = document.createElement('div'); el.className = 'pack';
+  const nEnc = p.encounter_sets.reduce((a,s)=>a+s.cards.reduce((b,c)=>b+c.qty,0),0);
+  el.innerHTML = `<div class="head"><input type="checkbox" class="all"><b>${p.name}</b><span class="k">${p.encounter_sets.length} encounter set${p.encounter_sets.length>1?'s':''} · ${nEnc} cards</span><span class="k">▾</span></div><div class="body"></div>`;
+  const body = el.querySelector('.body');
+  for (const s of p.encounter_sets) {
+    const row = document.createElement('label'); row.className='set';
+    row.innerHTML = `<input type="checkbox" data-set="${s.code}" ${st.encounter_sets.includes(s.code)?'checked':''}> <span>${s.name}</span><span class="k">${s.kind}</span><span class="cnt">${s.cards.reduce((a,c)=>a+c.qty,0)}</span>`;
+    body.appendChild(row);
+  }
+  const sync = () => {
+    const cur = state.packs[p.code] || {player_cards:false, encounter_sets:[]};
+    const full = allSets.every(c=>cur.encounter_sets.includes(c));
+    const some = cur.encounter_sets.length;
+    const all = el.querySelector('.all'); all.checked = full; all.indeterminate = !full && !!some;
+  };
+  el.querySelector('.head').addEventListener('click', e => {
+    if (e.target.classList.contains('all')) {
+      state.packs[p.code] = e.target.checked ? {player_cards:false, encounter_sets: [...allSets]} : {player_cards:false, encounter_sets:[]};
+      body.querySelectorAll('input[data-set]').forEach(i => i.checked = e.target.checked);
+      save(); sync(); updateCount(); return;
+    }
+    el.classList.toggle('open');
+  });
+  body.addEventListener('change', e => {
+    const cur = state.packs[p.code] = state.packs[p.code] || {player_cards:false, encounter_sets:[]};
+    if (e.target.dataset.set) { const s = e.target.dataset.set; cur.encounter_sets = cur.encounter_sets.filter(x=>x!==s); if (e.target.checked) cur.encounter_sets.push(s); }
+    save(); sync(); updateCount();
+  });
+  sync();
+  return el;
+}
+
+/* ---------- selection / review ---------- */
+function selection() {
+  return {
+    name: state.name, back: state.back, copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
+    heroes: Object.entries(state.heroes).map(([set, v]) => ({set, mode:v.mode, nemesis:v.nemesis!==false, modular:v.modular!==false}))
+      .concat(Object.values(state.boxes||{}).flatMap(b => b.heroes.filter(set => !state.heroes[set]).map(set => ({set, mode:'hero', nemesis:true, modular:false})))),
+    packs: Object.entries(state.packs).filter(([c,v]) => v.encounter_sets.length).map(([code, v]) => ({code, player_cards:false, encounter_sets:v.encounter_sets}))
+      .concat(Object.entries(state.boxes||{}).filter(([c,b]) => b.player_cards || b.encounter_sets.length).map(([code, b]) => ({code, player_cards:!!b.player_cards, encounter_sets:b.encounter_sets})))
+  };
+}
+let _countTimer;
+function updateCount() {
+  clearTimeout(_countTimer);
+  _countTimer = setTimeout(async () => {
+    const r = await fetch('/api/preview', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify(selection())}).then(r=>r.json());
+    $('#selCount').textContent = r.total ? `(${r.total})` : '';
+    window._preview = r; PREV = Object.fromEntries(r.cards.map(c => [c.front, c]));
+    renderOrderList();
+    if ($('#tab-heroes').classList.contains('active')) renderHeroGroups();
+    if ($('#tab-campaigns').classList.contains('active')) renderBoxGroups();
+    if ($('#tab-review').classList.contains('active')) renderReview();
+  }, 150);
+}
+function renderReview() {
+  const r = window._preview || {cards:[], total:0, missing:0};
+  const over = r.total > 612;
+  $('#summary').innerHTML = `<div><b>${r.total}</b>cards in order</div><div><b>${r.cards.length}</b>unique cards</div>
+    <div class="${r.missing?'warn':'ok'}"><b>${r.missing}</b>without an image yet</div>
+    <div class="${over?'warn':'ok'}"><b>${over?'over':'ok'}</b>MPC limit is 612 per project</div>`;
+  const wrap = $('#reviewCards'); wrap.innerHTML = '';
+  const groups = {};
+  for (const c of r.cards) (groups[c.group] = groups[c.group] || []).push(c);
+  for (const [g, cards] of Object.entries(groups)) {
+    const d = document.createElement('div'); d.className='group';
+    d.innerHTML = `<h3>${g} <span style="color:var(--muted);font-weight:400">· ${cards.reduce((a,c)=>a+c.qty,0)} cards</span></h3>`;
+    d.appendChild(grid(cards));
+    wrap.appendChild(d);
+  }
+}
+
+/* ---------- order list (right sidebar) ---------- */
+function renderOrderList() {
+  const r = window._preview || {cards:[]};
+  const rows = $('#olRows'); rows.innerHTML = '';
+  const total = r.cards.reduce((a,c)=>a+c.qty,0), changed = Object.keys(state.qty||{}).length;
+  $('#olTotal').textContent = r.cards.length ? `${total} cards · ${r.cards.length} unique${changed?` · ${changed} edited`:''}` : '';
+  if (!r.cards.length) { rows.innerHTML = '<div class="empty" style="margin:12px">Nothing selected yet.</div>'; return; }
+  const groups = {};
+  for (const c of r.cards) (groups[c.group] = groups[c.group] || []).push(c);
+  for (const [g, cards] of Object.entries(groups)) {
+    const h = document.createElement('h5'); h.textContent = g; rows.appendChild(h);
+    for (const c of cards) {
+      const row = document.createElement('div');
+      const eff = ((c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints)) ? 0 : c.default_qty;
+      row.className = 'orow' + (c.qty===0?' zero':'') + (c.qty!==eff?' changed':'') + (c.have?'':' missing');
+      const also = (c.also_in||[]).length ? `<br><small>${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}</small>` : '';
+      row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':' (no image yet)'}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
+      const inp = row.querySelector('input');
+      inp.addEventListener('change', () => {
+        let v = parseInt(inp.value, 10); if (isNaN(v) || v < 0) v = 0; if (v > 99) v = 99;
+        state.qty = state.qty || {};
+        if (v === eff) delete state.qty[c.front]; else state.qty[c.front] = v;
+        save(); updateCount();
+      });
+      rows.appendChild(row);
+    }
+  }
+}
+$('#olReset').addEventListener('click', () => { state.qty = {}; save(); updateCount(); });
+$('#olHide').addEventListener('click', () => document.body.classList.add('nosb'));
+$('#sbToggle').addEventListener('click', () => document.body.classList.remove('nosb'));
+
+/* ---------- build ---------- */
+async function build() {
+  const btns = [$('#btnBuild'), $('#btnLaunch')]; btns.forEach(b=>b.disabled=true);
+  toast('Building order folder…', 60000);
+  try {
+    const r = await fetch('/api/build', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({selection: selection(), launch:false})}).then(r=>r.json());
+    let msg = `Built ${r.cards} cards (${r.unique} unique) in ${r.folder}`;
+    if (r.missing.length) msg += ` — ${r.missing.length} cards skipped (no image yet)`;
+    toast(msg, 10000);
+  } catch (e) { toast('Build failed: ' + e, 8000); }
+  btns.forEach(b=>b.disabled=false);
+}
+
+/* ---------- autofill (embedded mpc-autofill) ---------- */
+let AF = {opts:null, timer:null, lastQ:null};
+async function openSettings() {
+  if (!AF.opts) AF.opts = await fetch('/api/autofill/options').then(r=>r.json());
+  const st = Object.assign({method:'new_project', browser:'chrome', site:'MakePlayingCards', auto_save:true, auto_save_threshold:5, post_process:false, max_dpi:800, allow_sleep:false, binary_location:''}, state.autofill||{});
+  const fill = (id, list, val, labelOf) => { const s = $(id); s.innerHTML = list.map(o => { const v = typeof o==='string'?o:o.value; return `<option value="${v}">${labelOf?labelOf(o):v}</option>`; }).join(''); s.value = val; };
+  fill('#sMethod', AF.opts.methods, st.method, o=>o.label); fill('#sBrowser', AF.opts.browsers, st.browser); fill('#sSite', AF.opts.sites, st.site);
+  $('#sAutoSave').checked = st.auto_save; $('#sThreshold').value = st.auto_save_threshold; $('#sPost').checked = st.post_process; $('#sDpi').value = st.max_dpi; $('#sSleep').checked = st.allow_sleep; $('#sBinary').value = st.binary_location||'';
+  $('#modal').classList.add('show');
+}
+function readSettings() {
+  return {method:$('#sMethod').value, browser:$('#sBrowser').value, site:$('#sSite').value, auto_save:$('#sAutoSave').checked, auto_save_threshold:parseInt($('#sThreshold').value,10)||5,
+          post_process:$('#sPost').checked, max_dpi:parseInt($('#sDpi').value,10)||800, downscale_alg:'LANCZOS', allow_sleep:$('#sSleep').checked, binary_location:$('#sBinary').value.trim()};
+}
+async function startAutofill() {
+  const settings = readSettings(); state.autofill = settings; save();
+  $('#modal').classList.remove('show');
+  showStatus(); $('#afState').textContent = 'Building order…'; $('#afAction').textContent = '';
+  const r = await fetch('/api/autofill/start', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({selection: selection(), settings})}).then(r=>r.json());
+  if (r.error) { $('#afState').textContent = 'Could not start'; $('#afAction').textContent = r.error; $('#afStatus').classList.add('error'); return; }
+  const b = r.build; toast(`Order built: ${b.cards} cards${b.missing.length?` (${b.missing.length} skipped, no image)`:''}. Starting ${settings.browser}…`, 6000);
+  pollStatus();
+}
+function showStatus() { $('#afStatus').classList.add('show'); $('#afStatus').classList.remove('error','done','signin'); }
+async function pollStatus() {
+  clearTimeout(AF.timer);
+  let j; try { j = await fetch('/api/autofill/status').then(r=>r.json()); } catch (e) { AF.timer = setTimeout(pollStatus, 2000); return; }
+  renderStatus(j);
+  if (j.running) AF.timer = setTimeout(pollStatus, 1000);
+}
+function renderStatus(j) {
+  const el = $('#afStatus'); el.classList.add('show');
+  const signin = /sign-in|sign in/i.test(j.action||'');
+  el.classList.toggle('signin', signin); el.classList.toggle('error', !!j.error); el.classList.toggle('done', j.finished && !j.error && !j.aborted);
+  $('#afState').textContent = j.error ? 'Error' : (j.aborted ? 'Stopped' : (j.state || 'Idle'));
+  $('#afAction').textContent = signin ? 'Sign in to your account in the browser window — the app resumes automatically.' : (j.error || j.action || '');
+  const pct = j.to_upload ? Math.round(100*j.uploaded/j.to_upload) : 0;
+  $('#afBar').style.width = pct + '%'; $('#afCount').textContent = j.to_upload ? `${j.uploaded}/${j.to_upload} images uploaded` : '';
+  $('#afLog').textContent = (j.log||[]).slice(-6).join('\n');
+  $('#afAbort').disabled = !j.running;
+  const q = $('#afQ');
+  if (j.question) {
+    if (!AF.lastQ || AF.lastQ !== j.question.id) {
+      AF.lastQ = j.question.id;
+      q.hidden = false;
+      let html = `<b>${j.question.message.replace(/\s+/g,' ')}</b>`;
+      if (j.question.kind === 'choice') html += j.question.choices.map(c => `<button class="small" data-v="${c.replace(/"/g,'&quot;')}">${c}</button>`).join('');
+      else html += `<button class="small primary" data-v="">Continue</button>`;
+      q.innerHTML = html;
+      q.querySelectorAll('button').forEach(b => b.addEventListener('click', async () => {
+        await fetch('/api/autofill/answer', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({id: j.question.id, value: b.dataset.v})});
+        q.hidden = true; AF.lastQ = null; pollStatus();
+      }));
+    }
+  } else { q.hidden = true; AF.lastQ = null; }
+}
+$('#sCancel').addEventListener('click', () => $('#modal').classList.remove('show'));
+$('#sStart').addEventListener('click', startAutofill);
+$('#afAbort').addEventListener('click', async () => { await fetch('/api/autofill/abort', {method:'POST'}); pollStatus(); });
+$('#afHide').addEventListener('click', () => $('#afStatus').classList.remove('show'));
+fetch('/api/autofill/status').then(r=>r.json()).then(j => { if (j.running || (j.finished && !j.error)) { renderStatus(j); if (j.running) pollStatus(); } }).catch(()=>{});
+
+/* ---------- wiring ---------- */
+document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
+  document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active', x===b));
+  document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.id==='tab-'+b.dataset.tab));
+  if (b.dataset.tab==='review') renderReview();
+  if (b.dataset.tab==='campaigns') renderBoxGroups();
+}));
+$('#heroDDBtn').addEventListener('click', () => { $('#heroDD').classList.toggle('open'); if ($('#heroDD').classList.contains('open')) $('#heroFilter').focus(); });
+document.addEventListener('click', e => { if (!e.target.closest('#heroDD')) $('#heroDD').classList.remove('open'); if (!e.target.closest('#boxDD')) $('#boxDD').classList.remove('open'); });
+$('#boxDDBtn').addEventListener('click', () => { $('#boxDD').classList.toggle('open'); if ($('#boxDD').classList.contains('open')) $('#boxFilter').focus(); });
+$('#boxFilter').addEventListener('input', renderBoxList);
+$('#boxAll').addEventListener('click', () => { for (const p of boxes()) state.boxes[p.code] = state.boxes[p.code] || defaultBox(p); save(); renderBoxList(); renderBoxSide(); renderBoxGroups(); updateCount(); });
+$('#boxNone').addEventListener('click', () => { state.boxes = {}; save(); renderBoxList(); renderBoxSide(); renderBoxGroups(); updateCount(); });
+$('#heroFilter').addEventListener('input', renderHeroList);
+$('#heroAll').addEventListener('click', () => { for (const h of CAT.heroes) state.heroes[h.set] = state.heroes[h.set] || {mode: state.defaultMode, nemesis:true}; save(); renderHeroList(); renderHeroGroups(); updateCount(); });
+$('#heroNone').addEventListener('click', () => { state.heroes = {}; save(); renderHeroList(); renderHeroGroups(); updateCount(); });
+$('#defaultMode').addEventListener('change', e => { state.defaultMode = e.target.value; save(); });
+$('#showPack').addEventListener('change', e => { state.showPack = e.target.checked; save(); renderHeroGroups(); });
+$('#packNone').addEventListener('click', () => { state.packs = {}; save(); renderPacks(); updateCount(); });
+$('#orderName').addEventListener('input', e => { state.name = e.target.value; save(); });
+$('#backStyle').addEventListener('change', e => { state.back = e.target.value; save(); });
+$('#copies').addEventListener('change', e => { state.copies = e.target.value; save(); updateCount(); });
+$('#coreReprints').addEventListener('change', e => { state.coreReprints = e.target.checked; save(); updateCount(); });
+$('#dupReprints').addEventListener('change', e => { state.dupReprints = e.target.checked; save(); updateCount(); });
+$('#btnBuild').addEventListener('click', () => build());
+$('#btnLaunch').addEventListener('click', openSettings);
+$('#lightbox').addEventListener('click', () => $('#lightbox').style.display='none');
+const setHdr = () => document.documentElement.style.setProperty('--hdr', document.querySelector('header').offsetHeight + 'px');
+setHdr(); window.addEventListener('resize', setHdr);
+init();
+</script>
+</body>
+</html>

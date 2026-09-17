@@ -1,0 +1,17 @@
+# MC Autofill
+flask>=3.0
+pillow>=10.0
+selenium>=4.20
+wakepy>=0.6
+
+# used by the vendored mpc-autofill desktop tool (vendor/mpc_autofill)
+InquirerPy
+enlighten
+ratelimit
+attrs
+requests
+defusedxml
+fpdf2
+sanitize-filename
+google-api-python-client
+oauth2client

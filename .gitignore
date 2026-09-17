@@ -1,0 +1,15 @@
+# card images (built locally with mc_import.py; too large and copyrighted)
+library/
+backs/
+orders/
+
+# scratch / local
+__pycache__/
+*.pyc
+mc_import_prev.py
+autofill-windows.exe
+autofill-macos
+*.log
+.DS_Store
+Thumbs.db
+.claude/
