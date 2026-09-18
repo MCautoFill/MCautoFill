@@ -29,9 +29,13 @@ Two header checkboxes, both on by default. Untick **player cards** to leave ever
 
 ## Only the good player cards (Arkham Horror)
 
-The header has **player cards rated at least …** for Arkham Horror, set to *any rating* by default. The ratings come from the card-by-card investigator expansion reviews on [Ancient Evils](https://derbk.com/ancientevils/arkham-horror-lcg-buying-guide-wall-of-text-edition/), which grade every player card of the Core Sets, the investigator expansions and the starter decks as Bad, Okay, Good, Excellent or Staple (with in-between grades such as "Good to Excellent"). Pick a level and every card rated below it is set to 0 copies. Investigators, signature cards, weaknesses and the products the reviews do not cover (Return to boxes, promos, parallel investigators) keep their copies. The order list shows each card's rating, in orange when it is below the chosen level, and a count typed there still overrides the 0.
+The header has **keep player cards rated …** for Arkham Horror, set to *any* by default. The choice is a minimum: "Good or better" keeps everything rated Good, Excellent or Staple. The ratings come from the card-by-card investigator expansion reviews on [Ancient Evils](https://derbk.com/ancientevils/arkham-horror-lcg-buying-guide-wall-of-text-edition/), which grade every player card of the Core Sets, the investigator expansions and the starter decks as Bad, Okay, Good, Excellent or Staple (with in-between grades such as "Good to Excellent"). Pick a level and every card rated below it is set to 0 copies. Investigators, signature cards, weaknesses and the products the reviews do not cover (Return to boxes, promos, parallel investigators) keep their copies. The order list shows each card's rating, in orange when it is below the chosen level, and a count typed there still overrides the 0.
 
 `python ae_ratings.py` refreshes `games/arkham/ratings.json` from the reviews (about 1,290 cards); `python ah_catalog.py` then folds the ratings into the catalog.
+
+## Only the popular player cards (The Lord of the Rings)
+
+The header has **keep player cards with a RingsDB popularity of …** for The Lord of the Rings, set to *any* by default. RingsDB scores every player card from 0 to 10 by how often it appears in decks, and Hall of Beorn's export carries that score, so all 1,597 official player cards have one. Choose a minimum: cards scored below it are set to 0 copies, cards at or above it keep their copies. Heroes, encounter and quest cards, and cards without a score (the ALeP sets) are never affected. The order list shows each card's score, in orange when it is below the minimum.
 
 ## Skipping cards the revised editions reprint (The Lord of the Rings)
 

@@ -62616,36 +62616,36 @@
   {
    "key": "min_rating",
    "type": "select",
-   "label": "player cards rated at least",
-   "title": "Ancient Evils (derbk.com) rates every player card of the Core Sets, investigator expansions and starter decks: Bad < Okay < Good < Excellent < Staple. Cards rated below the chosen level are set to 0 copies. Investigators, weaknesses and cards the reviews do not cover are never affected.",
+   "label": "keep player cards rated",
+   "title": "Ancient Evils (derbk.com) rates every player card of the Core Sets, investigator expansions and starter decks: Bad < Okay < Good < Excellent < Staple. Choose a minimum: cards rated below it are set to 0 copies, cards at or above it keep their copies. Investigators, signature cards, weaknesses and cards the reviews do not cover are never affected.",
    "choices": [
     [
      "",
-     "any rating"
+     "any (no filter)"
     ],
     [
      "2",
-     "Okay"
+     "Okay or better"
     ],
     [
      "2.5",
-     "Okay to Good"
+     "Okay-to-Good or better"
     ],
     [
      "3",
-     "Good"
+     "Good or better"
     ],
     [
      "3.5",
-     "Good to Excellent"
+     "Good-to-Excellent or better"
     ],
     [
      "4",
-     "Excellent"
+     "Excellent or better"
     ],
     [
      "5",
-     "Staple"
+     "Staple only"
     ]
    ]
   }

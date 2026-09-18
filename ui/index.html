@@ -667,13 +667,14 @@ function renderOrderList() {
     const h = document.createElement('h5'); h.textContent = g; rows.appendChild(h);
     for (const c of cards) {
       const row = document.createElement('div');
-      const minR = parseFloat((state.opts||{}).min_rating) || 0;
-      const eff = (!c.have || (c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints) || ((c.revised||[]).length && (state.opts||{}).exclude_revised) || (minR && c.rating_n != null && c.rating_n < minR)) ? 0 : c.default_qty;
+      const minR = parseFloat((state.opts||{}).min_rating) || 0, minP = parseFloat((state.opts||{}).min_popularity) || 0;
+      const eff = (!c.have || (c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints) || ((c.revised||[]).length && (state.opts||{}).exclude_revised) || (minR && c.rating_n != null && c.rating_n < minR) || (minP && c.popularity != null && c.type !== 'hero' && c.popularity < minP)) ? 0 : c.default_qty;
       row.className = 'orow' + (c.qty===0?' zero':'') + (c.qty!==eff?' changed':'') + (c.have?'':' missing');
       const notes = [];
       if ((c.also_in||[]).length) notes.push(`${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}`);
       if ((c.revised||[]).length) notes.push(`<b style="color:var(--warn)">reprinted in</b> ${c.revised.join(', ')}`);
       if (c.rating) notes.push(`rated <b style="color:${(parseFloat((state.opts||{}).min_rating)||0) > c.rating_n ? 'var(--warn)' : 'var(--muted)'}">${c.rating}</b>`);
+      if (c.popularity != null) notes.push(`popularity <b style="color:${c.type !== 'hero' && (parseFloat((state.opts||{}).min_popularity)||0) > c.popularity ? 'var(--warn)' : 'var(--muted)'}">${c.popularity}/10</b>`);
       const also = notes.length ? `<br><small>${notes.join(' · ')}</small>` : '';
       row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':(c.have_front?' (back side not scanned yet)':' (no image yet)')}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
       row.querySelector('img').addEventListener('click', () => enlarge(c));

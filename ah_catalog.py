@@ -121,12 +121,13 @@ def main():
     cycles = [c for c in cycles.values() if c["packs"]]
     catalog = {"game": "arkham", "name": "Arkham Horror LCG", "cycles": cycles, "packs": out_packs,
                "back_groups": {"player": "player", "encounter": "encounter"},
-               "options": [{"key": "min_rating", "type": "select", "label": "player cards rated at least",
+               "options": [{"key": "min_rating", "type": "select", "label": "keep player cards rated",
                             "title": "Ancient Evils (derbk.com) rates every player card of the Core Sets, investigator expansions and "
-                                     "starter decks: Bad < Okay < Good < Excellent < Staple. Cards rated below the chosen level are set "
-                                     "to 0 copies. Investigators, weaknesses and cards the reviews do not cover are never affected.",
-                            "choices": [["", "any rating"], ["2", "Okay"], ["2.5", "Okay to Good"], ["3", "Good"], ["3.5", "Good to Excellent"],
-                                        ["4", "Excellent"], ["5", "Staple"]]}]}
+                                     "starter decks: Bad < Okay < Good < Excellent < Staple. Choose a minimum: cards rated below it are set "
+                                     "to 0 copies, cards at or above it keep their copies. Investigators, signature cards, weaknesses and "
+                                     "cards the reviews do not cover are never affected.",
+                            "choices": [["", "any (no filter)"], ["2", "Okay or better"], ["2.5", "Okay-to-Good or better"], ["3", "Good or better"],
+                                        ["3.5", "Good-to-Excellent or better"], ["4", "Excellent or better"], ["5", "Staple only"]]}]}
     print(f"{sum(1 for p in out_packs for s in p['sections'] for c in s['cards'] if 'rating' in c)} cards carry an Ancient Evils rating")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(catalog, open(OUT, "w", encoding="utf-8"), indent=1, ensure_ascii=False)

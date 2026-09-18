@@ -56,7 +56,8 @@ def resolve_selection(game, sel, catalog=None):
                       "qty": c.get("qty", 1) or 1, "default_qty": c.get("qty", 1) or 1, "group": f"{p['name']} · {s['name']}",
                       "kind": s["kind"], "pack": p["code"], "section": s["code"], "sub": c.get("sub"), "xp": c.get("xp"),
                       "stage": c.get("stage"), "core_reprint": False, "dup_reprint": False, "also_in": [],
-                      "revised": c.get("revised") or [], "rating": c.get("rating"), "rating_n": c.get("rating_n")}
+                      "revised": c.get("revised") or [], "rating": c.get("rating"), "rating_n": c.get("rating_n"),
+                      "popularity": c.get("popularity")}
                 pc["have_front"] = bool(find_image(c["code"], lib, game))
                 pc["have_back"] = bool(find_image(back, lib, game)) if back else True
                 pc["have"] = pc["have_front"] and pc["have_back"]
@@ -70,6 +71,12 @@ def resolve_selection(game, sel, catalog=None):
                     min_rating = 0
                 if min_rating and pc["rating_n"] is not None and pc["rating_n"] < min_rating:
                     pc["qty"] = 0                        # rated below the chosen level in the Ancient Evils reviews
+                try:
+                    min_pop = float((sel.get("opts") or {}).get("min_popularity") or 0)
+                except (TypeError, ValueError):
+                    min_pop = 0
+                if min_pop and pc["popularity"] is not None and pc.get("type") != "hero" and pc["popularity"] < min_pop:
+                    pc["qty"] = 0                        # played less often than the chosen RingsDB popularity
                 picked.append(pc)
     overrides = sel.get("qty") or {}
     for pc in picked:

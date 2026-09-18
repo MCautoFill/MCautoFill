@@ -156,6 +156,8 @@ def main():
                      "qty": qty, "back": back, "pos": v.get("position")}
             if h and h.get("Front", {}).get("Subtitle"):
                 entry["sub"] = h["Front"]["Subtitle"]
+            if h and ctype in PLAYER_TYPES and h.get("RingsDbPopularity") is not None:
+                entry["popularity"] = int(h["RingsDbPopularity"])          # RingsDB: 0-10, how often the card is played
             if h and ctype in PLAYER_TYPES and h["CardSet"] not in REVISED and revised_key(h) in reprinted:
                 entry["revised"] = sorted(reprinted[revised_key(h)])
             if h and (h.get("EncounterInfo") or {}).get("StageNumber"):
@@ -182,7 +184,12 @@ def main():
     cycles = sorted((c for c in cycles.values() if c["packs"]), key=lambda c: CYCLE_ORDER.index(c["code"]) if c["code"] in CYCLE_ORDER else 99)
     catalog = {"game": "lotr", "name": "The Lord of the Rings LCG", "cycles": cycles, "packs": out_packs,
                "back_groups": {"player": "player", "encounter": "encounter", "quest": "quest"},
-               "options": [{"key": "exclude_revised", "label": "exclude player cards reprinted in the revised editions",
+               "options": [{"key": "min_popularity", "type": "select", "label": "keep player cards with a RingsDB popularity of",
+                            "title": "RingsDB scores every player card 0-10 by how often it is played in decks (via Hall of Beorn). "
+                                     "Choose a minimum: cards scored below it are set to 0 copies, cards at or above it keep their copies. "
+                                     "Heroes, encounter and quest cards, and cards without a score are never affected.",
+                            "choices": [["", "any (no filter)"]] + [[str(n), f"{n} or more (of 10)"] for n in range(1, 11)]},
+                           {"key": "exclude_revised", "label": "exclude player cards reprinted in the revised editions",
                             "title": "Player cards from older packs that were printed again in the Revised Core Set, the Angmar Awakened / "
                                      "Dream-chaser / Ered Mithrin Hero and Campaign Expansions, the repackaged sagas or the four starter "
                                      "decks are set to 0 copies. Encounter and quest cards are never affected."}]}
