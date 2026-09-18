@@ -32,7 +32,7 @@
   aside#orderList .rows { overflow:auto; flex:1; padding:4px 0 20px; }
   aside#orderList h5 { margin:10px 12px 4px; font-size:11px; color:var(--muted); text-transform:uppercase; letter-spacing:1px; }
   .orow { display:flex; align-items:center; gap:8px; padding:3px 12px; }
-  .orow img { width:28px; height:39px; object-fit:cover; border-radius:3px; background:#000; flex:none; }
+  .orow img { width:28px; height:39px; object-fit:cover; border-radius:3px; background:#000; flex:none; cursor:zoom-in; }
   .orow .n { flex:1; font-size:12px; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:1.25; }
   .orow .n small { color:var(--muted); }
   .orow input { width:52px; background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:3px 6px; text-align:center; font-size:13px; }
@@ -416,14 +416,16 @@ function cardEl(pc) {
   e.innerHTML = `<img src="${imgUrl(imgCode(pc.front), pc.name)}" loading="lazy" alt="" title="${pc.name}${also.length?' — also printed in: '+also.join(', '):''}">` +
     (qty > 1 ? `<span class="q">×${qty}</span>` : (qty === 0 ? `<span class="q">×0</span>` : '')) + (pc.back ? `<span class="ds">2-sided</span>` : '') +
     `<div class="nm">${pc.name}</div>` + (also.length ? `<div class="nm also" title="also printed in: ${also.join(', ')}">${CORE.has(pc.front)?'<b>core</b> · ':(DUP[pc.front]?`<b>reprint of ${DUP[pc.front]}</b> · `:'')}also in ${also.join(', ')}</div>` : '');
-  e.querySelector('img').addEventListener('click', () => {
-    if (!have(pc.front)) return;
-    $('#lightImg').src = `${imgUrl(imgCode(pc.front), pc.name)}&full=1`;
-    const hasBack = pc.back && (pc.have_back !== undefined ? pc.have_back : have(pc.back));
-    const lb = $('#lightBack'); if (hasBack) { lb.src = `${imgUrl(imgCode(pc.back), pc.name)}&full=1`; lb.hidden = false; } else lb.hidden = true;
-    $('#lightbox').style.display='flex';
-  });
+  e.querySelector('img').addEventListener('click', () => enlarge(pc));
   return e;
+}
+function enlarge(pc) {
+  const hasFront = pc.have_front !== undefined ? pc.have_front : have(pc.front);
+  if (!hasFront) return;
+  $('#lightImg').src = `${imgUrl(imgCode(pc.front), pc.name)}&full=1`;
+  const hasBack = pc.back && (pc.have_back !== undefined ? pc.have_back : have(pc.back));
+  const lb = $('#lightBack'); if (hasBack) { lb.src = `${imgUrl(imgCode(pc.back), pc.name)}&full=1`; lb.hidden = false; } else lb.hidden = true;
+  $('#lightbox').style.display='flex';
 }
 function grid(cards) { const g = document.createElement('div'); g.className='cards'; for (const pc of cards) g.appendChild(cardEl(pc)); return g; }
 function renderHeroGroups() {
@@ -655,6 +657,7 @@ function renderOrderList() {
       row.className = 'orow' + (c.qty===0?' zero':'') + (c.qty!==eff?' changed':'') + (c.have?'':' missing');
       const also = (c.also_in||[]).length ? `<br><small>${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}</small>` : ((c.revised||[]).length ? `<br><small><b style="color:var(--warn)">reprinted in</b> ${c.revised.join(', ')}</small>` : '');
       row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':(c.have_front?' (back side not scanned yet)':' (no image yet)')}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
+      row.querySelector('img').addEventListener('click', () => enlarge(c));
       const inp = row.querySelector('input');
       inp.addEventListener('change', () => {
         let v = parseInt(inp.value, 10); if (isNaN(v) || v < 0) v = 0; if (v > 99) v = 99;
