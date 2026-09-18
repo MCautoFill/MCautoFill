@@ -1,8 +1,8 @@
 """Build games/arkham/catalog.json from ArkhamDB: what the app lets you pick for Arkham Horror: The Card Game.
 
 cycles[]  : how the packs are grouped in the UI (a campaign cycle, the Return-to boxes, standalone scenarios, ...)
-packs[]   : every product, in Proxy Nexus's order (release date), each split into sections: investigators, player
-            cards by class, weaknesses, and one section per encounter set. Cards use ArkhamDB codes, which is also
+packs[]   : every product, in Proxy Nexus's order (release date), each split into sections: the player cards
+            (investigators first) and one section per encounter set. Cards use ArkhamDB codes, which is also
             what Proxy Nexus names its exported images after.
 
 The repackaged Investigator / Campaign Expansions (2021 onwards for the old cycles) contain exactly the cards of the
@@ -100,14 +100,8 @@ def main():
                 s = section("enc_" + c["encounter_code"], c.get("encounter_name") or c["encounter_code"], "encounter",
                             (3, c.get("encounter_position") or 0))
                 entry["enc_pos"] = c.get("encounter_position")
-            elif c["type_code"] == "investigator":
-                s = section("investigators", "Investigators", "player", (0, 0))
-            elif c.get("subtype_code") in ("basicweakness", "weakness"):
-                s = section("weakness", "Weaknesses", "player", (2, 0))
             else:
-                fac = c.get("faction_code") or "neutral"
-                s = section("class_" + fac, f"{CLASSES.get(fac, fac.title())} cards", "player",
-                            (1, list(CLASSES).index(fac) if fac in CLASSES else 9))
+                s = section("player", "Player cards", "player", (0, 0))      # investigators first (pack order), then the rest
             s["cards"].append(entry)
         secs = sorted(sections.values(), key=lambda s: (s["order"], s["name"]))
         for s in secs:

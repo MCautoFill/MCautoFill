@@ -6,7 +6,7 @@ the ids lack: card type, sphere, encounter set, quest stages and copy counts. Ri
 each pack belongs to.
 
 cycles[] : deluxe expansion + its adventure packs, the sagas, standalone scenarios, ALeP, nightmare decks...
-packs[]  : every product, split into sections: heroes, player cards by sphere, quests, encounter sets.
+packs[]  : every product, split into sections: the player cards (heroes first), quests, encounter sets.
 
 Run:  python lotr_catalog.py          (LOTR_CACHE=<dir> reuses downloaded json files)
 """
@@ -134,6 +134,8 @@ def main():
             return sections.setdefault(code, {"code": f"{pcode}/{code}", "name": name, "kind": skind, "order": order, "cards": []})
 
         vs = sorted(versions_by_pack.get(p["id"], []), key=lambda v: (v.get("position") is None, v.get("position") or 0))
+        hero_first = lambda v: 0 if (hob_by_slug.get(v["api_id"]) or {}).get("CardType") == "Hero" else 1
+        vs.sort(key=hero_first)
         for v in vs:
             card = pn_cards.get(v["card_id"])
             if not card:
@@ -159,11 +161,8 @@ def main():
             if h and (h.get("EncounterInfo") or {}).get("StageNumber"):
                 entry["stage"] = f"{h['EncounterInfo']['StageNumber']}{h['EncounterInfo'].get('StageLetter') or ''}"
             bg = card.get("back_group") or "encounter"
-            if ctype == "Hero":
-                s = section("heroes", "Heroes", "player", (0, 0))
-            elif ctype in PLAYER_TYPES or (not ctype and bg == "player"):
-                sp = sphere or "Neutral"
-                s = section("sphere_" + norm(sp), f"{sp} cards", "player", (1, SPHERES.index(sp) if sp in SPHERES else 9))
+            if ctype in PLAYER_TYPES or (not ctype and bg == "player"):
+                s = section("player", "Player cards", "player", (0, 0))     # heroes first, then by pack position
             elif ctype in QUEST_TYPES or (not ctype and bg == "quest"):
                 label = enc or ("Campaign" if ctype == "Campaign" else "Quests")
                 s = section("quest_" + norm(label), f"Quest: {label}" if ctype == "Quest" else label, "quest", (2, 0))

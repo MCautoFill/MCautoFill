@@ -22,6 +22,7 @@
   nav button { border-radius:8px 8px 0 0; border-bottom:none; }
   nav button.active { background:var(--accent); border-color:var(--accent); }
   main { padding:16px 18px 60px; margin-right:340px; }
+  #tab-sets .lcat > .head { padding:8px 12px; } #tab-sets .lcat .body { padding:0 12px 6px; }
   body.nosb main { margin-right:0; }
   body:not(.nosb) header, body:not(.nosb) nav { margin-right:340px; }
   aside#orderList { position:fixed; top:0; right:0; bottom:0; width:340px; background:var(--panel); border-left:1px solid var(--line); display:flex; flex-direction:column; z-index:6; }
@@ -168,7 +169,7 @@
   .pk .tg { width:22px; text-align:center; color:var(--muted); cursor:pointer; user-select:none; }
   .pk .nm { flex:1; cursor:pointer; }
   .pk .k { color:var(--muted); font-size:12px; white-space:nowrap; }
-  .secs { padding:2px 0 8px 30px; display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1px 16px; }
+  .secs { padding:2px 0 8px 30px; display:grid; grid-template-columns:repeat(auto-fill, minmax(230px, 1fr)); gap:1px 14px; }
   .sec { display:flex; align-items:center; gap:8px; padding:3px 0; font-size:12.5px; cursor:pointer; }
   .sec .nm { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
   .sec .k { color:var(--muted); font-size:11px; white-space:nowrap; }
@@ -268,7 +269,7 @@
       <button class="small" id="setsNone">Clear</button>
       <button class="small" id="setsExpand">Expand all</button>
       <label class="opt">Order <select id="setsOrder"><option value="cycles">by cycle</option><option value="newest">newest first (as on Proxy Nexus)</option><option value="alpha">A–Z</option></select></label>
-      <span class="opt">Tick a cycle or a pack for all of it, or expand a pack and pick investigators, classes, spheres, quests or encounter sets one by one. Sections with no images yet are greyed out and add 0 copies.</span>
+      <span class="opt">Tick a cycle or a pack for all of it, or expand a pack and pick its player cards, quests or encounter sets. Sections with no images yet are greyed out and add 0 copies.</span>
     </div>
     <div id="setsTree"></div>
   </section>
@@ -366,6 +367,14 @@ async function loadGame() {
   const [cat, lib] = await Promise.all([fetch(`/api/catalog?game=${GAME}`).then(r=>r.json()), fetch(`/api/library?game=${GAME}`).then(r=>r.json())]);
   CAT = cat; setLib(lib);
   $('#orderName').value = state.name;
+  if (isSets()) {                                    // sections picked under an older catalog layout carry over to "Player cards"
+    const codes = new Set(CAT.packs.flatMap(p => p.sections.map(s => s.code)));
+    for (const k of Object.keys(state.sections || {})) {
+      if (codes.has(k)) continue;
+      const alt = k.split('/')[0] + '/player';
+      delete state.sections[k]; if (codes.has(alt)) state.sections[alt] = true;
+    }
+  }
   if (isSets()) { $('#setsOrder').value = state.setsOrder || 'cycles'; renderGameOpts(); renderSets(); updateCount(); if ($('#tab-library').classList.contains('active')) pnScan(); return; }
   $('#coreReprints').checked = !!state.coreReprints; $('#dupReprints').checked = !!state.dupReprints;
   CAT.heroes.sort((a,b) => a.name.localeCompare(b.name) || (a.alter_ego||'').localeCompare(b.alter_ego||''));
