@@ -351,7 +351,7 @@ async function init() {
 async function loadGame() {
   state = load();
   document.body.dataset.kind = gameInfo().kind; document.body.dataset.game = GAME;
-  CAT = null; PREV = {}; window._preview = null; SETS.expanded = new Set(); PN.list = null; $('#setsFilter').value = ''; $('#setsExpand').textContent = 'Expand all';
+  CAT = null; PREV = {}; window._preview = null; SETS.expanded = new Set(); PN.list = null; PN.picked = new Set(); $('#setsFilter').value = ''; $('#setsExpand').textContent = 'Expand all';
   document.querySelectorAll('nav button').forEach(b => { const g = b.dataset.games || 'all'; b.hidden = !(g === 'all' || g === gameInfo().kind); });
   const active = document.querySelector('nav button.active');
   if (!active || active.hidden) { const first = [...document.querySelectorAll('nav button')].find(b => !b.hidden && b.dataset.tab !== 'library'); if (first) showTab(first); }
@@ -894,7 +894,7 @@ async function pnScan() {
     const r = await fetch(`/api/pn/exports?game=${GAME}&dir=${encodeURIComponent(dir)}`).then(r=>r.json());
     if (r.error) throw new Error(r.error);
     $('#pnDir').value = r.dir; state.pnDir = r.dir; save();
-    PN.list = r.exports; PN.picked = new Set([...PN.picked].filter(p => PN.list.some(e => e.path === p)));
+    PN.list = r.exports; PN.picked = new Set([...PN.picked].filter(p => PN.list.some(e => e.path === p && e.game === GAME)));
     renderPn();
   } catch (e) { $('#pnList').innerHTML = `<div class="empty">Could not scan that folder: ${e.message || e}</div>`; }
   $('#pnScan').disabled = false;
@@ -925,7 +925,7 @@ function pnSync() {
   $('#pnSummary').textContent = other ? `${other} export${other>1?'s':''} belong${other>1?'':'s'} to another game and can be imported after switching to it` : '';
 }
 async function pnImport() {
-  const paths = [...PN.picked]; if (!paths.length) return;
+  const paths = [...PN.picked].filter(p => (PN.list || []).some(e => e.path === p && e.game === GAME)); if (!paths.length) return;
   $('#pnImport').disabled = true; toast(`Importing ${paths.length} export${paths.length>1?'s':''}…`, 60000);
   const r = await fetch('/api/pn/import', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({game: GAME, paths, dir: ($('#pnDir').value || '').trim()})}).then(r=>r.json());
   const ok = r.results.filter(x => !x.error), bad = r.results.filter(x => x.error);
@@ -935,7 +935,7 @@ async function pnImport() {
 }
 $('#pnScan').addEventListener('click', pnScan);
 $('#pnImport').addEventListener('click', pnImport);
-$('#pnNew').addEventListener('click', () => { PN.picked = new Set((PN.list || []).filter(e => e.game === GAME && !e.done).map(e => e.path)); renderPn(); });
+$('#pnNew').addEventListener('click', () => { PN.picked = new Set((PN.list || []).filter(e => e.game === GAME && !e.done).map(e => e.path)); renderPn(); if (!PN.picked.size) toast('Every export for this game is already imported'); });
 $('#pnNone').addEventListener('click', () => { PN.picked = new Set(); renderPn(); });
 $('#pnDir').addEventListener('keydown', e => { if (e.key === 'Enter') pnScan(); });
 $('#drvLoad').addEventListener('click', () => drvLoad(false));
