@@ -194,8 +194,10 @@
   <label class="opt mc-only">Copies <select id="copies"><option value="pack">As printed in pack</option><option value="single">1 of each player card</option></select></label>
   <label class="opt mc-only" title="Aspect/basic cards that are reprints of Core Set cards are set to 0 copies unless this is on"><input type="checkbox" id="coreReprints"> include Core Set reprints</label>
   <label class="opt mc-only" title="Cards first printed in another (non-Core) set are set to 0 copies unless this is on; the earliest printing keeps its copies"><input type="checkbox" id="dupReprints"> include duplicates from other sets</label>
-  <label class="opt sets-only" title="Untick to leave every player-card section (investigators, classes, heroes, spheres) out of the order"><input type="checkbox" id="incPlayer" checked> player cards</label>
-  <label class="opt sets-only" title="Untick to leave every encounter set and quest out of the order"><input type="checkbox" id="incEncounter" checked> encounter cards</label>
+  <span class="opt sets-only" style="white-space:nowrap; gap:10px">Include
+    <label class="opt" title="Untick to leave every player-card section out of the order"><input type="checkbox" id="incPlayer" checked> player cards</label>
+    <label class="opt" title="Untick to leave every encounter set and quest out of the order"><input type="checkbox" id="incEncounter" checked> encounter cards</label>
+  </span>
   <span id="gameOpts" class="sets-only" style="display:contents"></span>
   <button id="btnBuild">Build order folder</button>
   <button id="btnLaunch" class="primary">Build &amp; autofill…</button>
