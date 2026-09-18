@@ -267,6 +267,7 @@
       <button class="small" id="setsImaged" title="Select every pack section that has images in the library">Select everything with images</button>
       <button class="small" id="setsNone">Clear</button>
       <button class="small" id="setsExpand">Expand all</button>
+      <label class="opt">Order <select id="setsOrder"><option value="cycles">by cycle</option><option value="newest">newest first (as on Proxy Nexus)</option><option value="alpha">A–Z</option></select></label>
       <span class="opt">Tick a cycle or a pack for all of it, or expand a pack and pick investigators, classes, spheres, quests or encounter sets one by one. Sections with no images yet are greyed out and add 0 copies.</span>
     </div>
     <div id="setsTree"></div>
@@ -365,7 +366,7 @@ async function loadGame() {
   const [cat, lib] = await Promise.all([fetch(`/api/catalog?game=${GAME}`).then(r=>r.json()), fetch(`/api/library?game=${GAME}`).then(r=>r.json())]);
   CAT = cat; setLib(lib);
   $('#orderName').value = state.name;
-  if (isSets()) { renderGameOpts(); renderSets(); updateCount(); if ($('#tab-library').classList.contains('active')) pnScan(); return; }
+  if (isSets()) { $('#setsOrder').value = state.setsOrder || 'cycles'; renderGameOpts(); renderSets(); updateCount(); if ($('#tab-library').classList.contains('active')) pnScan(); return; }
   $('#coreReprints').checked = !!state.coreReprints; $('#dupReprints').checked = !!state.dupReprints;
   CAT.heroes.sort((a,b) => a.name.localeCompare(b.name) || (a.alter_ego||'').localeCompare(b.alter_ego||''));
   $('#copies').value = state.copies; $('#defaultMode').value = state.defaultMode; $('#showPack').checked = state.showPack !== false;
@@ -866,7 +867,15 @@ function renderSets() {
   if (!CAT || !CAT.cycles) return;
   const q = ($('#setsFilter').value || '').trim().toLowerCase();
   const hit = (p) => !q || p.name.toLowerCase().includes(q) || p.sections.some(s => s.name.toLowerCase().includes(q));
-  for (const cy of CAT.cycles) {
+  const mode = state.setsOrder || 'cycles';
+  let groups = CAT.cycles;
+  if (mode !== 'cycles') {                                   // one flat list, the way Proxy Nexus shows its sets
+    const all = CAT.packs.slice();
+    if (mode === 'newest') all.sort((a, b) => (!a.date) - (!b.date) || (b.date || '').localeCompare(a.date || '') || a.name.localeCompare(b.name));
+    else all.sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    groups = [{code: 'all', name: mode === 'newest' ? 'All packs, newest first' : 'All packs, A–Z', packs: all.map(p => p.code)}];
+  }
+  for (const cy of groups) {
     const packs = cy.packs.map(packOf).filter(Boolean).filter(hit);
     if (!packs.length) continue;
     const allSecs = packs.flatMap(p => p.sections);
@@ -903,6 +912,7 @@ function renderSets() {
   if (!wrap.children.length) wrap.innerHTML = '<div class="empty">Nothing matches that filter.</div>';
 }
 $('#setsFilter').addEventListener('input', renderSets);
+$('#setsOrder').addEventListener('change', e => { state.setsOrder = e.target.value; save(); renderSets(); });
 $('#setsNone').addEventListener('click', () => { state.sections = {}; save(); renderSets(); updateCount(); });
 $('#setsImaged').addEventListener('click', () => { for (const p of CAT.packs) for (const s of p.sections) if (secImaged(s)) setSec(s, true); save(); renderSets(); updateCount(); });
 $('#setsExpand').addEventListener('click', () => { const allOpen = CAT.packs.every(p => SETS.expanded.has(p.code)); SETS.expanded = allOpen ? new Set() : new Set(CAT.packs.map(p => p.code)); $('#setsExpand').textContent = allOpen ? 'Expand all' : 'Collapse all'; renderSets(); });
