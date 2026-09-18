@@ -1,9 +1,10 @@
 """Local web UI for building Marvel Champions MPC orders. Run: python mc_app.py  (opens http://127.0.0.1:8765)"""
-import io, os, threading, webbrowser
+import io, json, os, re, threading, webbrowser
 from flask import Flask, jsonify, request, send_file, send_from_directory
 from PIL import Image, ImageDraw
 import mc_order
 import mc_autofill
+import mc_drive
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__, static_folder=None)
@@ -123,6 +124,60 @@ def autofill_answer():
 @app.post("/api/autofill/abort")
 def autofill_abort():
     mc_autofill.abort()
+    return jsonify({"ok": True})
+
+
+@app.get("/api/drive/default")
+def drive_default():
+    return jsonify({"url": mc_drive.DEFAULT_FOLDER})
+
+
+@app.get("/api/drive/tree")
+def drive_tree():
+    """Importable folders of a shared Google Drive link, with how many are already in the library."""
+    link = request.args.get("url") or mc_drive.DEFAULT_FOLDER
+    try:
+        info = mc_drive.tree(link, key=request.args.get("key") or None, refresh=bool(request.args.get("refresh")))
+    except Exception as ex:  # noqa: BLE001
+        return jsonify({"error": str(ex)}), 400
+    done = mc_drive.load_done()
+    # folders imported by hand (mc_import.py on a local copy) are recognised from the paths recorded in sources.json
+    srcp = os.path.join(mc_order.LIB, "sources.json")
+    # Drive zip downloads turn ' and ’ into _ in folder names, so compare with all of them folded to _
+    tidy = lambda p: "\\" + re.sub(r"['‘’]", "_", p.replace("/", "\\")).lower()   # noqa: E731
+    sources = [tidy(v) for v in (json.load(open(srcp, encoding="utf-8")).values() if os.path.exists(srcp) else [])]
+    for u in info["units"]:
+        u["done"] = done.get(u["id"])
+        if not u["done"]:
+            key = tidy(u["name"]) + "\\"
+            if u["category"] == "Other":            # top-level folders must be the root of the recorded path
+                n = sum(1 for v in sources if v.startswith(key))
+            else:
+                n = sum(1 for v in sources if key in v and not v.startswith("\\core set\\"))
+            if n:
+                u["done"] = {"manual": True, "converted": n, "had": 0, "files": u.get("files"), "unmatched": 0, "failed": [], "when": "earlier import"}
+    return jsonify({**info, "default_url": mc_drive.DEFAULT_FOLDER})
+
+
+@app.post("/api/drive/import")
+def drive_import():
+    body = request.get_json(force=True)
+    try:
+        snap = mc_drive.start(body.get("url") or mc_drive.DEFAULT_FOLDER, body.get("units") or [], key=body.get("key"),
+                              keep_scans=bool(body.get("keep_scans")), redo=bool(body.get("redo")))
+    except Exception as ex:  # noqa: BLE001
+        return jsonify({"error": str(ex)}), 409
+    return jsonify(snap)
+
+
+@app.get("/api/drive/status")
+def drive_status():
+    return jsonify(mc_drive.JOB.snapshot())
+
+
+@app.post("/api/drive/abort")
+def drive_abort():
+    mc_drive.abort()
     return jsonify({"ok": True})
 
 

@@ -91,6 +91,29 @@
   #boxSide label.c.off span:not(.cnt) { opacity:.5; }
   #boxSide .empty { margin:12px; padding:20px 10px; font-size:13px; }
   #boxGroups { flex:1; min-width:0; }
+  /* card library tab */
+  #tab-library .src { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:14px; display:grid; grid-template-columns:150px 1fr auto; gap:8px 12px; align-items:center; font-size:13px; }
+  #tab-library .src input[type=text], #tab-library .src input[type=password] { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:6px 8px; width:100%; }
+  #tab-library .src .hint { grid-column:2 / span 2; color:var(--muted); font-size:12px; }
+  #tab-library .src .hint code { color:var(--text); }
+  #drvStatus { display:none; background:#1a2230; border:1px solid var(--line); border-left:3px solid var(--accent); border-radius:8px; padding:10px 14px; margin-bottom:14px; }
+  #drvStatus.show { display:block; }
+  #drvStatus.done { border-left-color:var(--ok); } #drvStatus.error { border-left-color:var(--accent); }
+  #drvStatus .row { display:flex; gap:14px; align-items:center; flex-wrap:wrap; }
+  #drvStatus .st { font-weight:700; } #drvStatus .act { color:var(--muted); font-size:13px; }
+  #drvStatus .bar { flex:1; min-width:160px; height:8px; background:var(--panel2); border-radius:4px; overflow:hidden; }
+  #drvStatus .bar i { display:block; height:100%; background:var(--ok); width:0; transition:width .3s; }
+  #drvStatus .log { color:var(--muted); font-size:12px; margin-top:6px; font-family:Consolas, monospace; white-space:pre-wrap; max-height:96px; overflow:auto; }
+  .lcat { background:var(--panel); border:1px solid var(--line); border-radius:10px; margin-bottom:10px; }
+  .lcat > .head { display:flex; align-items:center; gap:10px; padding:10px 12px; }
+  .lcat > .head b { flex:1; } .lcat > .head .k { color:var(--muted); font-size:12px; }
+  .lcat .body { padding:2px 12px 10px; border-top:1px solid var(--line); display:grid; grid-template-columns:repeat(auto-fill, minmax(300px, 1fr)); gap:2px 16px; }
+  .lunit { display:flex; align-items:center; gap:8px; padding:4px 0; font-size:13px; cursor:pointer; }
+  .lunit .nm { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .lunit .k { color:var(--muted); font-size:11px; white-space:nowrap; }
+  .lunit .badge { font-size:11px; padding:1px 7px; border-radius:10px; background:var(--panel2); color:var(--muted); white-space:nowrap; }
+  .lunit .badge.ok { background:rgba(63,185,80,.15); color:var(--ok); }
+  .lunit .badge.part { background:rgba(210,153,34,.15); color:var(--warn); }
   /* card grids */
   .cards { display:grid; grid-template-columns:repeat(auto-fill, minmax(120px, 1fr)); gap:10px; }
   .card { position:relative; }
@@ -175,6 +198,7 @@
   <button data-tab="campaigns">Campaign expansions</button>
   <button data-tab="scenarios">Scenario packs</button>
   <button data-tab="review">Selected cards <span id="selCount"></span></button>
+  <button data-tab="library">Card library</button>
 </nav>
 <main>
   <section id="tab-heroes" class="tab active">
@@ -207,6 +231,17 @@
   <section id="tab-scenarios" class="tab">
     <div class="toolbar"><button id="packNone">Clear all</button><span class="opt">Tick a pack to include all of it, or expand it and pick individual encounter sets.</span></div>
     <div id="packList"></div>
+  </section>
+  <section id="tab-library" class="tab">
+    <div class="src">
+      <label>Google Drive folder</label><input type="text" id="drvUrl" placeholder="https://drive.google.com/drive/folders/…"><button id="drvLoad">Load folder</button>
+      <label>Drive API key (optional)</label><input type="password" id="drvKey" placeholder="only if Google throttles the anonymous downloads"><button class="small" id="drvRefresh" title="List the folder again (the listing is cached)">re-list</button>
+      <span class="hint">The folder must be shared with “anyone with the link” and laid out like the community scan drive: <code>Heros/&lt;Alter ego&gt;_&lt;Hero&gt;/</code>, <code>Expansion Campaings/&lt;Box&gt;/</code>, <code>Scenario Packs/&lt;Pack&gt;/</code>, <code>Modular Sets/&lt;Set&gt;/</code>, <code>Aspects/&lt;Aspect&gt;/</code> and <code>Core Set/</code>, one 600 DPI scan per card face. Each folder below is downloaded, matched to MarvelCDB and converted, then the downloads are removed.</span>
+      <label>After import</label><span><label class="opt" style="display:inline-flex"><input type="checkbox" id="drvKeep"> keep the raw scans in <code>&nbsp;scans/</code></label></span><span></span>
+    </div>
+    <div id="drvStatus"><div class="row"><span class="st" id="drvState">Idle</span><span class="act" id="drvAction"></span><div class="bar"><i id="drvBar"></i></div><span class="act" id="drvCount"></span><button class="small" id="drvAbort">Stop</button><button class="small" id="drvHide">hide</button></div><div class="log" id="drvLog"></div></div>
+    <div class="toolbar"><button class="primary" id="drvImport" disabled>Download &amp; import selected</button><button class="small" id="drvMissing">Select everything not imported yet</button><button class="small" id="drvNone">None</button><label class="opt"><input type="checkbox" id="drvRedo"> re-import folders already done</label><span class="opt" id="drvSummary"></span></div>
+    <div id="drvTree"><div class="empty">Paste a Drive folder link and click “Load folder”.</div></div>
   </section>
   <section id="tab-review" class="tab">
     <div class="summary" id="summary"></div>
@@ -262,6 +297,9 @@ async function init() {
     }
   }
   renderHeroList(); renderHeroGroups(); renderBoxList(); renderBoxSide(); renderBoxGroups(); renderPacks(); updateCount();
+  const dv = state.drive || {}; $('#drvUrl').value = dv.url || ''; $('#drvKey').value = dv.key || ''; $('#drvKeep').checked = !!dv.keep;
+  if (!$('#drvUrl').value) fetch('/api/drive/default').then(r=>r.json()).then(r => { if (r.url && !$('#drvUrl').value) $('#drvUrl').value = r.url; }).catch(()=>{});
+  fetch('/api/drive/status').then(r=>r.json()).then(j => { if (j.running) { DRV.job = j; $('#drvStatus').classList.add('show'); drvPoll(); } }).catch(()=>{});
 }
 
 /* ---------- hero dropdown ---------- */
@@ -626,12 +664,103 @@ $('#afAbort').addEventListener('click', async () => { await fetch('/api/autofill
 $('#afHide').addEventListener('click', () => $('#afStatus').classList.remove('show'));
 fetch('/api/autofill/status').then(r=>r.json()).then(j => { if (j.running || (j.finished && !j.error)) { renderStatus(j); if (j.running) pollStatus(); } }).catch(()=>{});
 
+/* ---------- card library: pull scans from a shared Google Drive ---------- */
+let DRV = {tree:null, picked:new Set(), timer:null};
+function drvSettings() { const d = state.drive || {}; return {url: d.url || $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; }
+function drvSave() { state.drive = {url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; save(); }
+async function drvLoad(refresh) {
+  drvSave();
+  const q = new URLSearchParams({url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim()}); if (refresh) q.set('refresh', '1');
+  $('#drvTree').innerHTML = '<div class="empty">Listing the folder… (the first time takes a little while: every sub-folder is counted)</div>';
+  $('#drvLoad').disabled = $('#drvRefresh').disabled = true;
+  try {
+    const r = await fetch('/api/drive/tree?' + q).then(r=>r.json());
+    if (r.error) throw new Error(r.error);
+    DRV.tree = r; DRV.picked = new Set(); renderDrive();
+  } catch (e) { $('#drvTree').innerHTML = `<div class="empty">Could not list that folder: ${e.message || e}</div>`; }
+  $('#drvLoad').disabled = $('#drvRefresh').disabled = false;
+}
+function fmtBytes(b) { return b ? (b > 1e9 ? (b/1e9).toFixed(1)+' GB' : Math.round(b/1e6)+' MB') : ''; }
+function renderDrive() {
+  const wrap = $('#drvTree'); wrap.innerHTML = '';
+  const units = DRV.tree ? DRV.tree.units : [];
+  if (!units.length) { wrap.innerHTML = '<div class="empty">No importable folders found in that link.</div>'; return; }
+  const cats = {}; for (const u of units) (cats[u.category] = cats[u.category] || []).push(u);
+  const order = ['Heros','Heroes','Core Set','Expansion Campaings','Expansion Campaigns','Scenario Packs','Modular Sets','Aspects'];
+  const keys = Object.keys(cats).sort((a,b) => (order.indexOf(a)+1||99) - (order.indexOf(b)+1||99) || a.localeCompare(b));
+  for (const c of keys) {
+    const list = cats[c].slice().sort((a,b)=>a.name.localeCompare(b.name));
+    const nDone = list.filter(u=>u.done).length;
+    const el = document.createElement('div'); el.className = 'lcat';
+    el.innerHTML = `<div class="head"><input type="checkbox" class="all"><b>${c}</b><span class="k">${list.length} folder${list.length>1?'s':''} · ${nDone} imported${(b => b ? ' · ' + fmtBytes(b) : '')(list.reduce((a,u)=>a+(u.bytes||0),0))}</span></div><div class="body"></div>`;
+    const body = el.querySelector('.body');
+    for (const u of list) {
+      const row = document.createElement('label'); row.className = 'lunit';
+      const d = u.done;
+      const badge = d ? (d.manual ? `<span class="badge ok" title="${d.converted} cards from this folder are in the library">in library · ${d.when}</span>` : d.unmatched || (d.failed||[]).length ? `<span class="badge part" title="${d.unmatched} unmatched, ${(d.failed||[]).length} failed downloads">${d.converted + d.had} of ${d.files} · ${d.when}</span>` : `<span class="badge ok">imported · ${d.when}</span>`) : `<span class="badge">not imported</span>`;
+      row.innerHTML = `<input type="checkbox" data-id="${u.id}" ${DRV.picked.has(u.id)?'checked':''}><span class="nm" title="${u.path}">${u.name}</span><span class="k">${u.files==null?'?':u.files} files${u.bytes?' · '+fmtBytes(u.bytes):''}</span>${badge}`;
+      row.querySelector('input').addEventListener('change', e => { if (e.target.checked) DRV.picked.add(u.id); else DRV.picked.delete(u.id); drvSync(); });
+      body.appendChild(row);
+    }
+    el.querySelector('.all').addEventListener('change', e => { for (const u of list) { if (e.target.checked) DRV.picked.add(u.id); else DRV.picked.delete(u.id); } renderDrive(); });
+    wrap.appendChild(el);
+  }
+  drvSync();
+}
+function drvSync() {
+  const units = DRV.tree ? DRV.tree.units : [];
+  const picked = units.filter(u => DRV.picked.has(u.id));
+  const redo = $('#drvRedo').checked;
+  const todo = picked.filter(u => redo || !u.done);
+  $('#drvImport').disabled = !todo.length || (DRV.job && DRV.job.running);
+  $('#drvImport').textContent = todo.length ? `Download & import ${todo.length} folder${todo.length>1?'s':''} (${todo.reduce((a,u)=>a+(u.files||0),0)} files${(b => b ? ', ' + fmtBytes(b) : '')(todo.reduce((a,u)=>a+(u.bytes||0),0))})` : 'Download & import selected';
+  $('#drvSummary').textContent = picked.length && !todo.length ? 'everything selected is already imported — tick "re-import" to redo it' : '';
+  document.querySelectorAll('.lcat').forEach(el => { const boxes = [...el.querySelectorAll('input[data-id]')]; const on = boxes.filter(b=>b.checked).length; const all = el.querySelector('.all'); all.checked = on && on===boxes.length; all.indeterminate = on && on < boxes.length; });
+}
+async function drvStart() {
+  drvSave();
+  const units = DRV.tree.units.filter(u => DRV.picked.has(u.id)).map(u => u.id);
+  const r = await fetch('/api/drive/import', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), units, keep_scans: $('#drvKeep').checked, redo: $('#drvRedo').checked})}).then(r=>r.json());
+  if (r.error) { toast(r.error, 6000); return; }
+  $('#drvStatus').classList.add('show'); $('#drvStatus').classList.remove('done','error');
+  drvPoll();
+}
+async function drvPoll() {
+  clearTimeout(DRV.timer);
+  let j; try { j = await fetch('/api/drive/status').then(r=>r.json()); } catch (e) { DRV.timer = setTimeout(drvPoll, 3000); return; }
+  const was = DRV.job; DRV.job = j;
+  const el = $('#drvStatus'); el.classList.add('show'); el.classList.toggle('done', j.finished && !j.error); el.classList.toggle('error', !!j.error);
+  $('#drvState').textContent = j.error ? 'Error' : j.state; $('#drvAction').textContent = j.error || j.action || '';
+  const pct = j.units_total ? Math.round(100 * (j.unit_index + (j.files_total ? Math.min(1, j.files_done / j.files_total) : 0)) / j.units_total) : 0;
+  $('#drvBar').style.width = pct + '%'; $('#drvCount').textContent = j.units_total ? `folder ${Math.min(j.unit_index+1, j.units_total)}/${j.units_total} · ${j.converted} new images` : '';
+  $('#drvLog').textContent = (j.log||[]).slice(-8).join('\n'); $('#drvAbort').disabled = !j.running;
+  if (j.running) DRV.timer = setTimeout(drvPoll, 1500);
+  else if (was && was.running) { await reloadLibrary(); await drvLoad(false); toast(`Import finished: ${j.converted} new card images`, 6000); }
+  drvSync();
+}
+async function reloadLibrary() {
+  const lib = await fetch('/api/library').then(r=>r.json());
+  LIB = new Set(lib.codes); ALIAS = lib.aliases || {}; PRINT = lib.printings || {}; CORE = new Set(lib.core_reprints || []); DUP = lib.dup_reprints || {};
+  $('#status').textContent = `${lib.count} card images in library · autofill exe ${lib.exe?'found':'NOT found'}`;
+  renderHeroGroups(); renderBoxGroups(); updateCount();
+}
+$('#drvLoad').addEventListener('click', () => drvLoad(false));
+$('#drvRefresh').addEventListener('click', () => drvLoad(true));
+$('#drvImport').addEventListener('click', drvStart);
+$('#drvMissing').addEventListener('click', () => { DRV.picked = new Set((DRV.tree ? DRV.tree.units : []).filter(u=>!u.done && u.files).map(u=>u.id)); renderDrive(); });
+$('#drvNone').addEventListener('click', () => { DRV.picked = new Set(); renderDrive(); });
+$('#drvRedo').addEventListener('change', drvSync);
+$('#drvKeep').addEventListener('change', drvSave);
+$('#drvAbort').addEventListener('click', async () => { await fetch('/api/drive/abort', {method:'POST'}); drvPoll(); });
+$('#drvHide').addEventListener('click', () => $('#drvStatus').classList.remove('show'));
+
 /* ---------- wiring ---------- */
 document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
   document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active', x===b));
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.id==='tab-'+b.dataset.tab));
   if (b.dataset.tab==='review') renderReview();
   if (b.dataset.tab==='campaigns') renderBoxGroups();
+  if (b.dataset.tab==='library' && !DRV.tree && $('#drvUrl').value) drvLoad(false);
 }));
 $('#heroDDBtn').addEventListener('click', () => { $('#heroDD').classList.toggle('open'); if ($('#heroDD').classList.contains('open')) $('#heroFilter').focus(); });
 document.addEventListener('click', e => { if (!e.target.closest('#heroDD')) $('#heroDD').classList.remove('open'); if (!e.target.closest('#boxDD')) $('#boxDD').classList.remove('open'); });

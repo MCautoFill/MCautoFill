@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python mc_app.py
 ```
 
-Then build the card library from your scans (see the wiki page *Building the card library*):
+Then build the card library: open the **Card library** tab, paste the link of a shared Google Drive scan folder and import the folders you want. No Google account is needed. A local copy of the scans can be imported instead (see the wiki page *Building the card library*):
 
 ```bash
 python mc_import.py "path/to/Marvel Champions"
@@ -30,6 +30,7 @@ On Windows you can double-click `Start MC Autofill.bat`; on macOS, `Start MC Aut
 | `mc_order.py` | Turns a selection into an order folder with MPC-sized images and `order.xml` |
 | `mc_autofill.py` | Runs the embedded mpc-autofill tool on a background thread, prompts go to the UI |
 | `mc_import.py` | Matches scan file names to MarvelCDB cards and converts them into the library |
+| `mc_drive.py` | Lists and downloads a shared Google Drive scan folder, one sub-folder at a time, and feeds it to the importer |
 | `mc_format.py` | Converts a 600 DPI scan into a 1632×2220 MPC image with bleed |
 | `mc_catalog.py` | Builds `catalog.json` (heroes, packs, encounter sets) from `marvelcdb_cards.json` |
 | `catalog.json`, `marvelcdb_cards.json` | Card database snapshot from [MarvelCDB](https://marvelcdb.com) |

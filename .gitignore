@@ -13,3 +13,5 @@ autofill-macos
 .DS_Store
 Thumbs.db
 .claude/
+drive_tmp/
+scans/

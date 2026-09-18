@@ -1,6 +1,33 @@
 # Building the card library
 
-The repository ships no card images. You build the `library/` folder yourself from scans with `mc_import.py`. It matches each scan to a MarvelCDB card code, converts it to MPC size, and records what it found.
+The repository ships no card images. You build the `library/` folder yourself from scans, either straight from a shared Google Drive folder inside the app (easiest) or from a local copy with `mc_import.py`. Both match each scan to a MarvelCDB card code, convert it to MPC size, and record what they found.
+
+## Pulling scans from a shared Google Drive (Card library tab)
+
+Open the **Card library** tab, paste the link of a shared Drive folder and click **Load folder**. Nothing else is needed: the folder only has to be shared with "anyone with the link".
+
+The tab lists every importable folder in the Drive, grouped the way the community scan drive is laid out:
+
+```
+Heros/<Alter ego>_<Hero>/            one folder per hero pack (hero cards, nemesis set, deck list)
+Expansion Campaings/<Box>/           one folder per campaign box (heroes, aspect cards, villains, modulars)
+Scenario Packs/<Pack>/
+Modular Sets/<Set>/
+Aspects/<Aspect>/                    aspect and basic cards that came in hero packs
+Core Set/                            Aspects, Heros, Modular Sets, Villains sub-folders
+```
+
+Any other top-level folder (box art, promo art, sheet scans) is listed under *Other* and left unticked.
+
+- Folders already in the library are badged **in library**; use *Select everything not imported yet* to pick the rest.
+- **Download & import** fetches one folder at a time into `drive_tmp/`, runs the importer on it, and deletes the download, so disk use stays at one folder's worth of scans (a hero pack is about 1 GB, the Core Set about 5 GB). Progress, the current file and the importer's summary lines are shown at the top of the tab, and **Stop** finishes the current file and quits. Finished folders are remembered in `library/drive_done.json`, so a stopped run resumes where it left off.
+- Tick *keep the raw scans* to move each folder's downloads into `scans/` instead of deleting them.
+- The full drive is roughly 60 GB of TIFFs; expect a few hours for everything. Downloads run four at a time.
+- **Drive API key (optional).** Listing and downloading use Google's public endpoints and need no account. If Google starts refusing anonymous downloads ("quota hit" in the log), create a free API key in the Google Cloud console with the Drive API enabled, paste it in the tab, and the same calls go through the official API instead.
+
+The result is identical to running `mc_import.py` on a local copy, described next.
+
+## Importing a local copy
 
 ## Scan requirements
 

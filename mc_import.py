@@ -402,7 +402,8 @@ def iter_images(sources):
                     yield info.filename, (lambda z=z, n=info.filename: z.open(n))
 
 
-def main(sources, dry=False):
+def main(sources, dry=False, log=print, stop=None):
+    """log: where progress lines go; stop: callable returning True to abandon the run (progress so far is kept)."""
     m = Matcher(load_cards())
     libp, extrap, srcp = (os.path.join(LIB, n) for n in ("library.json", "extra.json", "sources.json"))
     lib = json.load(open(libp, encoding="utf-8")) if os.path.exists(libp) else {}
@@ -410,6 +411,8 @@ def main(sources, dry=False):
     lib_src = json.load(open(srcp, encoding="utf-8")) if os.path.exists(srcp) else {}
     done, skipped, ignored, unmatched, notes = 0, 0, 0, [], []
     for rel, opener in iter_images(sources):
+        if stop and stop():
+            break
         card, why = m.match(rel)
         if not card and why.startswith("not a card"):
             ignored += 1
@@ -455,15 +458,15 @@ def main(sources, dry=False):
         if done % 25 == 0:
             json.dump(lib, open(libp, "w", encoding="utf-8"), indent=0)
             json.dump(lib_src, open(srcp, "w", encoding="utf-8"), indent=0)
-            print(f"  {done} converted...", flush=True)
+            log(f"  {done} converted...")
     if not dry:
         json.dump(lib, open(libp, "w", encoding="utf-8"), indent=0)
         json.dump(extras, open(extrap, "w", encoding="utf-8"), indent=1)
         json.dump(lib_src, open(srcp, "w", encoding="utf-8"), indent=0)
         open(os.path.join(LIB, "unmatched.txt"), "a", encoding="utf-8").write("\n".join(unmatched) + ("\n" if unmatched else ""))
         open(os.path.join(LIB, "notes.txt"), "a", encoding="utf-8").write("\n".join(notes) + ("\n" if notes else ""))
-    print(f"converted {done}, already had {skipped}, ignored {ignored} (deck lists etc), unmatched {len(unmatched)}, "
-          f"noted {len(notes)} -> library has {len(lib)} cards")
+    log(f"converted {done}, already had {skipped}, ignored {ignored} (deck lists etc), unmatched {len(unmatched)}, "
+        f"noted {len(notes)} -> library has {len(lib)} cards")
     return lib, unmatched, notes
 
 
