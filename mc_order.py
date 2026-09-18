@@ -277,60 +277,86 @@ def resolve_selection(sel, catalog=None):
 BACK_KINDS = ("player", "encounter", "villain")
 
 
-def back_file(style, kind):
-    """backs/<style>_<player|encounter|villain>.<ext>; falls back to the other style, and villain -> encounter."""
-    for st in (style, "original", "promo"):
-        for k in ((kind, "encounter") if kind == "villain" else (kind,)):
+def back_file(style, kind, backs_dir=None):
+    """<backs>/<style>_<kind>.<ext>; falls back to any other style there, and villain/quest -> encounter."""
+    backs_dir = backs_dir or BACKS
+    styles = [style] + sorted({f.split("_", 1)[0] for f in os.listdir(backs_dir) if "_" in f} - {style}) if os.path.isdir(backs_dir) else [style]
+    for st in styles:
+        for k in ((kind, "encounter") if kind in ("villain", "quest") else (kind,)):
             for ext in ("jpg", "jpeg", "png"):
-                p = os.path.join(BACKS, f"{st}_{k}.{ext}")
+                p = os.path.join(backs_dir, f"{st}_{k}.{ext}")
                 if os.path.exists(p):
                     return p
     return None
 
 
+def back_styles(backs_dir=None):
+    """Back styles available in a backs folder: the <style> part of <style>_<kind>.<ext>."""
+    backs_dir = backs_dir or BACKS
+    if not os.path.isdir(backs_dir):
+        return []
+    return sorted({f.split("_", 1)[0] for f in os.listdir(backs_dir) if "_" in f and f.lower().endswith((".jpg", ".jpeg", ".png"))})
+
+
 def build_order(sel, launch=False):
     catalog, lib = load_catalog(), load_library()
     picked = resolve_selection(sel, catalog)
-    name = re.sub(r"[^\w\- ]+", "", sel.get("name") or "order").strip() or "order"
+    style = sel.get("back", "original")
+    items = []
+    for pc in picked:
+        if pc["qty"] <= 0:
+            continue
+        f = image_for(pc["front"], lib)
+        b = find_image(pc["back"], lib, sides=False) if pc["back"] else None
+        items.append({"front": os.path.join(LIB, f) if f else None, "back": os.path.join(LIB, b) if b else None,
+                      "needs_back": bool(pc["back"]), "kind": back_kind(pc), "qty": pc["qty"], "name": pc["name"], "group": pc["group"]})
+    return write_order(sel.get("name") or "order", items, BACKS, style, BACK_KINDS, sel, launch=launch)
+
+
+def image_for(code, lib):
+    return find_image(code, lib)
+
+
+def write_order(name, items, backs_dir, style, back_kinds, sel, launch=False):
+    """Write orders/<name>/ (images + order.xml) for a list of physical cards.
+
+    items: [{"front": abs image path or None, "back": abs path or None, "needs_back": bool, "kind": back kind for a
+            single-sided card, "qty": copies, "name", "group"}]. A card with no front image, or a two-sided card with no
+            back image, is reported as missing and left out. Single-sided cards get backs_dir/<style>_<kind>.<ext>.
+    """
+    name = re.sub(r"[^\w\- ]+", "", name).strip() or "order"
     out = os.path.join(ORDERS, name)
     img_dir = os.path.join(out, "images")
+    if os.path.isdir(img_dir):
+        shutil.rmtree(img_dir)
     os.makedirs(img_dir, exist_ok=True)
-    style = sel.get("back", "original")
-    backs = {k: back_file(style, k) for k in BACK_KINDS}
+    backs = {k: back_file(style, k, backs_dir) for k in back_kinds}
     for k, p in backs.items():
         if p:
             shutil.copy2(p, os.path.join(out, f"back_{k}{os.path.splitext(p)[1]}"))
     # absolute paths: the embedded autofill tool resolves "Local File" ids without changing directory
-    img_abs = lambda name: os.path.join(img_dir, name)
+    img_abs = lambda n: os.path.join(img_dir, n)
 
     fronts, back_entries, missing, slot = [], {}, [], 0
-
-    def image_for(code):
-        return find_image(code, lib)
-
-    for pc in picked:
-        if pc["qty"] <= 0:
+    for it in items:
+        f, b = it["front"], it["back"]
+        if not f or (it["needs_back"] and not b):
+            missing.append(it)
             continue
-        f = image_for(pc["front"])
-        b = find_image(pc["back"], lib, sides=False) if pc["back"] else None
-        if not f or (pc["back"] and not b):       # a two-sided card with only one side scanned cannot be printed
-            missing.append(pc)
-            continue
-        shutil.copy2(os.path.join(LIB, f), os.path.join(img_dir, os.path.basename(f)))
+        shutil.copy2(f, img_abs(os.path.basename(f)))
         if b:
-            shutil.copy2(os.path.join(LIB, b), os.path.join(img_dir, os.path.basename(b)))
+            shutil.copy2(b, img_abs(os.path.basename(b)))
             back_id = img_abs(os.path.basename(b))
         else:
-            kind = back_kind(pc)
+            kind = it["kind"]
             bp = backs.get(kind)
             if not bp:
-                raise RuntimeError(f"No {kind} card back found: put backs/{style}_{kind}.jpg (or .png) in the app folder "
-                                   "before building an order (see the wiki page 'Building the card library', section 'Card backs')")
+                raise RuntimeError(f"No {kind} card back found: put {os.path.basename(backs_dir)}/{style}_{kind}.jpg (or .png) "
+                                   f"in {os.path.dirname(backs_dir)} before building an order")
             back_id = os.path.join(out, f"back_{kind}{os.path.splitext(bp)[1]}")
-        for _ in range(pc["qty"]):
+        for _ in range(it["qty"]):
             fronts.append((slot, img_abs(os.path.basename(f))))
-            if back_id:
-                back_entries.setdefault(back_id, []).append(slot)
+            back_entries.setdefault(back_id, []).append(slot)
             slot += 1
 
     # the most common back becomes the order default; the rest are listed explicitly
@@ -357,7 +383,7 @@ def build_order(sel, launch=False):
         shutil.copy2(exe, os.path.join(out, "autofill-windows.exe"))
     json.dump({"selection": sel, "missing": [m["name"] for m in missing]},
               open(os.path.join(out, "selection.json"), "w"), indent=1)
-    result = {"folder": out, "cards": slot, "unique": sum(1 for pc in picked if pc["qty"] > 0) - len(missing),
+    result = {"folder": out, "cards": slot, "unique": sum(1 for it in items if it["qty"] > 0) - len(missing),
               "missing": [f"{m['name']} ({m['group']})" for m in missing], "exe": bool(exe), "launched": False}
     if launch and exe and slot:
         subprocess.Popen(["cmd", "/c", "start", "", os.path.join(out, "autofill-windows.exe")], cwd=out)

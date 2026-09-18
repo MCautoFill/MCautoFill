@@ -158,16 +158,40 @@
   #modal .btns { display:flex; gap:8px; justify-content:flex-end; margin-top:16px; }
   #toast { position:fixed; bottom:18px; left:50%; transform:translateX(-50%); background:var(--panel2); border:1px solid var(--line); padding:10px 16px; border-radius:8px; display:none; z-index:30; max-width:80vw; }
   input[type=checkbox] { accent-color:var(--accent); width:16px; height:16px; }
+  /* game switch + sets tab */
+  #gameSel { background:var(--panel2); color:var(--text); border:1px solid var(--accent); border-radius:6px; padding:6px 10px; font-weight:600; }
+  body[data-kind=sets] .mc-only { display:none !important; }
+  body[data-kind=mc] .sets-only { display:none !important; }
+  nav button[hidden] { display:none; }
+  .pk { display:flex; align-items:center; gap:8px; padding:5px 0; font-size:13px; border-top:1px solid var(--line); }
+  .pk:first-child { border-top:none; }
+  .pk .tg { width:22px; text-align:center; color:var(--muted); cursor:pointer; user-select:none; }
+  .pk .nm { flex:1; cursor:pointer; }
+  .pk .k { color:var(--muted); font-size:12px; white-space:nowrap; }
+  .secs { padding:2px 0 8px 30px; display:grid; grid-template-columns:repeat(auto-fill, minmax(280px, 1fr)); gap:1px 16px; }
+  .sec { display:flex; align-items:center; gap:8px; padding:3px 0; font-size:12.5px; cursor:pointer; }
+  .sec .nm { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .sec .k { color:var(--muted); font-size:11px; white-space:nowrap; }
+  .sec.noimg .nm { color:var(--muted); }
+  .sec .kind { font-size:10px; padding:1px 5px; border-radius:4px; border:1px solid var(--line); color:var(--muted); }
+  .sec .kind.player { color:#7fb3ff; } .sec .kind.encounter { color:var(--warn); } .sec .kind.quest { color:#c48bff; }
+  #setsTree .lcat .body { display:block; }
+  .pnrow { display:flex; align-items:center; gap:10px; padding:6px 0; border-top:1px solid var(--line); font-size:13px; }
+  .pnrow:first-child { border-top:none; }
+  .pnrow .nm { flex:1; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }
+  .pnrow .k { color:var(--muted); font-size:12px; white-space:nowrap; }
+  .pnrow.other { opacity:.5; }
 </style>
 </head>
 <body>
 <header>
   <h1>MC <span>Autofill</span></h1>
+  <select id="gameSel" title="Which game to build an order for"></select>
   <label class="opt">Order name <input type="text" id="orderName" value="marvel-order" size="16"></label>
   <label class="opt">Card back <select id="backStyle"><option value="original">Original</option><option value="promo">Promo</option></select></label>
-  <label class="opt">Copies <select id="copies"><option value="pack">As printed in pack</option><option value="single">1 of each player card</option></select></label>
-  <label class="opt" title="Aspect/basic cards that are reprints of Core Set cards are set to 0 copies unless this is on"><input type="checkbox" id="coreReprints"> include Core Set reprints</label>
-  <label class="opt" title="Cards first printed in another (non-Core) set are set to 0 copies unless this is on; the earliest printing keeps its copies"><input type="checkbox" id="dupReprints"> include duplicates from other sets</label>
+  <label class="opt mc-only">Copies <select id="copies"><option value="pack">As printed in pack</option><option value="single">1 of each player card</option></select></label>
+  <label class="opt mc-only" title="Aspect/basic cards that are reprints of Core Set cards are set to 0 copies unless this is on"><input type="checkbox" id="coreReprints"> include Core Set reprints</label>
+  <label class="opt mc-only" title="Cards first printed in another (non-Core) set are set to 0 copies unless this is on; the earliest printing keeps its copies"><input type="checkbox" id="dupReprints"> include duplicates from other sets</label>
   <button id="btnBuild">Build order folder</button>
   <button id="btnLaunch" class="primary">Build &amp; autofill…</button>
   <span class="status" id="status">loading…</span>
@@ -195,9 +219,10 @@
 </div></div>
 <nav>
   <button data-tab="library">Image library</button>
-  <button data-tab="heroes" class="active">Heroes</button>
-  <button data-tab="campaigns">Campaign expansions</button>
-  <button data-tab="scenarios">Scenario packs</button>
+  <button data-tab="heroes" class="active" data-games="mc">Heroes</button>
+  <button data-tab="campaigns" data-games="mc">Campaign expansions</button>
+  <button data-tab="scenarios" data-games="mc">Scenario packs</button>
+  <button data-tab="sets" data-games="sets">Cycles &amp; packs</button>
   <button data-tab="review">Selected cards <span id="selCount"></span></button>
 </nav>
 <main>
@@ -232,7 +257,26 @@
     <div class="toolbar"><button id="packNone">Clear all</button><span class="opt">Tick a pack to include all of it, or expand it and pick individual encounter sets.</span></div>
     <div id="packList"></div>
   </section>
+  <section id="tab-sets" class="tab">
+    <div class="toolbar">
+      <input type="search" id="setsFilter" placeholder="Filter packs and sets…" style="background:var(--panel2);color:var(--text);border:1px solid var(--line);border-radius:6px;padding:6px 10px;min-width:260px">
+      <button class="small" id="setsImaged" title="Select every pack section that has images in the library">Select everything with images</button>
+      <button class="small" id="setsNone">Clear</button>
+      <button class="small" id="setsExpand">Expand all</button>
+      <span class="opt">Tick a cycle or a pack for all of it, or expand a pack and pick investigators, classes, spheres, quests or encounter sets one by one. Sections with no images yet are greyed out and add 0 copies.</span>
+    </div>
+    <div id="setsTree"></div>
+  </section>
   <section id="tab-library" class="tab">
+    <div id="pnPanel" class="sets-only">
+      <div class="src">
+        <label>Proxy Nexus exports</label><input type="text" id="pnDir" placeholder="folder that holds the exported zips (default: your Downloads folder)"><button id="pnScan">Scan folder</button>
+        <span class="hint">Images come from <a href="https://proxynexus.net/" target="_blank" style="color:var(--text)">Proxy Nexus</a>: pick the game there, open the <b>Set</b> tab, choose a set, format <b>MPC</b>, sides <b>Double</b>, and <b>Generate</b>. Each zip it downloads is one set; scan the folder and import the ones you want. The card ids inside match this app's catalog, so nothing else is needed.</span>
+      </div>
+      <div class="toolbar"><button class="primary" id="pnImport" disabled>Import selected</button><button class="small" id="pnNew">Select everything not imported yet</button><button class="small" id="pnNone">None</button><span class="opt" id="pnSummary"></span></div>
+      <div id="pnList"><div class="empty">Click “Scan folder” to list the exports.</div></div>
+    </div>
+    <div id="drvPanel" class="mc-only">
     <div class="src">
       <label>Google Drive folder</label><input type="text" id="drvUrl" placeholder="https://drive.google.com/drive/folders/…"><button id="drvLoad">Load folder</button>
       <label>Drive API key (optional)</label><input type="password" id="drvKey" placeholder="only if Google throttles the anonymous downloads"><button class="small" id="drvRefresh" title="List the folder again (the listing is cached)">re-list</button>
@@ -242,6 +286,7 @@
     <div id="drvStatus"><div class="row"><span class="st" id="drvState">Idle</span><span class="act" id="drvAction"></span><div class="bar"><i id="drvBar"></i></div><span class="act" id="drvCount"></span><button class="small" id="drvAbort">Stop</button><button class="small" id="drvHide">hide</button></div><div class="log" id="drvLog"></div></div>
     <div class="toolbar"><button class="primary" id="drvImport" disabled>Download &amp; import selected</button><button class="small" id="drvMissing">Select everything not imported yet</button><button class="small" id="drvNone">None</button><label class="opt"><input type="checkbox" id="drvRedo"> re-import folders already done</label><span class="opt" id="drvSummary"></span></div>
     <div id="drvTree"><div class="empty">Paste a Drive folder link and click “Load folder”.</div></div>
+    </div>
   </section>
   <section id="tab-review" class="tab">
     <div class="summary" id="summary"></div>
@@ -257,15 +302,21 @@
 <div id="toast"></div>
 <script>
 const $ = s => document.querySelector(s);
-let CAT = null, LIB = new Set(), ALIAS = {}, PRINT = {}, CORE = new Set(), DUP = {}, PREV = {}, state = load();
+let GAMES = [], GAME = 'mc';
+let CAT = null, LIB = new Set(), ALIAS = {}, PRINT = {}, CORE = new Set(), DUP = {}, PREV = {}, state = null;
 
+function gameInfo() { return GAMES.find(g => g.id === GAME) || {id:'mc', kind:'mc', name:'Marvel Champions', order_name:'marvel-order'}; }
+function isSets() { return gameInfo().kind === 'sets'; }
+function stateKey() { return GAME === 'mc' ? 'mc_state' : 'state_' + GAME; }
 function load() {
-  const d = {heroes:{}, packs:{}, boxes:{}, qty:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false};
-  try { return Object.assign(d, JSON.parse(localStorage.getItem('mc_state')||'{}')); } catch (e) { return d; }
+  const d = GAME === 'mc'
+    ? {heroes:{}, packs:{}, boxes:{}, qty:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false}
+    : {sections:{}, qty:{}, back:'original', name: gameInfo().order_name};
+  try { return Object.assign(d, JSON.parse(localStorage.getItem(stateKey())||'{}')); } catch (e) { return d; }
 }
-function save() { try { localStorage.setItem('mc_state', JSON.stringify(state)); } catch (e) {} }
+function save() { try { localStorage.setItem(stateKey(), JSON.stringify(state)); } catch (e) {} }
 function toast(msg, ms=4000) { const t=$('#toast'); t.textContent=msg; t.style.display='block'; clearTimeout(t._h); t._h=setTimeout(()=>t.style.display='none', ms); }
-function imgUrl(code, name) { return `/img/${encodeURIComponent(code)}?name=${encodeURIComponent(name||code)}`; }
+function imgUrl(code, name) { return `/img/${encodeURIComponent(code)}?game=${GAME}&name=${encodeURIComponent(name||code)}`; }
 function have(code) { if (LIB.has(code) || ALIAS[code]) return true; const b = code.slice(0,-1); return 'abcd'.includes(code.slice(-1)) && ['a','b','c','d'].some(l => LIB.has(b+l)); }
 function imgCode(code) { if (LIB.has(code)) return code; const b = code.slice(0,-1); for (const l of 'abcd') if (LIB.has(b+l)) return b+l; return ALIAS[code] || code; }
 
@@ -281,13 +332,36 @@ function physical(cards) {
   return out;
 }
 
+function setLib(lib) {
+  LIB = new Set(lib.codes); ALIAS = lib.aliases || {}; PRINT = lib.printings || {}; CORE = new Set(lib.core_reprints || []); DUP = lib.dup_reprints || {};
+  $('#status').textContent = `${gameInfo().name} · ${lib.count} card images in library`;
+  const bs = $('#backStyle'); const styles = isSets() ? (lib.styles && lib.styles.length ? lib.styles : ['original']) : ['original', 'promo'];
+  bs.innerHTML = styles.map(s => `<option value="${s}">${s.charAt(0).toUpperCase() + s.slice(1)}</option>`).join('');
+  bs.value = styles.includes(state.back) ? state.back : styles[0]; state.back = bs.value;
+}
 async function init() {
-  const [cat, lib] = await Promise.all([fetch('/api/catalog').then(r=>r.json()), fetch('/api/library').then(r=>r.json())]);
-  CAT = cat; LIB = new Set(lib.codes); ALIAS = lib.aliases || {}; PRINT = lib.printings || {}; CORE = new Set(lib.core_reprints || []); DUP = lib.dup_reprints || {};
+  const gs = await fetch('/api/games').then(r=>r.json());
+  GAMES = gs.games;
+  const saved = localStorage.getItem('game');
+  GAME = GAMES.some(g => g.id === saved) ? saved : gs.default;
+  $('#gameSel').innerHTML = GAMES.map(g => `<option value="${g.id}">${g.name}</option>`).join('');
+  $('#gameSel').value = GAME;
+  await loadGame();
+}
+async function loadGame() {
+  state = load();
+  document.body.dataset.kind = gameInfo().kind; document.body.dataset.game = GAME;
+  CAT = null; PREV = {}; window._preview = null; SETS.expanded = new Set(); PN.list = null; $('#setsFilter').value = ''; $('#setsExpand').textContent = 'Expand all';
+  document.querySelectorAll('nav button').forEach(b => { const g = b.dataset.games || 'all'; b.hidden = !(g === 'all' || g === gameInfo().kind); });
+  const active = document.querySelector('nav button.active');
+  if (!active || active.hidden) { const first = [...document.querySelectorAll('nav button')].find(b => !b.hidden && b.dataset.tab !== 'library'); if (first) showTab(first); }
+  const [cat, lib] = await Promise.all([fetch(`/api/catalog?game=${GAME}`).then(r=>r.json()), fetch(`/api/library?game=${GAME}`).then(r=>r.json())]);
+  CAT = cat; setLib(lib);
+  $('#orderName').value = state.name;
+  if (isSets()) { renderSets(); updateCount(); if ($('#tab-library').classList.contains('active')) pnScan(); return; }
   $('#coreReprints').checked = !!state.coreReprints; $('#dupReprints').checked = !!state.dupReprints;
   CAT.heroes.sort((a,b) => a.name.localeCompare(b.name) || (a.alter_ego||'').localeCompare(b.alter_ego||''));
-  $('#status').textContent = `${lib.count} card images in library · autofill exe ${lib.exe?'found':'NOT found'}`;
-  $('#orderName').value = state.name; $('#backStyle').value = state.back; $('#copies').value = state.copies; $('#defaultMode').value = state.defaultMode; $('#showPack').checked = state.showPack !== false;
+  $('#copies').value = state.copies; $('#defaultMode').value = state.defaultMode; $('#showPack').checked = state.showPack !== false;
   state.boxes = state.boxes || {};
   for (const p of CAT.packs) {                       // older saved state kept campaign boxes under packs: carry the sets over
     if (isBox(p) && state.packs[p.code]) {
@@ -519,8 +593,9 @@ function packEl(p) {
 
 /* ---------- selection / review ---------- */
 function selection() {
+  if (isSets()) return {game: GAME, name: state.name, back: state.back, qty: state.qty || {}, sections: Object.keys(state.sections || {}).filter(k => state.sections[k])};
   return {
-    name: state.name, back: state.back, copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
+    game: 'mc', name: state.name, back: state.back, copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
     heroes: Object.entries(state.heroes).map(([set, v]) => ({set, mode:v.mode, nemesis:v.nemesis!==false, modular:v.modular!==false}))
       .concat(Object.values(state.boxes||{}).flatMap(b => b.heroes.filter(set => !state.heroes[set]).map(set => ({set, mode:'hero', nemesis:true, modular:false})))),
     packs: Object.entries(state.packs).filter(([c,v]) => v.encounter_sets.length).map(([code, v]) => ({code, player_cards:false, encounter_sets:v.encounter_sets}))
@@ -535,8 +610,8 @@ function updateCount() {
     $('#selCount').textContent = r.total ? `(${r.total})` : '';
     window._preview = r; PREV = Object.fromEntries(r.cards.map(c => [c.front, c]));
     renderOrderList();
-    if ($('#tab-heroes').classList.contains('active')) renderHeroGroups();
-    if ($('#tab-campaigns').classList.contains('active')) renderBoxGroups();
+    if (!isSets() && $('#tab-heroes').classList.contains('active')) renderHeroGroups();
+    if (!isSets() && $('#tab-campaigns').classList.contains('active')) renderBoxGroups();
     if ($('#tab-review').classList.contains('active')) renderReview();
   }, 150);
 }
@@ -752,11 +827,115 @@ async function drvPoll() {
   drvSync();
 }
 async function reloadLibrary() {
-  const lib = await fetch('/api/library').then(r=>r.json());
-  LIB = new Set(lib.codes); ALIAS = lib.aliases || {}; PRINT = lib.printings || {}; CORE = new Set(lib.core_reprints || []); DUP = lib.dup_reprints || {};
-  $('#status').textContent = `${lib.count} card images in library · autofill exe ${lib.exe?'found':'NOT found'}`;
-  renderHeroGroups(); renderBoxGroups(); updateCount();
+  const lib = await fetch(`/api/library?game=${GAME}`).then(r=>r.json());
+  setLib(lib);
+  if (isSets()) renderSets(); else { renderHeroGroups(); renderBoxGroups(); }
+  updateCount();
 }
+
+/* ---------- sets games (Arkham Horror, The Lord of the Rings): cycles -> packs -> sections ---------- */
+let SETS = {expanded: new Set()};
+function packOf(code) { return CAT.packs.find(p => p.code === code); }
+function secImaged(s) { return s.cards.filter(c => LIB.has(c.code)).length; }
+function secOn(s) { return !!(state.sections || {})[s.code]; }
+function setSec(s, on) { state.sections = state.sections || {}; if (on) state.sections[s.code] = true; else delete state.sections[s.code]; }
+function renderSets() {
+  const wrap = $('#setsTree'); wrap.innerHTML = '';
+  if (!CAT || !CAT.cycles) return;
+  const q = ($('#setsFilter').value || '').trim().toLowerCase();
+  const hit = (p) => !q || p.name.toLowerCase().includes(q) || p.sections.some(s => s.name.toLowerCase().includes(q));
+  for (const cy of CAT.cycles) {
+    const packs = cy.packs.map(packOf).filter(Boolean).filter(hit);
+    if (!packs.length) continue;
+    const allSecs = packs.flatMap(p => p.sections);
+    const nOn = allSecs.filter(secOn).length;
+    const el = document.createElement('div'); el.className = 'lcat';
+    el.innerHTML = `<div class="head"><input type="checkbox" class="all" title="Select every pack in this cycle"><b>${cy.name}</b><span class="k">${packs.length} pack${packs.length>1?'s':''} · ${allSecs.reduce((a,s)=>a+s.cards.length,0)} cards · ${allSecs.reduce((a,s)=>a+secImaged(s),0)} with images${nOn ? ` · ${nOn} section${nOn>1?'s':''} selected` : ''}${cy.note ? ` · <span title="${cy.note}">ⓘ</span>` : ''}</span></div><div class="body"></div>`;
+    const all = el.querySelector('.all'); all.checked = nOn && nOn === allSecs.length; all.indeterminate = nOn && nOn < allSecs.length;
+    all.addEventListener('change', e => { for (const s of allSecs) setSec(s, e.target.checked); save(); renderSets(); updateCount(); });
+    const body = el.querySelector('.body');
+    for (const p of packs) {
+      const on = p.sections.filter(secOn).length, imaged = p.sections.reduce((a,s)=>a+secImaged(s),0);
+      const open = SETS.expanded.has(p.code) || (q && p.sections.some(s => s.name.toLowerCase().includes(q)) && !p.name.toLowerCase().includes(q));
+      const row = document.createElement('div'); row.className = 'pk';
+      row.innerHTML = `<span class="tg">${open ? '▾' : '▸'}</span><input type="checkbox"><span class="nm">${p.name}</span><span class="k">${p.date ? p.date.slice(0,4) + ' · ' : ''}${p.cards} cards · ${imaged ? imaged + ' with images' : 'no images yet'}${on ? ` · ${on}/${p.sections.length} sections` : ''}</span>`;
+      const cb = row.querySelector('input'); cb.checked = on && on === p.sections.length; cb.indeterminate = on && on < p.sections.length;
+      cb.addEventListener('change', e => { for (const s of p.sections) setSec(s, e.target.checked); save(); renderSets(); updateCount(); });
+      const toggle = () => { if (SETS.expanded.has(p.code)) SETS.expanded.delete(p.code); else SETS.expanded.add(p.code); renderSets(); };
+      row.querySelector('.tg').addEventListener('click', toggle); row.querySelector('.nm').addEventListener('click', toggle);
+      body.appendChild(row);
+      if (open) {
+        const secs = document.createElement('div'); secs.className = 'secs';
+        for (const s of p.sections) {
+          const n = secImaged(s);
+          const lab = document.createElement('label'); lab.className = 'sec' + (n ? '' : ' noimg');
+          lab.innerHTML = `<input type="checkbox" ${secOn(s)?'checked':''}><span class="nm" title="${s.cards.map(c=>c.name).slice(0,40).join(', ')}${s.cards.length>40?', …':''}">${s.name}</span><span class="kind ${s.kind}">${s.kind}</span><span class="k">${s.cards.reduce((a,c)=>a+(c.qty||1),0)} copies · ${n}/${s.cards.length} img</span>`;
+          lab.querySelector('input').addEventListener('change', e => { setSec(s, e.target.checked); save(); renderSets(); updateCount(); });
+          secs.appendChild(lab);
+        }
+        body.appendChild(secs);
+      }
+    }
+    wrap.appendChild(el);
+  }
+  if (!wrap.children.length) wrap.innerHTML = '<div class="empty">Nothing matches that filter.</div>';
+}
+$('#setsFilter').addEventListener('input', renderSets);
+$('#setsNone').addEventListener('click', () => { state.sections = {}; save(); renderSets(); updateCount(); });
+$('#setsImaged').addEventListener('click', () => { for (const p of CAT.packs) for (const s of p.sections) if (secImaged(s)) setSec(s, true); save(); renderSets(); updateCount(); });
+$('#setsExpand').addEventListener('click', () => { const allOpen = CAT.packs.every(p => SETS.expanded.has(p.code)); SETS.expanded = allOpen ? new Set() : new Set(CAT.packs.map(p => p.code)); $('#setsExpand').textContent = allOpen ? 'Expand all' : 'Collapse all'; renderSets(); });
+
+/* ---------- image library for sets games: import Proxy Nexus exports ---------- */
+let PN = {list: null, picked: new Set()};
+async function pnScan() {
+  const dir = ($('#pnDir').value || '').trim();
+  $('#pnList').innerHTML = '<div class="empty">Scanning…</div>'; $('#pnScan').disabled = true;
+  try {
+    const r = await fetch(`/api/pn/exports?game=${GAME}&dir=${encodeURIComponent(dir)}`).then(r=>r.json());
+    if (r.error) throw new Error(r.error);
+    $('#pnDir').value = r.dir; state.pnDir = r.dir; save();
+    PN.list = r.exports; PN.picked = new Set([...PN.picked].filter(p => PN.list.some(e => e.path === p)));
+    renderPn();
+  } catch (e) { $('#pnList').innerHTML = `<div class="empty">Could not scan that folder: ${e.message || e}</div>`; }
+  $('#pnScan').disabled = false;
+}
+function renderPn() {
+  const wrap = $('#pnList'); wrap.innerHTML = '';
+  const list = PN.list || [];
+  if (!list.length) { wrap.innerHTML = '<div class="empty">No Proxy Nexus exports found in that folder. Generate one on proxynexus.net (format MPC) and scan again.</div>'; pnSync(); return; }
+  const box = document.createElement('div'); box.className = 'lcat'; const body = document.createElement('div'); body.className = 'body'; body.style.display = 'block'; body.style.borderTop = 'none';
+  for (const e of list) {
+    const mine = e.game === GAME;
+    const row = document.createElement('label'); row.className = 'pnrow' + (mine ? '' : ' other');
+    const gname = (GAMES.find(g => g.id === e.game) || {}).name || 'unknown game';
+    const badge = e.done ? `<span class="badge ok">imported · ${e.done.when}</span>` : (mine ? '<span class="badge">not imported</span>' : '');
+    row.innerHTML = `<input type="checkbox" ${PN.picked.has(e.path)?'checked':''} ${mine?'':'disabled'}><span class="nm" title="${e.path}">${e.name}</span><span class="k">${gname} · ${e.cards} cards${e.backs.length ? ' · backs' : ''}${e.size ? ' · ' + fmtBytes(e.size) : ''}</span>${badge}`;
+    row.querySelector('input').addEventListener('change', ev => { if (ev.target.checked) PN.picked.add(e.path); else PN.picked.delete(e.path); pnSync(); });
+    body.appendChild(row);
+  }
+  box.appendChild(body); wrap.appendChild(box);
+  pnSync();
+}
+function pnSync() {
+  const n = PN.picked.size;
+  $('#pnImport').disabled = !n; $('#pnImport').textContent = n ? `Import ${n} export${n>1?'s':''}` : 'Import selected';
+  const other = (PN.list || []).filter(e => e.game && e.game !== GAME).length;
+  $('#pnSummary').textContent = other ? `${other} export${other>1?'s':''} belong${other>1?'':'s'} to another game and can be imported after switching to it` : '';
+}
+async function pnImport() {
+  const paths = [...PN.picked]; if (!paths.length) return;
+  $('#pnImport').disabled = true; toast(`Importing ${paths.length} export${paths.length>1?'s':''}…`, 60000);
+  const r = await fetch('/api/pn/import', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({game: GAME, paths})}).then(r=>r.json());
+  const ok = r.results.filter(x => !x.error), bad = r.results.filter(x => x.error);
+  toast(`${ok.reduce((a,x)=>a+x.added+x.replaced,0)} images imported from ${ok.length} export${ok.length!==1?'s':''}` + (bad.length ? ` · ${bad.length} failed: ${bad[0].error}` : ''), 8000);
+  PN.picked = new Set();
+  await reloadLibrary(); await pnScan();
+}
+$('#pnScan').addEventListener('click', pnScan);
+$('#pnImport').addEventListener('click', pnImport);
+$('#pnNew').addEventListener('click', () => { PN.picked = new Set((PN.list || []).filter(e => e.game === GAME && !e.done).map(e => e.path)); renderPn(); });
+$('#pnNone').addEventListener('click', () => { PN.picked = new Set(); renderPn(); });
+$('#pnDir').addEventListener('keydown', e => { if (e.key === 'Enter') pnScan(); });
 $('#drvLoad').addEventListener('click', () => drvLoad(false));
 $('#drvRefresh').addEventListener('click', () => drvLoad(true));
 $('#drvImport').addEventListener('click', drvStart);
@@ -768,13 +947,20 @@ $('#drvAbort').addEventListener('click', async () => { await fetch('/api/drive/a
 $('#drvHide').addEventListener('click', () => $('#drvStatus').classList.remove('show'));
 
 /* ---------- wiring ---------- */
-document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => {
+function showTab(b) {
   document.querySelectorAll('nav button').forEach(x=>x.classList.toggle('active', x===b));
   document.querySelectorAll('.tab').forEach(t=>t.classList.toggle('active', t.id==='tab-'+b.dataset.tab));
   if (b.dataset.tab==='review') renderReview();
-  if (b.dataset.tab==='campaigns') renderBoxGroups();
-  if (b.dataset.tab==='library' && !DRV.tree && $('#drvUrl').value) drvLoad(false);
-}));
+  if (b.dataset.tab==='campaigns' && !isSets()) renderBoxGroups();
+  if (b.dataset.tab==='sets' && CAT) renderSets();
+  if (b.dataset.tab==='library') { if (isSets()) { if (!PN.list) { if (state.pnDir) $('#pnDir').value = state.pnDir; pnScan(); } } else if (!DRV.tree && $('#drvUrl').value) drvLoad(false); }
+}
+document.querySelectorAll('nav button').forEach(b => b.addEventListener('click', () => showTab(b)));
+$('#gameSel').addEventListener('change', async e => {
+  GAME = e.target.value; localStorage.setItem('game', GAME);
+  $('#olRows').innerHTML = ''; $('#olTotal').textContent = ''; $('#selCount').textContent = '';
+  await loadGame();
+});
 $('#heroDDBtn').addEventListener('click', () => { $('#heroDD').classList.toggle('open'); if ($('#heroDD').classList.contains('open')) $('#heroFilter').focus(); });
 document.addEventListener('click', e => { if (!e.target.closest('#heroDD')) $('#heroDD').classList.remove('open'); if (!e.target.closest('#boxDD')) $('#boxDD').classList.remove('open'); });
 $('#boxDDBtn').addEventListener('click', () => { $('#boxDD').classList.toggle('open'); if ($('#boxDD').classList.contains('open')) $('#boxFilter').focus(); });

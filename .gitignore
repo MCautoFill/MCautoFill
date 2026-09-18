@@ -15,3 +15,5 @@ Thumbs.db
 drive_tmp/
 scans/
 .venv/
+games/*/library/
+games/*/backs/

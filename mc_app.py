@@ -1,10 +1,14 @@
-"""Local web UI for building Marvel Champions MPC orders. Run: python mc_app.py  (opens http://127.0.0.1:8765)"""
+"""Local web UI for building MPC orders (Marvel Champions, Arkham Horror, The Lord of the Rings).
+Run: python mc_app.py  (opens http://127.0.0.1:8765)"""
 import io, json, os, re, threading, traceback, webbrowser
 from flask import Flask, jsonify, request, send_file, send_from_directory
 from PIL import Image, ImageDraw
+import games
 import mc_order
 import mc_autofill
 import mc_drive
+import pn_import
+import set_order
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 app = Flask(__name__, static_folder=None)
@@ -16,13 +20,38 @@ def index():
     return send_from_directory(os.path.join(HERE, "ui"), "index.html")
 
 
+def game_arg(body=None):
+    """Which game a request is about: ?game= or the "game" key of a JSON body; Marvel Champions when unsaid."""
+    g = (body or {}).get("game") or request.args.get("game") or games.DEFAULT
+    games.get(g)
+    return g
+
+
+def is_sets(game):
+    return games.get(game)["kind"] == "sets"
+
+
+@app.get("/api/games")
+def games_list():
+    return jsonify({"games": games.listing(), "default": games.DEFAULT})
+
+
 @app.get("/api/catalog")
 def catalog():
-    return jsonify(mc_order.load_catalog())
+    game = game_arg()
+    return jsonify(set_order.load_catalog(game) if is_sets(game) else mc_order.load_catalog())
 
 
 @app.get("/api/library")
 def library():
+    game = game_arg()
+    if is_sets(game):
+        lib = set_order.load_library(game)
+        bdir = games.paths(game)["backs"]
+        styles = mc_order.back_styles(bdir)
+        backs = {st: {k: bool(mc_order.back_file(st, k, bdir)) for k in games.get(game)["back_kinds"]} for st in styles}
+        return jsonify({"codes": sorted(k for k in lib if "~" not in k), "count": sum(1 for k in lib if "~" not in k),
+                        "backs": backs, "styles": styles, "aliases": {}, "printings": {}, "core_reprints": [], "dup_reprints": {}})
     lib = mc_order.load_library()
     backs = {s: {k: bool(mc_order.back_file(s, k)) for k in mc_order.BACK_KINDS} for s in ("original", "promo")}
     pr = mc_order.printings()
@@ -46,19 +75,26 @@ def _wrap(s, n):
 @app.get("/img/<code>")
 def img(code):
     """Thumbnail (or full image with ?full=1) for a card code; a labelled placeholder when not in the library yet."""
-    lib = mc_order.load_library()
-    f = mc_order.find_image(code, lib)
-    if f:
-        path = os.path.join(mc_order.LIB, f)
+    game = game_arg()
+    if is_sets(game):
+        lib = set_order.load_library(game)
+        f = set_order.find_image(code, lib, game)
+        path = os.path.join(games.paths(game)["library"], f) if f else None
+    else:
+        lib = mc_order.load_library()
+        f = mc_order.find_image(code, lib)
+        path = os.path.join(mc_order.LIB, f) if f else None
+    if path:
         if request.args.get("full"):
             return send_file(path)
-        if code not in _thumb_cache:
+        key = (game, code)
+        if key not in _thumb_cache:
             im = Image.open(path)
             im.thumbnail((300, 420))
             buf = io.BytesIO()
             im.convert("RGB").save(buf, "JPEG", quality=85)
-            _thumb_cache[code] = buf.getvalue()
-        return send_file(io.BytesIO(_thumb_cache[code]), mimetype="image/jpeg")
+            _thumb_cache[key] = buf.getvalue()
+        return send_file(io.BytesIO(_thumb_cache[key]), mimetype="image/jpeg")
     label = request.args.get("name", code)
     im = Image.new("RGB", (300, 420), (40, 44, 52))
     d = ImageDraw.Draw(im)
@@ -77,7 +113,8 @@ def img(code):
 @app.post("/api/preview")
 def preview():
     sel = request.get_json(force=True)
-    cards = mc_order.resolve_selection(sel)      # sets "have" and zeroes cards without an image
+    game = game_arg(sel)
+    cards = set_order.resolve_selection(game, sel) if is_sets(game) else mc_order.resolve_selection(sel)
     return jsonify({"cards": cards, "total": sum(c["qty"] for c in cards), "missing": sum(1 for c in cards if not c["have"])})
 
 
@@ -85,9 +122,14 @@ def preview():
 def build():
     body = request.get_json(force=True)
     try:
-        return jsonify(mc_order.build_order(body.get("selection", {}), launch=bool(body.get("launch"))))
+        return jsonify(build_for(body.get("selection", {}), launch=bool(body.get("launch"))))
     except RuntimeError as ex:
         return jsonify({"error": str(ex)}), 400
+
+
+def build_for(sel, launch=False):
+    game = game_arg(sel)
+    return set_order.build_order(game, sel, launch=launch) if is_sets(game) else mc_order.build_order(sel, launch=launch)
 
 
 @app.get("/api/autofill/options")
@@ -101,7 +143,7 @@ def autofill_start():
     if mc_autofill.JOB.running:
         return jsonify({"error": "an autofill run is already in progress"}), 409
     try:
-        built = mc_order.build_order(body.get("selection", {}), launch=False)
+        built = build_for(body.get("selection", {}), launch=False)
     except RuntimeError as ex:
         return jsonify({"error": str(ex)}), 400
     if not built["cards"]:
@@ -183,6 +225,41 @@ def drive_status():
 def drive_abort():
     mc_drive.abort()
     return jsonify({"ok": True})
+
+
+@app.get("/api/pn/exports")
+def pn_exports():
+    """Proxy Nexus exports in a folder (default: the Downloads folder), with what each one holds."""
+    game = game_arg()
+    folder = request.args.get("dir") or os.path.join(os.path.expanduser("~"), "Downloads")
+    donep = os.path.join(games.paths(game)["library"], "pn_done.json")
+    done = json.load(open(donep, encoding="utf-8")) if os.path.exists(donep) else {}
+    out = []
+    for e in pn_import.list_exports(folder):
+        try:
+            info = pn_import.inspect(e["path"])
+        except Exception as ex:  # noqa: BLE001
+            info = {"game": None, "cards": 0, "backs": [], "error": str(ex)}
+        if info.get("game") is None and not info.get("cards"):
+            continue                                   # not a Proxy Nexus export
+        e.update(info)
+        e["done"] = done.get(e["name"])
+        out.append(e)
+    return jsonify({"dir": folder, "exports": out})
+
+
+@app.post("/api/pn/import")
+def pn_do_import():
+    body = request.get_json(force=True)
+    game = game_arg(body)
+    results = []
+    for path in body.get("paths") or []:
+        try:
+            results.append({"path": path, **pn_import.import_export(game, path, log=lambda *a: None)})
+        except Exception as ex:  # noqa: BLE001
+            results.append({"path": path, "error": str(ex)})
+    _thumb_cache.clear()
+    return jsonify({"results": results})
 
 
 @app.get("/autofill-landing")
