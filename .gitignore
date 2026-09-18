@@ -17,3 +17,4 @@ scans/
 .venv/
 games/*/library/
 games/*/backs/
+.cache/

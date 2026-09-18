@@ -37,6 +37,7 @@ On Windows you can double-click `Start MC Autofill.bat`; on macOS, `Start MC Aut
 | `mc_drive.py` | Lists and downloads a shared Google Drive scan folder, one sub-folder at a time, and feeds it to the importer |
 | `mc_format.py` | Converts a 600 DPI scan into a 1632×2220 MPC image with bleed |
 | `mc_catalog.py` | Builds `catalog.json` (heroes, packs, encounter sets) from `marvelcdb_cards.json` |
+| `mc_popularity.py`, `mc_popularity.json` | Scores aspect/basic cards 0–10 by how often MarvelCDB decklists play them, for the "popularity" filter |
 | `catalog.json`, `marvelcdb_cards.json` | Card database snapshot from [MarvelCDB](https://marvelcdb.com) |
 | `games.py` | The games the app knows and where each keeps its catalog, library and backs |
 | `set_order.py` | Selection → cards → order folder for the cycle/pack based games (Arkham Horror, The Lord of the Rings) |

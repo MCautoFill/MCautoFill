@@ -180,7 +180,7 @@ def physical_cards(cards):
             continue  # MarvelCDB lists double-sided main schemes both as "X" and as the "Xa"/"Xb" pair; keep the pair
         back = c.get("linked") if (c.get("linked") and c["linked"] in codes) else None
         out.append({"front": code, "back": back, "name": c["name"], "type": c["type"], "qty": c.get("qty", 1),
-                    "faction": c.get("faction")})
+                    "faction": c.get("faction"), "popularity": c.get("popularity")})
     return out
 
 
@@ -263,6 +263,15 @@ def resolve_selection(sel, catalog=None):
         pc["have"] = pc["have_front"] and pc["have_back"]
         if not pc["have"]:
             pc["qty"] = 0
+    # aspect / basic cards played less often than the chosen MarvelCDB popularity are left out
+    try:
+        min_pop = float((sel.get("opts") or {}).get("min_popularity") or 0)
+    except (TypeError, ValueError):
+        min_pop = 0
+    if min_pop:
+        for pc in picked:
+            if pc.get("popularity") is not None and pc["popularity"] < min_pop:
+                pc["qty"] = 0
     # per-card quantity overrides from the order list (0 = leave out of the build)
     overrides = sel.get("qty") or {}
     for pc in picked:

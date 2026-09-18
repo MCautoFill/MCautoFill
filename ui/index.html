@@ -198,7 +198,7 @@
     <label class="opt" title="Untick to leave every player-card section out of the order"><input type="checkbox" id="incPlayer" checked> player cards</label>
     <label class="opt" title="Untick to leave every encounter set and quest out of the order"><input type="checkbox" id="incEncounter" checked> encounter cards</label>
   </span>
-  <span id="gameOpts" class="sets-only" style="display:contents"></span>
+  <span id="gameOpts" style="display:contents"></span>
   <button id="btnBuild">Build order folder</button>
   <button id="btnLaunch" class="primary">Build &amp; autofill…</button>
   <span class="status" id="status">loading…</span>
@@ -318,7 +318,7 @@ function isSets() { return gameInfo().kind === 'sets'; }
 function stateKey() { return GAME === 'mc' ? 'mc_state' : 'state_' + GAME; }
 function load() {
   const d = GAME === 'mc'
-    ? {heroes:{}, packs:{}, boxes:{}, qty:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false}
+    ? {heroes:{}, packs:{}, boxes:{}, qty:{}, opts:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false}
     : {sections:{}, qty:{}, opts:{}, back: gameInfo().default_back || 'original', name: gameInfo().order_name};
   try { return Object.assign(d, JSON.parse(localStorage.getItem(stateKey())||'{}')); } catch (e) { return d; }
 }
@@ -379,6 +379,7 @@ async function loadGame() {
   }
   if (isSets()) { $('#setsOrder').value = state.setsOrder || 'cycles'; renderGameOpts(); renderSets(); updateCount(); if ($('#tab-library').classList.contains('active')) pnScan(); return; }
   $('#coreReprints').checked = !!state.coreReprints; $('#dupReprints').checked = !!state.dupReprints;
+  renderGameOpts();
   CAT.heroes.sort((a,b) => a.name.localeCompare(b.name) || (a.alter_ego||'').localeCompare(b.alter_ego||''));
   $('#copies').value = state.copies; $('#defaultMode').value = state.defaultMode; $('#showPack').checked = state.showPack !== false;
   state.boxes = state.boxes || {};
@@ -617,7 +618,7 @@ function packEl(p) {
 function selection() {
   if (isSets()) return {game: GAME, name: state.name, back: state.back, stock: state.stock || 'S30', qty: state.qty || {}, opts: state.opts || {}, sections: Object.keys(state.sections || {}).filter(k => state.sections[k])};
   return {
-    game: 'mc', name: state.name, back: state.back, stock: state.stock || 'S30', copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
+    game: 'mc', name: state.name, back: state.back, stock: state.stock || 'S30', copies: state.copies, opts: state.opts || {}, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
     heroes: Object.entries(state.heroes).map(([set, v]) => ({set, mode:v.mode, nemesis:v.nemesis!==false, modular:v.modular!==false}))
       .concat(Object.values(state.boxes||{}).flatMap(b => b.heroes.filter(set => !state.heroes[set]).map(set => ({set, mode:'hero', nemesis:true, modular:false})))),
     packs: Object.entries(state.packs).filter(([c,v]) => v.encounter_sets.length).map(([code, v]) => ({code, player_cards:false, encounter_sets:v.encounter_sets}))

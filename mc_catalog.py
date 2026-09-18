@@ -33,9 +33,17 @@ by_set = defaultdict(list)
 for c in cards:
     by_set[c.get("card_set_code")].append(c)
 
+_popp = os.path.join(HERE, "mc_popularity.json")           # from mc_popularity.py (MarvelCDB decklist usage)
+POPULARITY = json.load(open(_popp, encoding="utf-8"))["cards"] if os.path.exists(_popp) else {}
+
+
 def slim(c):
-    return {"code": c["code"], "name": c["name"], "type": c["type_code"], "faction": c.get("faction_code"),
-            "qty": c.get("quantity", 1), "double": bool(c.get("double_sided")), "linked": c.get("linked_to_code")}
+    d = {"code": c["code"], "name": c["name"], "type": c["type_code"], "faction": c.get("faction_code"),
+         "qty": c.get("quantity", 1), "double": bool(c.get("double_sided")), "linked": c.get("linked_to_code")}
+    pop = POPULARITY.get(c["code"], {}).get("popularity")
+    if pop is not None:
+        d["popularity"] = pop
+    return d
 
 heroes = []
 _seen_sets = set()
@@ -78,6 +86,12 @@ for p in packs.values():
     p["kind"] = kind(p)
 
 catalog = {"heroes": heroes, "packs": sorted(packs.values(), key=lambda p: (["core", "campaign", "scenario", "hero"].index(p["kind"]), p["name"]))}
+if POPULARITY:
+    catalog["options"] = [{"key": "min_popularity", "type": "select", "label": "keep aspect/basic cards with a popularity of",
+                           "title": "How often MarvelCDB decklists of the matching aspect play the card, scored 0-10 from the last two "
+                                    "years of published decks (mc_popularity.py). Choose a minimum: cards scored below it are set to 0 "
+                                    "copies, cards at or above it keep their copies. Hero cards and encounter cards are never affected.",
+                           "choices": [["", "any (no filter)"]] + [[str(n), f"{n} or more (of 10)"] for n in range(1, 11)]}]
 json.dump(catalog, open(os.path.join(HERE, "catalog.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
 from collections import Counter
