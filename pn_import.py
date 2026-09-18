@@ -69,7 +69,7 @@ def packs_of(ids, catalog):
     return sorted(counts.items(), key=lambda kv: -kv[1])
 
 
-def import_export(game, src, log=print):
+def import_export(game, src, log=print, label=None):
     paths = games.paths(game)
     libdir, backsdir = paths["library"], paths["backs"]
     os.makedirs(libdir, exist_ok=True)
@@ -78,7 +78,7 @@ def import_export(game, src, log=print):
     lib = json.load(open(libp, encoding="utf-8")) if os.path.exists(libp) else {}
     sources = json.load(open(srcp, encoding="utf-8")) if os.path.exists(srcp) else {}
     done = json.load(open(donep, encoding="utf-8")) if os.path.exists(donep) else {}
-    label = os.path.basename(src.rstrip("/\\"))
+    label = label or os.path.basename(src.rstrip("/\\"))
     added, replaced, skipped, backs, unknown = 0, 0, 0, [], []
     seen = set()
     for rel, opener in _entries(src):
@@ -128,19 +128,48 @@ def import_export(game, src, log=print):
     return {"added": added, "replaced": replaced, "skipped": skipped, "backs": backs, "unknown": unknown[:20]}
 
 
-def list_exports(folder):
-    """Proxy Nexus exports (zips, or folders holding order.xml) in a folder, newest first."""
+IMAGE_DIR = re.compile(r"^(card|player|encounter|quest|[a-z]+)-images$")
+
+
+def is_export_folder(p):
+    """An unpacked export: holds order.xml or Proxy Nexus's *-images sub-folders."""
+    try:
+        names = os.listdir(p)
+    except OSError:
+        return False
+    return "order.xml" in names or any(IMAGE_DIR.match(n) and os.path.isdir(os.path.join(p, n)) for n in names)
+
+
+def list_exports(folder, depth=3):
+    """Proxy Nexus exports in a folder and its sub-folders (a few levels deep): zips, and folders that hold order.xml
+    or the *-images sub-folders of an unpacked export. Sorted newest first; "name" is the path relative to the folder."""
     out = []
     if not folder or not os.path.isdir(folder):
         return out
-    for n in os.listdir(folder):
-        p = os.path.join(folder, n)
-        if n.lower().endswith(".zip") or (os.path.isdir(p) and os.path.exists(os.path.join(p, "order.xml"))):
+
+    def walk(d, level):
+        try:
+            names = sorted(os.listdir(d))
+        except OSError:
+            return
+        for n in names:
+            p = os.path.join(d, n)
+            if n.startswith(".") or n.endswith(".app"):
+                continue
+            rel = os.path.relpath(p, folder)
             try:
                 st = os.stat(p)
             except OSError:
                 continue
-            out.append({"name": n, "path": p, "size": st.st_size if os.path.isfile(p) else None, "mtime": st.st_mtime})
+            if os.path.isfile(p):
+                if n.lower().endswith(".zip"):
+                    out.append({"name": rel, "path": p, "size": st.st_size, "mtime": st.st_mtime})
+            elif os.path.isdir(p):
+                if is_export_folder(p):
+                    out.append({"name": rel, "path": p, "size": None, "mtime": st.st_mtime})
+                elif level < depth:
+                    walk(p, level + 1)
+    walk(folder, 1)
     return sorted(out, key=lambda e: -e["mtime"])
 
 

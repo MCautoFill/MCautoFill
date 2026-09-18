@@ -927,7 +927,7 @@ function pnSync() {
 async function pnImport() {
   const paths = [...PN.picked]; if (!paths.length) return;
   $('#pnImport').disabled = true; toast(`Importing ${paths.length} export${paths.length>1?'s':''}…`, 60000);
-  const r = await fetch('/api/pn/import', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({game: GAME, paths})}).then(r=>r.json());
+  const r = await fetch('/api/pn/import', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({game: GAME, paths, dir: ($('#pnDir').value || '').trim()})}).then(r=>r.json());
   const ok = r.results.filter(x => !x.error), bad = r.results.filter(x => x.error);
   toast(`${ok.reduce((a,x)=>a+x.added+x.replaced,0)} images imported from ${ok.length} export${ok.length!==1?'s':''}` + (bad.length ? ` · ${bad.length} failed: ${bad[0].error}` : ''), 8000);
   PN.picked = new Set();

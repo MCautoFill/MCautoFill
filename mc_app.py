@@ -261,9 +261,11 @@ def pn_do_import():
     body = request.get_json(force=True)
     game = game_arg(body)
     results = []
+    folder = body.get("dir") or os.path.join(os.path.expanduser("~"), "Downloads")
     for path in body.get("paths") or []:
         try:
-            results.append({"path": path, **pn_import.import_export(game, path, log=lambda *a: None)})
+            label = os.path.relpath(path, folder) if path.startswith(folder) else None
+            results.append({"path": path, **pn_import.import_export(game, path, log=lambda *a: None, label=label)})
         except Exception as ex:  # noqa: BLE001
             results.append({"path": path, "error": str(ex)})
     _thumb_cache.clear()
