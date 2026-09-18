@@ -132,7 +132,9 @@
   .summary .warn { color:var(--warn); }
   .summary .ok { color:var(--ok); }
   #lightbox { display:none; position:fixed; inset:0; background:rgba(0,0,0,.85); z-index:20; align-items:center; justify-content:center; cursor:zoom-out; gap:16px; }
-  #lightbox img { max-height:92vh; max-width:45vw; border-radius:12px; }
+  #lightbox img { max-height:86vh; max-width:45vw; border-radius:12px; }
+  #lightCap { position:absolute; left:0; right:0; bottom:14px; text-align:center; color:var(--text); font-size:15px; text-shadow:0 1px 4px #000; pointer-events:none; }
+  #lightCap b { font-size:17px; } #lightCap .r { margin-left:14px; color:var(--muted); } #lightCap .r b { font-size:15px; color:var(--text); } #lightCap .low b { color:var(--warn); }
   /* autofill status strip + settings modal */
   #afStatus { display:none; position:sticky; top:0; z-index:8; background:#1a2230; border-bottom:2px solid var(--accent); padding:10px 18px; }
   body:not(.nosb) #afStatus { margin-right:340px; }
@@ -306,7 +308,7 @@
   <div class="rows" id="olRows"><div class="empty" style="margin:12px">Nothing selected yet.</div></div>
 </aside>
 <button id="sbToggle" class="small">Order list</button>
-<div id="lightbox"><img id="lightImg" alt=""><img id="lightBack" alt="" hidden></div>
+<div id="lightbox"><img id="lightImg" alt=""><img id="lightBack" alt="" hidden><div id="lightCap"></div></div>
 <div id="toast"></div>
 <script>
 const $ = s => document.querySelector(s);
@@ -440,6 +442,12 @@ function enlarge(pc) {
   $('#lightImg').src = `${imgUrl(imgCode(pc.front), pc.name)}&full=1`;
   const hasBack = pc.back && (pc.have_back !== undefined ? pc.have_back : have(pc.back));
   const lb = $('#lightBack'); if (hasBack) { lb.src = `${imgUrl(imgCode(pc.back), pc.name)}&full=1`; lb.hidden = false; } else lb.hidden = true;
+  const live = PREV[pc.front] || pc, opts = state.opts || {}, bits = [];
+  if (live.rating) bits.push(`<span class="r ${(parseFloat(opts.min_rating)||0) > live.rating_n ? 'low' : ''}">Ancient Evils rating <b>${live.rating}</b></span>`);
+  if (live.popularity != null) bits.push(`<span class="r ${live.type !== 'hero' && (parseFloat(opts.min_popularity)||0) > live.popularity ? 'low' : ''}">${GAME === 'mc' ? 'MarvelCDB' : 'RingsDB'} popularity <b>${live.popularity}/10</b></span>`);
+  if ((live.revised||[]).length) bits.push(`<span class="r">reprinted in <b>${live.revised.join(', ')}</b></span>`);
+  if (live.core_reprint) bits.push('<span class="r"><b>Core Set reprint</b></span>'); else if (live.dup_reprint) bits.push(`<span class="r">reprint of <b>${live.original_pack}</b></span>`);
+  $('#lightCap').innerHTML = `<b>${pc.name}</b>${live.qty != null ? `<span class="r">×<b>${live.qty}</b> in order</span>` : ''}${bits.join('')}`;
   $('#lightbox').style.display='flex';
 }
 function grid(cards) { const g = document.createElement('div'); g.className='cards'; for (const pc of cards) g.appendChild(cardEl(pc)); return g; }
