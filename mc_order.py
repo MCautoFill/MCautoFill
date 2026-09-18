@@ -124,14 +124,15 @@ def printings():
     return _PRINT
 
 
-def find_image(code, lib):
-    """Library file for a code: its own scan, else a sibling art variant (…a/b/c), else an identical printing."""
+def find_image(code, lib, sides=True):
+    """Library file for a code: its own scan, else a sibling art variant (…a/b/c), else an identical printing.
+    sides=False skips the a/b/c siblings: for the back of a two-sided card they are the *other* side, not a variant."""
     if not code:
         return None
     f = lib.get(code)
     if f and os.path.exists(os.path.join(LIB, f)):
         return f
-    if code[-1] in "abcd":
+    if sides and code[-1] in "abcd":
         for letter in "abcd":
             g = lib.get(code[:-1] + letter)
             if g and os.path.exists(os.path.join(LIB, g)):
@@ -254,6 +255,14 @@ def resolve_selection(sel, catalog=None):
             pc["qty"] = 0
         if pc["dup_reprint"] and not sel.get("dup_reprints"):
             pc["qty"] = 0
+    # cards with no image in the library yet default to 0 copies: nothing could be printed for them anyway
+    lib = load_library()
+    for pc in picked:
+        pc["have_front"] = bool(find_image(pc["front"], lib))
+        pc["have_back"] = bool(find_image(pc["back"], lib, sides=False)) if pc["back"] else True
+        pc["have"] = pc["have_front"] and pc["have_back"]
+        if not pc["have"]:
+            pc["qty"] = 0
     # per-card quantity overrides from the order list (0 = leave out of the build)
     overrides = sel.get("qty") or {}
     for pc in picked:
@@ -303,18 +312,21 @@ def build_order(sel, launch=False):
         if pc["qty"] <= 0:
             continue
         f = image_for(pc["front"])
-        if not f:
+        b = find_image(pc["back"], lib, sides=False) if pc["back"] else None
+        if not f or (pc["back"] and not b):       # a two-sided card with only one side scanned cannot be printed
             missing.append(pc)
             continue
         shutil.copy2(os.path.join(LIB, f), os.path.join(img_dir, os.path.basename(f)))
-        b = image_for(pc["back"]) if pc["back"] else None
         if b:
             shutil.copy2(os.path.join(LIB, b), os.path.join(img_dir, os.path.basename(b)))
             back_id = img_abs(os.path.basename(b))
         else:
             kind = back_kind(pc)
             bp = backs.get(kind)
-            back_id = os.path.join(out, f"back_{kind}{os.path.splitext(bp)[1]}") if bp else None
+            if not bp:
+                raise RuntimeError(f"No {kind} card back found: put backs/{style}_{kind}.jpg (or .png) in the app folder "
+                                   "before building an order (see the wiki page 'Building the card library', section 'Card backs')")
+            back_id = os.path.join(out, f"back_{kind}{os.path.splitext(bp)[1]}")
         for _ in range(pc["qty"]):
             fronts.append((slot, img_abs(os.path.basename(f))))
             if back_id:

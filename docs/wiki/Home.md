@@ -6,7 +6,7 @@ You pick what you want printed, the app works out the right number of copies of 
 
 ## How it works
 
-1. **Card scans** (600 DPI TIFF or JPG, one file per card face) are matched to the MarvelCDB card database by their file names and converted into MPC-sized images with bleed. The app's *Card library* tab pulls them straight from a shared Google Drive folder, one set at a time; `mc_import.py` does the same from a local copy. Either way the result is the `library/` folder.
+1. **Card scans** (600 DPI TIFF or JPG, one file per card face) are matched to the MarvelCDB card database by their file names and converted into MPC-sized images with bleed. The app's *Image library* tab pulls them straight from a shared Google Drive folder, one set at a time; `mc_import.py` does the same from a local copy. Either way the result is the `library/` folder.
 2. **The app** (`mc_app.py`) serves a page at http://127.0.0.1:8765 where you select heroes, campaign expansions and scenario packs, adjust quantities, and choose card backs.
 3. **Build** writes an order folder with the images and an `order.xml` that the mpc-autofill desktop tool understands.
 4. **Build & autofill** does the same and then runs the embedded mpc-autofill tool, which opens a browser, creates or extends an MPC project and uploads every image. Progress, questions and the sign-in step appear at the top of the app.

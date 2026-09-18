@@ -39,11 +39,11 @@ Tick a pack to include all of its encounter sets, or expand it and tick individu
 
 ## Order list (right panel)
 
-Every card in the current selection with its copy count. Edit a number to change how many copies get printed; 0 leaves the card out. The "reset" button puts every count back to the printed number. Counts in red differ from the default.
+Every card in the current selection with its copy count. Edit a number to change how many copies get printed; 0 leaves the card out. Cards that have no image in the library yet start at 0. The "reset" button puts every count back to the printed number. Counts in red differ from the default.
 
-## Card library tab
+## Image library tab
 
-Where card images come from. Paste a shared Google Drive folder link, load it, tick the folders you want and import them; see [Building the card library](Building-the-card-library#pulling-scans-from-a-shared-google-drive-card-library-tab). Folders already in the library are badged, and an import can be stopped and resumed. The other tabs pick up new images as soon as the import finishes.
+Where card images come from. Paste a shared Google Drive folder link, load it, tick the folders you want and import them; see [Building the card library](Building-the-card-library#pulling-scans-from-a-shared-google-drive-image-library-tab). Folders already in the library are badged, and an import can be stopped and resumed. The other tabs pick up new images as soon as the import finishes.
 
 ## Selected cards tab
 

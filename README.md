@@ -13,7 +13,7 @@ pip install -r requirements.txt
 python mc_app.py
 ```
 
-Then build the card library: open the **Card library** tab, paste the link of a shared Google Drive scan folder and import the folders you want. No Google account is needed. A local copy of the scans can be imported instead (see the wiki page *Building the card library*):
+Then build the card library: open the **Image library** tab, paste the link of a shared Google Drive scan folder and import the folders you want. No Google account is needed. A local copy of the scans can be imported instead (see the wiki page *Building the card library*):
 
 ```bash
 python mc_import.py "path/to/Marvel Champions"
@@ -36,7 +36,7 @@ On Windows you can double-click `Start MC Autofill.bat`; on macOS, `Start MC Aut
 | `catalog.json`, `marvelcdb_cards.json` | Card database snapshot from [MarvelCDB](https://marvelcdb.com) |
 | `vendor/mpc_autofill/` | Unmodified copy of the mpc-autofill desktop tool (GPL-3.0) |
 
-Not in the repository: the `library/` of converted card images, the `backs/` card-back images and any built `orders/`. You create these locally.
+Not in the repository: the `library/` of converted card images and any built `orders/`. You create these locally. Generic promo-style card backs ship in `backs/`; see the wiki for using your own.
 
 ## License
 

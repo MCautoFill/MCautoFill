@@ -91,7 +91,7 @@
   #boxSide label.c.off span:not(.cnt) { opacity:.5; }
   #boxSide .empty { margin:12px; padding:20px 10px; font-size:13px; }
   #boxGroups { flex:1; min-width:0; }
-  /* card library tab */
+  /* image library tab */
   #tab-library .src { background:var(--panel); border:1px solid var(--line); border-radius:10px; padding:12px 14px; margin-bottom:14px; display:grid; grid-template-columns:150px 1fr auto; gap:8px 12px; align-items:center; font-size:13px; }
   #tab-library .src input[type=text], #tab-library .src input[type=password] { background:var(--panel2); color:var(--text); border:1px solid var(--line); border-radius:6px; padding:6px 8px; width:100%; }
   #tab-library .src .hint { grid-column:2 / span 2; color:var(--muted); font-size:12px; }
@@ -194,11 +194,11 @@
   <div class="btns"><button id="sCancel">Cancel</button><button class="primary" id="sStart">Build &amp; start</button></div>
 </div></div>
 <nav>
+  <button data-tab="library">Image library</button>
   <button data-tab="heroes" class="active">Heroes</button>
   <button data-tab="campaigns">Campaign expansions</button>
   <button data-tab="scenarios">Scenario packs</button>
   <button data-tab="review">Selected cards <span id="selCount"></span></button>
-  <button data-tab="library">Card library</button>
 </nav>
 <main>
   <section id="tab-heroes" class="tab active">
@@ -570,10 +570,10 @@ function renderOrderList() {
     const h = document.createElement('h5'); h.textContent = g; rows.appendChild(h);
     for (const c of cards) {
       const row = document.createElement('div');
-      const eff = ((c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints)) ? 0 : c.default_qty;
+      const eff = (!c.have || (c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints)) ? 0 : c.default_qty;
       row.className = 'orow' + (c.qty===0?' zero':'') + (c.qty!==eff?' changed':'') + (c.have?'':' missing');
       const also = (c.also_in||[]).length ? `<br><small>${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}</small>` : '';
-      row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':' (no image yet)'}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
+      row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':(c.have_front?' (back side not scanned yet)':' (no image yet)')}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
       const inp = row.querySelector('input');
       inp.addEventListener('change', () => {
         let v = parseInt(inp.value, 10); if (isNaN(v) || v < 0) v = 0; if (v > 99) v = 99;
@@ -595,6 +595,7 @@ async function build() {
   toast('Building order folder…', 60000);
   try {
     const r = await fetch('/api/build', {method:'POST', headers:{'Content-Type':'application/json'}, body: JSON.stringify({selection: selection(), launch:false})}).then(r=>r.json());
+    if (r.error) throw r.error;
     let msg = `Built ${r.cards} cards (${r.unique} unique) in ${r.folder}`;
     if (r.missing.length) msg += ` — ${r.missing.length} cards skipped (no image yet)`;
     toast(msg, 10000);
@@ -664,7 +665,7 @@ $('#afAbort').addEventListener('click', async () => { await fetch('/api/autofill
 $('#afHide').addEventListener('click', () => $('#afStatus').classList.remove('show'));
 fetch('/api/autofill/status').then(r=>r.json()).then(j => { if (j.running || (j.finished && !j.error)) { renderStatus(j); if (j.running) pollStatus(); } }).catch(()=>{});
 
-/* ---------- card library: pull scans from a shared Google Drive ---------- */
+/* ---------- image library: pull scans from a shared Google Drive ---------- */
 let DRV = {tree:null, picked:new Set(), timer:null, countTimer:null};
 function drvSettings() { const d = state.drive || {}; return {url: d.url || $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; }
 function drvSave() { state.drive = {url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; save(); }

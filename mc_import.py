@@ -220,6 +220,19 @@ class Matcher:
             for name in order:
                 if any(c["type_code"] == typ for c in self.by_name.get(norm(name), [])):
                     return self._pick(name, typ, stage, side, sub, ctx, fname, num)
+            # the scan is named after the other side ("0_Phoenix_Alter-Ego_1A": the alter-ego card is "Jean Grey"), so take
+            # the identity card of the wanted type from the same hero set instead of colliding with the hero side
+            other = "alter_ego" if typ == "hero" else "hero"
+            for name in order:
+                sets = {c["card_set_code"] for c in self.by_name.get(norm(name), []) if c["type_code"] == other and c.get("card_set_code")}
+                if not sets:
+                    continue
+                if ctx["hero_set"] in sets:
+                    sets = {ctx["hero_set"]}
+                for flip in sorted({c["name"] for c in self.cards if c["type_code"] == typ and c.get("card_set_code") in sets}):
+                    card, why = self._pick(flip, typ, stage, side, sub, ctx, fname, num)
+                    if card:
+                        return card, why
             return self._pick(order[0], typ, stage, side, sub, ctx, fname, num)
         if len(names) >= 2:                                        # "<Prefix>_<Name>": aspect / hero / set prefix
             np_ = norm(names[0])
@@ -295,6 +308,10 @@ class Matcher:
             return None, f"only sided entries for '{name}' ({fname})"
         if typ in ("hero", "alter_ego") and any(c["type_code"] == typ for c in cands):
             cands = [c for c in cands if c["type_code"] == typ]
+        # an identity scan inside a hero's own folder is that hero's identity ("Miles Morales_Spider-Man/..._Spider-Man_Hero"
+        # is Miles, not the Core Set Spider-Man)
+        if typ in ("hero", "alter_ego") and ctx["hero_set"] and any(c.get("card_set_code") == ctx["hero_set"] for c in cands):
+            cands = [c for c in cands if c.get("card_set_code") == ctx["hero_set"]]
 
         def score(c):
             s = 0

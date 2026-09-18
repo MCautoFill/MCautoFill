@@ -23,7 +23,7 @@
 
    On macOS use `python3` instead of `python`.
 
-3. Add card backs to a `backs/` folder inside the app folder (see [Building the card library](Building-the-card-library#card-backs)).
+3. Card backs: a generic promo-style set ships in `backs/`, so this step is optional. To use other backs see [Building the card library](Building-the-card-library#card-backs).
 
 4. Build the card library from your scans (see [Building the card library](Building-the-card-library)).
 

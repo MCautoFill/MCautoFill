@@ -77,17 +77,17 @@ def img(code):
 @app.post("/api/preview")
 def preview():
     sel = request.get_json(force=True)
-    lib = mc_order.load_library()
-    cards = mc_order.resolve_selection(sel)
-    for c in cards:
-        c["have"] = bool(mc_order.find_image(c["front"], lib))
+    cards = mc_order.resolve_selection(sel)      # sets "have" and zeroes cards without an image
     return jsonify({"cards": cards, "total": sum(c["qty"] for c in cards), "missing": sum(1 for c in cards if not c["have"])})
 
 
 @app.post("/api/build")
 def build():
     body = request.get_json(force=True)
-    return jsonify(mc_order.build_order(body.get("selection", {}), launch=bool(body.get("launch"))))
+    try:
+        return jsonify(mc_order.build_order(body.get("selection", {}), launch=bool(body.get("launch"))))
+    except RuntimeError as ex:
+        return jsonify({"error": str(ex)}), 400
 
 
 @app.get("/api/autofill/options")
@@ -100,7 +100,10 @@ def autofill_start():
     body = request.get_json(force=True)
     if mc_autofill.JOB.running:
         return jsonify({"error": "an autofill run is already in progress"}), 409
-    built = mc_order.build_order(body.get("selection", {}), launch=False)
+    try:
+        built = mc_order.build_order(body.get("selection", {}), launch=False)
+    except RuntimeError as ex:
+        return jsonify({"error": str(ex)}), 400
     if not built["cards"]:
         return jsonify({"error": "the order has no cards with images", "build": built}), 400
     settings = dict(body.get("settings") or {})

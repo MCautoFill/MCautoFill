@@ -2,9 +2,9 @@
 
 The repository ships no card images. You build the `library/` folder yourself from scans, either straight from a shared Google Drive folder inside the app (easiest) or from a local copy with `mc_import.py`. Both match each scan to a MarvelCDB card code, convert it to MPC size, and record what they found.
 
-## Pulling scans from a shared Google Drive (Card library tab)
+## Pulling scans from a shared Google Drive (Image library tab)
 
-Open the **Card library** tab, paste the link of a shared Drive folder and click **Load folder**. Nothing else is needed: the folder only has to be shared with "anyone with the link".
+Open the **Image library** tab, paste the link of a shared Drive folder and click **Load folder**. Nothing else is needed: the folder only has to be shared with "anyone with the link".
 
 The tab lists every importable folder in the Drive, grouped the way the community scan drive is laid out:
 
@@ -86,7 +86,7 @@ MPC prints 2.48×3.46 inch cards from 2.72×3.70 inch files (0.12 inch bleed on 
 
 ## Card backs
 
-Backs are not in the repository. Put them in a `backs/` folder inside the app folder, named:
+The repository ships a set of generic "promo" style backs in the `backs/` folder (player, encounter and villain), so nothing needs to be added before the first order. To use other backs, for example the original ones, put them in the same folder, named:
 
 ```
 backs/original_player.jpg     backs/promo_player.jpg
@@ -96,4 +96,4 @@ backs/original_villain.jpg    backs/promo_villain.jpg
 
 - `player` is used for hero, alter-ego and aspect/basic cards; `encounter` for encounter cards; `villain` for villain and leader cards.
 - Any size works; 816×1110 (300 DPI) or 1632×2220 are typical. They are copied into each order as-is.
-- Missing files fall back: villain → encounter, and original ↔ promo. If only the promo backs exist, the "Original" choice in the app silently uses them.
+- Missing files fall back: villain → encounter, and original ↔ promo. With only the shipped promo backs present, the "Original" choice in the app silently uses them.

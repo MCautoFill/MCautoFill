@@ -1,6 +1,5 @@
 # card images (built locally with mc_import.py; too large and copyrighted)
 library/
-backs/
 orders/
 
 # scratch / local
@@ -15,3 +14,4 @@ Thumbs.db
 .claude/
 drive_tmp/
 scans/
+.venv/
