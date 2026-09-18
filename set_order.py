@@ -37,13 +37,15 @@ def resolve_selection(game, sel, catalog=None):
     catalog = catalog or load_catalog(game)
     lib = load_library(game)
     wanted = sel.get("sections") or []
+    opts = sel.get("opts") or {}
+    skip_kinds = ({"player"} if opts.get("include_player") is False else set()) | ({"encounter", "quest"} if opts.get("include_encounter") is False else set())
     idx = section_index(catalog)
     picked, seen = [], set()
     for code in wanted:                                   # in the order the catalog lists them, not the click order
         pass
     for p in catalog["packs"]:
         for s in p["sections"]:
-            if s["code"] not in set(wanted):
+            if s["code"] not in set(wanted) or s["kind"] in skip_kinds:
                 continue
             for c in s["cards"]:
                 if c["code"] in seen:
