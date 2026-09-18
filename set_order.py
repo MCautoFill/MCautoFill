@@ -53,12 +53,15 @@ def resolve_selection(game, sel, catalog=None):
                 pc = {"front": c["code"], "back": back, "name": c["name"], "type": c.get("type"), "faction": c.get("faction"),
                       "qty": c.get("qty", 1) or 1, "default_qty": c.get("qty", 1) or 1, "group": f"{p['name']} · {s['name']}",
                       "kind": s["kind"], "pack": p["code"], "section": s["code"], "sub": c.get("sub"), "xp": c.get("xp"),
-                      "stage": c.get("stage"), "core_reprint": False, "dup_reprint": False, "also_in": []}
+                      "stage": c.get("stage"), "core_reprint": False, "dup_reprint": False, "also_in": [],
+                      "revised": c.get("revised") or []}
                 pc["have_front"] = bool(find_image(c["code"], lib, game))
                 pc["have_back"] = bool(find_image(back, lib, game)) if back else True
                 pc["have"] = pc["have_front"] and pc["have_back"]
                 if not pc["have"]:
                     pc["qty"] = 0
+                if pc["revised"] and (sel.get("opts") or {}).get("exclude_revised"):
+                    pc["qty"] = 0                        # reprinted in a revised-edition product: left out unless asked for
                 picked.append(pc)
     overrides = sel.get("qty") or {}
     for pc in picked:

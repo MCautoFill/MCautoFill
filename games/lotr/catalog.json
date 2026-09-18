@@ -322,7 +322,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "theodred_core",
@@ -331,7 +334,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gloin_core",
@@ -340,7 +346,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gimli_core",
@@ -349,7 +358,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "legolas_core",
@@ -358,7 +370,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "thalin_core",
@@ -367,7 +382,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "eowyn_core",
@@ -376,7 +394,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "eleanor_core",
@@ -385,7 +406,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "dunhere_core",
@@ -394,7 +418,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "denethor_core",
@@ -403,7 +430,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "glorfindel_core",
@@ -412,7 +442,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "beravor_core",
@@ -421,7 +454,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -437,7 +473,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "faramir_core",
@@ -446,7 +485,11 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "son_of_arnor_core",
@@ -455,7 +498,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "snowbourn_scout_core",
@@ -464,7 +510,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 16
+       "pos": 16,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "silverlode_archer_core",
@@ -473,7 +522,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "longbeard_orc_slayer_core",
@@ -482,7 +534,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "brok_ironfist_core",
@@ -491,7 +546,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 19
+       "pos": 19,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "ever_vigilant_core",
@@ -500,7 +558,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 20
+       "pos": 20,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "common_cause_core",
@@ -509,7 +570,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 21
+       "pos": 21,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "for_gondor_core",
@@ -518,7 +582,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 22
+       "pos": 22,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "sneak_attack_core",
@@ -527,7 +594,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 23
+       "pos": 23,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "valiant_sacrifice_core",
@@ -536,7 +606,11 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 24
+       "pos": 24,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "grim_resolve_core",
@@ -545,7 +619,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 25
+       "pos": 25,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "steward_of_gondor_core",
@@ -554,7 +631,11 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 26
+       "pos": 26,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "celebrian_s_stone_core",
@@ -563,7 +644,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -579,7 +663,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gondorian_spearman_core",
@@ -588,7 +675,11 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 29
+       "pos": 29,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "horseback_archer_core",
@@ -597,7 +688,11 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "beorn_core",
@@ -606,7 +701,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 31
+       "pos": 31,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "blade_mastery_core",
@@ -615,7 +713,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "rain_of_arrows_core",
@@ -624,7 +725,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 33
+       "pos": 33,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "feint_core",
@@ -633,7 +737,12 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 34
+       "pos": 34,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "quick_strike_core",
@@ -642,7 +751,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "thicket_of_spears_core",
@@ -651,7 +763,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 36
+       "pos": 36,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "swift_strike_core",
@@ -660,7 +775,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 37
+       "pos": 37,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "stand_together_core",
@@ -669,7 +787,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 38
+       "pos": 38,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "blade_of_gondolin_core",
@@ -678,7 +799,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 39
+       "pos": 39,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "citadel_plate_core",
@@ -687,7 +811,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 40
+       "pos": 40,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "dwarven_axe_core",
@@ -696,7 +823,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 41
+       "pos": 41,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "horn_of_gondor_core",
@@ -705,7 +835,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 42
+       "pos": 42,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -721,7 +854,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 43
+       "pos": 43,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "lorien_guide_core",
@@ -730,7 +866,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 44
+       "pos": 44,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "northern_tracker_core",
@@ -739,7 +878,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 45
+       "pos": 45,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "the_galadhrim_s_greeting_core",
@@ -748,7 +890,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 46
+       "pos": 46,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "strength_of_will_core",
@@ -757,7 +902,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 47
+       "pos": 47,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "hasty_stroke_core",
@@ -766,7 +914,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 48
+       "pos": 48,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "will_of_the_west_core",
@@ -775,7 +926,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 49
+       "pos": 49,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "a_test_of_will_core",
@@ -784,7 +938,12 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 50
+       "pos": 50,
+       "revised": [
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "stand_and_fight_core",
@@ -793,7 +952,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 51
+       "pos": 51,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "a_light_in_the_dark_core",
@@ -802,7 +964,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 52
+       "pos": 52,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "dwarven_tomb_core",
@@ -811,7 +976,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 53
+       "pos": 53,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "fortune_or_fate_core",
@@ -820,7 +988,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 54
+       "pos": 54,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "the_favor_of_the_lady_core",
@@ -829,7 +1000,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 55
+       "pos": 55,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "power_in_the_earth_core",
@@ -838,7 +1012,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "unexpected_courage_core",
@@ -847,7 +1024,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 57
+       "pos": 57,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -863,7 +1043,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "erebor_hammersmith_core",
@@ -872,7 +1055,11 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Dwarves of Durin",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "henamarth_riversong_core",
@@ -881,7 +1068,11 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Elves of Lórien",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "miner_of_the_iron_hills_core",
@@ -890,7 +1081,11 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Dwarves of Durin",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gleowine_core",
@@ -899,7 +1094,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 62
+       "pos": 62,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "lore_of_imladris_core",
@@ -908,7 +1106,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 63
+       "pos": 63,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "lorien_s_wealth_core",
@@ -917,7 +1118,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "radagast_s_cunning_core",
@@ -926,7 +1130,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 65
+       "pos": 65,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "secret_paths_core",
@@ -935,7 +1142,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 66
+       "pos": 66,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gandalf_s_search_core",
@@ -944,7 +1154,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 67
+       "pos": 67,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "beorn_s_hospitality_core",
@@ -953,7 +1166,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 68
+       "pos": 68,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "forest_snare_core",
@@ -962,7 +1178,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 69
+       "pos": 69,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "protector_of_lorien_core",
@@ -971,7 +1190,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 70
+       "pos": 70,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "dark_knowledge_core",
@@ -980,7 +1202,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 71
+       "pos": 71,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "self_preservation_core",
@@ -989,7 +1214,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 72
+       "pos": 72,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -1005,7 +1233,14 @@
        "faction": null,
        "qty": 4,
        "back": false,
-       "pos": 73
+       "pos": 73,
+       "revised": [
+        "Defenders of Gondor",
+        "Dwarves of Durin",
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -1672,7 +1907,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "mustering_the_rohirrim_thfg",
@@ -1957,7 +2195,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "nor_am_i_a_stranger_catc",
@@ -2184,7 +2425,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 50
+       "pos": 50,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -2250,7 +2494,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 55
+       "pos": 55,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "ancient_mathom_ajtr",
@@ -2259,7 +2506,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -2716,7 +2966,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 77
+       "pos": 77,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "ride_to_ruin_thoem",
@@ -3015,7 +3268,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 102
+       "pos": 102,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "fast_hitch_tdm",
@@ -3181,7 +3437,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 116
+       "pos": 116,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -3247,7 +3506,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 121
+       "pos": 121,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "astonishing_speed_rtm",
@@ -3256,7 +3518,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 122
+       "pos": 122,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -3272,7 +3537,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 123
+       "pos": 123,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "rumour_from_the_earth_rtm",
@@ -3476,7 +3744,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -3492,7 +3763,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "durin_s_song_kd",
@@ -3501,7 +3775,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "ever_onward_kd",
@@ -3560,7 +3837,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "untroubled_by_darkness_kd",
@@ -3585,7 +3865,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "ancestral_knowledge_kd",
@@ -4637,7 +4920,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -4703,7 +4989,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "out_of_the_wild_rtr",
@@ -4981,7 +5270,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -5006,7 +5298,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -5492,7 +5787,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 102
+       "pos": 102,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "path_of_need_fos",
@@ -5501,7 +5799,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 103
+       "pos": 103,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -5567,7 +5868,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 108
+       "pos": 108,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "healing_herbs_fos",
@@ -5576,7 +5880,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 109
+       "pos": 109,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "asfaloth_fos",
@@ -5786,7 +6093,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 128
+       "pos": 128,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -5802,7 +6112,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 129
+       "pos": 129,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "hardy_leadership_saf",
@@ -5827,7 +6140,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 131
+       "pos": 131,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -5902,7 +6218,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 137
+       "pos": 137,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -6107,7 +6426,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "ori_thohauh",
@@ -6116,7 +6438,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "beorn_thohauh",
@@ -6141,7 +6466,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "cram_thohauh",
@@ -6150,7 +6478,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "a_very_good_tale_thohauh",
@@ -6159,7 +6490,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -6184,7 +6518,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "goblin_cleaver_thohauh",
@@ -6209,7 +6546,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "spare_hood_and_cloak_thohauh",
@@ -6243,7 +6583,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "thror_s_map_thohauh",
@@ -6252,7 +6595,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "expecting_mischief_thohauh",
@@ -6277,7 +6623,14 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Defenders of Gondor",
+        "Dwarves of Durin",
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "sting_thohauh",
@@ -7226,7 +7579,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "boromir_hon",
@@ -7235,7 +7591,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -7251,7 +7610,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "citadel_custodian_hon",
@@ -7260,7 +7622,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "mutual_accord_hon",
@@ -7294,7 +7659,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "behind_strong_walls_hon",
@@ -7303,7 +7671,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "spear_of_the_citadel_hon",
@@ -7398,7 +7769,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -7414,7 +7788,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -8117,7 +8494,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "to_me_o_my_kinsfolk_thotd",
@@ -8135,7 +8515,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -8947,7 +9330,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -9311,7 +9697,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 37
+       "pos": 37,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "against_the_shadow_tdf",
@@ -9630,7 +10019,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -9823,7 +10215,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 81
+       "pos": 81,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -10124,7 +10519,12 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Fellowship of the Ring",
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "sam_gamgee_tbr",
@@ -10133,7 +10533,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "merry_tbr",
@@ -10142,7 +10545,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "pippin_tbr",
@@ -10151,7 +10557,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "fatty_bolger_tbr",
@@ -10160,7 +10569,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10176,7 +10588,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "hobbit_cloak_tbr",
@@ -10185,7 +10600,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10201,7 +10619,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "halfling_determination_tbr",
@@ -10210,7 +10631,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "dagger_of_westernesse_tbr",
@@ -10219,7 +10643,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10235,7 +10662,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "hobbit_pipe_tbr",
@@ -10244,7 +10674,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10260,7 +10693,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "take_no_notice_tbr",
@@ -10269,7 +10705,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "elf_stone_tbr",
@@ -10278,7 +10717,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 16
+       "pos": 16,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10294,7 +10736,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "tireless_ranger_tbr",
@@ -10303,7 +10748,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "skilled_healer_tbr",
@@ -10312,7 +10760,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 19
+       "pos": 19,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "valiant_warrior_tbr",
@@ -10321,7 +10772,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 20
+       "pos": 20,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "noble_hero_tbr",
@@ -10330,7 +10784,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 21
+       "pos": 21,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -10346,7 +10803,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -11056,7 +11516,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 108
+       "pos": 108,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "tome_of_atanatar_tbog",
@@ -11081,7 +11544,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 110
+       "pos": 110,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "the_hammer_stroke_tbog",
@@ -11637,7 +12103,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 135
+       "pos": 135,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "visionary_leadership_tmv",
@@ -11646,7 +12115,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 136
+       "pos": 136,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -11662,7 +12134,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 137
+       "pos": 137,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "forth_eorlingas_tmv",
@@ -11671,7 +12146,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 138
+       "pos": 138,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -11687,7 +12165,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 139
+       "pos": 139,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "lay_of_nimrodel_tmv",
@@ -11712,7 +12193,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 141
+       "pos": 141,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "scroll_of_isildur_tmv",
@@ -11737,7 +12221,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 143
+       "pos": 143,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -11933,7 +12420,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "grima_hero_voi",
@@ -11983,7 +12473,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "rohan_warhorse_voi",
@@ -11992,7 +12485,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "the_wizards_s_voice_voi",
@@ -12017,7 +12513,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "silver_lamp_voi",
@@ -12681,7 +13180,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -12697,7 +13199,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "swift_and_silent_tdt",
@@ -12722,7 +13227,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "close_call_tdt",
@@ -12781,7 +13289,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -12991,7 +13502,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13007,7 +13521,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "elven_mail_ttt",
@@ -13316,7 +13833,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13341,7 +13861,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13366,7 +13889,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13407,7 +13933,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 63
+       "pos": 63,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "lembas_tit",
@@ -13416,7 +13945,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13432,7 +13964,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 65
+       "pos": 65,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -13636,7 +14171,12 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Fellowship of the Ring",
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "gandalf_rd",
@@ -13645,7 +14185,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13661,7 +14204,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13677,7 +14223,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13693,7 +14242,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13709,7 +14261,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13725,7 +14280,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "gandalf_s_staff_rd",
@@ -13734,7 +14292,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "wizard_pipe_rd",
@@ -13743,7 +14304,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "sting_rd",
@@ -13752,7 +14316,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "mithril_shirt_rd",
@@ -13761,7 +14328,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "glamdring_rd",
@@ -13770,7 +14340,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "anduril_rd",
@@ -13779,7 +14352,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "phial_of_galadriel_rd",
@@ -13788,7 +14364,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "three_golden_hairs_rd",
@@ -13797,7 +14376,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 16
+       "pos": 16,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "lorien_rope_rd",
@@ -13806,7 +14388,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "leaf_wrapped_lembas_rd",
@@ -13815,7 +14400,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -13831,7 +14419,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       }
      ]
     },
@@ -14584,7 +15175,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 84
+       "pos": 84,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -14625,7 +15219,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 87
+       "pos": 87,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "bow_of_the_galadhrim_nie",
@@ -14634,7 +15231,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 88
+       "pos": 88,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -14684,7 +15284,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 92
+       "pos": 92,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -14910,7 +15513,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -15186,7 +15792,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 112
+       "pos": 112,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -15202,7 +15811,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 113
+       "pos": 113,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "orophin_cs",
@@ -15211,7 +15823,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 114
+       "pos": 114,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -15236,7 +15851,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 116
+       "pos": 116,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -15252,7 +15870,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 117
+       "pos": 117,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "mirror_of_galadriel_cs",
@@ -15302,7 +15923,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 121
+       "pos": 121,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -15520,7 +16144,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 140
+       "pos": 140,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "booming_ent_tac",
@@ -15773,7 +16400,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -16020,7 +16650,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "halbarad_tlr",
@@ -16029,7 +16662,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16045,7 +16681,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "ranger_summons_tlr",
@@ -16054,7 +16693,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "heir_of_valandil_tlr",
@@ -16063,7 +16705,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16079,7 +16724,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "tireless_hunters_tlr",
@@ -16088,7 +16736,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "secret_vigil_tlr",
@@ -16097,7 +16748,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16113,7 +16767,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "star_brooch_tlr",
@@ -16122,7 +16779,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16138,7 +16798,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "expert_trackers_tlr",
@@ -16147,7 +16810,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "athelas_tlr",
@@ -16156,7 +16822,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16172,7 +16841,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "ranger_of_the_north_tlr",
@@ -16181,7 +16853,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -16841,7 +17516,11 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "theoden_tos",
@@ -16850,7 +17529,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "treebeard_tos",
@@ -16859,7 +17541,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -16875,7 +17560,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -16891,7 +17579,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "arod_tos",
@@ -16900,7 +17591,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -16916,7 +17610,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "herugrim_tos",
@@ -16925,7 +17622,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "helm_helm_tos",
@@ -16934,7 +17634,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -16950,7 +17653,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "ent_draught_tos",
@@ -16959,7 +17665,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "entmoot_tos",
@@ -16968,7 +17677,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -16984,7 +17696,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "intimidation_tos",
@@ -16993,7 +17708,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "hands_of_a_healer_tos",
@@ -17002,7 +17720,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 16
+       "pos": 16,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "forewarned_tos",
@@ -17011,7 +17732,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "leader_of_men_tos",
@@ -17020,7 +17744,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 18
+       "pos": 18,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "beyond_all_hope_tos",
@@ -17029,7 +17756,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 19
+       "pos": 19,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "palantir_of_orthanc_tos",
@@ -17038,7 +17768,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 20
+       "pos": 20,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -17054,7 +17787,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -17702,7 +18438,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -17718,7 +18457,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "rallying_cry_twoe",
@@ -17727,7 +18469,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -17743,7 +18488,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "raven_winged_helm_twoe",
@@ -17752,7 +18500,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -17768,7 +18519,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "hobbit_pony_twoe",
@@ -17777,7 +18531,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -17793,7 +18550,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "scout_ahead_twoe",
@@ -17802,7 +18562,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -17818,7 +18581,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18014,7 +18780,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18030,7 +18799,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 29
+       "pos": 29,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "descendants_of_kings_efmg",
@@ -18039,7 +18811,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18055,7 +18830,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 31
+       "pos": 31,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "boomed_and_trumpeted_efmg",
@@ -18064,7 +18842,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18080,7 +18861,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 33
+       "pos": 33,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "double_back_efmg",
@@ -18089,7 +18873,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 34
+       "pos": 34,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18105,7 +18892,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "distant_stars_efmg",
@@ -18114,7 +18904,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 36
+       "pos": 36,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18130,7 +18923,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 37
+       "pos": 37,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18324,7 +19120,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -18641,7 +19440,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 54
+       "pos": 54,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18657,7 +19459,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 55
+       "pos": 55,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "dunedain_message_ate",
@@ -18666,7 +19471,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18682,7 +19490,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 57
+       "pos": 57,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "delay_the_enemy_ate",
@@ -18691,7 +19502,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18707,7 +19521,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "fair_and_perilous_ate",
@@ -18716,7 +19533,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18732,7 +19552,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "none_return_ate",
@@ -18741,7 +19564,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 62
+       "pos": 62,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18757,7 +19583,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 63
+       "pos": 63,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -18987,7 +19816,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 84
+       "pos": 84,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19003,7 +19835,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 85
+       "pos": 85,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "send_for_aid_ttor",
@@ -19012,7 +19847,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 86
+       "pos": 86,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19028,7 +19866,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 87
+       "pos": 87,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "horn_s_cry_ttor",
@@ -19037,7 +19878,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 88
+       "pos": 88,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19053,7 +19897,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 89
+       "pos": 89,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "silver_harp_ttor",
@@ -19062,7 +19909,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 90
+       "pos": 90,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19078,7 +19928,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 91
+       "pos": 91,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "the_door_is_closed_ttor",
@@ -19087,7 +19940,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 92
+       "pos": 92,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19103,7 +19959,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 93
+       "pos": 93,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19341,7 +20200,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 115
+       "pos": 115,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19357,7 +20219,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 116
+       "pos": 116,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "doom_hangs_still_tbocd",
@@ -19366,7 +20231,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 117
+       "pos": 117,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19382,7 +20250,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 118
+       "pos": 118,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "hold_your_ground_tbocd",
@@ -19391,7 +20262,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 119
+       "pos": 119,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19407,7 +20281,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 120
+       "pos": 120,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "lords_of_the_eldar_tbocd",
@@ -19416,7 +20293,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 121
+       "pos": 121,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19432,7 +20312,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 122
+       "pos": 122,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "quick_ears_tbocd",
@@ -19441,7 +20324,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 123
+       "pos": 123,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19457,7 +20343,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 124
+       "pos": 124,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -19641,7 +20530,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -19952,7 +20844,12 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Fellowship of the Ring",
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "faramir_tlos",
@@ -19961,7 +20858,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "damrod_tlos",
@@ -19970,7 +20870,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -19986,7 +20889,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "staff_of_lebethron_tlos",
@@ -19995,7 +20901,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "taste_it_again_tlos",
@@ -20004,7 +20913,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20020,7 +20932,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20036,7 +20951,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "snowmane_tlos",
@@ -20045,7 +20963,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20061,7 +20982,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "ambush_tlos",
@@ -20070,7 +20994,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "in_the_shadows_tlos",
@@ -20079,7 +21006,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20095,7 +21025,10 @@
        "faction": null,
        "qty": 4,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20111,7 +21044,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Two Towers"
+       ]
       }
      ]
     },
@@ -20777,7 +21713,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 140
+       "pos": 140,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -20793,7 +21732,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 141
+       "pos": 141,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "sword_of_numenor_tdr",
@@ -20802,7 +21744,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 142
+       "pos": 142,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -20818,7 +21763,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 143
+       "pos": 143,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "hour_of_wrath_tdr",
@@ -20827,7 +21775,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 144
+       "pos": 144,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -20843,7 +21794,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 145
+       "pos": 145,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "tale_of_tinuviel_tdr",
@@ -20852,7 +21806,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 146
+       "pos": 146,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -20868,7 +21825,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 147
+       "pos": 147,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "weather_stained_cloak_tdr",
@@ -20877,7 +21837,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 148
+       "pos": 148,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -20893,7 +21856,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 149
+       "pos": 149,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -21071,7 +22037,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "galdor_of_the_havens_tgh",
@@ -21080,7 +22049,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -21096,7 +22068,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "anchor_watch_tgh",
@@ -21105,7 +22080,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "mariner_s_compass_tgh",
@@ -21114,7 +22092,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -21130,7 +22111,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "skyward_volley_tgh",
@@ -21139,7 +22123,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "grappling_hook_tgh",
@@ -21148,7 +22135,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -21164,7 +22154,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "elwing_s_flight_tgh",
@@ -21173,7 +22166,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "to_the_sea_to_the_sea_tgh",
@@ -21182,7 +22178,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -21198,7 +22197,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "the_evening_star_tgh",
@@ -21207,7 +22209,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "explorer_s_almanac_tgh",
@@ -21216,7 +22221,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -21232,7 +22240,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22001,7 +23012,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22017,7 +23031,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "in_service_of_the_steward_fots",
@@ -22026,7 +23043,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22042,7 +23062,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "last_stand_fots",
@@ -22051,7 +23074,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22067,7 +23093,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "tides_of_fate_fots",
@@ -22076,7 +23105,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22092,7 +23124,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "heed_the_dream_fots",
@@ -22101,7 +23136,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22117,7 +23155,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "vanish_from_sight_fots",
@@ -22126,7 +23167,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22342,7 +23386,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22358,7 +23405,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 31
+       "pos": 31,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "captain_s_wisdom_ttitd",
@@ -22367,7 +23417,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22383,7 +23436,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 33
+       "pos": 33,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "raiment_of_war_ttitd",
@@ -22392,7 +23448,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 34
+       "pos": 34,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22408,7 +23467,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "elevenses_ttitd",
@@ -22417,7 +23479,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 36
+       "pos": 36,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22433,7 +23498,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 37
+       "pos": 37,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "guarded_ceaselessly_ttitd",
@@ -22442,7 +23510,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 38
+       "pos": 38,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22661,7 +23732,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 57
+       "pos": 57,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22677,7 +23751,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "armored_destrier_totd",
@@ -22686,7 +23763,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22702,7 +23782,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "revealed_in_wrath_totd",
@@ -22711,7 +23794,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22727,7 +23813,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 62
+       "pos": 62,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "scouting_party_totd",
@@ -22736,7 +23825,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 63
+       "pos": 63,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22752,7 +23844,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "arrows_from_the_trees_totd",
@@ -22761,7 +23856,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 65
+       "pos": 65,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -22777,7 +23875,11 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 66
+       "pos": 66,
+       "revised": [
+        "Dream-chaser Hero Expansion",
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -22953,7 +24055,11 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "eowyn_tfotw",
@@ -22962,7 +24068,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "beregond_tfotw",
@@ -22971,7 +24080,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -22987,7 +24099,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "roheryn_tfotw",
@@ -22996,7 +24111,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23012,7 +24130,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "sterner_than_steel_tfotw",
@@ -23021,7 +24142,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "golden_shield_tfotw",
@@ -23030,7 +24154,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23046,7 +24173,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "desperate_defense_tfotw",
@@ -23055,7 +24185,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "livery_of_the_tower_tfotw",
@@ -23064,7 +24197,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23080,7 +24216,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23096,7 +24235,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "esquire_of_gondor_tfotw",
@@ -23105,7 +24247,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23121,7 +24266,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -23790,7 +24938,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 82
+       "pos": 82,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -23806,7 +24957,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 83
+       "pos": 83,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "dunedain_remedy_tdru",
@@ -23815,7 +24969,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 84
+       "pos": 84,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -23831,7 +24988,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 85
+       "pos": 85,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "battle_fury_tdru",
@@ -23840,7 +25000,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 86
+       "pos": 86,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -23856,7 +25019,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 87
+       "pos": 87,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "hithlain_tdru",
@@ -23865,7 +25031,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 88
+       "pos": 88,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -23881,7 +25050,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 89
+       "pos": 89,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "interrogation_tdru",
@@ -23890,7 +25062,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 90
+       "pos": 90,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -23906,7 +25081,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 91
+       "pos": 91,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24101,7 +25279,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 109
+       "pos": 109,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24117,7 +25298,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 110
+       "pos": 110,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "terrible_to_behold_asoch",
@@ -24126,7 +25310,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 111
+       "pos": 111,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24142,7 +25329,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 112
+       "pos": 112,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "vigilant_guard_asoch",
@@ -24151,7 +25341,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 113
+       "pos": 113,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "knife_work_asoch",
@@ -24160,7 +25353,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 114
+       "pos": 114,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24176,7 +25372,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 115
+       "pos": 115,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "windfola_asoch",
@@ -24185,7 +25384,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 116
+       "pos": 116,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24201,7 +25403,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 117
+       "pos": 117,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "the_houses_of_healing_asoch",
@@ -24210,7 +25415,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 118
+       "pos": 118,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24226,7 +25434,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 119
+       "pos": 119,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24438,7 +25649,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 138
+       "pos": 138,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24454,7 +25668,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 139
+       "pos": 139,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "hold_the_line_tcoc",
@@ -24463,7 +25680,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 140
+       "pos": 140,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24479,7 +25699,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 141
+       "pos": 141,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24495,7 +25718,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 142
+       "pos": 142,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "inspiring_presence_tcoc",
@@ -24504,7 +25730,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 143
+       "pos": 143,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24520,7 +25749,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 144
+       "pos": 144,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "ranger_spear_tcoc",
@@ -24529,7 +25761,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 145
+       "pos": 145,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24545,7 +25780,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 146
+       "pos": 146,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       }
      ]
     },
@@ -24806,7 +26044,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "unlikely_friendship_tsoh",
@@ -24865,7 +26106,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "well_warned_tsoh",
@@ -25649,7 +26893,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -25674,7 +26921,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       }
      ]
     },
@@ -25699,7 +26949,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -25917,7 +27170,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "boromir_tsoa",
@@ -26587,7 +27843,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 55
+       "pos": 55,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -26628,7 +27887,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "keep_watch_bts",
@@ -26897,7 +28159,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 81
+       "pos": 81,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -26947,7 +28212,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 85
+       "pos": 85,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -27216,7 +28484,12 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "The Fellowship of the Ring",
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "aragorn_tmof",
@@ -27225,7 +28498,11 @@
        "faction": "fellowship",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Return of the King",
+        "The Two Towers"
+       ]
       },
       {
        "code": "eomer_tmof",
@@ -27234,7 +28511,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "tom_cotton_tmof",
@@ -27243,7 +28523,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27259,7 +28542,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "captains_of_the_west_tmof",
@@ -27268,7 +28554,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "guthwine_tmof",
@@ -27277,7 +28566,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27293,7 +28585,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "raise_the_shire_tmof",
@@ -27302,7 +28597,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27318,7 +28616,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27334,7 +28635,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27350,7 +28654,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -27366,7 +28673,10 @@
        "faction": "fellowship",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "The Return of the King"
+       ]
       }
      ]
     },
@@ -28140,7 +29450,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 112
+       "pos": 112,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "fierce_defense_docg",
@@ -28491,7 +29804,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 141
+       "pos": 141,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "the_dam_bursts_cop",
@@ -28516,7 +29832,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 143
+       "pos": 143,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "wind_from_the_sea_cop",
@@ -28757,7 +30076,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "galadriel_cs",
@@ -28766,7 +30088,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 112
+       "pos": 112,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -29107,7 +30432,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "bard_son_of_brand_twor",
@@ -29116,7 +30444,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -29132,7 +30463,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "hauberk_of_mail_twor",
@@ -29141,7 +30475,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "traffic_from_dale_twor",
@@ -29150,7 +30487,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -29166,7 +30506,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "bow_of_yew_twor",
@@ -29175,7 +30518,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "valour_of_the_north_twor",
@@ -29184,7 +30530,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -29200,7 +30549,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "king_of_dale_twor",
@@ -29209,7 +30561,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "to_arms_twor",
@@ -29218,7 +30573,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -29234,7 +30592,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "map_of_rhovanion_twor",
@@ -29243,7 +30604,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "bartering_twor",
@@ -29252,7 +30616,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 15
+       "pos": 15,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -29268,7 +30635,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30011,7 +31381,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30027,7 +31400,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "squire_s_helm_twh",
@@ -30036,7 +31412,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30052,7 +31431,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "beorn_s_rage_twh",
@@ -30061,7 +31443,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30077,7 +31462,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 8
+       "pos": 8,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "grey_cloak_twh",
@@ -30086,7 +31474,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30102,7 +31493,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "the_hidden_way_twh",
@@ -30111,7 +31505,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30127,7 +31524,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 10
+       "pos": 10,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -30306,7 +31706,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 111
+       "pos": 111,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -30828,7 +32231,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 0
+       "pos": 0,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -31341,7 +32747,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "gildor_inglorion_tples",
@@ -31359,7 +32768,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "glorfindel_core",
@@ -31368,7 +32780,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 34
+       "pos": 34,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "bifur_kd",
@@ -31377,7 +32792,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "thorin_stonehelm_tples",
@@ -31402,7 +32820,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 5
+       "pos": 5,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "gimli_tples",
@@ -31411,7 +32832,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 6
+       "pos": 6,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "faramir_core",
@@ -31420,7 +32844,11 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 7
+       "pos": 7,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "orophin_cs",
@@ -31429,7 +32857,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 9
+       "pos": 9,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "fili_tples",
@@ -31438,7 +32869,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 11
+       "pos": 11,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "silverlode_archer_core",
@@ -31447,7 +32881,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 13
+       "pos": 13,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "andrath_guardsman_tmk",
@@ -31465,7 +32902,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 17
+       "pos": 17,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "dwarven_sellsword_tdru",
@@ -31474,7 +32914,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 19
+       "pos": 19,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "celebrian_s_stone_core",
@@ -31483,7 +32926,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 20
+       "pos": 20,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "steward_of_gondor_core",
@@ -31492,7 +32938,11 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 21
+       "pos": 21,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "cram_thohauh",
@@ -31501,7 +32951,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 25
+       "pos": 25,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "grim_resolve_tples",
@@ -31510,7 +32963,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 26
+       "pos": 26,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "sneak_attack_core",
@@ -31519,7 +32975,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "ever_vigilant_core",
@@ -31528,7 +32987,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 29
+       "pos": 29,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "feigned_voices_ttt",
@@ -31537,7 +32999,10 @@
        "faction": "leadership",
        "qty": 2,
        "back": false,
-       "pos": 33
+       "pos": 33,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -31553,7 +33018,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 38
+       "pos": 38,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "azain_silverbeard_fots",
@@ -31562,7 +33030,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 41
+       "pos": 41,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "galadhon_archer_nie",
@@ -31571,7 +33042,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 47
+       "pos": 47,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "defender_of_rammas_hon",
@@ -31580,7 +33054,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 49
+       "pos": 49,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "horn_of_gondor_core",
@@ -31589,7 +33066,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 52
+       "pos": 52,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "dwarrowdelf_axe_tples",
@@ -31607,7 +33087,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 55
+       "pos": 55,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "feint_core",
@@ -31616,7 +33099,12 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Defenders of Gondor",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "quick_strike_core",
@@ -31625,7 +33113,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "khazad_khazad_kd",
@@ -31643,7 +33134,10 @@
        "faction": "tactics",
        "qty": 2,
        "back": false,
-       "pos": 65
+       "pos": 65,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -31677,7 +33171,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 12
+       "pos": 12,
+       "revised": [
+        "Dwarves of Durin"
+       ]
       },
       {
        "code": "woodland_courier_tdru",
@@ -31686,7 +33183,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 16
+       "pos": 16,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "blue_mountain_trader_tples",
@@ -31713,7 +33213,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 23
+       "pos": 23,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "ancient_mathom_ajtr",
@@ -31722,7 +33225,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 24
+       "pos": 24,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "a_test_of_will_core",
@@ -31731,7 +33237,12 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "hasty_stroke_core",
@@ -31740,7 +33251,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "desperate_defense_tfotw",
@@ -31749,7 +33263,10 @@
        "faction": "spirit",
        "qty": 2,
        "back": false,
-       "pos": 31
+       "pos": 31,
+       "revised": [
+        "The Return of the King"
+       ]
       },
       {
        "code": "dwarven_tomb_tples",
@@ -31758,7 +33275,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Revised Core Set"
+       ]
       }
      ]
     },
@@ -31783,7 +33303,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 40
+       "pos": 40,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "mablung_tples",
@@ -31792,7 +33315,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 42
+       "pos": 42,
+       "revised": [
+        "The Two Towers"
+       ]
       },
       {
        "code": "henamarth_riversong_core",
@@ -31801,7 +33327,11 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 43
+       "pos": 43,
+       "revised": [
+        "Elves of Lórien",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "ioreth_tples",
@@ -31810,7 +33340,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 44
+       "pos": 44,
+       "revised": [
+        "Dream-chaser Hero Expansion"
+       ]
       },
       {
        "code": "sarn_ford_sentry_tlr",
@@ -31819,7 +33352,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 45
+       "pos": 45,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "erebor_hammersmith_core",
@@ -31828,7 +33364,11 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 46
+       "pos": 46,
+       "revised": [
+        "Dwarves of Durin",
+        "Revised Core Set"
+       ]
       },
       {
        "code": "galadhrim_minstrel_tples",
@@ -31837,7 +33377,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 48
+       "pos": 48,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "dunedain_lookout_bts",
@@ -31855,7 +33398,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 53
+       "pos": 53,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "lembas_tit",
@@ -31864,7 +33410,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "the_long_defeat_tples",
@@ -31873,7 +33422,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 57
+       "pos": 57,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       },
       {
        "code": "gildor_s_counsel_tples",
@@ -31891,7 +33443,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Revised Core Set"
+       ]
       },
       {
        "code": "ancestral_knowledge_kd",
@@ -31909,7 +33464,10 @@
        "faction": "lore",
        "qty": 2,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     },
@@ -31925,7 +33483,14 @@
        "faction": null,
        "qty": 2,
        "back": false,
-       "pos": 4
+       "pos": 4,
+       "revised": [
+        "Defenders of Gondor",
+        "Dwarves of Durin",
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "defender_of_the_naith_tit",
@@ -31934,7 +33499,10 @@
        "faction": null,
        "qty": 2,
        "back": false,
-       "pos": 14
+       "pos": 14,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "gandalf_core",
@@ -31943,7 +33511,14 @@
        "faction": null,
        "qty": 2,
        "back": false,
-       "pos": 37
+       "pos": 37,
+       "revised": [
+        "Defenders of Gondor",
+        "Dwarves of Durin",
+        "Elves of Lórien",
+        "Revised Core Set",
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "envoy_of_pelargir_hon",
@@ -31952,7 +33527,10 @@
        "faction": null,
        "qty": 2,
        "back": false,
-       "pos": 51
+       "pos": 51,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -32344,7 +33922,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 26
+       "pos": 26,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32360,7 +33941,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "ancestral_armor_rar",
@@ -32369,7 +33953,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32385,7 +33972,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 31
+       "pos": 31,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "flight_of_the_eagles_rar",
@@ -32394,7 +33984,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32410,7 +34003,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 33
+       "pos": 33,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "south_away_rar",
@@ -32419,7 +34015,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 34
+       "pos": 34,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32435,7 +34034,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 29
+       "pos": 29,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "woodmen_s_path_rar",
@@ -32444,7 +34046,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 30
+       "pos": 30,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32460,7 +34065,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32685,7 +34293,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 84
+       "pos": 84,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32701,7 +34312,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 85
+       "pos": 85,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "man_the_walls_tgof",
@@ -32710,7 +34324,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 86
+       "pos": 86,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32726,7 +34343,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 89
+       "pos": 89,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "swift_and_strong_tgof",
@@ -32735,7 +34355,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 90
+       "pos": 90,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32751,7 +34374,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 91
+       "pos": 91,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "valiant_determination_tgof",
@@ -32760,7 +34386,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 92
+       "pos": 92,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32776,7 +34405,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 87
+       "pos": 87,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "familiar_lands_tgof",
@@ -32785,7 +34417,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 88
+       "pos": 88,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -32801,7 +34436,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 93
+       "pos": 93,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33006,7 +34644,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 56
+       "pos": 56,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33022,7 +34663,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 57
+       "pos": 57,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "orcrist_fitn",
@@ -33031,7 +34675,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 58
+       "pos": 58,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33047,7 +34694,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 61
+       "pos": 61,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "outmatched_fitn",
@@ -33056,7 +34706,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 62
+       "pos": 62,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33072,7 +34725,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 63
+       "pos": 63,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "quicker_than_sight_fitn",
@@ -33081,7 +34737,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 64
+       "pos": 64,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33097,7 +34756,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 59
+       "pos": 59,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "leather_boots_fitn",
@@ -33106,7 +34768,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 60
+       "pos": 60,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33122,7 +34787,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 65
+       "pos": 65,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33332,7 +35000,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 112
+       "pos": 112,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33348,7 +35019,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 113
+       "pos": 113,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "elf_guide_mg",
@@ -33357,7 +35031,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 114
+       "pos": 114,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33373,7 +35050,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 117
+       "pos": 117,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "round_shield_mg",
@@ -33382,7 +35062,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 118
+       "pos": 118,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33398,7 +35081,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 119
+       "pos": 119,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "armor_of_erebor_mg",
@@ -33407,7 +35093,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 120
+       "pos": 120,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33423,7 +35112,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 115
+       "pos": 115,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "drinking_song_mg",
@@ -33432,7 +35124,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 116
+       "pos": 116,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33448,7 +35143,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 121
+       "pos": 121,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33694,7 +35392,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 145
+       "pos": 145,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33710,7 +35411,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 146
+       "pos": 146,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "the_king_s_return_tfow",
@@ -33719,7 +35423,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 147
+       "pos": 147,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33735,7 +35442,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 150
+       "pos": 150,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "gwaihir_s_debt_tfow",
@@ -33744,7 +35454,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 151
+       "pos": 151,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33760,7 +35473,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 152
+       "pos": 152,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "reforged_tfow",
@@ -33769,7 +35485,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 153
+       "pos": 153,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33785,7 +35504,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 148
+       "pos": 148,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       },
       {
        "code": "the_great_hunt_tfow",
@@ -33794,7 +35516,10 @@
        "faction": "lore",
        "qty": 3,
        "back": false,
-       "pos": 149
+       "pos": 149,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -33810,7 +35535,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 154
+       "pos": 154,
+       "revised": [
+        "Ered Mithrin Hero Expansion"
+       ]
       }
      ]
     },
@@ -34950,7 +36678,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "pillars_of_the_kings_war",
@@ -34959,7 +36690,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 3
+       "pos": 3,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -35252,7 +36986,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -35369,7 +37106,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 62
+       "pos": 62,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -35676,7 +37416,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -35692,7 +37435,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "need_drives_them_tcou",
@@ -35701,7 +37447,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 29
+       "pos": 29,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -35717,7 +37466,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 32
+       "pos": 32,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "strength_and_courage_tcou",
@@ -35751,7 +37503,10 @@
        "faction": "spirit",
        "qty": 3,
        "back": false,
-       "pos": 35
+       "pos": 35,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -35792,7 +37547,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 36
+       "pos": 36,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "forth_the_three_hunters_tcou",
@@ -35996,7 +37754,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 27
+       "pos": 27,
+       "revised": [
+        "Riders of Rohan"
+       ]
       }
      ]
     },
@@ -36012,7 +37773,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 28
+       "pos": 28,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -36028,7 +37792,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 36
+       "pos": 36,
+       "revised": [
+        "Elves of Lórien"
+       ]
       }
      ]
     }
@@ -36079,7 +37846,10 @@
        "faction": "leadership",
        "qty": 3,
        "back": false,
-       "pos": 83
+       "pos": 83,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       }
      ]
     },
@@ -36170,7 +37940,10 @@
        "faction": null,
        "qty": 3,
        "back": false,
-       "pos": 90
+       "pos": 90,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "council_of_the_wise_utam",
@@ -36430,7 +38203,10 @@
        "faction": "tactics",
        "qty": 1,
        "back": false,
-       "pos": 1
+       "pos": 1,
+       "revised": [
+        "Defenders of Gondor"
+       ]
       },
       {
        "code": "gandalf_rd",
@@ -36439,7 +38215,10 @@
        "faction": null,
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "sam_gamgee_tbr",
@@ -36448,7 +38227,10 @@
        "faction": "leadership",
        "qty": 1,
        "back": false,
-       "pos": 2
+       "pos": 2,
+       "revised": [
+        "The Fellowship of the Ring"
+       ]
       },
       {
        "code": "elrond_saf",
@@ -36457,7 +38239,10 @@
        "faction": "lore",
        "qty": 1,
        "back": false,
-       "pos": 128
+       "pos": 128,
+       "revised": [
+        "Elves of Lórien"
+       ]
       },
       {
        "code": "arwen_undomiel_tdr",
@@ -36466,7 +38251,10 @@
        "faction": "spirit",
        "qty": 1,
        "back": false,
-       "pos": 140
+       "pos": 140,
+       "revised": [
+        "Angmar Awakened Hero Expansion"
+       ]
       }
      ]
     },
@@ -38056,7 +39844,10 @@
        "faction": "tactics",
        "qty": 3,
        "back": false,
-       "pos": 142
+       "pos": 142,
+       "revised": [
+        "Riders of Rohan"
+       ]
       },
       {
        "code": "tireless_thoroughbred_tfon",
@@ -70027,5 +71818,12 @@
   "player": "player",
   "encounter": "encounter",
   "quest": "quest"
- }
+ },
+ "options": [
+  {
+   "key": "exclude_revised",
+   "label": "exclude player cards reprinted in the revised editions",
+   "title": "Player cards from older packs that were printed again in the Revised Core Set, the Angmar Awakened / Dream-chaser / Ered Mithrin Hero and Campaign Expansions, the repackaged sagas or the four starter decks are set to 0 copies. Encounter and quest cards are never affected."
+  }
+ ]
 }

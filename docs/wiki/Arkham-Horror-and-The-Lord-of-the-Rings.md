@@ -23,6 +23,10 @@ Tick a cycle or a pack for all of it, or expand a pack and tick sections one by 
 
 Copy counts are the printed ones (two of most Arkham player cards, three of most Lord of the Rings player cards, encounter cards as printed). As for Marvel Champions, a card without an image defaults to 0 copies, a two-sided card needs both sides, and the order list on the right lets you change any count.
 
+## Skipping cards the revised editions reprint (The Lord of the Rings)
+
+The header has **exclude player cards reprinted in the revised editions**, off by default. With it on, a player card from an older pack that was printed again in the Revised Core Set, the Angmar Awakened, Dream-chaser or Ered Mithrin Hero and Campaign Expansions, the repackaged sagas (The Fellowship of the Ring, The Two Towers, The Return of the King) or the four starter decks is set to 0 copies, so you only print what the new line does not give you. Cards are matched by title, type and sphere against Hall of Beorn's data; encounter and quest cards are never affected, and the revised products themselves are not touched. The order list marks each affected card with "reprinted in …", and a count typed there still overrides the 0.
+
 ## Backs and building
 
 Player, encounter (and, for The Lord of the Rings, quest) backs are chosen per card automatically. The *Card back* dropdown lists the back sets the imported exports brought: *original* for the official ones, *alep* for the A Long-extended Party style. **Build order folder** and **Build & autofill…** work exactly as for Marvel Champions; the order goes to `orders/<order name>/`.

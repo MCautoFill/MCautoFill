@@ -40,6 +40,10 @@ CYCLES = {
 CYCLE_ORDER = ["core", "mirkwood", "khazad", "numenor", "isengard", "angmar", "dreamchaser", "harad", "eredmithrin", "mordor",
                "hobbit", "lotrsaga", "standalone", "starters", "motk", "alep", "nightmare", "other"]
 SPHERES = ["Leadership", "Tactics", "Spirit", "Lore", "Neutral", "Baggins", "Fellowship"]
+# the 2022+ repackaged line: player cards printed here are reprints of older packs (matched by title, type and sphere)
+REVISED = ["Revised Core Set", "Angmar Awakened Hero Expansion", "Angmar Awakened Campaign Expansion", "Dream-chaser Hero Expansion",
+           "Dream-chaser Campaign Expansion", "Ered Mithrin Hero Expansion", "Ered Mithrin Campaign Expansion", "The Fellowship of the Ring",
+           "The Two Towers", "The Return of the King", "Dwarves of Durin", "Elves of Lórien", "Defenders of Gondor", "Riders of Rohan"]
 PLAYER_TYPES = {"Hero", "Ally", "Attachment", "Event", "Player_Side_Quest", "Contract", "Treasure"}
 QUEST_TYPES = {"Quest", "Campaign", "Nightmare_Setup", "GenCon_Setup"}
 
@@ -85,6 +89,11 @@ def main():
     rpacks = fetch("rings_packs.json", "https://ringsdb.com/api/public/packs/")
 
     hob_by_slug = {norm(c["Slug"]): c for c in hob}
+    revised_key = lambda c: (norm(c["Title"]), c["CardType"], c.get("Sphere") or "")
+    reprinted = defaultdict(set)                        # (title, type, sphere) -> revised products that print it
+    for c in hob:
+        if c["CardSet"] in REVISED and c["CardType"] in PLAYER_TYPES:
+            reprinted[revised_key(c)].add(c["CardSet"])
     alep_by_id = {}
     for c in alep:                                     # RingsDB-style export; ALeP ids are norm("<name>-<pack id>")
         pid = norm(canon(c["pack_name"]))
@@ -145,6 +154,8 @@ def main():
                      "qty": qty, "back": back, "pos": v.get("position")}
             if h and h.get("Front", {}).get("Subtitle"):
                 entry["sub"] = h["Front"]["Subtitle"]
+            if h and ctype in PLAYER_TYPES and h["CardSet"] not in REVISED and revised_key(h) in reprinted:
+                entry["revised"] = sorted(reprinted[revised_key(h)])
             if h and (h.get("EncounterInfo") or {}).get("StageNumber"):
                 entry["stage"] = f"{h['EncounterInfo']['StageNumber']}{h['EncounterInfo'].get('StageLetter') or ''}"
             bg = card.get("back_group") or "encounter"
@@ -171,7 +182,11 @@ def main():
         cy["packs"].append(pcode)
     cycles = sorted((c for c in cycles.values() if c["packs"]), key=lambda c: CYCLE_ORDER.index(c["code"]) if c["code"] in CYCLE_ORDER else 99)
     catalog = {"game": "lotr", "name": "The Lord of the Rings LCG", "cycles": cycles, "packs": out_packs,
-               "back_groups": {"player": "player", "encounter": "encounter", "quest": "quest"}}
+               "back_groups": {"player": "player", "encounter": "encounter", "quest": "quest"},
+               "options": [{"key": "exclude_revised", "label": "exclude player cards reprinted in the revised editions",
+                            "title": "Player cards from older packs that were printed again in the Revised Core Set, the Angmar Awakened / "
+                                     "Dream-chaser / Ered Mithrin Hero and Campaign Expansions, the repackaged sagas or the four starter "
+                                     "decks are set to 0 copies. Encounter and quest cards are never affected."}]}
     json.dump(catalog, open(OUT, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     n_unknown = sum(1 for p in out_packs for s in p["sections"] for c in s["cards"] if c["type"] == "unknown")
     print(f"{len(cycles)} cycles, {len(out_packs)} packs, {sum(p['cards'] for p in out_packs)} cards ({n_unknown} with no type info) -> {OUT}")
