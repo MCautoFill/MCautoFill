@@ -189,6 +189,7 @@
   <select id="gameSel" title="Which game to build an order for"></select>
   <label class="opt">Order name <input type="text" id="orderName" value="marvel-order" size="16"></label>
   <label class="opt">Card back <select id="backStyle"><option value="original">Original</option><option value="promo">Promo</option></select></label>
+  <label class="opt" title="The MPC cardstock the project is created with"><span>Cardstock</span> <select id="stock"><option value="S30">S30 Standard Smooth</option><option value="S33">S33 Superior Smooth</option><option value="S27">S27 Smooth</option><option value="M31">M31 Linen</option><option value="P10">P10 Plastic</option></select></label>
   <label class="opt mc-only">Copies <select id="copies"><option value="pack">As printed in pack</option><option value="single">1 of each player card</option></select></label>
   <label class="opt mc-only" title="Aspect/basic cards that are reprints of Core Set cards are set to 0 copies unless this is on"><input type="checkbox" id="coreReprints"> include Core Set reprints</label>
   <label class="opt mc-only" title="Cards first printed in another (non-Core) set are set to 0 copies unless this is on; the earliest printing keeps its copies"><input type="checkbox" id="dupReprints"> include duplicates from other sets</label>
@@ -311,7 +312,7 @@ function stateKey() { return GAME === 'mc' ? 'mc_state' : 'state_' + GAME; }
 function load() {
   const d = GAME === 'mc'
     ? {heroes:{}, packs:{}, boxes:{}, qty:{}, back:'original', copies:'pack', name:'marvel-order', defaultMode:'hero', showPack:true, coreReprints:false, dupReprints:false}
-    : {sections:{}, qty:{}, back:'original', name: gameInfo().order_name};
+    : {sections:{}, qty:{}, back: gameInfo().default_back || 'original', name: gameInfo().order_name};
   try { return Object.assign(d, JSON.parse(localStorage.getItem(stateKey())||'{}')); } catch (e) { return d; }
 }
 function save() { try { localStorage.setItem(stateKey(), JSON.stringify(state)); } catch (e) {} }
@@ -337,7 +338,10 @@ function setLib(lib) {
   $('#status').textContent = `${gameInfo().name} · ${lib.count} card images in library`;
   const bs = $('#backStyle'); const styles = isSets() ? (lib.styles && lib.styles.length ? lib.styles : ['original']) : ['original', 'promo'];
   bs.innerHTML = styles.map(s => `<option value="${s}">${s.charAt(0).toUpperCase() + s.slice(1)}</option>`).join('');
-  bs.value = styles.includes(state.back) ? state.back : styles[0]; state.back = bs.value;
+  // the game's preferred back (ALeP for The Lord of the Rings) until the user picks one themselves
+  const want = state.backChosen ? state.back : (gameInfo().default_back || state.back);
+  bs.value = styles.includes(want) ? want : (styles.includes(state.back) ? state.back : styles[0]); state.back = bs.value;
+  $('#stock').value = state.stock || 'S30';
 }
 async function init() {
   const gs = await fetch('/api/games').then(r=>r.json());
@@ -594,9 +598,9 @@ function packEl(p) {
 
 /* ---------- selection / review ---------- */
 function selection() {
-  if (isSets()) return {game: GAME, name: state.name, back: state.back, qty: state.qty || {}, sections: Object.keys(state.sections || {}).filter(k => state.sections[k])};
+  if (isSets()) return {game: GAME, name: state.name, back: state.back, stock: state.stock || 'S30', qty: state.qty || {}, sections: Object.keys(state.sections || {}).filter(k => state.sections[k])};
   return {
-    game: 'mc', name: state.name, back: state.back, copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
+    game: 'mc', name: state.name, back: state.back, stock: state.stock || 'S30', copies: state.copies, qty: state.qty || {}, core_reprints: !!state.coreReprints, dup_reprints: !!state.dupReprints,
     heroes: Object.entries(state.heroes).map(([set, v]) => ({set, mode:v.mode, nemesis:v.nemesis!==false, modular:v.modular!==false}))
       .concat(Object.values(state.boxes||{}).flatMap(b => b.heroes.filter(set => !state.heroes[set]).map(set => ({set, mode:'hero', nemesis:true, modular:false})))),
     packs: Object.entries(state.packs).filter(([c,v]) => v.encounter_sets.length).map(([code, v]) => ({code, player_cards:false, encounter_sets:v.encounter_sets}))
@@ -977,7 +981,8 @@ $('#defaultMode').addEventListener('change', e => { state.defaultMode = e.target
 $('#showPack').addEventListener('change', e => { state.showPack = e.target.checked; save(); renderHeroGroups(); });
 $('#packNone').addEventListener('click', () => { state.packs = {}; save(); renderPacks(); updateCount(); });
 $('#orderName').addEventListener('input', e => { state.name = e.target.value; save(); });
-$('#backStyle').addEventListener('change', e => { state.back = e.target.value; save(); });
+$('#backStyle').addEventListener('change', e => { state.back = e.target.value; state.backChosen = true; save(); });
+$('#stock').addEventListener('change', e => { state.stock = e.target.value; save(); });
 $('#copies').addEventListener('change', e => { state.copies = e.target.value; save(); updateCount(); });
 $('#coreReprints').addEventListener('change', e => { state.coreReprints = e.target.checked; save(); updateCount(); });
 $('#dupReprints').addEventListener('change', e => { state.dupReprints = e.target.checked; save(); updateCount(); });

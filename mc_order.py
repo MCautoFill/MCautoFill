@@ -275,6 +275,8 @@ def resolve_selection(sel, catalog=None):
 
 
 BACK_KINDS = ("player", "encounter", "villain")
+# MPC cardstocks as the embedded autofill tool names them (its Cardstocks enum); the order picks one for the whole project
+STOCKS = {"S30": "(S30) Standard Smooth", "S33": "(S33) Superior Smooth", "S27": "(S27) Smooth", "M31": "(M31) Linen", "P10": "(P10) Plastic"}
 
 
 def back_file(style, kind, backs_dir=None):
@@ -372,7 +374,7 @@ def write_order(name, items, backs_dir, style, back_kinds, sel, launch=False):
 
     xml = ("<order>\n  <details>\n"
            f"    <quantity>{slot}</quantity>\n"
-           f"    <stock>{sel.get('stock', '(S30) Standard Smooth')}</stock>\n"
+           f"    <stock>{STOCKS.get(sel.get('stock') or 'S30', STOCKS['S30'])}</stock>\n"
            "    <foil>false</foil>\n  </details>\n  <fronts>\n"
            + "".join(card(c, [s]) for s, c in fronts) + "  </fronts>\n  <backs>\n"
            + "".join(card(c, sl) for c, sl in back_entries.items() if c != default_back) + "  </backs>\n"

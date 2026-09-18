@@ -12,11 +12,11 @@ ORDERS = os.path.join(HERE, "orders")
 
 GAMES = {
     "mc": {"name": "Marvel Champions", "kind": "mc", "dir": HERE, "order_name": "marvel-order",
-           "back_kinds": ("player", "encounter", "villain")},
+           "back_kinds": ("player", "encounter", "villain"), "default_back": "original"},
     "arkham": {"name": "Arkham Horror LCG", "kind": "sets", "dir": os.path.join(HERE, "games", "arkham"),
-               "order_name": "arkham-order", "back_kinds": ("player", "encounter")},
+               "order_name": "arkham-order", "back_kinds": ("player", "encounter"), "default_back": "original"},
     "lotr": {"name": "The Lord of the Rings LCG", "kind": "sets", "dir": os.path.join(HERE, "games", "lotr"),
-             "order_name": "lotr-order", "back_kinds": ("player", "encounter", "quest")},
+             "order_name": "lotr-order", "back_kinds": ("player", "encounter", "quest"), "default_back": "alep"},
 }
 DEFAULT = "mc"
 
@@ -34,4 +34,5 @@ def paths(game):
 
 
 def listing():
-    return [{"id": k, "name": v["name"], "kind": v["kind"], "order_name": v["order_name"]} for k, v in GAMES.items()]
+    return [{"id": k, "name": v["name"], "kind": v["kind"], "order_name": v["order_name"], "default_back": v["default_back"]}
+            for k, v in GAMES.items()]
