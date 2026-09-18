@@ -87,13 +87,12 @@ def load_done():
     return json.load(open(DONE_FILE, encoding="utf-8")) if os.path.exists(DONE_FILE) else {}
 
 
-def tree(link, key=None, refresh=False):
-    """Importable units of a shared folder: [{id, name, path, category, files}], cached in library/drive_tree.json."""
-    fid = folder_id(link)
-    cache = json.load(open(TREE_FILE, encoding="utf-8")) if os.path.exists(TREE_FILE) else {}
-    if not refresh and cache.get("root") == fid:
-        return cache
-    s = requests.Session()
+_TREE_LOCK = threading.Lock()
+COUNTING = {"running": False, "done": 0, "total": 0, "root": None}
+
+
+def _structure(fid, key, s):
+    """Top two levels of the folder: enough to show the table straight away."""
     top = list_folder(fid, key, s)
     units = []
     for e in top:
@@ -105,22 +104,62 @@ def tree(link, key=None, refresh=False):
                     units.append({"id": sub["id"], "name": sub["name"], "path": f"{e['name']}/{sub['name']}", "category": e["name"]})
         else:
             units.append({"id": e["id"], "name": e["name"], "path": e["name"], "category": "Other"})
+    return units
+
+
+def _save_tree(result):
+    os.makedirs(LIB, exist_ok=True)
+    json.dump(result, open(TREE_FILE, "w", encoding="utf-8"), indent=1)
+
+
+def _count_files(result, key):
+    """Background: count the image files in every unit (one listing per sub-folder), saving as it goes."""
+    s = requests.Session()
+    units = [u for u in result["units"] if u.get("files") is None and not u.get("error")]
+    COUNTING.update(running=True, done=0, total=len(units), root=result["root"])
 
     def count(u):
         try:
             files = walk_files(u["id"], key, s)
-            u["files"] = len(files)
-            u["bytes"] = sum(f[2] for f in files)
+            u["files"], u["bytes"] = len(files), sum(f[2] for f in files)
+            u.pop("error", None)
         except Exception as ex:  # noqa: BLE001
-            u["files"] = None
-            u["error"] = str(ex)
-        return u
-    with ThreadPoolExecutor(8) as pool:
-        list(pool.map(count, units))
-    result = {"root": fid, "units": units, "listed_at": time.time()}
-    os.makedirs(LIB, exist_ok=True)
-    json.dump(result, open(TREE_FILE, "w", encoding="utf-8"), indent=1)
-    return result
+            u["files"], u["error"] = None, str(ex)
+        with _TREE_LOCK:
+            COUNTING["done"] += 1
+            if COUNTING["done"] % 10 == 0:
+                _save_tree(result)
+    try:
+        with ThreadPoolExecutor(6) as pool:
+            list(pool.map(count, units))
+    finally:
+        with _TREE_LOCK:
+            _save_tree(result)
+            COUNTING["running"] = False
+
+
+def tree(link, key=None, refresh=False, wait=False):
+    """Importable units of a shared folder: [{id, name, path, category, files}], cached in library/drive_tree.json.
+
+    Returns quickly with the folder structure; file counts are filled in by a background thread (COUNTING says how
+    far it is) unless wait=True, which counts before returning (used by the import job)."""
+    fid = folder_id(link)
+    cache = json.load(open(TREE_FILE, encoding="utf-8")) if os.path.exists(TREE_FILE) else {}
+    if refresh or cache.get("root") != fid:
+        cache = {"root": fid, "units": _structure(fid, key, requests.Session()), "listed_at": time.time()}
+        _save_tree(cache)
+    if refresh:
+        for u in cache["units"]:
+            u.pop("error", None)
+    if any(u.get("files") is None and not u.get("error") for u in cache["units"]):
+        if wait:
+            _count_files(cache, key)
+        elif not COUNTING["running"]:
+            threading.Thread(target=_count_files, args=(cache, key), daemon=True).start()
+    cache["counting"] = COUNTING["running"] and COUNTING["root"] == fid
+    cache["counted"] = COUNTING["done"] if cache["counting"] else None
+    cache["count_total"] = COUNTING["total"] if cache["counting"] else None
+    return cache
 
 
 # ---------- downloading ----------
@@ -210,7 +249,7 @@ def abort():
 
 def _run(link, unit_ids, key, keep_scans, redo):
     try:
-        info = tree(link, key)
+        info = tree(link, key, wait=True)
         units = [u for u in info["units"] if u["id"] in set(unit_ids)]
         done = load_done()
         if not redo:

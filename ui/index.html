@@ -665,26 +665,38 @@ $('#afHide').addEventListener('click', () => $('#afStatus').classList.remove('sh
 fetch('/api/autofill/status').then(r=>r.json()).then(j => { if (j.running || (j.finished && !j.error)) { renderStatus(j); if (j.running) pollStatus(); } }).catch(()=>{});
 
 /* ---------- card library: pull scans from a shared Google Drive ---------- */
-let DRV = {tree:null, picked:new Set(), timer:null};
+let DRV = {tree:null, picked:new Set(), timer:null, countTimer:null};
 function drvSettings() { const d = state.drive || {}; return {url: d.url || $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; }
 function drvSave() { state.drive = {url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim(), keep: $('#drvKeep').checked}; save(); }
 async function drvLoad(refresh) {
   drvSave();
   const q = new URLSearchParams({url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim()}); if (refresh) q.set('refresh', '1');
-  $('#drvTree').innerHTML = '<div class="empty">Listing the folder… (the first time takes a little while: every sub-folder is counted)</div>';
+  $('#drvTree').innerHTML = '<div class="empty">Listing the folder…</div>';
   $('#drvLoad').disabled = $('#drvRefresh').disabled = true;
+  clearTimeout(DRV.countTimer);
   try {
-    const r = await fetch('/api/drive/tree?' + q).then(r=>r.json());
+    const res = await fetch('/api/drive/tree?' + q);
+    const r = await res.json().catch(() => ({error: `server answered ${res.status} without JSON — check the terminal window for a traceback`}));
     if (r.error) throw new Error(r.error);
-    DRV.tree = r; DRV.picked = new Set(); renderDrive();
-  } catch (e) { $('#drvTree').innerHTML = `<div class="empty">Could not list that folder: ${e.message || e}</div>`; }
+    DRV.tree = r; if (refresh) DRV.picked = new Set(); renderDrive();
+    if (r.counting) drvPollCounts();
+  } catch (e) { $('#drvTree').innerHTML = `<div class="empty">Could not list that folder.<br><small>${e.message || e}</small><br><small>Is the folder shared with “anyone with the link”? Errors are also printed in the terminal window that runs the app.</small></div>`; }
   $('#drvLoad').disabled = $('#drvRefresh').disabled = false;
+}
+async function drvPollCounts() {
+  clearTimeout(DRV.countTimer);
+  try {
+    const q = new URLSearchParams({url: $('#drvUrl').value.trim(), key: $('#drvKey').value.trim()});
+    const r = await fetch('/api/drive/tree?' + q).then(r=>r.json());
+    if (!r.error) { DRV.tree = r; renderDrive(); if (r.counting) DRV.countTimer = setTimeout(drvPollCounts, 2000); }
+  } catch (e) { DRV.countTimer = setTimeout(drvPollCounts, 4000); }
 }
 function fmtBytes(b) { return b ? (b > 1e9 ? (b/1e9).toFixed(1)+' GB' : Math.round(b/1e6)+' MB') : ''; }
 function renderDrive() {
   const wrap = $('#drvTree'); wrap.innerHTML = '';
   const units = DRV.tree ? DRV.tree.units : [];
   if (!units.length) { wrap.innerHTML = '<div class="empty">No importable folders found in that link.</div>'; return; }
+  if (DRV.tree.counting) { const n = document.createElement('div'); n.className = 'opt'; n.style.marginBottom = '8px'; n.textContent = `Counting files… ${DRV.tree.counted}/${DRV.tree.count_total} folders done`; wrap.appendChild(n); }
   const cats = {}; for (const u of units) (cats[u.category] = cats[u.category] || []).push(u);
   const order = ['Heros','Heroes','Core Set','Expansion Campaings','Expansion Campaigns','Scenario Packs','Modular Sets','Aspects'];
   const keys = Object.keys(cats).sort((a,b) => (order.indexOf(a)+1||99) - (order.indexOf(b)+1||99) || a.localeCompare(b));
@@ -698,7 +710,7 @@ function renderDrive() {
       const row = document.createElement('label'); row.className = 'lunit';
       const d = u.done;
       const badge = d ? (d.manual ? `<span class="badge ok" title="${d.converted} cards from this folder are in the library">in library · ${d.when}</span>` : d.unmatched || (d.failed||[]).length ? `<span class="badge part" title="${d.unmatched} unmatched, ${(d.failed||[]).length} failed downloads">${d.converted + d.had} of ${d.files} · ${d.when}</span>` : `<span class="badge ok">imported · ${d.when}</span>`) : `<span class="badge">not imported</span>`;
-      row.innerHTML = `<input type="checkbox" data-id="${u.id}" ${DRV.picked.has(u.id)?'checked':''}><span class="nm" title="${u.path}">${u.name}</span><span class="k">${u.files==null?'?':u.files} files${u.bytes?' · '+fmtBytes(u.bytes):''}</span>${badge}`;
+      row.innerHTML = `<input type="checkbox" data-id="${u.id}" ${DRV.picked.has(u.id)?'checked':''}><span class="nm" title="${u.path}">${u.name}</span><span class="k" title="${u.error||''}">${u.files==null?(u.error?'listing failed':'…'):u.files+' files'}${u.bytes?' · '+fmtBytes(u.bytes):''}</span>${badge}`;
       row.querySelector('input').addEventListener('change', e => { if (e.target.checked) DRV.picked.add(u.id); else DRV.picked.delete(u.id); drvSync(); });
       body.appendChild(row);
     }

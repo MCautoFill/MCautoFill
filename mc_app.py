@@ -1,5 +1,5 @@
 """Local web UI for building Marvel Champions MPC orders. Run: python mc_app.py  (opens http://127.0.0.1:8765)"""
-import io, json, os, re, threading, webbrowser
+import io, json, os, re, threading, traceback, webbrowser
 from flask import Flask, jsonify, request, send_file, send_from_directory
 from PIL import Image, ImageDraw
 import mc_order
@@ -139,7 +139,8 @@ def drive_tree():
     try:
         info = mc_drive.tree(link, key=request.args.get("key") or None, refresh=bool(request.args.get("refresh")))
     except Exception as ex:  # noqa: BLE001
-        return jsonify({"error": str(ex)}), 400
+        traceback.print_exc()
+        return jsonify({"error": f"{type(ex).__name__}: {ex}"}), 400
     done = mc_drive.load_done()
     # folders imported by hand (mc_import.py on a local copy) are recognised from the paths recorded in sources.json
     srcp = os.path.join(mc_order.LIB, "sources.json")
