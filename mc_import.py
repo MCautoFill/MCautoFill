@@ -291,6 +291,15 @@ class Matcher:
                 return None, f"no name match for '{name}' ({fname})"
         if ctx["packs"] and not any(c["pack_code"] in ctx["packs"] or c.get("card_set_code") in ctx["sets"] for c in cands):
             return None, f"'{name}' only exists outside this product ({', '.join(sorted({c['pack_code'] for c in cands}))}) ({fname})"
+        # identity cards: the Hero / Alter-Ego word in the file name decides the side. The printed side letter does not
+        # (FFG prints the alter-ego as side A and the hero as side B, MarvelCDB codes them the other way round), and
+        # for Groot, Rocket or Nick Fury both sides even share the name.
+        if typ in ("hero", "alter_ego") and any(c["type_code"] == typ for c in cands):
+            cands = [c for c in cands if c["type_code"] == typ]
+        # an identity scan inside a hero's own folder is that hero's identity ("Miles Morales_Spider-Man/..._Spider-Man_Hero"
+        # is Miles, not the Core Set Spider-Man)
+        if typ in ("hero", "alter_ego") and ctx["hero_set"] and any(c.get("card_set_code") == ctx["hero_set"] for c in cands):
+            cands = [c for c in cands if c.get("card_set_code") == ctx["hero_set"]]
         codes = {c["code"] for c in cands}
         want = (stage + side).upper() if (stage and side) else (stage.upper() if stage else None)
         wants = {want, (side + stage).upper() if (stage and side) else None} - {None}      # "1A" is stored as "A1" for some villains
@@ -306,12 +315,6 @@ class Matcher:
             cands = [c for c in cands if not (c["code"][-1] in "bc" and c["code"][:-1] + "a" in codes) and c["code"] + "a" not in codes]
         if not cands:
             return None, f"only sided entries for '{name}' ({fname})"
-        if typ in ("hero", "alter_ego") and any(c["type_code"] == typ for c in cands):
-            cands = [c for c in cands if c["type_code"] == typ]
-        # an identity scan inside a hero's own folder is that hero's identity ("Miles Morales_Spider-Man/..._Spider-Man_Hero"
-        # is Miles, not the Core Set Spider-Man)
-        if typ in ("hero", "alter_ego") and ctx["hero_set"] and any(c.get("card_set_code") == ctx["hero_set"] for c in cands):
-            cands = [c for c in cands if c.get("card_set_code") == ctx["hero_set"]]
 
         def score(c):
             s = 0
