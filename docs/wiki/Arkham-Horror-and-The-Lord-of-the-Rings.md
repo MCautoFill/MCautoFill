@@ -27,6 +27,12 @@ Copy counts are the printed ones (two of most Arkham player cards, three of most
 
 Two header checkboxes, both on by default. Untick **player cards** to leave every investigator, class, hero and sphere section out of the order, or **encounter cards** to leave out every encounter set and quest, whatever is ticked in the tree. Handy for printing only the encounter side of a cycle you already own the player cards of.
 
+## Only the good player cards (Arkham Horror)
+
+The header has **player cards rated at least …** for Arkham Horror, set to *any rating* by default. The ratings come from the card-by-card investigator expansion reviews on [Ancient Evils](https://derbk.com/ancientevils/arkham-horror-lcg-buying-guide-wall-of-text-edition/), which grade every player card of the Core Sets, the investigator expansions and the starter decks as Bad, Okay, Good, Excellent or Staple (with in-between grades such as "Good to Excellent"). Pick a level and every card rated below it is set to 0 copies. Investigators, signature cards, weaknesses and the products the reviews do not cover (Return to boxes, promos, parallel investigators) keep their copies. The order list shows each card's rating, in orange when it is below the chosen level, and a count typed there still overrides the 0.
+
+`python ae_ratings.py` refreshes `games/arkham/ratings.json` from the reviews (about 1,290 cards); `python ah_catalog.py` then folds the ratings into the catalog.
+
 ## Skipping cards the revised editions reprint (The Lord of the Rings)
 
 The header has **exclude player cards reprinted in the revised editions**, off by default. With it on, a player card from an older pack that was printed again in the Revised Core Set, the Angmar Awakened, Dream-chaser or Ered Mithrin Hero and Campaign Expansions, the repackaged sagas (The Fellowship of the Ring, The Two Towers, The Return of the King) or the four starter decks is set to 0 copies, so you only print what the new line does not give you. Cards are matched by title, type and sphere against Hall of Beorn's data; encounter and quest cards are never affected, and the revised products themselves are not touched. The order list marks each affected card with "reprinted in …", and a count typed there still overrides the 0.

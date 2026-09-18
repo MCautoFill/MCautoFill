@@ -667,9 +667,14 @@ function renderOrderList() {
     const h = document.createElement('h5'); h.textContent = g; rows.appendChild(h);
     for (const c of cards) {
       const row = document.createElement('div');
-      const eff = (!c.have || (c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints) || ((c.revised||[]).length && (state.opts||{}).exclude_revised)) ? 0 : c.default_qty;
+      const minR = parseFloat((state.opts||{}).min_rating) || 0;
+      const eff = (!c.have || (c.core_reprint && !state.coreReprints) || (c.dup_reprint && !state.dupReprints) || ((c.revised||[]).length && (state.opts||{}).exclude_revised) || (minR && c.rating_n != null && c.rating_n < minR)) ? 0 : c.default_qty;
       row.className = 'orow' + (c.qty===0?' zero':'') + (c.qty!==eff?' changed':'') + (c.have?'':' missing');
-      const also = (c.also_in||[]).length ? `<br><small>${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}</small>` : ((c.revised||[]).length ? `<br><small><b style="color:var(--warn)">reprinted in</b> ${c.revised.join(', ')}</small>` : '');
+      const notes = [];
+      if ((c.also_in||[]).length) notes.push(`${c.core_reprint?'<b style="color:var(--warn)">core reprint</b> · ':(c.dup_reprint?`<b style="color:var(--warn)">reprint of ${c.original_pack}</b> · `:'')}also in ${c.also_in.join(', ')}`);
+      if ((c.revised||[]).length) notes.push(`<b style="color:var(--warn)">reprinted in</b> ${c.revised.join(', ')}`);
+      if (c.rating) notes.push(`rated <b style="color:${(parseFloat((state.opts||{}).min_rating)||0) > c.rating_n ? 'var(--warn)' : 'var(--muted)'}">${c.rating}</b>`);
+      const also = notes.length ? `<br><small>${notes.join(' · ')}</small>` : '';
       row.innerHTML = `<img src="${imgUrl(imgCode(c.front), c.name)}" loading="lazy" alt=""><div class="n" title="${c.name}${c.have?'':(c.have_front?' (back side not scanned yet)':' (no image yet)')}${(c.also_in||[]).length?' — also printed in: '+c.also_in.join(', '):''}">${c.name}${c.back?' <small>2-sided</small>':''}${c.default_qty!==c.qty?` <small>(printed ×${c.default_qty})</small>`:''}${also}</div><input type="number" min="0" max="99" value="${c.qty}">`;
       row.querySelector('img').addEventListener('click', () => enlarge(c));
       const inp = row.querySelector('input');
@@ -864,8 +869,14 @@ function renderGameOpts() {
   $('#incPlayer').checked = state.opts.include_player !== false; $('#incEncounter').checked = state.opts.include_encounter !== false;
   for (const o of (CAT && CAT.options) || []) {
     const lab = document.createElement('label'); lab.className = 'opt'; lab.title = o.title || '';
-    lab.innerHTML = `<input type="checkbox" ${state.opts[o.key] ? 'checked' : ''}> ${o.label}`;
-    lab.querySelector('input').addEventListener('change', e => { state.opts[o.key] = e.target.checked; save(); updateCount(); });
+    if (o.type === 'select') {
+      lab.innerHTML = `${o.label} <select>${o.choices.map(([v, t]) => `<option value="${v}">${t}</option>`).join('')}</select>`;
+      const sel = lab.querySelector('select'); sel.value = state.opts[o.key] || '';
+      sel.addEventListener('change', e => { state.opts[o.key] = e.target.value; save(); updateCount(); });
+    } else {
+      lab.innerHTML = `<input type="checkbox" ${state.opts[o.key] ? 'checked' : ''}> ${o.label}`;
+      lab.querySelector('input').addEventListener('change', e => { state.opts[o.key] = e.target.checked; save(); updateCount(); });
+    }
     wrap.appendChild(lab);
   }
 }

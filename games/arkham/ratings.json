@@ -1,0 +1,6452 @@
+{
+ "01016": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01017": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01018": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01019": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01020": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "01021": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01022": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01023": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01024": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01025": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01027": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01028": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01029": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01030": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01032": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01033": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01034": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01035": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01036": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01037": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "01038": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01039": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01040": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01041": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01042": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01043": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01044": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01045": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01046": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01047": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01048": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01049": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01050": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-core"
+ },
+ "01051": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01052": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01053": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01054": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01055": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01056": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01057": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01058": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01059": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01060": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01061": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01062": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01063": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01064": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01065": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01066": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01067": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01068": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01069": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01070": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01071": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01072": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01073": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01074": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01075": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01076": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01077": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01079": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01080": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01081": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01082": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01083": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01084": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01085": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01086": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01087": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01088": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "01090": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01092": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01093": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "01095": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01516": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01517": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01518": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01519": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01520": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "01521": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01522": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01523": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01524": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01525": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01527": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01528": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01529": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01530": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01532": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01533": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01534": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01535": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01536": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01537": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "01538": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01539": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01540": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01541": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01542": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01543": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01544": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01545": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01546": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01547": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01548": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01549": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01550": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-core"
+ },
+ "01551": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01552": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01553": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01554": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01555": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01556": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01557": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01558": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01559": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01560": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01561": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01562": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01563": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01564": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01565": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01566": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01567": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01568": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01569": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01570": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01571": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01572": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01573": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01574": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01575": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-core"
+ },
+ "01576": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01577": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01579": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01580": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01581": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01582": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-core"
+ },
+ "01583": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01584": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01585": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01586": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-core"
+ },
+ "01587": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01588": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "01590": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01592": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "01593": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "01595": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-core"
+ },
+ "01683": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01684": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-core"
+ },
+ "01685": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01686": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01687": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01688": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01689": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-core"
+ },
+ "01691": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01692": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-core"
+ },
+ "01693": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-core"
+ },
+ "01694": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "01695": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "02016": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02017": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02018": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02019": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "dunwich"
+ },
+ "02020": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02021": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02022": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02023": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02024": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02025": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02026": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02027": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02029": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dunwich"
+ },
+ "02031": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02032": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02034": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02035": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02036": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02105": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02106": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02107": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02108": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02109": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02110": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02111": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02112": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02113": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02114": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02115": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02116": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02117": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02147": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02148": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02149": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02150": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02151": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02152": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02153": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "dunwich"
+ },
+ "02154": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02155": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02156": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02157": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02158": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02184": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02185": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "dunwich"
+ },
+ "02186": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dunwich"
+ },
+ "02187": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02188": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02189": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02190": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02192": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02193": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02194": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dunwich"
+ },
+ "02225": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02226": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02227": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02228": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02229": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02230": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02231": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02233": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02234": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02235": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02260": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dunwich"
+ },
+ "02261": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02265": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02266": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02267": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02269": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02270": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02271": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02272": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dunwich"
+ },
+ "02273": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02299": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dunwich"
+ },
+ "02300": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02301": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "02302": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02303": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02304": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02305": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02306": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02307": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02308": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dunwich"
+ },
+ "02309": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dunwich"
+ },
+ "02310": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dunwich"
+ },
+ "03020": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03021": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03022": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "carcosa"
+ },
+ "03023": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03024": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03025": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03027": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03028": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03029": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03030": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03031": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03032": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03033": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03034": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03035": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03036": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03037": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03039": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03106": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03107": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03108": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03109": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03110": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03111": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03112": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "carcosa"
+ },
+ "03113": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03114": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03115": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "carcosa"
+ },
+ "03148": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03149": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03150": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03151": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03152": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03153": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03154": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03155": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03156": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03157": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03158": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03189": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03190": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03191": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03194": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03195": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03196": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03197": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03198": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03199": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03228": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03229": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03230": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03231": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03232": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03233": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03234": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "carcosa"
+ },
+ "03235": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03236": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03237": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03238": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03239": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03263": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03264": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03265": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03266": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03267": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03268": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03269": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03270": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "carcosa"
+ },
+ "03271": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03272": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "carcosa"
+ },
+ "03273": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03304": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03305": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03306": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "carcosa"
+ },
+ "03307": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03308": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "carcosa"
+ },
+ "03309": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "carcosa"
+ },
+ "03310": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "carcosa"
+ },
+ "03311": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "carcosa"
+ },
+ "03312": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "carcosa"
+ },
+ "03313": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "carcosa"
+ },
+ "03314": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "03315": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "carcosa"
+ },
+ "04017": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04018": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04019": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04020": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04021": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04023": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04024": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04025": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04026": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "forgotten-age"
+ },
+ "04027": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04028": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04029": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "forgotten-age"
+ },
+ "04030": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04031": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04032": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04033": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04034": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04035": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04036": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04037": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04103": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04104": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04105": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04106": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04107": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04108": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04109": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04110": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04111": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04112": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04149": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04150": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04151": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04152": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04153": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04154": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04155": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04156": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04157": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04158": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04159": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04160": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04192": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "forgotten-age"
+ },
+ "04193": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04194": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04195": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "forgotten-age"
+ },
+ "04196": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04197": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04198": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04199": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04200": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04201": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04202": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04203": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04204": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04229": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04232": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04233": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04234": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04235": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04236": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "forgotten-age"
+ },
+ "04265": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04266": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04267": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04268": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "forgotten-age"
+ },
+ "04269": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04270": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04271": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04272": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04273": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04274": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04275": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04276": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "04304": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "forgotten-age"
+ },
+ "04305": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "forgotten-age"
+ },
+ "04306": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "forgotten-age"
+ },
+ "04307": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04308": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "forgotten-age"
+ },
+ "04309": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "forgotten-age"
+ },
+ "04310": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04311": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "forgotten-age"
+ },
+ "04312": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "forgotten-age"
+ },
+ "04313": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "forgotten-age"
+ },
+ "05020": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05021": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05022": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "05023": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "05024": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05025": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05026": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05027": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "05028": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05029": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05030": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05031": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05032": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05033": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "circle-undone"
+ },
+ "05034": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "circle-undone"
+ },
+ "05035": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05036": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "05037": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05038": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05039": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05040": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "circle-undone"
+ },
+ "05109": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05110": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05111": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05112": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05113": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05114": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05115": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05117": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05118": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05119": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05151": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05152": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05153": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05154": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05155": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "circle-undone"
+ },
+ "05156": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05158": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05159": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05160": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05186": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05187": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05188": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05189": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "circle-undone"
+ },
+ "05190": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05191": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05192": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05193": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05194": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05195": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05229": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05230": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "circle-undone"
+ },
+ "05231": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05232": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05233": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05234": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05235": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05236": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05237": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05273": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05274": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05275": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "circle-undone"
+ },
+ "05276": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "05277": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05278": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05279": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05280": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05281": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "circle-undone"
+ },
+ "05282": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "circle-undone"
+ },
+ "05283": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "circle-undone"
+ },
+ "05313": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05315": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05316": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05318": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05319": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "circle-undone"
+ },
+ "05320": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "circle-undone"
+ },
+ "05321": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "circle-undone"
+ },
+ "05322": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "circle-undone"
+ },
+ "05323": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "circle-undone"
+ },
+ "05324": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "circle-undone"
+ },
+ "06018": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dream-eaters"
+ },
+ "06020": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dream-eaters"
+ },
+ "06021": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06023": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06024": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06026": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06027": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06029": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dream-eaters"
+ },
+ "06030": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "dream-eaters"
+ },
+ "06034": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06110": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06111": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06112": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06114": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dream-eaters"
+ },
+ "06115": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06116": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06117": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06118": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06155": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06156": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06157": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "dream-eaters"
+ },
+ "06158": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06159": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "dream-eaters"
+ },
+ "06160": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06161": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06162": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06163": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dream-eaters"
+ },
+ "06164": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dream-eaters"
+ },
+ "06165": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06166": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06167": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06195": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dream-eaters"
+ },
+ "06196": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06197": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06198": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06199": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06200": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06201": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06202": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06203": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06204": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06205": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "dream-eaters"
+ },
+ "06234": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06235": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06239": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06240": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06241": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06242": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06243": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06244": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06245": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06246": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06276": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06278": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06279": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06280": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06281": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "06282": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06284": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06285": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06323": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "dream-eaters"
+ },
+ "06324": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "dream-eaters"
+ },
+ "06325": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06326": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06327": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "dream-eaters"
+ },
+ "06328": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06329": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "dream-eaters"
+ },
+ "06330": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "dream-eaters"
+ },
+ "06332": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "dream-eaters"
+ },
+ "07017": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07018": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07019": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07020": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07021": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07024": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07025": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07026": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07027": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "innsmouth"
+ },
+ "07028": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07029": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07030": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "innsmouth"
+ },
+ "07031": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07032": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07033": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "innsmouth"
+ },
+ "07034": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07035": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07036": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "innsmouth"
+ },
+ "07037": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07108": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07109": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07110": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "innsmouth"
+ },
+ "07111": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07112": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07113": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07114": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07115": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07116": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07119": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07120": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "innsmouth"
+ },
+ "07121": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07122": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07152": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07153": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07154": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07155": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07156": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07157": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "innsmouth"
+ },
+ "07158": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07159": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "innsmouth"
+ },
+ "07160": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07161": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07162": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07189": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07190": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07193": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07194": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07195": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07196": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07197": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07220": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07221": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07222": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07223": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07224": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "innsmouth"
+ },
+ "07225": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07226": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07227": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07228": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07229": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07230": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07261": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07262": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07263": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07264": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07265": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07266": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "innsmouth"
+ },
+ "07267": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07268": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07269": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07270": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07271": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "innsmouth"
+ },
+ "07273": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "innsmouth"
+ },
+ "07301": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "innsmouth"
+ },
+ "07302": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07304": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07305": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07306": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07307": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07308": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "innsmouth"
+ },
+ "07309": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "07310": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "innsmouth"
+ },
+ "08019": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08020": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08021": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08022": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08023": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "edge-of-the-earth"
+ },
+ "08024": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08025": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08026": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08027": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08028": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08030": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08031": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08032": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "edge-of-the-earth"
+ },
+ "08033": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08034": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08035": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08036": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08037": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08038": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "08039": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08040": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08045": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08046": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08047": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08049": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08050": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08051": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08052": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08053": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08054": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08055": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08056": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08057": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08058": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08059": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08060": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08061": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08062": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08063": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08064": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08065": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08066": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08067": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "edge-of-the-earth"
+ },
+ "08068": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08069": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08070": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08071": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08072": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08073": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08074": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "edge-of-the-earth"
+ },
+ "08075": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08076": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08077": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08078": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08079": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08080": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08081": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08082": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08083": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08084": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "edge-of-the-earth"
+ },
+ "08085": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08086": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08087": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "edge-of-the-earth"
+ },
+ "08088": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08089": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08090": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08091": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08092": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08093": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "edge-of-the-earth"
+ },
+ "08095": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "08096": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08097": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08098": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08099": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08100": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08101": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08102": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "08103": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08104": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08105": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08106": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "08107": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08108": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "edge-of-the-earth"
+ },
+ "08109": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08110": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "edge-of-the-earth"
+ },
+ "08111": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08112": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "edge-of-the-earth"
+ },
+ "08113": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08114": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08115": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08116": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08117": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08118": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08119": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08120": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08121": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "08122": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "edge-of-the-earth"
+ },
+ "08123": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08124": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08125": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "edge-of-the-earth"
+ },
+ "08126": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "edge-of-the-earth"
+ },
+ "08127": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "edge-of-the-earth"
+ },
+ "08128": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "edge-of-the-earth"
+ },
+ "08129": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "edge-of-the-earth"
+ },
+ "09021": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09022": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09023": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09024": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09025": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09026": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09027": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "scarlet-keys"
+ },
+ "09028": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09029": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09030": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09031": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "scarlet-keys"
+ },
+ "09032": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09033": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09034": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09035": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09036": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09037": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09038": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09039": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09040": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09041": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09042": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09043": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09044": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09045": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09046": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09047": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09048": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "scarlet-keys"
+ },
+ "09050": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09051": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09052": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09053": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09054": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09055": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09056": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09057": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09058": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09059": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09060": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "scarlet-keys"
+ },
+ "09061": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09062": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09063": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09064": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09065": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09066": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09067": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "scarlet-keys"
+ },
+ "09068": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09069": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09070": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09071": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09072": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09073": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09074": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09075": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09076": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09077": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09078": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "scarlet-keys"
+ },
+ "09079": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09080": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09081": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09082": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "scarlet-keys"
+ },
+ "09083": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09084": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09085": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "scarlet-keys"
+ },
+ "09086": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09087": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09088": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09089": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09090": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09091": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09092": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "scarlet-keys"
+ },
+ "09093": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "09094": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09095": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09096": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09097": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09098": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09099": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09100": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09101": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09102": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09103": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "scarlet-keys"
+ },
+ "09105": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09106": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "scarlet-keys"
+ },
+ "09107": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09108": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "scarlet-keys"
+ },
+ "09109": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09110": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09111": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09112": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09113": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09114": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "scarlet-keys"
+ },
+ "09115": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09116": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "scarlet-keys"
+ },
+ "09117": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "scarlet-keys"
+ },
+ "09118": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "scarlet-keys"
+ },
+ "09119": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09120": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "scarlet-keys"
+ },
+ "09121": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "scarlet-keys"
+ },
+ "09122": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "scarlet-keys"
+ },
+ "09123": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "scarlet-keys"
+ },
+ "10019": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10020": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10021": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10022": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10023": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10024": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10025": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10026": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10027": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10028": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10029": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10030": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10031": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10032": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10033": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10034": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10035": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10037": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10038": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10040": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10041": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10042": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10043": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10046": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10047": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10048": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10049": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10050": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10051": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10052": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10053": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10054": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10055": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10056": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10057": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10058": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10062": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10063": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10064": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10065": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10066": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10067": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10068": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10069": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10070": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10071": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10072": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10074": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10075": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10076": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10077": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10078": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10079": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10080": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10081": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10082": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10083": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10084": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10085": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10091": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10092": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10093": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10094": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10095": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10096": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10097": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10098": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10099": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10100": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10102": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10103": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10104": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10105": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10108": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10110": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10118": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10119": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10120": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10121": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10122": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10123": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10124": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10125": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10126": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10127": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10128": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10129": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10130": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10131": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10132": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "10133": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-feast-of-hemlock-vale"
+ },
+ "11020": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11021": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-drowned-city"
+ },
+ "11022": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11023": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11024": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-drowned-city"
+ },
+ "11025": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11026": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11027": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11028": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11029": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11030": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11031": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11032": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11033": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11034": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-drowned-city"
+ },
+ "11036": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11037": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11038": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11039": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11040": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-drowned-city"
+ },
+ "11041": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11050": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11051": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11052": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11053": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-drowned-city"
+ },
+ "11054": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11055": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-drowned-city"
+ },
+ "11056": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11057": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11065": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-drowned-city"
+ },
+ "11066": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11067": {
+  "rating": "Excellent to Staple",
+  "n": 4.5,
+  "page": "the-drowned-city"
+ },
+ "11068a": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11069": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11070": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11071": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-drowned-city"
+ },
+ "11072": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11081": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11082": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-drowned-city"
+ },
+ "11083": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-drowned-city"
+ },
+ "11084": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-drowned-city"
+ },
+ "11085": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11086": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11087": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-drowned-city"
+ },
+ "11088": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-drowned-city"
+ },
+ "11096": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-drowned-city"
+ },
+ "11097": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-drowned-city"
+ },
+ "11125": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-drowned-city"
+ },
+ "12016": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12017": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12018": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12019": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12020": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12021": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12022": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12023": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12024": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12025": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12026": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12027": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12028": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12029": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12030": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12031": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12032": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12033": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-2026-core-set"
+ },
+ "12034": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12035": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12036": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12037": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12038": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12039": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12040": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12041": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12042": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12043": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12044": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12045": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12046": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12047": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12048": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12049": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12050": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12051": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12052": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12053": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-2026-core-set"
+ },
+ "12055": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12056": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12057": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12058": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12059": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12060": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12061": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12062": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12063": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-2026-core-set"
+ },
+ "12064": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12065": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12066": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12067": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12068": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12069": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12070": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-2026-core-set"
+ },
+ "12071": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12072": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12073": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12074": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12075": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12076": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12077": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12078": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12079": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12080": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-2026-core-set"
+ },
+ "12081": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12082": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12083": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12084": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12086": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-2026-core-set"
+ },
+ "12087": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-2026-core-set"
+ },
+ "12088": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-2026-core-set"
+ },
+ "12089": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-2026-core-set"
+ },
+ "12091": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12093": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "12094": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-2026-core-set"
+ },
+ "12095": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "the-core"
+ },
+ "12096": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-2026-core-set"
+ },
+ "60106": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60109": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "investigator-starter-decks"
+ },
+ "60110": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60111": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "investigator-starter-decks"
+ },
+ "60116": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60118": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60120": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60121": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60122": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60123": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60126": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60127": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60128": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60129": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60130": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60131": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60132": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60156": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60157": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60158": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60159": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60160": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60161": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60162": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60163": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60164": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60165": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60166": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60167": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60168": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60170": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60171": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60172": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60173": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60174": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60175": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60176": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60177": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60178": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60179": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60180": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60181": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60206": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "investigator-starter-decks"
+ },
+ "60207": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60209": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60210": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "investigator-starter-decks"
+ },
+ "60211": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60214": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60215": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60216": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "investigator-starter-decks"
+ },
+ "60217": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60218": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60220": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60221": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60222": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60223": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60224": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60225": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60226": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60228": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60231": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60232": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60233": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60255": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60256": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60257": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60258": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60260": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60261": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60262": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60263": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60264": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60265": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60266": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60268": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60269": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60270": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60271": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60272": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60273": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60274": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60275": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60276": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60277": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60278": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60282": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60305": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60309": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60310": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60311": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60316": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60317": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60318": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60320": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60321": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60322": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60323": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "investigator-starter-decks"
+ },
+ "60324": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60325": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60326": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60327": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "investigator-starter-decks"
+ },
+ "60328": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60329": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60330": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60331": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60332": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60357": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60358": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60359": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60360": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60361": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60362": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60363": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60364": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60365": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60366": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60367": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60368": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60369": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60370": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60371": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60372": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60373": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60374": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60375": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60376": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60377": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60378": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60379": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60380": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60381": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60382": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60383": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60384": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60406": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60410": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60411": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60415": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "investigator-starter-decks"
+ },
+ "60416": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60419": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60420": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "investigator-starter-decks"
+ },
+ "60421": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60422": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60423": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60424": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60425": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60426": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60427": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60428": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60429": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60430": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60431": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60432": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60455": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60456": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60457": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60458": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60461": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60462": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60463": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60464": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60465": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60466": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60467": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60468": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60469": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60470": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60471": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60472": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60473": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60474": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60475": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60476": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60477": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60478": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60479": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60480": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60481": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60482": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60483": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60506": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "investigator-starter-decks"
+ },
+ "60507": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60509": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60510": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60511": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60512": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "investigator-starter-decks"
+ },
+ "60515": {
+  "rating": "Bad",
+  "n": 1.0,
+  "page": "investigator-starter-decks"
+ },
+ "60520": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60521": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60522": {
+  "rating": "Staple",
+  "n": 5.0,
+  "page": "investigator-starter-decks"
+ },
+ "60523": {
+  "rating": "Okay to Good",
+  "n": 2.5,
+  "page": "investigator-starter-decks"
+ },
+ "60524": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60525": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "investigator-starter-decks"
+ },
+ "60526": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60527": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60528": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60529": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "investigator-starter-decks"
+ },
+ "60530": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "investigator-starter-decks"
+ },
+ "60531": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "investigator-starter-decks"
+ },
+ "60555": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60556": {
+  "rating": "Bad to Okay",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60557": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60558": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60559": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60560": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60561": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60562": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60563": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60564": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60565": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60566": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60567": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60568": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60569": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60570": {
+  "rating": "Good to Excellent",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60571": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60572": {
+  "rating": "Good to Okay",
+  "n": 2.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60573": {
+  "rating": "Excellent",
+  "n": 4.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60574": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60575": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60576": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60577": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60578": {
+  "rating": "Okay to Bad",
+  "n": 1.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60579": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60580": {
+  "rating": "Excellent to Good",
+  "n": 3.5,
+  "page": "the-evergreen-investigators"
+ },
+ "60581": {
+  "rating": "Okay",
+  "n": 2.0,
+  "page": "the-evergreen-investigators"
+ },
+ "60582": {
+  "rating": "Good",
+  "n": 3.0,
+  "page": "the-evergreen-investigators"
+ }
+}

@@ -16,6 +16,7 @@ import requests
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "games", "arkham", "catalog.json")
+RATINGS = os.path.join(HERE, "games", "arkham", "ratings.json")      # from ae_ratings.py (Ancient Evils reviews)
 API = "https://arkhamdb.com/api/public"
 UA = {"User-Agent": "Mozilla/5.0 (MC Autofill)"}
 
@@ -70,6 +71,7 @@ def main():
     for c in cards:
         by_pack[c["pack_code"]].append(c)
 
+    ratings = json.load(open(RATINGS, encoding="utf-8")) if os.path.exists(RATINGS) else {}
     cycles, out_packs = {}, []
     for p in sorted(packs, key=lambda p: (p["cycle_position"], p["position"])):
         ccode, cname, kind = cycle_of(p)
@@ -96,6 +98,9 @@ def main():
                 entry["sub"] = c["subname"]
             if c.get("xp"):
                 entry["xp"] = c["xp"]
+            if c["code"] in ratings:
+                entry["rating"] = ratings[c["code"]]["rating"]
+                entry["rating_n"] = ratings[c["code"]]["n"]
             if c.get("encounter_code"):
                 s = section("enc_" + c["encounter_code"], c.get("encounter_name") or c["encounter_code"], "encounter",
                             (3, c.get("encounter_position") or 0))
@@ -115,7 +120,14 @@ def main():
         cy.pop("notes")
     cycles = [c for c in cycles.values() if c["packs"]]
     catalog = {"game": "arkham", "name": "Arkham Horror LCG", "cycles": cycles, "packs": out_packs,
-               "back_groups": {"player": "player", "encounter": "encounter"}}
+               "back_groups": {"player": "player", "encounter": "encounter"},
+               "options": [{"key": "min_rating", "type": "select", "label": "player cards rated at least",
+                            "title": "Ancient Evils (derbk.com) rates every player card of the Core Sets, investigator expansions and "
+                                     "starter decks: Bad < Okay < Good < Excellent < Staple. Cards rated below the chosen level are set "
+                                     "to 0 copies. Investigators, weaknesses and cards the reviews do not cover are never affected.",
+                            "choices": [["", "any rating"], ["2", "Okay"], ["2.5", "Okay to Good"], ["3", "Good"], ["3.5", "Good to Excellent"],
+                                        ["4", "Excellent"], ["5", "Staple"]]}]}
+    print(f"{sum(1 for p in out_packs for s in p['sections'] for c in s['cards'] if 'rating' in c)} cards carry an Ancient Evils rating")
     os.makedirs(os.path.dirname(OUT), exist_ok=True)
     json.dump(catalog, open(OUT, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"{len(cycles)} cycles, {len(out_packs)} packs, {sum(p['cards'] for p in out_packs)} cards -> {OUT}")

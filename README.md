@@ -41,7 +41,8 @@ On Windows you can double-click `Start MC Autofill.bat`; on macOS, `Start MC Aut
 | `games.py` | The games the app knows and where each keeps its catalog, library and backs |
 | `set_order.py` | Selection → cards → order folder for the cycle/pack based games (Arkham Horror, The Lord of the Rings) |
 | `pn_import.py` | Imports a Proxy Nexus MPC export (zip or folder) into a game's library |
-| `ah_catalog.py`, `games/arkham/catalog.json` | Arkham Horror catalog built from [ArkhamDB](https://arkhamdb.com): cycles → packs → investigators, classes, encounter sets |
+| `ah_catalog.py`, `games/arkham/catalog.json` | Arkham Horror catalog built from [ArkhamDB](https://arkhamdb.com): cycles → packs → player cards, encounter sets |
+| `ae_ratings.py`, `games/arkham/ratings.json` | Player-card ratings scraped from the [Ancient Evils](https://derbk.com/ancientevils/) reviews, used by the "rated at least" filter |
 | `lotr_catalog.py`, `games/lotr/catalog.json` | The Lord of the Rings catalog: Proxy Nexus ids + [Hall of Beorn](http://hallofbeorn.com) card data + [RingsDB](https://ringsdb.com) cycles |
 | `vendor/mpc_autofill/` | Unmodified copy of the mpc-autofill desktop tool (GPL-3.0) |
 
