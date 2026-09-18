@@ -51,7 +51,22 @@ def inspect(src):
         else:
             unknown.append(rel)
     fronts = {i for i, b in cards if not b}
-    return {"game": game, "cards": len(fronts), "backs": backs, "unknown": unknown[:10]}
+    return {"game": game, "cards": len(fronts), "ids": sorted(fronts), "backs": backs, "unknown": unknown[:10]}
+
+
+def packs_of(ids, catalog):
+    """Which catalog packs an export's card ids belong to: [(pack name, cards from it)], most first."""
+    where = {}
+    for p in catalog.get("packs", []):
+        for s in p["sections"]:
+            for c in s["cards"]:
+                where.setdefault(c["code"], p["name"])
+    counts = {}
+    for i in ids:
+        name = where.get(i)
+        if name:
+            counts[name] = counts.get(name, 0) + 1
+    return sorted(counts.items(), key=lambda kv: -kv[1])
 
 
 def import_export(game, src, log=print):

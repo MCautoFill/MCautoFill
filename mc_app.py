@@ -234,6 +234,7 @@ def pn_exports():
     folder = request.args.get("dir") or os.path.join(os.path.expanduser("~"), "Downloads")
     donep = os.path.join(games.paths(game)["library"], "pn_done.json")
     done = json.load(open(donep, encoding="utf-8")) if os.path.exists(donep) else {}
+    catalogs = {}
     out = []
     for e in pn_import.list_exports(folder):
         try:
@@ -242,6 +243,13 @@ def pn_exports():
             info = {"game": None, "cards": 0, "backs": [], "error": str(ex)}
         if info.get("game") is None and not info.get("cards"):
             continue                                   # not a Proxy Nexus export
+        ids = info.pop("ids", [])
+        g = info.get("game")
+        if g and is_sets(g):
+            if g not in catalogs:
+                catalogs[g] = set_order.load_catalog(g)
+            info["packs"] = pn_import.packs_of(ids, catalogs[g])
+            info["unknown_ids"] = len(ids) - sum(n for _, n in info["packs"])
         e.update(info)
         e["done"] = done.get(e["name"])
         out.append(e)

@@ -909,7 +909,9 @@ function renderPn() {
     const row = document.createElement('label'); row.className = 'pnrow' + (mine ? '' : ' other');
     const gname = (GAMES.find(g => g.id === e.game) || {}).name || 'unknown game';
     const badge = e.done ? `<span class="badge ok">imported · ${e.done.when}</span>` : (mine ? '<span class="badge">not imported</span>' : '');
-    row.innerHTML = `<input type="checkbox" ${PN.picked.has(e.path)?'checked':''} ${mine?'':'disabled'}><span class="nm" title="${e.path}">${e.name}</span><span class="k">${gname} · ${e.cards} cards${e.backs.length ? ' · backs' : ''}${e.size ? ' · ' + fmtBytes(e.size) : ''}</span>${badge}`;
+    const packs = (e.packs || []).map(([n, c]) => `${n} (${c})`);
+    const label = packs.length ? packs.slice(0, 3).join(', ') + (packs.length > 3 ? ` +${packs.length - 3} more` : '') : e.name;
+    row.innerHTML = `<input type="checkbox" ${PN.picked.has(e.path)?'checked':''} ${mine?'':'disabled'}><span class="nm" title="${e.path}${packs.length ? '\n' + packs.join('\n') : ''}">${label}${packs.length ? ` <small style="color:var(--muted)">${e.name}</small>` : ''}</span><span class="k">${gname} · ${e.cards} cards${e.unknown_ids ? ` (${e.unknown_ids} not in catalog)` : ''}${e.backs.length ? ' · backs' : ''}${e.size ? ' · ' + fmtBytes(e.size) : ''}</span>${badge}`;
     row.querySelector('input').addEventListener('change', ev => { if (ev.target.checked) PN.picked.add(e.path); else PN.picked.delete(e.path); pnSync(); });
     body.appendChild(row);
   }
