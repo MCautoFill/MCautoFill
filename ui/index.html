@@ -413,8 +413,9 @@ function cardEl(pc) {
     `<div class="nm">${pc.name}</div>` + (also.length ? `<div class="nm also" title="also printed in: ${also.join(', ')}">${CORE.has(pc.front)?'<b>core</b> · ':(DUP[pc.front]?`<b>reprint of ${DUP[pc.front]}</b> · `:'')}also in ${also.join(', ')}</div>` : '');
   e.querySelector('img').addEventListener('click', () => {
     if (!have(pc.front)) return;
-    $('#lightImg').src = `/img/${encodeURIComponent(imgCode(pc.front))}?full=1`;
-    const lb = $('#lightBack'); if (pc.back && have(pc.back)) { lb.src = `/img/${encodeURIComponent(imgCode(pc.back))}?full=1`; lb.hidden = false; } else lb.hidden = true;
+    $('#lightImg').src = `${imgUrl(imgCode(pc.front), pc.name)}&full=1`;
+    const hasBack = pc.back && (pc.have_back !== undefined ? pc.have_back : have(pc.back));
+    const lb = $('#lightBack'); if (hasBack) { lb.src = `${imgUrl(imgCode(pc.back), pc.name)}&full=1`; lb.hidden = false; } else lb.hidden = true;
     $('#lightbox').style.display='flex';
   });
   return e;
