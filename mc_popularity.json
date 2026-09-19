@@ -1,6944 +1,6956 @@
 {
- "generated": "2026-09-17",
- "decklists": 20191,
- "since": "2024-09-17",
- "cap_rate": 0.3174,
+ "generated": "2026-09-18",
+ "decklists": 20222,
+ "since": "2024-09-18",
+ "breakpoints": {
+  "10": 0.3,
+  "9": 0.22,
+  "8": 0.16,
+  "7": 0.12,
+  "6": 0.09,
+  "5": 0.065,
+  "4": 0.045,
+  "3": 0.03,
+  "2": 0.015,
+  "1": 0.0001
+ },
+ "basic_factor": 0.7,
  "cards": {
   "01050": {
-   "popularity": 5,
-   "decks": 809,
-   "eligible": 4646,
-   "rate": 0.1741
+   "popularity": 8,
+   "decks": 810,
+   "eligible": 4651,
+   "rate": 0.1742
   },
   "01051": {
-   "popularity": 3,
-   "decks": 466,
-   "eligible": 4646,
-   "rate": 0.1003
+   "popularity": 6,
+   "decks": 469,
+   "eligible": 4651,
+   "rate": 0.1008
   },
   "01052": {
-   "popularity": 4,
-   "decks": 589,
-   "eligible": 4646,
-   "rate": 0.1268
+   "popularity": 7,
+   "decks": 587,
+   "eligible": 4651,
+   "rate": 0.1262
   },
   "01053": {
-   "popularity": 4,
-   "decks": 631,
-   "eligible": 4646,
-   "rate": 0.1358
+   "popularity": 7,
+   "decks": 634,
+   "eligible": 4651,
+   "rate": 0.1363
   },
   "01054": {
-   "popularity": 2,
-   "decks": 291,
-   "eligible": 4646,
-   "rate": 0.0626
+   "popularity": 4,
+   "decks": 289,
+   "eligible": 4651,
+   "rate": 0.0621
   },
   "01055": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "01056": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 285,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0613
   },
   "01057": {
    "popularity": 10,
-   "decks": 2443,
-   "eligible": 4646,
-   "rate": 0.5258
+   "decks": 2447,
+   "eligible": 4651,
+   "rate": 0.5261
   },
   "01059": {
-   "popularity": 5,
-   "decks": 688,
-   "eligible": 4581,
-   "rate": 0.1502
+   "popularity": 7,
+   "decks": 693,
+   "eligible": 4590,
+   "rate": 0.151
   },
   "01058": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 485,
-   "eligible": 4581,
-   "rate": 0.1059
+   "eligible": 4590,
+   "rate": 0.1057
   },
   "01060": {
-   "popularity": 7,
-   "decks": 1005,
-   "eligible": 4581,
-   "rate": 0.2194
+   "popularity": 8,
+   "decks": 1000,
+   "eligible": 4590,
+   "rate": 0.2179
   },
   "01061": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 213,
-   "eligible": 4581,
-   "rate": 0.0465
+   "eligible": 4590,
+   "rate": 0.0464
   },
   "01062": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "01063": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 474,
-   "eligible": 4581,
-   "rate": 0.1035
+   "eligible": 4590,
+   "rate": 0.1033
   },
   "01064": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 814,
-   "eligible": 4581,
-   "rate": 0.1777
+   "eligible": 4590,
+   "rate": 0.1773
   },
   "01065": {
    "popularity": 10,
-   "decks": 1851,
-   "eligible": 4581,
-   "rate": 0.4041
+   "decks": 1853,
+   "eligible": 4590,
+   "rate": 0.4037
   },
   "01066": {
-   "popularity": 6,
-   "decks": 1055,
-   "eligible": 5296,
-   "rate": 0.1992
+   "popularity": 8,
+   "decks": 1057,
+   "eligible": 5300,
+   "rate": 0.1994
   },
   "01067": {
    "popularity": 9,
-   "decks": 1532,
-   "eligible": 5296,
-   "rate": 0.2893
+   "decks": 1535,
+   "eligible": 5300,
+   "rate": 0.2896
   },
   "01068": {
-   "popularity": 2,
-   "decks": 388,
-   "eligible": 5296,
-   "rate": 0.0733
+   "popularity": 5,
+   "decks": 389,
+   "eligible": 5300,
+   "rate": 0.0734
   },
   "01069": {
-   "popularity": 4,
-   "decks": 740,
-   "eligible": 5296,
-   "rate": 0.1397
+   "popularity": 7,
+   "decks": 742,
+   "eligible": 5300,
+   "rate": 0.14
   },
   "01070": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 486,
-   "eligible": 5296,
-   "rate": 0.0918
+   "eligible": 5300,
+   "rate": 0.0917
   },
   "01071": {
    "popularity": 10,
-   "decks": 1948,
-   "eligible": 5296,
-   "rate": 0.3678
+   "decks": 1949,
+   "eligible": 5300,
+   "rate": 0.3677
   },
   "01072": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "01073": {
    "popularity": 10,
-   "decks": 1827,
-   "eligible": 5296,
-   "rate": 0.345
+   "decks": 1828,
+   "eligible": 5300,
+   "rate": 0.3449
   },
   "01074": {
-   "popularity": 8,
-   "decks": 1396,
-   "eligible": 5296,
-   "rate": 0.2636
+   "popularity": 9,
+   "decks": 1395,
+   "eligible": 5300,
+   "rate": 0.2632
   },
   "01075": {
-   "popularity": 3,
-   "decks": 456,
-   "eligible": 4839,
-   "rate": 0.0942
+   "popularity": 6,
+   "decks": 458,
+   "eligible": 4853,
+   "rate": 0.0944
   },
   "01076": {
-   "popularity": 2,
-   "decks": 294,
-   "eligible": 4839,
+   "popularity": 4,
+   "decks": 295,
+   "eligible": 4853,
    "rate": 0.0608
   },
   "01077": {
-   "popularity": 3,
-   "decks": 467,
-   "eligible": 4839,
-   "rate": 0.0965
+   "popularity": 6,
+   "decks": 466,
+   "eligible": 4853,
+   "rate": 0.096
   },
   "01078": {
-   "popularity": 2,
-   "decks": 312,
-   "eligible": 4839,
-   "rate": 0.0645
+   "popularity": 5,
+   "decks": 316,
+   "eligible": 4853,
+   "rate": 0.0651
   },
   "01079": {
    "popularity": 10,
-   "decks": 1693,
-   "eligible": 4839,
-   "rate": 0.3499
+   "decks": 1703,
+   "eligible": 4853,
+   "rate": 0.3509
   },
   "01080": {
-   "popularity": 7,
-   "decks": 1017,
-   "eligible": 4839,
-   "rate": 0.2102
+   "popularity": 8,
+   "decks": 1025,
+   "eligible": 4853,
+   "rate": 0.2112
   },
   "01081": {
    "popularity": 10,
-   "decks": 2562,
-   "eligible": 4839,
-   "rate": 0.5294
+   "decks": 2570,
+   "eligible": 4853,
+   "rate": 0.5296
   },
   "01082": {
-   "popularity": 6,
-   "decks": 876,
-   "eligible": 4839,
-   "rate": 0.181
+   "popularity": 8,
+   "decks": 879,
+   "eligible": 4853,
+   "rate": 0.1811
   },
   "01083": {
-   "popularity": 4,
-   "decks": 2378,
-   "eligible": 19907,
-   "rate": 0.1195
+   "popularity": 8,
+   "decks": 2377,
+   "eligible": 19935,
+   "rate": 0.1192
   },
   "01084": {
-   "popularity": 8,
-   "decks": 4868,
-   "eligible": 19907,
-   "rate": 0.2445
+   "popularity": 10,
+   "decks": 4879,
+   "eligible": 19935,
+   "rate": 0.2447
   },
   "01085": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 330,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0166
   },
   "01086": {
-   "popularity": 2,
-   "decks": 1186,
-   "eligible": 19907,
-   "rate": 0.0596
+   "popularity": 5,
+   "decks": 1193,
+   "eligible": 19935,
+   "rate": 0.0598
   },
   "01087": {
-   "popularity": 1,
-   "decks": 382,
-   "eligible": 19907,
-   "rate": 0.0192
+   "popularity": 2,
+   "decks": 379,
+   "eligible": 19935,
+   "rate": 0.019
   },
   "01088": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "01089": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "01090": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "01091": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "01092": {
    "popularity": 10,
-   "decks": 7852,
-   "eligible": 19907,
-   "rate": 0.3944
+   "decks": 7860,
+   "eligible": 19935,
+   "rate": 0.3943
   },
   "01093": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 329,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0165
   },
   "03011": {
-   "popularity": 3,
-   "decks": 505,
-   "eligible": 5296,
-   "rate": 0.0954
+   "popularity": 6,
+   "decks": 506,
+   "eligible": 5300,
+   "rate": 0.0955
   },
   "03015": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 355,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.067
   },
   "03025": {
-   "popularity": 1,
-   "decks": 481,
-   "eligible": 19907,
-   "rate": 0.0242
+   "popularity": 3,
+   "decks": 480,
+   "eligible": 19935,
+   "rate": 0.0241
   },
   "03032": {
-   "popularity": 2,
-   "decks": 341,
-   "eligible": 4581,
-   "rate": 0.0744
+   "popularity": 5,
+   "decks": 343,
+   "eligible": 4590,
+   "rate": 0.0747
   },
   "03033": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 303,
-   "eligible": 4839,
-   "rate": 0.0626
+   "eligible": 4853,
+   "rate": 0.0624
   },
   "05017": {
-   "popularity": 7,
-   "decks": 1131,
-   "eligible": 4839,
-   "rate": 0.2337
+   "popularity": 9,
+   "decks": 1139,
+   "eligible": 4853,
+   "rate": 0.2347
   },
   "05015": {
-   "popularity": 2,
-   "decks": 258,
-   "eligible": 4839,
-   "rate": 0.0533
+   "popularity": 4,
+   "decks": 260,
+   "eligible": 4853,
+   "rate": 0.0536
   },
   "03013": {
-   "popularity": 4,
-   "decks": 720,
-   "eligible": 5296,
+   "popularity": 7,
+   "decks": 721,
+   "eligible": 5300,
    "rate": 0.136
   },
   "05014": {
-   "popularity": 3,
-   "decks": 474,
-   "eligible": 4839,
-   "rate": 0.098
+   "popularity": 6,
+   "decks": 476,
+   "eligible": 4853,
+   "rate": 0.0981
   },
   "03017": {
-   "popularity": 3,
-   "decks": 581,
-   "eligible": 5296,
-   "rate": 0.1097
+   "popularity": 6,
+   "decks": 582,
+   "eligible": 5300,
+   "rate": 0.1098
   },
   "03019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 280,
-   "eligible": 5296,
-   "rate": 0.0529
+   "eligible": 5300,
+   "rate": 0.0528
   },
   "03024": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 888,
-   "eligible": 19907,
-   "rate": 0.0446
+   "eligible": 19935,
+   "rate": 0.0445
   },
   "06011": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 131,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0282
   },
   "06012": {
-   "popularity": 2,
-   "decks": 350,
-   "eligible": 4646,
-   "rate": 0.0753
+   "popularity": 5,
+   "decks": 348,
+   "eligible": 4651,
+   "rate": 0.0748
   },
   "06019": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 567,
-   "eligible": 4646,
-   "rate": 0.122
+   "eligible": 4651,
+   "rate": 0.1219
   },
   "06032": {
-   "popularity": 2,
-   "decks": 384,
-   "eligible": 5296,
-   "rate": 0.0725
+   "popularity": 5,
+   "decks": 385,
+   "eligible": 5300,
+   "rate": 0.0726
   },
   "05012": {
-   "popularity": 2,
-   "decks": 247,
-   "eligible": 4839,
-   "rate": 0.051
+   "popularity": 4,
+   "decks": 248,
+   "eligible": 4853,
+   "rate": 0.0511
   },
   "06017": {
-   "popularity": 8,
-   "decks": 1125,
-   "eligible": 4646,
-   "rate": 0.2421
+   "popularity": 9,
+   "decks": 1123,
+   "eligible": 4651,
+   "rate": 0.2415
   },
   "06018": {
-   "popularity": 3,
-   "decks": 445,
-   "eligible": 4646,
-   "rate": 0.0958
+   "popularity": 6,
+   "decks": 448,
+   "eligible": 4651,
+   "rate": 0.0963
   },
   "05024": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 328,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0165
   },
   "03031": {
-   "popularity": 1,
-   "decks": 146,
-   "eligible": 4646,
-   "rate": 0.0314
+   "popularity": 3,
+   "decks": 147,
+   "eligible": 4651,
+   "rate": 0.0316
   },
   "03034": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 310,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0156
   },
   "05032": {
-   "popularity": 1,
-   "decks": 195,
-   "eligible": 5296,
-   "rate": 0.0368
+   "popularity": 3,
+   "decks": 194,
+   "eligible": 5300,
+   "rate": 0.0366
   },
   "05033": {
-   "popularity": 3,
-   "decks": 1816,
-   "eligible": 19907,
-   "rate": 0.0912
+   "popularity": 7,
+   "decks": 1812,
+   "eligible": 19935,
+   "rate": 0.0909
   },
   "05018": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 476,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0239
   },
   "05023": {
-   "popularity": 7,
-   "decks": 4425,
-   "eligible": 19907,
-   "rate": 0.2223
+   "popularity": 10,
+   "decks": 4427,
+   "eligible": 19935,
+   "rate": 0.2221
   },
   "05030": {
-   "popularity": 3,
-   "decks": 401,
-   "eligible": 4646,
-   "rate": 0.0863
+   "popularity": 5,
+   "decks": 400,
+   "eligible": 4651,
+   "rate": 0.086
   },
   "05031": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 397,
-   "eligible": 4581,
-   "rate": 0.0867
+   "eligible": 4590,
+   "rate": 0.0865
   },
   "03014": {
-   "popularity": 2,
-   "decks": 300,
-   "eligible": 5296,
-   "rate": 0.0566
+   "popularity": 4,
+   "decks": 299,
+   "eligible": 5300,
+   "rate": 0.0564
   },
   "08011": {
-   "popularity": 5,
-   "decks": 731,
-   "eligible": 4581,
-   "rate": 0.1596
+   "popularity": 7,
+   "decks": 733,
+   "eligible": 4590,
+   "rate": 0.1597
   },
   "08017": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 615,
-   "eligible": 4581,
-   "rate": 0.1343
+   "eligible": 4590,
+   "rate": 0.134
   },
   "08031": {
-   "popularity": 8,
-   "decks": 1311,
-   "eligible": 5296,
-   "rate": 0.2475
+   "popularity": 9,
+   "decks": 1310,
+   "eligible": 5300,
+   "rate": 0.2472
   },
   "09014": {
-   "popularity": 2,
-   "decks": 319,
-   "eligible": 4839,
-   "rate": 0.0659
+   "popularity": 5,
+   "decks": 321,
+   "eligible": 4853,
+   "rate": 0.0661
   },
   "09015": {
-   "popularity": 7,
-   "decks": 1076,
-   "eligible": 4839,
-   "rate": 0.2224
+   "popularity": 9,
+   "decks": 1082,
+   "eligible": 4853,
+   "rate": 0.223
   },
   "09019": {
-   "popularity": 8,
-   "decks": 1248,
-   "eligible": 4839,
-   "rate": 0.2579
+   "popularity": 9,
+   "decks": 1253,
+   "eligible": 4853,
+   "rate": 0.2582
   },
   "09020": {
    "popularity": 10,
-   "decks": 2174,
-   "eligible": 4839,
-   "rate": 0.4493
+   "decks": 2181,
+   "eligible": 4853,
+   "rate": 0.4494
   },
   "09039": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 239,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0451
   },
   "10015": {
-   "popularity": 3,
-   "decks": 420,
-   "eligible": 4646,
-   "rate": 0.0904
+   "popularity": 6,
+   "decks": 421,
+   "eligible": 4651,
+   "rate": 0.0905
   },
   "10016": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 319,
-   "eligible": 4646,
-   "rate": 0.0687
+   "eligible": 4651,
+   "rate": 0.0686
   },
   "10029": {
-   "popularity": 5,
-   "decks": 674,
-   "eligible": 4581,
-   "rate": 0.1471
+   "popularity": 7,
+   "decks": 673,
+   "eligible": 4590,
+   "rate": 0.1466
   },
   "06014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 113,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0243
   },
   "06015": {
-   "popularity": 4,
-   "decks": 586,
-   "eligible": 4646,
-   "rate": 0.1261
+   "popularity": 7,
+   "decks": 589,
+   "eligible": 4651,
+   "rate": 0.1266
   },
   "06020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 145,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0073
   },
   "06021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 57,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0029
   },
   "06031": {
    "popularity": 10,
-   "decks": 1631,
-   "eligible": 4581,
+   "decks": 1634,
+   "eligible": 4590,
    "rate": 0.356
   },
   "06033": {
-   "popularity": 1,
-   "decks": 114,
-   "eligible": 4839,
-   "rate": 0.0236
+   "popularity": 2,
+   "decks": 117,
+   "eligible": 4853,
+   "rate": 0.0241
   },
   "06034": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 386,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0194
   },
   "08012": {
-   "popularity": 6,
-   "decks": 867,
-   "eligible": 4581,
+   "popularity": 8,
+   "decks": 869,
+   "eligible": 4590,
    "rate": 0.1893
   },
   "08013": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 284,
-   "eligible": 4581,
-   "rate": 0.062
+   "eligible": 4590,
+   "rate": 0.0619
   },
   "08018": {
-   "popularity": 2,
-   "decks": 257,
-   "eligible": 4581,
-   "rate": 0.0561
+   "popularity": 4,
+   "decks": 260,
+   "eligible": 4590,
+   "rate": 0.0566
   },
   "08023": {
-   "popularity": 7,
-   "decks": 4371,
-   "eligible": 19907,
-   "rate": 0.2196
+   "popularity": 10,
+   "decks": 4373,
+   "eligible": 19935,
+   "rate": 0.2194
   },
   "08024": {
-   "popularity": 1,
-   "decks": 353,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 352,
+   "eligible": 19935,
    "rate": 0.0177
   },
   "08030": {
-   "popularity": 2,
-   "decks": 259,
-   "eligible": 4646,
-   "rate": 0.0557
+   "popularity": 4,
+   "decks": 258,
+   "eligible": 4651,
+   "rate": 0.0555
   },
   "08032": {
-   "popularity": 1,
-   "decks": 140,
-   "eligible": 4839,
-   "rate": 0.0289
+   "popularity": 2,
+   "decks": 138,
+   "eligible": 4853,
+   "rate": 0.0284
   },
   "08033": {
-   "popularity": 1,
-   "decks": 341,
-   "eligible": 19907,
-   "rate": 0.0171
+   "popularity": 2,
+   "decks": 343,
+   "eligible": 19935,
+   "rate": 0.0172
   },
   "09012": {
-   "popularity": 3,
-   "decks": 522,
-   "eligible": 4839,
-   "rate": 0.1079
+   "popularity": 6,
+   "decks": 525,
+   "eligible": 4853,
+   "rate": 0.1082
   },
   "09013": {
-   "popularity": 2,
-   "decks": 306,
-   "eligible": 4839,
-   "rate": 0.0632
+   "popularity": 4,
+   "decks": 309,
+   "eligible": 4853,
+   "rate": 0.0637
   },
   "09016": {
-   "popularity": 2,
-   "decks": 259,
-   "eligible": 4839,
-   "rate": 0.0535
+   "popularity": 4,
+   "decks": 261,
+   "eligible": 4853,
+   "rate": 0.0538
   },
   "09021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 79,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.004
   },
   "09026": {
-   "popularity": 2,
-   "decks": 1052,
-   "eligible": 19907,
-   "rate": 0.0528
+   "popularity": 5,
+   "decks": 1054,
+   "eligible": 19935,
+   "rate": 0.0529
   },
   "09037": {
-   "popularity": 4,
-   "decks": 567,
-   "eligible": 4646,
-   "rate": 0.122
+   "popularity": 7,
+   "decks": 569,
+   "eligible": 4651,
+   "rate": 0.1223
   },
   "09038": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 260,
-   "eligible": 4581,
-   "rate": 0.0568
+   "eligible": 4590,
+   "rate": 0.0566
   },
   "10011": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 353,
-   "eligible": 4646,
-   "rate": 0.076
+   "eligible": 4651,
+   "rate": 0.0759
   },
   "10012": {
-   "popularity": 1,
-   "decks": 149,
-   "eligible": 4646,
-   "rate": 0.0321
+   "popularity": 3,
+   "decks": 150,
+   "eligible": 4651,
+   "rate": 0.0323
   },
   "10013": {
-   "popularity": 1,
-   "decks": 187,
-   "eligible": 4646,
-   "rate": 0.0402
+   "popularity": 3,
+   "decks": 185,
+   "eligible": 4651,
+   "rate": 0.0398
   },
   "10014": {
-   "popularity": 4,
-   "decks": 583,
-   "eligible": 4646,
-   "rate": 0.1255
+   "popularity": 7,
+   "decks": 584,
+   "eligible": 4651,
+   "rate": 0.1256
   },
   "10018": {
    "popularity": 10,
-   "decks": 1433,
-   "eligible": 4646,
-   "rate": 0.3084
+   "decks": 1434,
+   "eligible": 4651,
+   "rate": 0.3083
   },
   "10019": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 79,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.004
   },
   "10030": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 313,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0591
   },
   "10031": {
    "popularity": 10,
-   "decks": 1793,
-   "eligible": 4839,
-   "rate": 0.3705
+   "decks": 1797,
+   "eligible": 4853,
+   "rate": 0.3703
   },
   "10032": {
-   "popularity": 0,
-   "decks": 128,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 127,
+   "eligible": 19935,
    "rate": 0.0064
   },
   "12024": {
-   "popularity": 4,
-   "decks": 2485,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2487,
+   "eligible": 19935,
    "rate": 0.1248
   },
   "04011": {
-   "popularity": 6,
-   "decks": 1055,
-   "eligible": 5296,
-   "rate": 0.1992
+   "popularity": 8,
+   "decks": 1057,
+   "eligible": 5300,
+   "rate": 0.1994
   },
   "04016": {
    "popularity": 9,
    "decks": 1496,
-   "eligible": 5296,
-   "rate": 0.2825
+   "eligible": 5300,
+   "rate": 0.2823
   },
   "04043": {
-   "popularity": 2,
-   "decks": 312,
-   "eligible": 4646,
-   "rate": 0.0672
+   "popularity": 5,
+   "decks": 311,
+   "eligible": 4651,
+   "rate": 0.0669
   },
   "04012": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 246,
-   "eligible": 5296,
-   "rate": 0.0465
+   "eligible": 5300,
+   "rate": 0.0464
   },
   "04013": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 269,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0508
   },
   "04020": {
-   "popularity": 1,
-   "decks": 442,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 443,
+   "eligible": 19935,
    "rate": 0.0222
   },
   "04040": {
-   "popularity": 5,
-   "decks": 718,
-   "eligible": 4646,
-   "rate": 0.1545
+   "popularity": 7,
+   "decks": 721,
+   "eligible": 4651,
+   "rate": 0.155
   },
   "04047": {
    "popularity": 10,
    "decks": 2266,
-   "eligible": 4581,
-   "rate": 0.4947
+   "eligible": 4590,
+   "rate": 0.4937
   },
   "04014": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 205,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0387
   },
   "04015": {
-   "popularity": 2,
-   "decks": 379,
-   "eligible": 5296,
-   "rate": 0.0716
+   "popularity": 5,
+   "decks": 378,
+   "eligible": 5300,
+   "rate": 0.0713
   },
   "04017": {
-   "popularity": 1,
-   "decks": 189,
-   "eligible": 5296,
-   "rate": 0.0357
+   "popularity": 3,
+   "decks": 188,
+   "eligible": 5300,
+   "rate": 0.0355
   },
   "04022": {
-   "popularity": 1,
-   "decks": 645,
-   "eligible": 19907,
-   "rate": 0.0324
+   "popularity": 4,
+   "decks": 650,
+   "eligible": 19935,
+   "rate": 0.0326
   },
   "04044": {
-   "popularity": 1,
-   "decks": 203,
-   "eligible": 4646,
-   "rate": 0.0437
+   "popularity": 3,
+   "decks": 204,
+   "eligible": 4651,
+   "rate": 0.0439
   },
   "04045": {
-   "popularity": 3,
-   "decks": 497,
-   "eligible": 4581,
+   "popularity": 6,
+   "decks": 498,
+   "eligible": 4590,
    "rate": 0.1085
   },
   "04049": {
-   "popularity": 7,
-   "decks": 1034,
-   "eligible": 4581,
-   "rate": 0.2257
+   "popularity": 9,
+   "decks": 1032,
+   "eligible": 4590,
+   "rate": 0.2248
   },
   "04035": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 86,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0185
   },
   "04036": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 155,
-   "eligible": 5296,
-   "rate": 0.0293
+   "eligible": 5300,
+   "rate": 0.0292
   },
   "04037": {
-   "popularity": 1,
-   "decks": 89,
-   "eligible": 4839,
-   "rate": 0.0184
+   "popularity": 2,
+   "decks": 87,
+   "eligible": 4853,
+   "rate": 0.0179
   },
   "04038": {
-   "popularity": 1,
-   "decks": 95,
-   "eligible": 4581,
-   "rate": 0.0207
+   "popularity": 2,
+   "decks": 96,
+   "eligible": 4590,
+   "rate": 0.0209
   },
   "12011": {
-   "popularity": 4,
-   "decks": 647,
-   "eligible": 5296,
-   "rate": 0.1222
+   "popularity": 7,
+   "decks": 646,
+   "eligible": 5300,
+   "rate": 0.1219
   },
   "12012": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 266,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0502
   },
   "12013": {
-   "popularity": 1,
-   "decks": 243,
-   "eligible": 5296,
-   "rate": 0.0459
+   "popularity": 4,
+   "decks": 242,
+   "eligible": 5300,
+   "rate": 0.0457
   },
   "12014": {
-   "popularity": 5,
+   "popularity": 7,
    "decks": 803,
-   "eligible": 5296,
-   "rate": 0.1516
+   "eligible": 5300,
+   "rate": 0.1515
   },
   "12015": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 304,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0574
   },
   "12016": {
-   "popularity": 1,
-   "decks": 168,
-   "eligible": 5296,
-   "rate": 0.0317
+   "popularity": 3,
+   "decks": 167,
+   "eligible": 5300,
+   "rate": 0.0315
   },
   "12017": {
-   "popularity": 2,
-   "decks": 294,
-   "eligible": 5296,
-   "rate": 0.0555
+   "popularity": 4,
+   "decks": 292,
+   "eligible": 5300,
+   "rate": 0.0551
   },
   "12018": {
-   "popularity": 6,
-   "decks": 960,
-   "eligible": 5296,
-   "rate": 0.1813
+   "popularity": 8,
+   "decks": 959,
+   "eligible": 5300,
+   "rate": 0.1809
   },
   "12020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 169,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0085
   },
   "12030": {
-   "popularity": 4,
-   "decks": 578,
-   "eligible": 4646,
-   "rate": 0.1244
+   "popularity": 7,
+   "decks": 579,
+   "eligible": 4651,
+   "rate": 0.1245
   },
   "12031": {
-   "popularity": 3,
-   "decks": 396,
-   "eligible": 4581,
-   "rate": 0.0864
+   "popularity": 5,
+   "decks": 398,
+   "eligible": 4590,
+   "rate": 0.0867
   },
   "12032": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 71,
-   "eligible": 4839,
-   "rate": 0.0147
+   "eligible": 4853,
+   "rate": 0.0146
   },
   "12033": {
-   "popularity": 1,
-   "decks": 463,
-   "eligible": 19907,
-   "rate": 0.0233
+   "popularity": 3,
+   "decks": 466,
+   "eligible": 19935,
+   "rate": 0.0234
   },
   "13011": {
-   "popularity": 4,
-   "decks": 525,
-   "eligible": 4646,
-   "rate": 0.113
+   "popularity": 6,
+   "decks": 529,
+   "eligible": 4651,
+   "rate": 0.1137
   },
   "13014": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 278,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0598
   },
   "13017": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 168,
-   "eligible": 4646,
-   "rate": 0.0362
+   "eligible": 4651,
+   "rate": 0.0361
   },
   "13020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 169,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0085
   },
   "14012": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 91,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0188
   },
   "14013": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 50,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0103
   },
   "14014": {
-   "popularity": 3,
-   "decks": 492,
-   "eligible": 4839,
-   "rate": 0.1017
+   "popularity": 6,
+   "decks": 494,
+   "eligible": 4853,
+   "rate": 0.1018
   },
   "14015": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 294,
-   "eligible": 4839,
-   "rate": 0.0608
+   "eligible": 4853,
+   "rate": 0.0606
   },
   "14017": {
-   "popularity": 5,
-   "decks": 699,
-   "eligible": 4839,
-   "rate": 0.1445
+   "popularity": 7,
+   "decks": 701,
+   "eligible": 4853,
+   "rate": 0.1444
   },
   "14018": {
-   "popularity": 0,
-   "decks": 128,
-   "eligible": 19907,
-   "rate": 0.0064
+   "popularity": 1,
+   "decks": 126,
+   "eligible": 19935,
+   "rate": 0.0063
   },
   "14022": {
-   "popularity": 0,
-   "decks": 201,
-   "eligible": 19907,
-   "rate": 0.0101
+   "popularity": 1,
+   "decks": 199,
+   "eligible": 19935,
+   "rate": 0.01
   },
   "14023": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 105,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0053
   },
   "14029": {
-   "popularity": 1,
-   "decks": 163,
-   "eligible": 4646,
-   "rate": 0.0351
+   "popularity": 3,
+   "decks": 162,
+   "eligible": 4651,
+   "rate": 0.0348
   },
   "14030": {
-   "popularity": 5,
-   "decks": 794,
-   "eligible": 4581,
-   "rate": 0.1733
+   "popularity": 8,
+   "decks": 789,
+   "eligible": 4590,
+   "rate": 0.1719
   },
   "14031": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 132,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0249
   },
   "14032": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 63,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0032
   },
   "13012": {
-   "popularity": 3,
-   "decks": 398,
-   "eligible": 4646,
-   "rate": 0.0857
+   "popularity": 5,
+   "decks": 400,
+   "eligible": 4651,
+   "rate": 0.086
   },
   "13013": {
-   "popularity": 5,
+   "popularity": 7,
    "decks": 703,
-   "eligible": 4646,
-   "rate": 0.1513
+   "eligible": 4651,
+   "rate": 0.1512
   },
   "13016": {
-   "popularity": 4,
-   "decks": 642,
-   "eligible": 4646,
+   "popularity": 7,
+   "decks": 643,
+   "eligible": 4651,
    "rate": 0.1382
   },
   "13018": {
-   "popularity": 3,
-   "decks": 1942,
-   "eligible": 19907,
-   "rate": 0.0976
+   "popularity": 7,
+   "decks": 1941,
+   "eligible": 19935,
+   "rate": 0.0974
   },
   "13019": {
-   "popularity": 2,
-   "decks": 1576,
-   "eligible": 19907,
-   "rate": 0.0792
+   "popularity": 6,
+   "decks": 1586,
+   "eligible": 19935,
+   "rate": 0.0796
   },
   "13024": {
-   "popularity": 4,
-   "decks": 2405,
-   "eligible": 19907,
-   "rate": 0.1208
+   "popularity": 8,
+   "decks": 2411,
+   "eligible": 19935,
+   "rate": 0.1209
   },
   "13031": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 63,
-   "eligible": 4581,
-   "rate": 0.0138
+   "eligible": 4590,
+   "rate": 0.0137
   },
   "13032": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 54,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0102
   },
   "13033": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 304,
-   "eligible": 4839,
-   "rate": 0.0628
+   "eligible": 4853,
+   "rate": 0.0626
   },
   "13034": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 59,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.003
   },
   "15010": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 226,
-   "eligible": 4581,
-   "rate": 0.0493
+   "eligible": 4590,
+   "rate": 0.0492
   },
   "15011": {
-   "popularity": 4,
-   "decks": 569,
-   "eligible": 4581,
+   "popularity": 7,
+   "decks": 570,
+   "eligible": 4590,
    "rate": 0.1242
   },
   "15012": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 395,
-   "eligible": 4581,
-   "rate": 0.0862
+   "eligible": 4590,
+   "rate": 0.0861
   },
   "15013": {
-   "popularity": 5,
-   "decks": 684,
-   "eligible": 4581,
-   "rate": 0.1493
+   "popularity": 7,
+   "decks": 680,
+   "eligible": 4590,
+   "rate": 0.1481
   },
   "15014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 102,
-   "eligible": 4581,
-   "rate": 0.0223
+   "eligible": 4590,
+   "rate": 0.0222
   },
   "15015": {
-   "popularity": 4,
-   "decks": 515,
-   "eligible": 4581,
-   "rate": 0.1124
+   "popularity": 6,
+   "decks": 517,
+   "eligible": 4590,
+   "rate": 0.1126
   },
   "15019": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 796,
-   "eligible": 19907,
-   "rate": 0.04
+   "eligible": 19935,
+   "rate": 0.0399
   },
   "15028": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 38,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0082
   },
   "15029": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 147,
-   "eligible": 5296,
-   "rate": 0.0278
+   "eligible": 5300,
+   "rate": 0.0277
   },
   "15030": {
-   "popularity": 2,
-   "decks": 301,
-   "eligible": 4839,
-   "rate": 0.0622
+   "popularity": 4,
+   "decks": 299,
+   "eligible": 4853,
+   "rate": 0.0616
   },
   "15031": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 106,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0053
   },
   "16012": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 406,
-   "eligible": 4839,
-   "rate": 0.0839
+   "eligible": 4853,
+   "rate": 0.0837
   },
   "16014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 83,
-   "eligible": 4839,
-   "rate": 0.0172
+   "eligible": 4853,
+   "rate": 0.0171
   },
   "16016": {
-   "popularity": 5,
-   "decks": 761,
-   "eligible": 4839,
-   "rate": 0.1573
+   "popularity": 7,
+   "decks": 765,
+   "eligible": 4853,
+   "rate": 0.1576
   },
   "16017": {
-   "popularity": 6,
-   "decks": 887,
-   "eligible": 4839,
-   "rate": 0.1833
+   "popularity": 8,
+   "decks": 889,
+   "eligible": 4853,
+   "rate": 0.1832
   },
   "16019": {
-   "popularity": 1,
-   "decks": 522,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 523,
+   "eligible": 19935,
    "rate": 0.0262
   },
   "16020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 169,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0085
   },
   "16024": {
-   "popularity": 5,
-   "decks": 2991,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2995,
+   "eligible": 19935,
    "rate": 0.1502
   },
   "16040": {
-   "popularity": 4,
-   "decks": 525,
-   "eligible": 4646,
-   "rate": 0.113
+   "popularity": 6,
+   "decks": 526,
+   "eligible": 4651,
+   "rate": 0.1131
   },
   "16043": {
-   "popularity": 4,
-   "decks": 572,
-   "eligible": 4646,
-   "rate": 0.1231
+   "popularity": 7,
+   "decks": 574,
+   "eligible": 4651,
+   "rate": 0.1234
   },
   "16045": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 280,
-   "eligible": 4646,
-   "rate": 0.0603
+   "eligible": 4651,
+   "rate": 0.0602
   },
   "16046": {
-   "popularity": 5,
+   "popularity": 7,
    "decks": 723,
-   "eligible": 4646,
-   "rate": 0.1556
+   "eligible": 4651,
+   "rate": 0.1555
   },
   "16047": {
-   "popularity": 1,
-   "decks": 631,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 632,
+   "eligible": 19935,
    "rate": 0.0317
   },
   "16048": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 169,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0085
   },
   "16052": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 264,
-   "eligible": 19907,
-   "rate": 0.0133
+   "eligible": 19935,
+   "rate": 0.0132
   },
   "16013": {
-   "popularity": 7,
-   "decks": 1076,
-   "eligible": 4839,
-   "rate": 0.2224
+   "popularity": 9,
+   "decks": 1082,
+   "eligible": 4853,
+   "rate": 0.223
   },
   "16015": {
    "popularity": 10,
-   "decks": 1693,
-   "eligible": 4839,
-   "rate": 0.3499
+   "decks": 1703,
+   "eligible": 4853,
+   "rate": 0.3509
   },
   "16018": {
-   "popularity": 6,
-   "decks": 876,
-   "eligible": 4839,
-   "rate": 0.181
+   "popularity": 8,
+   "decks": 879,
+   "eligible": 4853,
+   "rate": 0.1811
   },
   "16021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "16022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "16023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "16041": {
-   "popularity": 4,
-   "decks": 589,
-   "eligible": 4646,
-   "rate": 0.1268
+   "popularity": 7,
+   "decks": 587,
+   "eligible": 4651,
+   "rate": 0.1262
   },
   "16042": {
-   "popularity": 5,
+   "popularity": 7,
    "decks": 703,
-   "eligible": 4646,
-   "rate": 0.1513
+   "eligible": 4651,
+   "rate": 0.1512
   },
   "16044": {
-   "popularity": 4,
-   "decks": 631,
-   "eligible": 4646,
-   "rate": 0.1358
+   "popularity": 7,
+   "decks": 634,
+   "eligible": 4651,
+   "rate": 0.1363
   },
   "16049": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "16050": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "16051": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "15016": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "15017": {
    "popularity": 10,
-   "decks": 1851,
-   "eligible": 4581,
-   "rate": 0.4041
+   "decks": 1853,
+   "eligible": 4590,
+   "rate": 0.4037
   },
   "15018": {
-   "popularity": 0,
-   "decks": 128,
-   "eligible": 19907,
-   "rate": 0.0064
+   "popularity": 1,
+   "decks": 126,
+   "eligible": 19935,
+   "rate": 0.0063
   },
   "15020": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "15021": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "15022": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "03012": {
-   "popularity": 6,
-   "decks": 1055,
-   "eligible": 5296,
-   "rate": 0.1992
+   "popularity": 8,
+   "decks": 1057,
+   "eligible": 5300,
+   "rate": 0.1994
   },
   "03016": {
    "popularity": 10,
-   "decks": 1948,
-   "eligible": 5296,
-   "rate": 0.3678
+   "decks": 1949,
+   "eligible": 5300,
+   "rate": 0.3677
   },
   "03018": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "03020": {
-   "popularity": 4,
-   "decks": 2378,
-   "eligible": 19907,
-   "rate": 0.1195
+   "popularity": 8,
+   "decks": 2377,
+   "eligible": 19935,
+   "rate": 0.1192
   },
   "03021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "03022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "03023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "05013": {
-   "popularity": 2,
-   "decks": 312,
-   "eligible": 4839,
-   "rate": 0.0645
+   "popularity": 5,
+   "decks": 316,
+   "eligible": 4853,
+   "rate": 0.0651
   },
   "05016": {
    "popularity": 10,
-   "decks": 1693,
-   "eligible": 4839,
-   "rate": 0.3499
+   "decks": 1703,
+   "eligible": 4853,
+   "rate": 0.3509
   },
   "05019": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "05020": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "05021": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "05022": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "06022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "06023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "06024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "06025": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "08014": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "08015": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 474,
-   "eligible": 4581,
-   "rate": 0.1035
+   "eligible": 4590,
+   "rate": 0.1033
   },
   "08016": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 814,
-   "eligible": 4581,
-   "rate": 0.1777
+   "eligible": 4590,
+   "rate": 0.1773
   },
   "08019": {
-   "popularity": 8,
-   "decks": 4868,
-   "eligible": 19907,
-   "rate": 0.2445
+   "popularity": 10,
+   "decks": 4879,
+   "eligible": 19935,
+   "rate": 0.2447
   },
   "08020": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "08021": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "08022": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "09017": {
    "popularity": 10,
-   "decks": 1693,
-   "eligible": 4839,
-   "rate": 0.3499
+   "decks": 1703,
+   "eligible": 4853,
+   "rate": 0.3509
   },
   "09018": {
-   "popularity": 7,
-   "decks": 1017,
-   "eligible": 4839,
-   "rate": 0.2102
+   "popularity": 8,
+   "decks": 1025,
+   "eligible": 4853,
+   "rate": 0.2112
   },
   "09022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "09023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "09024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "09025": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "10017": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "10020": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "10021": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "10022": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "10023": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "10024": {
    "popularity": 10,
-   "decks": 7852,
-   "eligible": 19907,
-   "rate": 0.3944
+   "decks": 7860,
+   "eligible": 19935,
+   "rate": 0.3943
   },
   "12019": {
-   "popularity": 2,
-   "decks": 1186,
-   "eligible": 19907,
-   "rate": 0.0596
+   "popularity": 5,
+   "decks": 1193,
+   "eligible": 19935,
+   "rate": 0.0598
   },
   "12021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "12022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "12023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "14016": {
    "popularity": 10,
-   "decks": 2562,
-   "eligible": 4839,
-   "rate": 0.5294
+   "decks": 2570,
+   "eligible": 4853,
+   "rate": 0.5296
   },
   "14019": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "14020": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "14021": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "13015": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "13021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "13022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "13023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "13025": {
-   "popularity": 7,
-   "decks": 4371,
-   "eligible": 19907,
-   "rate": 0.2196
+   "popularity": 10,
+   "decks": 4373,
+   "eligible": 19935,
+   "rate": 0.2194
   },
   "18011": {
-   "popularity": 6,
-   "decks": 816,
-   "eligible": 4646,
-   "rate": 0.1756
+   "popularity": 8,
+   "decks": 817,
+   "eligible": 4651,
+   "rate": 0.1757
   },
   "18012": {
-   "popularity": 5,
-   "decks": 701,
-   "eligible": 4646,
+   "popularity": 7,
+   "decks": 702,
+   "eligible": 4651,
    "rate": 0.1509
   },
   "18013": {
-   "popularity": 2,
-   "decks": 267,
-   "eligible": 4646,
-   "rate": 0.0575
+   "popularity": 4,
+   "decks": 265,
+   "eligible": 4651,
+   "rate": 0.057
   },
   "18015": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 112,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0231
   },
   "18016": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 212,
-   "eligible": 4581,
-   "rate": 0.0463
+   "eligible": 4590,
+   "rate": 0.0462
   },
   "18018": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 321,
-   "eligible": 4646,
-   "rate": 0.0691
+   "eligible": 4651,
+   "rate": 0.069
   },
   "18019": {
-   "popularity": 1,
-   "decks": 321,
-   "eligible": 19907,
-   "rate": 0.0161
+   "popularity": 2,
+   "decks": 322,
+   "eligible": 19935,
+   "rate": 0.0162
   },
   "18020": {
-   "popularity": 0,
-   "decks": 211,
-   "eligible": 19907,
-   "rate": 0.0106
+   "popularity": 2,
+   "decks": 209,
+   "eligible": 19935,
+   "rate": 0.0105
   },
   "18029": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 70,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0153
   },
   "18030": {
-   "popularity": 1,
-   "decks": 180,
-   "eligible": 5296,
-   "rate": 0.034
+   "popularity": 3,
+   "decks": 179,
+   "eligible": 5300,
+   "rate": 0.0338
   },
   "18031": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 98,
-   "eligible": 4839,
-   "rate": 0.0203
+   "eligible": 4853,
+   "rate": 0.0202
   },
   "17011": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 250,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0472
   },
   "17012": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 140,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0264
   },
   "17013": {
-   "popularity": 1,
-   "decks": 190,
-   "eligible": 5296,
-   "rate": 0.0359
+   "popularity": 3,
+   "decks": 188,
+   "eligible": 5300,
+   "rate": 0.0355
   },
   "17014": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 159,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.03
   },
   "17015": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 139,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0262
   },
   "17017": {
-   "popularity": 0,
-   "decks": 53,
-   "eligible": 5296,
-   "rate": 0.01
+   "popularity": 1,
+   "decks": 54,
+   "eligible": 5300,
+   "rate": 0.0102
   },
   "17019": {
-   "popularity": 1,
-   "decks": 221,
-   "eligible": 5296,
-   "rate": 0.0417
+   "popularity": 3,
+   "decks": 219,
+   "eligible": 5300,
+   "rate": 0.0413
   },
   "17020": {
-   "popularity": 1,
-   "decks": 358,
-   "eligible": 19907,
-   "rate": 0.018
+   "popularity": 2,
+   "decks": 357,
+   "eligible": 19935,
+   "rate": 0.0179
   },
   "17021": {
-   "popularity": 1,
-   "decks": 367,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 366,
+   "eligible": 19935,
    "rate": 0.0184
   },
   "17022": {
-   "popularity": 1,
-   "decks": 547,
-   "eligible": 19907,
-   "rate": 0.0275
+   "popularity": 3,
+   "decks": 546,
+   "eligible": 19935,
+   "rate": 0.0274
   },
   "17023": {
-   "popularity": 0,
-   "decks": 211,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 212,
+   "eligible": 19935,
    "rate": 0.0106
   },
   "17028": {
-   "popularity": 3,
-   "decks": 382,
-   "eligible": 4646,
-   "rate": 0.0822
+   "popularity": 5,
+   "decks": 381,
+   "eligible": 4651,
+   "rate": 0.0819
   },
   "17029": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 167,
-   "eligible": 4581,
-   "rate": 0.0365
+   "eligible": 4590,
+   "rate": 0.0364
   },
   "17030": {
-   "popularity": 3,
-   "decks": 499,
-   "eligible": 4839,
-   "rate": 0.1031
+   "popularity": 6,
+   "decks": 501,
+   "eligible": 4853,
+   "rate": 0.1032
   },
   "18014": {
-   "popularity": 2,
-   "decks": 291,
-   "eligible": 4646,
-   "rate": 0.0626
+   "popularity": 4,
+   "decks": 289,
+   "eligible": 4651,
+   "rate": 0.0621
   },
   "18017": {
    "popularity": 10,
-   "decks": 2443,
-   "eligible": 4646,
-   "rate": 0.5258
+   "decks": 2447,
+   "eligible": 4651,
+   "rate": 0.5261
   },
   "18021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "18022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "18023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "17016": {
-   "popularity": 4,
-   "decks": 740,
-   "eligible": 5296,
-   "rate": 0.1397
+   "popularity": 7,
+   "decks": 742,
+   "eligible": 5300,
+   "rate": 0.14
   },
   "17018": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "06013": {
-   "popularity": 4,
-   "decks": 589,
-   "eligible": 4646,
-   "rate": 0.1268
+   "popularity": 7,
+   "decks": 587,
+   "eligible": 4651,
+   "rate": 0.1262
   },
   "06016": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "19012": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 82,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0169
   },
   "19013": {
-   "popularity": 0,
-   "decks": 49,
-   "eligible": 4839,
-   "rate": 0.0101
+   "popularity": 1,
+   "decks": 48,
+   "eligible": 4853,
+   "rate": 0.0099
   },
   "19015": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 64,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0132
   },
   "19016": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 247,
-   "eligible": 4839,
-   "rate": 0.051
+   "eligible": 4853,
+   "rate": 0.0509
   },
   "19017": {
-   "popularity": 2,
-   "decks": 235,
-   "eligible": 4839,
-   "rate": 0.0486
+   "popularity": 4,
+   "decks": 234,
+   "eligible": 4853,
+   "rate": 0.0482
   },
   "19018": {
-   "popularity": 1,
-   "decks": 125,
-   "eligible": 4839,
-   "rate": 0.0258
+   "popularity": 2,
+   "decks": 127,
+   "eligible": 4853,
+   "rate": 0.0262
   },
   "19020": {
-   "popularity": 1,
-   "decks": 525,
-   "eligible": 19907,
-   "rate": 0.0264
+   "popularity": 3,
+   "decks": 523,
+   "eligible": 19935,
+   "rate": 0.0262
   },
   "19030": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 578,
-   "eligible": 4646,
-   "rate": 0.1244
+   "eligible": 4651,
+   "rate": 0.1243
   },
   "19031": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 192,
-   "eligible": 4581,
-   "rate": 0.0419
+   "eligible": 4590,
+   "rate": 0.0418
   },
   "19032": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 307,
-   "eligible": 5296,
-   "rate": 0.058
+   "eligible": 5300,
+   "rate": 0.0579
   },
   "19014": {
-   "popularity": 3,
-   "decks": 467,
-   "eligible": 4839,
-   "rate": 0.0965
+   "popularity": 6,
+   "decks": 466,
+   "eligible": 4853,
+   "rate": 0.096
   },
   "19019": {
-   "popularity": 6,
-   "decks": 876,
-   "eligible": 4839,
-   "rate": 0.181
+   "popularity": 8,
+   "decks": 879,
+   "eligible": 4853,
+   "rate": 0.1811
   },
   "19021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 59,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.003
   },
   "19022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "19023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "19024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "19033": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 386,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0194
   },
   "20011": {
-   "popularity": 1,
-   "decks": 108,
-   "eligible": 4581,
-   "rate": 0.0236
+   "popularity": 2,
+   "decks": 104,
+   "eligible": 4590,
+   "rate": 0.0227
   },
   "20012": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 174,
-   "eligible": 4581,
-   "rate": 0.038
+   "eligible": 4590,
+   "rate": 0.0379
   },
   "20013": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 518,
-   "eligible": 4581,
-   "rate": 0.1131
+   "eligible": 4590,
+   "rate": 0.1129
   },
   "20015": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 835,
-   "eligible": 4581,
-   "rate": 0.1823
+   "eligible": 4590,
+   "rate": 0.1819
   },
   "20016": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 141,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0071
   },
   "20021": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 631,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0317
   },
   "20022": {
-   "popularity": 1,
-   "decks": 348,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 349,
+   "eligible": 19935,
    "rate": 0.0175
   },
   "20026": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 413,
-   "eligible": 4646,
-   "rate": 0.0889
+   "eligible": 4651,
+   "rate": 0.0888
   },
   "20027": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 174,
-   "eligible": 5296,
-   "rate": 0.0329
+   "eligible": 5300,
+   "rate": 0.0328
   },
   "20028": {
-   "popularity": 1,
-   "decks": 136,
-   "eligible": 4839,
-   "rate": 0.0281
+   "popularity": 2,
+   "decks": 137,
+   "eligible": 4853,
+   "rate": 0.0282
   },
   "20029": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 793,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0398
   },
   "20014": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "20017": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "20018": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "20019": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "20020": {
-   "popularity": 0,
-   "decks": 128,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 127,
+   "eligible": 19935,
    "rate": 0.0064
   },
   "21011": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 309,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0583
   },
   "21012": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 82,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0155
   },
   "21013": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 857,
-   "eligible": 5296,
-   "rate": 0.1618
+   "eligible": 5300,
+   "rate": 0.1617
   },
   "21014": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 985,
-   "eligible": 5296,
-   "rate": 0.186
+   "eligible": 5300,
+   "rate": 0.1858
   },
   "21015": {
-   "popularity": 4,
-   "decks": 601,
-   "eligible": 5296,
-   "rate": 0.1135
+   "popularity": 6,
+   "decks": 600,
+   "eligible": 5300,
+   "rate": 0.1132
   },
   "21016": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 124,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0234
   },
   "21018": {
-   "popularity": 4,
-   "decks": 623,
-   "eligible": 5296,
-   "rate": 0.1176
+   "popularity": 6,
+   "decks": 626,
+   "eligible": 5300,
+   "rate": 0.1181
   },
   "21019": {
-   "popularity": 1,
-   "decks": 758,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 759,
+   "eligible": 19935,
    "rate": 0.0381
   },
   "21022": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 878,
-   "eligible": 19907,
-   "rate": 0.0441
+   "eligible": 19935,
+   "rate": 0.044
   },
   "21041": {
-   "popularity": 1,
-   "decks": 197,
-   "eligible": 4646,
-   "rate": 0.0424
+   "popularity": 3,
+   "decks": 198,
+   "eligible": 4651,
+   "rate": 0.0426
   },
   "21042": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 21,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0045
   },
   "21043": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 177,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0381
   },
   "21046": {
-   "popularity": 2,
-   "decks": 277,
-   "eligible": 4646,
-   "rate": 0.0596
+   "popularity": 4,
+   "decks": 278,
+   "eligible": 4651,
+   "rate": 0.0598
   },
   "21047": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 313,
-   "eligible": 4581,
-   "rate": 0.0683
+   "eligible": 4590,
+   "rate": 0.0682
   },
   "21048": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 23,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.005
   },
   "21050": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 128,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0279
   },
   "21052": {
-   "popularity": 2,
-   "decks": 270,
-   "eligible": 4581,
-   "rate": 0.0589
+   "popularity": 4,
+   "decks": 268,
+   "eligible": 4590,
+   "rate": 0.0584
   },
   "21053": {
-   "popularity": 1,
-   "decks": 169,
-   "eligible": 5296,
-   "rate": 0.0319
+   "popularity": 3,
+   "decks": 168,
+   "eligible": 5300,
+   "rate": 0.0317
   },
   "21054": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 14,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0026
   },
   "21055": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 175,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.033
   },
   "21058": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 471,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0889
   },
   "21059": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 54,
-   "eligible": 4839,
-   "rate": 0.0112
+   "eligible": 4853,
+   "rate": 0.0111
   },
   "21060": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 23,
-   "eligible": 4839,
-   "rate": 0.0048
+   "eligible": 4853,
+   "rate": 0.0047
   },
   "21061": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 117,
-   "eligible": 4839,
-   "rate": 0.0242
+   "eligible": 4853,
+   "rate": 0.0241
   },
   "21064": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 364,
-   "eligible": 4839,
-   "rate": 0.0752
+   "eligible": 4853,
+   "rate": 0.075
   },
   "21065": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 289,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0145
   },
   "21017": {
-   "popularity": 1,
-   "decks": 168,
-   "eligible": 5296,
-   "rate": 0.0317
+   "popularity": 3,
+   "decks": 167,
+   "eligible": 5300,
+   "rate": 0.0315
   },
   "21020": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 888,
-   "eligible": 19907,
-   "rate": 0.0446
+   "eligible": 19935,
+   "rate": 0.0445
   },
   "21021": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "21023": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "21024": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "21025": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "21044": {
-   "popularity": 2,
-   "decks": 291,
-   "eligible": 4646,
-   "rate": 0.0626
+   "popularity": 4,
+   "decks": 289,
+   "eligible": 4651,
+   "rate": 0.0621
   },
   "21045": {
    "popularity": 10,
-   "decks": 2443,
-   "eligible": 4646,
-   "rate": 0.5258
+   "decks": 2447,
+   "eligible": 4651,
+   "rate": 0.5261
   },
   "21049": {
-   "popularity": 7,
-   "decks": 1005,
-   "eligible": 4581,
-   "rate": 0.2194
+   "popularity": 8,
+   "decks": 1000,
+   "eligible": 4590,
+   "rate": 0.2179
   },
   "21051": {
    "popularity": 10,
-   "decks": 1851,
-   "eligible": 4581,
-   "rate": 0.4041
+   "decks": 1853,
+   "eligible": 4590,
+   "rate": 0.4037
   },
   "21056": {
    "popularity": 10,
-   "decks": 1948,
-   "eligible": 5296,
-   "rate": 0.3678
+   "decks": 1949,
+   "eligible": 5300,
+   "rate": 0.3677
   },
   "21057": {
-   "popularity": 8,
-   "decks": 1396,
-   "eligible": 5296,
-   "rate": 0.2636
+   "popularity": 9,
+   "decks": 1395,
+   "eligible": 5300,
+   "rate": 0.2632
   },
   "21062": {
-   "popularity": 3,
-   "decks": 467,
-   "eligible": 4839,
-   "rate": 0.0965
+   "popularity": 6,
+   "decks": 466,
+   "eligible": 4853,
+   "rate": 0.096
   },
   "21063": {
    "popularity": 10,
-   "decks": 2562,
-   "eligible": 4839,
-   "rate": 0.5294
+   "decks": 2570,
+   "eligible": 4853,
+   "rate": 0.5296
   },
   "22011": {
-   "popularity": 3,
-   "decks": 379,
-   "eligible": 4581,
-   "rate": 0.0827
+   "popularity": 5,
+   "decks": 381,
+   "eligible": 4590,
+   "rate": 0.083
   },
   "22012": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 177,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0386
   },
   "22013": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 70,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0153
   },
   "22014": {
-   "popularity": 2,
-   "decks": 322,
-   "eligible": 4581,
-   "rate": 0.0703
+   "popularity": 5,
+   "decks": 323,
+   "eligible": 4590,
+   "rate": 0.0704
   },
   "22015": {
-   "popularity": 8,
-   "decks": 1144,
-   "eligible": 4581,
-   "rate": 0.2497
+   "popularity": 9,
+   "decks": 1148,
+   "eligible": 4590,
+   "rate": 0.2501
   },
   "22018": {
-   "popularity": 1,
-   "decks": 149,
-   "eligible": 4581,
-   "rate": 0.0325
+   "popularity": 3,
+   "decks": 150,
+   "eligible": 4590,
+   "rate": 0.0327
   },
   "22022": {
-   "popularity": 0,
-   "decks": 100,
-   "eligible": 19907,
-   "rate": 0.005
+   "popularity": 1,
+   "decks": 102,
+   "eligible": 19935,
+   "rate": 0.0051
   },
   "22032": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 234,
-   "eligible": 4646,
-   "rate": 0.0504
+   "eligible": 4651,
+   "rate": 0.0503
   },
   "22033": {
-   "popularity": 1,
-   "decks": 132,
-   "eligible": 5296,
-   "rate": 0.0249
+   "popularity": 2,
+   "decks": 131,
+   "eligible": 5300,
+   "rate": 0.0247
   },
   "22034": {
-   "popularity": 1,
-   "decks": 131,
-   "eligible": 4839,
-   "rate": 0.0271
+   "popularity": 2,
+   "decks": 130,
+   "eligible": 4853,
+   "rate": 0.0268
   },
   "22016": {
-   "popularity": 2,
-   "decks": 270,
-   "eligible": 4581,
-   "rate": 0.0589
+   "popularity": 4,
+   "decks": 268,
+   "eligible": 4590,
+   "rate": 0.0584
   },
   "22017": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "22019": {
    "popularity": 10,
-   "decks": 1851,
-   "eligible": 4581,
-   "rate": 0.4041
+   "decks": 1853,
+   "eligible": 4590,
+   "rate": 0.4037
   },
   "22020": {
-   "popularity": 1,
-   "decks": 358,
-   "eligible": 19907,
-   "rate": 0.018
+   "popularity": 2,
+   "decks": 357,
+   "eligible": 19935,
+   "rate": 0.0179
   },
   "22021": {
-   "popularity": 1,
-   "decks": 547,
-   "eligible": 19907,
-   "rate": 0.0275
+   "popularity": 3,
+   "decks": 546,
+   "eligible": 19935,
+   "rate": 0.0274
   },
   "22023": {
-   "popularity": 2,
-   "decks": 1186,
-   "eligible": 19907,
-   "rate": 0.0596
+   "popularity": 5,
+   "decks": 1193,
+   "eligible": 19935,
+   "rate": 0.0598
   },
   "22024": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "22025": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "22026": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "22035": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 144,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0072
   },
   "04021": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 888,
-   "eligible": 19907,
-   "rate": 0.0446
+   "eligible": 19935,
+   "rate": 0.0445
   },
   "23012": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 478,
-   "eligible": 5296,
-   "rate": 0.0903
+   "eligible": 5300,
+   "rate": 0.0902
   },
   "23013": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 245,
-   "eligible": 5296,
-   "rate": 0.0463
+   "eligible": 5300,
+   "rate": 0.0462
   },
   "23016": {
-   "popularity": 7,
+   "popularity": 8,
    "decks": 1109,
-   "eligible": 5296,
-   "rate": 0.2094
+   "eligible": 5300,
+   "rate": 0.2092
   },
   "23017": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 145,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0274
   },
   "23018": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 78,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0147
   },
   "23019": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 95,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0179
   },
   "23024": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 234,
-   "eligible": 19907,
-   "rate": 0.0118
+   "eligible": 19935,
+   "rate": 0.0117
   },
   "23032": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 43,
-   "eligible": 4646,
-   "rate": 0.0093
+   "eligible": 4651,
+   "rate": 0.0092
   },
   "23033": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 184,
-   "eligible": 4581,
-   "rate": 0.0402
+   "eligible": 4590,
+   "rate": 0.0401
   },
   "23034": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 11,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0023
   },
   "23035": {
-   "popularity": 1,
-   "decks": 920,
-   "eligible": 19907,
-   "rate": 0.0462
+   "popularity": 5,
+   "decks": 922,
+   "eligible": 19935,
+   "rate": 0.0463
   },
   "23014": {
-   "popularity": 3,
-   "decks": 505,
-   "eligible": 5296,
-   "rate": 0.0954
+   "popularity": 6,
+   "decks": 506,
+   "eligible": 5300,
+   "rate": 0.0955
   },
   "23015": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 269,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0508
   },
   "23020": {
    "popularity": 10,
-   "decks": 1948,
-   "eligible": 5296,
-   "rate": 0.3678
+   "decks": 1949,
+   "eligible": 5300,
+   "rate": 0.3677
   },
   "23021": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 471,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0889
   },
   "23022": {
-   "popularity": 4,
-   "decks": 2378,
-   "eligible": 19907,
-   "rate": 0.1195
+   "popularity": 8,
+   "decks": 2377,
+   "eligible": 19935,
+   "rate": 0.1192
   },
   "23023": {
-   "popularity": 7,
-   "decks": 4371,
-   "eligible": 19907,
-   "rate": 0.2196
+   "popularity": 10,
+   "decks": 4373,
+   "eligible": 19935,
+   "rate": 0.2194
   },
   "23025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "23026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "23027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "25013": {
-   "popularity": 4,
-   "decks": 525,
-   "eligible": 4646,
-   "rate": 0.113
+   "popularity": 6,
+   "decks": 529,
+   "eligible": 4651,
+   "rate": 0.1137
   },
   "25014": {
-   "popularity": 4,
-   "decks": 639,
-   "eligible": 4646,
-   "rate": 0.1375
+   "popularity": 7,
+   "decks": 641,
+   "eligible": 4651,
+   "rate": 0.1378
   },
   "25018": {
-   "popularity": 2,
-   "decks": 235,
-   "eligible": 4646,
-   "rate": 0.0506
+   "popularity": 4,
+   "decks": 238,
+   "eligible": 4651,
+   "rate": 0.0512
   },
   "25019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 241,
-   "eligible": 4646,
-   "rate": 0.0519
+   "eligible": 4651,
+   "rate": 0.0518
   },
   "25020": {
-   "popularity": 1,
-   "decks": 95,
-   "eligible": 4646,
-   "rate": 0.0204
+   "popularity": 2,
+   "decks": 97,
+   "eligible": 4651,
+   "rate": 0.0209
   },
   "25023": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 143,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0072
   },
   "25024": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 203,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0102
   },
   "25033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 26,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0057
   },
   "25034": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 115,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0217
   },
   "25035": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 125,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0258
   },
   "25036": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 29,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0015
   },
   "25015": {
-   "popularity": 6,
-   "decks": 816,
-   "eligible": 4646,
-   "rate": 0.1756
+   "popularity": 8,
+   "decks": 817,
+   "eligible": 4651,
+   "rate": 0.1757
   },
   "25016": {
-   "popularity": 8,
-   "decks": 1125,
-   "eligible": 4646,
-   "rate": 0.2421
+   "popularity": 9,
+   "decks": 1123,
+   "eligible": 4651,
+   "rate": 0.2415
   },
   "25017": {
    "popularity": 10,
-   "decks": 2443,
-   "eligible": 4646,
-   "rate": 0.5258
+   "decks": 2447,
+   "eligible": 4651,
+   "rate": 0.5261
   },
   "25021": {
-   "popularity": 2,
-   "decks": 277,
-   "eligible": 4646,
-   "rate": 0.0596
+   "popularity": 4,
+   "decks": 278,
+   "eligible": 4651,
+   "rate": 0.0598
   },
   "25022": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "25025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "25026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "25027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "17031": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 310,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0156
   },
   "26013": {
-   "popularity": 3,
-   "decks": 480,
-   "eligible": 4839,
-   "rate": 0.0992
+   "popularity": 6,
+   "decks": 479,
+   "eligible": 4853,
+   "rate": 0.0987
   },
   "26014": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 61,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0126
   },
   "26015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 180,
-   "eligible": 4839,
-   "rate": 0.0372
+   "eligible": 4853,
+   "rate": 0.0371
   },
   "26016": {
-   "popularity": 3,
-   "decks": 464,
-   "eligible": 4839,
-   "rate": 0.0959
+   "popularity": 6,
+   "decks": 465,
+   "eligible": 4853,
+   "rate": 0.0958
   },
   "26018": {
-   "popularity": 2,
-   "decks": 374,
-   "eligible": 4839,
-   "rate": 0.0773
+   "popularity": 5,
+   "decks": 373,
+   "eligible": 4853,
+   "rate": 0.0769
   },
   "26022": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 351,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0176
   },
   "26024": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 152,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0076
   },
   "26033": {
-   "popularity": 1,
-   "decks": 206,
-   "eligible": 4646,
-   "rate": 0.0443
+   "popularity": 3,
+   "decks": 205,
+   "eligible": 4651,
+   "rate": 0.0441
   },
   "26034": {
-   "popularity": 4,
-   "decks": 591,
-   "eligible": 4581,
-   "rate": 0.129
+   "popularity": 7,
+   "decks": 594,
+   "eligible": 4590,
+   "rate": 0.1294
   },
   "26035": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 23,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0043
   },
   "26036": {
-   "popularity": 1,
-   "decks": 480,
-   "eligible": 19907,
-   "rate": 0.0241
+   "popularity": 3,
+   "decks": 486,
+   "eligible": 19935,
+   "rate": 0.0244
   },
   "26017": {
-   "popularity": 6,
-   "decks": 876,
-   "eligible": 4839,
-   "rate": 0.181
+   "popularity": 8,
+   "decks": 879,
+   "eligible": 4853,
+   "rate": 0.1811
   },
   "26019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 294,
-   "eligible": 4839,
-   "rate": 0.0608
+   "eligible": 4853,
+   "rate": 0.0606
   },
   "26020": {
-   "popularity": 2,
-   "decks": 312,
-   "eligible": 4839,
-   "rate": 0.0645
+   "popularity": 5,
+   "decks": 316,
+   "eligible": 4853,
+   "rate": 0.0651
   },
   "26021": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 364,
-   "eligible": 4839,
-   "rate": 0.0752
+   "eligible": 4853,
+   "rate": 0.075
   },
   "26023": {
-   "popularity": 9,
-   "decks": 5867,
-   "eligible": 19907,
-   "rate": 0.2947
+   "popularity": 10,
+   "decks": 5869,
+   "eligible": 19935,
+   "rate": 0.2944
   },
   "26025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "26026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "26027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "27010": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 314,
-   "eligible": 4839,
-   "rate": 0.0649
+   "eligible": 4853,
+   "rate": 0.0647
   },
   "27011": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 147,
-   "eligible": 4839,
-   "rate": 0.0304
+   "eligible": 4853,
+   "rate": 0.0303
   },
   "27012": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 274,
-   "eligible": 4839,
-   "rate": 0.0566
+   "eligible": 4853,
+   "rate": 0.0565
   },
   "27014": {
-   "popularity": 2,
-   "decks": 343,
-   "eligible": 4839,
-   "rate": 0.0709
+   "popularity": 5,
+   "decks": 341,
+   "eligible": 4853,
+   "rate": 0.0703
   },
   "27015": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 95,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0196
   },
   "27016": {
-   "popularity": 7,
-   "decks": 1085,
-   "eligible": 4839,
-   "rate": 0.2242
+   "popularity": 9,
+   "decks": 1090,
+   "eligible": 4853,
+   "rate": 0.2246
   },
   "27017": {
-   "popularity": 2,
-   "decks": 1576,
-   "eligible": 19907,
-   "rate": 0.0792
+   "popularity": 6,
+   "decks": 1586,
+   "eligible": 19935,
+   "rate": 0.0796
   },
   "27018": {
-   "popularity": 1,
-   "decks": 759,
-   "eligible": 19907,
-   "rate": 0.0381
+   "popularity": 4,
+   "decks": 761,
+   "eligible": 19935,
+   "rate": 0.0382
   },
   "27019": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 70,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0035
   },
   "27023": {
-   "popularity": 2,
-   "decks": 981,
-   "eligible": 19907,
+   "popularity": 5,
+   "decks": 983,
+   "eligible": 19935,
    "rate": 0.0493
   },
   "27024": {
-   "popularity": 0,
-   "decks": 233,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 234,
+   "eligible": 19935,
    "rate": 0.0117
   },
   "27040": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 566,
-   "eligible": 4581,
-   "rate": 0.1236
+   "eligible": 4590,
+   "rate": 0.1233
   },
   "27041": {
-   "popularity": 1,
-   "decks": 198,
-   "eligible": 4581,
-   "rate": 0.0432
+   "popularity": 3,
+   "decks": 199,
+   "eligible": 4590,
+   "rate": 0.0434
   },
   "27042": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 398,
-   "eligible": 4581,
-   "rate": 0.0869
+   "eligible": 4590,
+   "rate": 0.0867
   },
   "27043": {
-   "popularity": 2,
-   "decks": 315,
-   "eligible": 4581,
+   "popularity": 5,
+   "decks": 316,
+   "eligible": 4590,
    "rate": 0.0688
   },
   "27044": {
-   "popularity": 2,
-   "decks": 288,
-   "eligible": 4581,
-   "rate": 0.0629
+   "popularity": 4,
+   "decks": 289,
+   "eligible": 4590,
+   "rate": 0.063
   },
   "27046": {
-   "popularity": 1,
-   "decks": 875,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 877,
+   "eligible": 19935,
    "rate": 0.044
   },
   "27047": {
-   "popularity": 1,
-   "decks": 325,
-   "eligible": 19907,
-   "rate": 0.0163
+   "popularity": 2,
+   "decks": 326,
+   "eligible": 19935,
+   "rate": 0.0164
   },
   "27048": {
-   "popularity": 1,
-   "decks": 716,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 717,
+   "eligible": 19935,
    "rate": 0.036
   },
   "27049": {
-   "popularity": 2,
-   "decks": 1576,
-   "eligible": 19907,
-   "rate": 0.0792
+   "popularity": 6,
+   "decks": 1586,
+   "eligible": 19935,
+   "rate": 0.0796
   },
   "27054": {
-   "popularity": 1,
-   "decks": 665,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 666,
+   "eligible": 19935,
    "rate": 0.0334
   },
   "27055": {
-   "popularity": 1,
-   "decks": 646,
-   "eligible": 19907,
-   "rate": 0.0325
+   "popularity": 4,
+   "decks": 649,
+   "eligible": 19935,
+   "rate": 0.0326
   },
   "27190": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 124,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0062
   },
   "27191": {
-   "popularity": 2,
-   "decks": 1238,
-   "eligible": 19907,
-   "rate": 0.0622
+   "popularity": 5,
+   "decks": 1236,
+   "eligible": 19935,
+   "rate": 0.062
   },
   "27013": {
-   "popularity": 2,
-   "decks": 301,
-   "eligible": 4839,
-   "rate": 0.0622
+   "popularity": 4,
+   "decks": 299,
+   "eligible": 4853,
+   "rate": 0.0616
   },
   "27020": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "27021": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "27022": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "27045": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 814,
-   "eligible": 4581,
-   "rate": 0.1777
+   "eligible": 4590,
+   "rate": 0.1773
   },
   "27050": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 70,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0035
   },
   "27051": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "27052": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "27053": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "29014": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 222,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0419
   },
   "29015": {
-   "popularity": 3,
-   "decks": 505,
-   "eligible": 5296,
-   "rate": 0.0954
+   "popularity": 6,
+   "decks": 506,
+   "eligible": 5300,
+   "rate": 0.0955
   },
   "29016": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 62,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0117
   },
   "29017": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 264,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0498
   },
   "29018": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 182,
-   "eligible": 5296,
-   "rate": 0.0344
+   "eligible": 5300,
+   "rate": 0.0343
   },
   "29020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 210,
-   "eligible": 5296,
-   "rate": 0.0397
+   "eligible": 5300,
+   "rate": 0.0396
   },
   "29023": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 246,
-   "eligible": 19907,
-   "rate": 0.0124
+   "eligible": 19935,
+   "rate": 0.0123
   },
   "29024": {
-   "popularity": 1,
-   "decks": 728,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 729,
+   "eligible": 19935,
    "rate": 0.0366
   },
   "29025": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 171,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0086
   },
   "29027": {
-   "popularity": 3,
-   "decks": 1653,
-   "eligible": 19907,
-   "rate": 0.083
+   "popularity": 6,
+   "decks": 1656,
+   "eligible": 19935,
+   "rate": 0.0831
   },
   "29033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 32,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0069
   },
   "29034": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 86,
-   "eligible": 4581,
-   "rate": 0.0188
+   "eligible": 4590,
+   "rate": 0.0187
   },
   "29035": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 67,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0138
   },
   "28010": {
-   "popularity": 1,
-   "decks": 125,
-   "eligible": 4646,
-   "rate": 0.0269
+   "popularity": 2,
+   "decks": 124,
+   "eligible": 4651,
+   "rate": 0.0267
   },
   "28012": {
-   "popularity": 2,
-   "decks": 284,
-   "eligible": 4646,
-   "rate": 0.0611
+   "popularity": 4,
+   "decks": 285,
+   "eligible": 4651,
+   "rate": 0.0613
   },
   "28013": {
-   "popularity": 2,
-   "decks": 290,
-   "eligible": 4646,
-   "rate": 0.0624
+   "popularity": 4,
+   "decks": 289,
+   "eligible": 4651,
+   "rate": 0.0621
   },
   "28014": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 430,
-   "eligible": 4646,
-   "rate": 0.0926
+   "eligible": 4651,
+   "rate": 0.0925
   },
   "28016": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 474,
-   "eligible": 4646,
-   "rate": 0.102
+   "eligible": 4651,
+   "rate": 0.1019
   },
   "28017": {
-   "popularity": 5,
-   "decks": 719,
-   "eligible": 4646,
-   "rate": 0.1548
+   "popularity": 7,
+   "decks": 717,
+   "eligible": 4651,
+   "rate": 0.1542
   },
   "28018": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 797,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.04
   },
   "28019": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 94,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0047
   },
   "28020": {
-   "popularity": 1,
-   "decks": 354,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 355,
+   "eligible": 19935,
    "rate": 0.0178
   },
   "28026": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 253,
-   "eligible": 4581,
-   "rate": 0.0552
+   "eligible": 4590,
+   "rate": 0.0551
   },
   "28027": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 37,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0076
   },
   "29019": {
-   "popularity": 1,
-   "decks": 195,
-   "eligible": 5296,
-   "rate": 0.0368
+   "popularity": 3,
+   "decks": 194,
+   "eligible": 5300,
+   "rate": 0.0366
   },
   "29021": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "29022": {
-   "popularity": 1,
-   "decks": 875,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 877,
+   "eligible": 19935,
    "rate": 0.044
   },
   "29026": {
    "popularity": 10,
-   "decks": 7852,
-   "eligible": 19907,
-   "rate": 0.3944
+   "decks": 7860,
+   "eligible": 19935,
+   "rate": 0.3943
   },
   "28011": {
-   "popularity": 4,
-   "decks": 589,
-   "eligible": 4646,
-   "rate": 0.1268
+   "popularity": 7,
+   "decks": 587,
+   "eligible": 4651,
+   "rate": 0.1262
   },
   "28015": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "31014": {
-   "popularity": 1,
-   "decks": 225,
-   "eligible": 4839,
-   "rate": 0.0465
+   "popularity": 4,
+   "decks": 224,
+   "eligible": 4853,
+   "rate": 0.0462
   },
   "31015": {
-   "popularity": 1,
-   "decks": 113,
-   "eligible": 4839,
-   "rate": 0.0234
+   "popularity": 2,
+   "decks": 114,
+   "eligible": 4853,
+   "rate": 0.0235
   },
   "31016": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 526,
-   "eligible": 4839,
-   "rate": 0.1087
+   "eligible": 4853,
+   "rate": 0.1084
   },
   "31017": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 158,
-   "eligible": 4839,
-   "rate": 0.0327
+   "eligible": 4853,
+   "rate": 0.0326
   },
   "31019": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 494,
-   "eligible": 4839,
-   "rate": 0.1021
+   "eligible": 4853,
+   "rate": 0.1018
   },
   "31020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 166,
-   "eligible": 4839,
-   "rate": 0.0343
+   "eligible": 4853,
+   "rate": 0.0342
   },
   "31021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 146,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0073
   },
   "31022": {
-   "popularity": 2,
-   "decks": 1576,
-   "eligible": 19907,
-   "rate": 0.0792
+   "popularity": 6,
+   "decks": 1586,
+   "eligible": 19935,
+   "rate": 0.0796
   },
   "31023": {
-   "popularity": 2,
-   "decks": 1128,
-   "eligible": 19907,
-   "rate": 0.0567
+   "popularity": 5,
+   "decks": 1133,
+   "eligible": 19935,
+   "rate": 0.0568
   },
   "31024": {
-   "popularity": 1,
-   "decks": 584,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 585,
+   "eligible": 19935,
    "rate": 0.0293
   },
   "31029": {
-   "popularity": 7,
-   "decks": 1145,
-   "eligible": 5296,
-   "rate": 0.2162
+   "popularity": 8,
+   "decks": 1144,
+   "eligible": 5300,
+   "rate": 0.2158
   },
   "30012": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 131,
-   "eligible": 4581,
-   "rate": 0.0286
+   "eligible": 4590,
+   "rate": 0.0285
   },
   "30013": {
-   "popularity": 3,
-   "decks": 497,
-   "eligible": 4581,
+   "popularity": 6,
+   "decks": 498,
+   "eligible": 4590,
    "rate": 0.1085
   },
   "30014": {
-   "popularity": 2,
-   "decks": 357,
-   "eligible": 4581,
-   "rate": 0.0779
+   "popularity": 5,
+   "decks": 353,
+   "eligible": 4590,
+   "rate": 0.0769
   },
   "30019": {
-   "popularity": 6,
-   "decks": 910,
-   "eligible": 4581,
-   "rate": 0.1986
+   "popularity": 8,
+   "decks": 915,
+   "eligible": 4590,
+   "rate": 0.1993
   },
   "30020": {
-   "popularity": 0,
-   "decks": 199,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 200,
+   "eligible": 19935,
    "rate": 0.01
   },
   "30021": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 553,
-   "eligible": 19907,
-   "rate": 0.0278
+   "eligible": 19935,
+   "rate": 0.0277
   },
   "30029": {
-   "popularity": 0,
-   "decks": 286,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 288,
+   "eligible": 19935,
    "rate": 0.0144
   },
   "31018": {
-   "popularity": 7,
-   "decks": 1131,
-   "eligible": 4839,
-   "rate": 0.2337
+   "popularity": 9,
+   "decks": 1139,
+   "eligible": 4853,
+   "rate": 0.2347
   },
   "30015": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 213,
-   "eligible": 4581,
-   "rate": 0.0465
+   "eligible": 4590,
+   "rate": 0.0464
   },
   "30016": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 518,
-   "eligible": 4581,
-   "rate": 0.1131
+   "eligible": 4590,
+   "rate": 0.1129
   },
   "30017": {
-   "popularity": 8,
-   "decks": 1144,
-   "eligible": 4581,
-   "rate": 0.2497
+   "popularity": 9,
+   "decks": 1148,
+   "eligible": 4590,
+   "rate": 0.2501
   },
   "30018": {
-   "popularity": 2,
-   "decks": 341,
-   "eligible": 4581,
-   "rate": 0.0744
+   "popularity": 5,
+   "decks": 343,
+   "eligible": 4590,
+   "rate": 0.0747
   },
   "30022": {
-   "popularity": 4,
-   "decks": 2485,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2487,
+   "eligible": 19935,
    "rate": 0.1248
   },
   "30023": {
-   "popularity": 2,
-   "decks": 981,
-   "eligible": 19907,
+   "popularity": 5,
+   "decks": 983,
+   "eligible": 19935,
    "rate": 0.0493
   },
   "33011": {
-   "popularity": 7,
-   "decks": 1184,
-   "eligible": 5296,
-   "rate": 0.2236
+   "popularity": 9,
+   "decks": 1187,
+   "eligible": 5300,
+   "rate": 0.224
   },
   "33012": {
-   "popularity": 1,
-   "decks": 125,
-   "eligible": 4646,
-   "rate": 0.0269
+   "popularity": 2,
+   "decks": 124,
+   "eligible": 4651,
+   "rate": 0.0267
   },
   "33013": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 132,
-   "eligible": 4839,
-   "rate": 0.0273
+   "eligible": 4853,
+   "rate": 0.0272
   },
   "33014": {
-   "popularity": 4,
-   "decks": 526,
-   "eligible": 4581,
-   "rate": 0.1148
+   "popularity": 6,
+   "decks": 528,
+   "eligible": 4590,
+   "rate": 0.115
   },
   "33015": {
-   "popularity": 4,
-   "decks": 597,
-   "eligible": 5296,
-   "rate": 0.1127
+   "popularity": 6,
+   "decks": 600,
+   "eligible": 5300,
+   "rate": 0.1132
   },
   "33016": {
-   "popularity": 1,
-   "decks": 118,
-   "eligible": 5296,
-   "rate": 0.0223
+   "popularity": 2,
+   "decks": 119,
+   "eligible": 5300,
+   "rate": 0.0225
   },
   "33017": {
-   "popularity": 2,
-   "decks": 384,
-   "eligible": 5296,
-   "rate": 0.0725
+   "popularity": 5,
+   "decks": 385,
+   "eligible": 5300,
+   "rate": 0.0726
   },
   "33018": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 232,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0438
   },
   "33019": {
-   "popularity": 1,
-   "decks": 914,
-   "eligible": 19907,
-   "rate": 0.0459
+   "popularity": 5,
+   "decks": 912,
+   "eligible": 19935,
+   "rate": 0.0457
   },
   "33020": {
-   "popularity": 3,
+   "popularity": 7,
    "decks": 1885,
-   "eligible": 19907,
-   "rate": 0.0947
+   "eligible": 19935,
+   "rate": 0.0946
   },
   "33021": {
-   "popularity": 1,
-   "decks": 545,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 546,
+   "eligible": 19935,
    "rate": 0.0274
   },
   "33022": {
-   "popularity": 1,
-   "decks": 450,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 451,
+   "eligible": 19935,
    "rate": 0.0226
   },
   "33023": {
-   "popularity": 0,
-   "decks": 110,
-   "eligible": 19907,
-   "rate": 0.0055
+   "popularity": 1,
+   "decks": 111,
+   "eligible": 19935,
+   "rate": 0.0056
   },
   "33032": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 321,
-   "eligible": 4646,
-   "rate": 0.0691
+   "eligible": 4651,
+   "rate": 0.069
   },
   "33033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 22,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0048
   },
   "33034": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 195,
-   "eligible": 4839,
-   "rate": 0.0403
+   "eligible": 4853,
+   "rate": 0.0402
   },
   "33035": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 566,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0284
   },
   "32011": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 290,
-   "eligible": 4839,
-   "rate": 0.0599
+   "eligible": 4853,
+   "rate": 0.0598
   },
   "32012": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 559,
-   "eligible": 4839,
-   "rate": 0.1155
+   "eligible": 4853,
+   "rate": 0.1152
   },
   "32013": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 240,
-   "eligible": 4839,
-   "rate": 0.0496
+   "eligible": 4853,
+   "rate": 0.0495
   },
   "32014": {
-   "popularity": 4,
-   "decks": 575,
-   "eligible": 4839,
-   "rate": 0.1188
+   "popularity": 6,
+   "decks": 578,
+   "eligible": 4853,
+   "rate": 0.1191
   },
   "32015": {
-   "popularity": 2,
-   "decks": 301,
-   "eligible": 4839,
-   "rate": 0.0622
+   "popularity": 4,
+   "decks": 299,
+   "eligible": 4853,
+   "rate": 0.0616
   },
   "32016": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 304,
-   "eligible": 4839,
-   "rate": 0.0628
+   "eligible": 4853,
+   "rate": 0.0626
   },
   "32017": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 121,
-   "eligible": 4839,
-   "rate": 0.025
+   "eligible": 4853,
+   "rate": 0.0249
   },
   "32018": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 390,
-   "eligible": 4839,
-   "rate": 0.0806
+   "eligible": 4853,
+   "rate": 0.0804
   },
   "32019": {
-   "popularity": 7,
-   "decks": 4200,
-   "eligible": 19907,
-   "rate": 0.211
+   "popularity": 10,
+   "decks": 4213,
+   "eligible": 19935,
+   "rate": 0.2113
   },
   "32020": {
-   "popularity": 5,
-   "decks": 2874,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2878,
+   "eligible": 19935,
    "rate": 0.1444
   },
   "32021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 114,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0057
   },
   "32022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "32023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "32024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "32041": {
-   "popularity": 4,
-   "decks": 516,
-   "eligible": 4646,
-   "rate": 0.1111
+   "popularity": 6,
+   "decks": 515,
+   "eligible": 4651,
+   "rate": 0.1107
   },
   "32042": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 133,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0286
   },
   "32043": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 350,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0753
   },
   "32044": {
-   "popularity": 1,
-   "decks": 165,
-   "eligible": 4646,
-   "rate": 0.0355
+   "popularity": 3,
+   "decks": 164,
+   "eligible": 4651,
+   "rate": 0.0353
   },
   "32045": {
-   "popularity": 1,
-   "decks": 125,
-   "eligible": 4646,
-   "rate": 0.0269
+   "popularity": 2,
+   "decks": 124,
+   "eligible": 4651,
+   "rate": 0.0267
   },
   "32046": {
-   "popularity": 3,
-   "decks": 420,
-   "eligible": 4646,
-   "rate": 0.0904
+   "popularity": 6,
+   "decks": 421,
+   "eligible": 4651,
+   "rate": 0.0905
   },
   "32047": {
-   "popularity": 4,
-   "decks": 647,
-   "eligible": 4646,
-   "rate": 0.1393
+   "popularity": 7,
+   "decks": 649,
+   "eligible": 4651,
+   "rate": 0.1395
   },
   "32048": {
-   "popularity": 2,
-   "decks": 1003,
-   "eligible": 19907,
-   "rate": 0.0504
+   "popularity": 5,
+   "decks": 1007,
+   "eligible": 19935,
+   "rate": 0.0505
   },
   "32049": {
-   "popularity": 2,
-   "decks": 1480,
-   "eligible": 19907,
-   "rate": 0.0743
+   "popularity": 6,
+   "decks": 1479,
+   "eligible": 19935,
+   "rate": 0.0742
   },
   "32051": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 878,
-   "eligible": 19907,
-   "rate": 0.0441
+   "eligible": 19935,
+   "rate": 0.044
   },
   "34014": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 202,
-   "eligible": 4581,
-   "rate": 0.0441
+   "eligible": 4590,
+   "rate": 0.044
   },
   "34015": {
-   "popularity": 2,
-   "decks": 350,
-   "eligible": 4581,
-   "rate": 0.0764
+   "popularity": 5,
+   "decks": 349,
+   "eligible": 4590,
+   "rate": 0.076
   },
   "34016": {
-   "popularity": 3,
-   "decks": 443,
-   "eligible": 4581,
-   "rate": 0.0967
+   "popularity": 6,
+   "decks": 445,
+   "eligible": 4590,
+   "rate": 0.0969
   },
   "34017": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 131,
-   "eligible": 4581,
-   "rate": 0.0286
+   "eligible": 4590,
+   "rate": 0.0285
   },
   "34018": {
-   "popularity": 0,
-   "decks": 65,
-   "eligible": 4581,
-   "rate": 0.0142
+   "popularity": 1,
+   "decks": 63,
+   "eligible": 4590,
+   "rate": 0.0137
   },
   "34019": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 102,
-   "eligible": 4581,
-   "rate": 0.0223
+   "eligible": 4590,
+   "rate": 0.0222
   },
   "34020": {
-   "popularity": 2,
-   "decks": 302,
-   "eligible": 4581,
-   "rate": 0.0659
+   "popularity": 5,
+   "decks": 299,
+   "eligible": 4590,
+   "rate": 0.0651
   },
   "34021": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 358,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.018
   },
   "34022": {
-   "popularity": 1,
-   "decks": 665,
-   "eligible": 19907,
+   "popularity": 4,
+   "decks": 666,
+   "eligible": 19935,
    "rate": 0.0334
   },
   "34024": {
-   "popularity": 3,
-   "decks": 1816,
-   "eligible": 19907,
-   "rate": 0.0912
+   "popularity": 7,
+   "decks": 1812,
+   "eligible": 19935,
+   "rate": 0.0909
   },
   "34032": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 132,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0284
   },
   "34033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 56,
-   "eligible": 4839,
-   "rate": 0.0116
+   "eligible": 4853,
+   "rate": 0.0115
   },
   "34034": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 141,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0266
   },
   "34035": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 64,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0032
   },
   "33024": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "33025": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "33026": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "32050": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 114,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0057
   },
   "32052": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "32053": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "32054": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "34023": {
-   "popularity": 0,
-   "decks": 110,
-   "eligible": 19907,
-   "rate": 0.0055
+   "popularity": 1,
+   "decks": 111,
+   "eligible": 19935,
+   "rate": 0.0056
   },
   "34025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "34026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "34027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "36014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 102,
-   "eligible": 5296,
-   "rate": 0.0193
+   "eligible": 5300,
+   "rate": 0.0192
   },
   "36015": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 263,
-   "eligible": 5296,
-   "rate": 0.0497
+   "eligible": 5300,
+   "rate": 0.0496
   },
   "36016": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 179,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0338
   },
   "36017": {
-   "popularity": 5,
-   "decks": 794,
-   "eligible": 5296,
-   "rate": 0.1499
+   "popularity": 7,
+   "decks": 796,
+   "eligible": 5300,
+   "rate": 0.1502
   },
   "36018": {
-   "popularity": 5,
-   "decks": 779,
-   "eligible": 5296,
-   "rate": 0.1471
+   "popularity": 7,
+   "decks": 783,
+   "eligible": 5300,
+   "rate": 0.1477
   },
   "36019": {
-   "popularity": 2,
-   "decks": 285,
-   "eligible": 5296,
-   "rate": 0.0538
+   "popularity": 4,
+   "decks": 286,
+   "eligible": 5300,
+   "rate": 0.054
   },
   "36020": {
-   "popularity": 3,
-   "decks": 443,
-   "eligible": 5296,
-   "rate": 0.0836
+   "popularity": 5,
+   "decks": 446,
+   "eligible": 5300,
+   "rate": 0.0842
   },
   "36022": {
-   "popularity": 2,
+   "popularity": 6,
    "decks": 1371,
-   "eligible": 19907,
-   "rate": 0.0689
+   "eligible": 19935,
+   "rate": 0.0688
   },
   "36026": {
-   "popularity": 7,
-   "decks": 4425,
-   "eligible": 19907,
-   "rate": 0.2223
+   "popularity": 10,
+   "decks": 4427,
+   "eligible": 19935,
+   "rate": 0.2221
   },
   "36035": {
-   "popularity": 1,
-   "decks": 148,
-   "eligible": 4839,
-   "rate": 0.0306
+   "popularity": 3,
+   "decks": 150,
+   "eligible": 4853,
+   "rate": 0.0309
   },
   "35013": {
-   "popularity": 5,
-   "decks": 746,
-   "eligible": 4646,
-   "rate": 0.1606
+   "popularity": 8,
+   "decks": 748,
+   "eligible": 4651,
+   "rate": 0.1608
   },
   "35014": {
-   "popularity": 5,
-   "decks": 792,
-   "eligible": 4646,
-   "rate": 0.1705
+   "popularity": 8,
+   "decks": 795,
+   "eligible": 4651,
+   "rate": 0.1709
   },
   "35015": {
-   "popularity": 3,
-   "decks": 445,
-   "eligible": 4646,
-   "rate": 0.0958
+   "popularity": 6,
+   "decks": 448,
+   "eligible": 4651,
+   "rate": 0.0963
   },
   "35016": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 241,
-   "eligible": 4646,
-   "rate": 0.0519
+   "eligible": 4651,
+   "rate": 0.0518
   },
   "35017": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 64,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0138
   },
   "35018": {
-   "popularity": 3,
-   "decks": 433,
-   "eligible": 4646,
-   "rate": 0.0932
+   "popularity": 6,
+   "decks": 437,
+   "eligible": 4651,
+   "rate": 0.094
   },
   "35019": {
-   "popularity": 4,
-   "decks": 586,
-   "eligible": 4646,
-   "rate": 0.1261
+   "popularity": 7,
+   "decks": 589,
+   "eligible": 4651,
+   "rate": 0.1266
   },
   "35022": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 511,
-   "eligible": 19907,
-   "rate": 0.0257
+   "eligible": 19935,
+   "rate": 0.0256
   },
   "35023": {
-   "popularity": 0,
-   "decks": 183,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 184,
+   "eligible": 19935,
    "rate": 0.0092
   },
   "35032": {
-   "popularity": 1,
-   "decks": 147,
-   "eligible": 4581,
-   "rate": 0.0321
+   "popularity": 3,
+   "decks": 152,
+   "eligible": 4590,
+   "rate": 0.0331
   },
   "35033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 59,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.003
   },
   "36021": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 232,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0438
   },
   "36023": {
-   "popularity": 5,
-   "decks": 2874,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2878,
+   "eligible": 19935,
    "rate": 0.1444
   },
   "36024": {
-   "popularity": 3,
+   "popularity": 7,
    "decks": 1885,
-   "eligible": 19907,
-   "rate": 0.0947
+   "eligible": 19935,
+   "rate": 0.0946
   },
   "36025": {
-   "popularity": 2,
-   "decks": 1480,
-   "eligible": 19907,
-   "rate": 0.0743
+   "popularity": 6,
+   "decks": 1479,
+   "eligible": 19935,
+   "rate": 0.0742
   },
   "36027": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "36028": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "36029": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "35020": {
-   "popularity": 4,
-   "decks": 647,
-   "eligible": 4646,
-   "rate": 0.1393
+   "popularity": 7,
+   "decks": 649,
+   "eligible": 4651,
+   "rate": 0.1395
   },
   "35021": {
-   "popularity": 2,
-   "decks": 1003,
-   "eligible": 19907,
-   "rate": 0.0504
+   "popularity": 5,
+   "decks": 1007,
+   "eligible": 19935,
+   "rate": 0.0505
   },
   "35024": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "35025": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "35026": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "37011": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 331,
-   "eligible": 4581,
-   "rate": 0.0723
+   "eligible": 4590,
+   "rate": 0.0721
   },
   "37012": {
-   "popularity": 5,
-   "decks": 672,
-   "eligible": 4581,
-   "rate": 0.1467
+   "popularity": 7,
+   "decks": 674,
+   "eligible": 4590,
+   "rate": 0.1468
   },
   "37013": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 179,
-   "eligible": 4581,
-   "rate": 0.0391
+   "eligible": 4590,
+   "rate": 0.039
   },
   "37015": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 115,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0251
   },
   "37019": {
-   "popularity": 0,
-   "decks": 162,
-   "eligible": 19907,
-   "rate": 0.0081
+   "popularity": 1,
+   "decks": 160,
+   "eligible": 19935,
+   "rate": 0.008
   },
   "37021": {
-   "popularity": 1,
-   "decks": 699,
-   "eligible": 19907,
-   "rate": 0.0351
+   "popularity": 4,
+   "decks": 701,
+   "eligible": 19935,
+   "rate": 0.0352
   },
   "37030": {
-   "popularity": 1,
-   "decks": 153,
-   "eligible": 4646,
-   "rate": 0.0329
+   "popularity": 3,
+   "decks": 154,
+   "eligible": 4651,
+   "rate": 0.0331
   },
   "37031": {
-   "popularity": 0,
-   "decks": 287,
-   "eligible": 19907,
-   "rate": 0.0144
+   "popularity": 2,
+   "decks": 289,
+   "eligible": 19935,
+   "rate": 0.0145
   },
   "38010": {
-   "popularity": 2,
-   "decks": 254,
-   "eligible": 4839,
+   "popularity": 4,
+   "decks": 255,
+   "eligible": 4853,
    "rate": 0.0525
   },
   "38011": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 99,
-   "eligible": 4839,
-   "rate": 0.0205
+   "eligible": 4853,
+   "rate": 0.0204
   },
   "38012": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 443,
-   "eligible": 4839,
-   "rate": 0.0915
+   "eligible": 4853,
+   "rate": 0.0913
   },
   "38014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 129,
-   "eligible": 4839,
-   "rate": 0.0267
+   "eligible": 4853,
+   "rate": 0.0266
   },
   "38016": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 544,
-   "eligible": 4839,
-   "rate": 0.1124
+   "eligible": 4853,
+   "rate": 0.1121
   },
   "38018": {
-   "popularity": 2,
-   "decks": 1161,
-   "eligible": 19907,
-   "rate": 0.0583
+   "popularity": 5,
+   "decks": 1159,
+   "eligible": 19935,
+   "rate": 0.0581
   },
   "38019": {
-   "popularity": 3,
-   "decks": 1907,
-   "eligible": 19907,
-   "rate": 0.0958
+   "popularity": 7,
+   "decks": 1904,
+   "eligible": 19935,
+   "rate": 0.0955
   },
   "38028": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 349,
-   "eligible": 5296,
-   "rate": 0.0659
+   "eligible": 5300,
+   "rate": 0.0658
   },
   "37014": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 284,
-   "eligible": 4581,
-   "rate": 0.062
+   "eligible": 4590,
+   "rate": 0.0619
   },
   "37016": {
-   "popularity": 2,
-   "decks": 302,
-   "eligible": 4581,
-   "rate": 0.0659
+   "popularity": 5,
+   "decks": 299,
+   "eligible": 4590,
+   "rate": 0.0651
   },
   "37017": {
-   "popularity": 7,
-   "decks": 4200,
-   "eligible": 19907,
-   "rate": 0.211
+   "popularity": 10,
+   "decks": 4213,
+   "eligible": 19935,
+   "rate": 0.2113
   },
   "37018": {
-   "popularity": 2,
-   "decks": 1480,
-   "eligible": 19907,
-   "rate": 0.0743
+   "popularity": 6,
+   "decks": 1479,
+   "eligible": 19935,
+   "rate": 0.0742
   },
   "37020": {
-   "popularity": 0,
-   "decks": 211,
-   "eligible": 19907,
-   "rate": 0.0106
+   "popularity": 2,
+   "decks": 209,
+   "eligible": 19935,
+   "rate": 0.0105
   },
   "37022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "37023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "37024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "38013": {
    "popularity": 10,
-   "decks": 2174,
-   "eligible": 4839,
-   "rate": 0.4493
+   "decks": 2181,
+   "eligible": 4853,
+   "rate": 0.4494
   },
   "38015": {
-   "popularity": 3,
-   "decks": 474,
-   "eligible": 4839,
-   "rate": 0.098
+   "popularity": 6,
+   "decks": 476,
+   "eligible": 4853,
+   "rate": 0.0981
   },
   "38017": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 390,
-   "eligible": 4839,
-   "rate": 0.0806
+   "eligible": 4853,
+   "rate": 0.0804
   },
   "38020": {
-   "popularity": 0,
-   "decks": 162,
-   "eligible": 19907,
-   "rate": 0.0081
+   "popularity": 1,
+   "decks": 160,
+   "eligible": 19935,
+   "rate": 0.008
   },
   "38021": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "38022": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "38023": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "18032": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 328,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0165
   },
   "04018": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 486,
-   "eligible": 5296,
-   "rate": 0.0918
+   "eligible": 5300,
+   "rate": 0.0917
   },
   "04019": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "04023": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "04024": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "04025": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "04041": {
    "popularity": 10,
-   "decks": 2443,
-   "eligible": 4646,
-   "rate": 0.5258
+   "decks": 2447,
+   "eligible": 4651,
+   "rate": 0.5261
   },
   "04042": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 285,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0613
   },
   "04046": {
    "popularity": 10,
-   "decks": 1851,
-   "eligible": 4581,
-   "rate": 0.4041
+   "decks": 1853,
+   "eligible": 4590,
+   "rate": 0.4037
   },
   "04048": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 474,
-   "eligible": 4581,
-   "rate": 0.1035
+   "eligible": 4590,
+   "rate": 0.1033
   },
   "04050": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "04051": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "04052": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "40014": {
-   "popularity": 1,
-   "decks": 229,
-   "eligible": 5296,
-   "rate": 0.0432
+   "popularity": 3,
+   "decks": 231,
+   "eligible": 5300,
+   "rate": 0.0436
   },
   "40015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 197,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0372
   },
   "40016": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 262,
-   "eligible": 5296,
-   "rate": 0.0495
+   "eligible": 5300,
+   "rate": 0.0494
   },
   "40017": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 104,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0196
   },
   "40018": {
    "popularity": 9,
-   "decks": 1562,
-   "eligible": 5296,
-   "rate": 0.2949
+   "decks": 1565,
+   "eligible": 5300,
+   "rate": 0.2953
   },
   "40019": {
-   "popularity": 4,
-   "decks": 516,
-   "eligible": 4646,
-   "rate": 0.1111
+   "popularity": 6,
+   "decks": 518,
+   "eligible": 4651,
+   "rate": 0.1114
   },
   "40020": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 237,
-   "eligible": 4839,
-   "rate": 0.049
+   "eligible": 4853,
+   "rate": 0.0488
   },
   "40021": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 194,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0366
   },
   "40022": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 230,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0434
   },
   "40023": {
-   "popularity": 4,
-   "decks": 753,
-   "eligible": 5296,
-   "rate": 0.1422
+   "popularity": 7,
+   "decks": 752,
+   "eligible": 5300,
+   "rate": 0.1419
   },
   "40024": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 364,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0183
   },
   "40025": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 194,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0097
   },
   "40026": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 90,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0045
   },
   "40027": {
-   "popularity": 6,
-   "decks": 3509,
-   "eligible": 19907,
-   "rate": 0.1763
+   "popularity": 9,
+   "decks": 3519,
+   "eligible": 19935,
+   "rate": 0.1765
   },
   "40028": {
-   "popularity": 1,
-   "decks": 419,
-   "eligible": 19907,
-   "rate": 0.021
+   "popularity": 3,
+   "decks": 420,
+   "eligible": 19935,
+   "rate": 0.0211
   },
   "40029": {
-   "popularity": 1,
-   "decks": 370,
-   "eligible": 19907,
-   "rate": 0.0186
+   "popularity": 2,
+   "decks": 372,
+   "eligible": 19935,
+   "rate": 0.0187
   },
   "40030": {
-   "popularity": 1,
-   "decks": 920,
-   "eligible": 19907,
-   "rate": 0.0462
+   "popularity": 5,
+   "decks": 922,
+   "eligible": 19935,
+   "rate": 0.0463
   },
   "40050": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 73,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0159
   },
   "40051": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 165,
-   "eligible": 4581,
-   "rate": 0.036
+   "eligible": 4590,
+   "rate": 0.0359
   },
   "40053": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 95,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0207
   },
   "40054": {
-   "popularity": 1,
-   "decks": 144,
-   "eligible": 4581,
-   "rate": 0.0314
+   "popularity": 3,
+   "decks": 149,
+   "eligible": 4590,
+   "rate": 0.0325
   },
   "40056": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 228,
-   "eligible": 19907,
-   "rate": 0.0115
+   "eligible": 19935,
+   "rate": 0.0114
   },
   "40057": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 731,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0367
   },
   "40058": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 156,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0078
   },
   "40059": {
-   "popularity": 5,
-   "decks": 2899,
-   "eligible": 19907,
-   "rate": 0.1456
+   "popularity": 8,
+   "decks": 2904,
+   "eligible": 19935,
+   "rate": 0.1457
   },
   "40060": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 965,
-   "eligible": 19907,
-   "rate": 0.0485
+   "eligible": 19935,
+   "rate": 0.0484
   },
   "40064": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 358,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.018
   },
   "40052": {
-   "popularity": 2,
-   "decks": 357,
-   "eligible": 4581,
-   "rate": 0.0779
+   "popularity": 5,
+   "decks": 353,
+   "eligible": 4590,
+   "rate": 0.0769
   },
   "40055": {
-   "popularity": 6,
-   "decks": 910,
-   "eligible": 4581,
-   "rate": 0.1986
+   "popularity": 8,
+   "decks": 915,
+   "eligible": 4590,
+   "rate": 0.1993
   },
   "40061": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "40062": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "40063": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "40204": {
-   "popularity": 1,
-   "decks": 626,
-   "eligible": 19907,
-   "rate": 0.0314
+   "popularity": 4,
+   "decks": 627,
+   "eligible": 19935,
+   "rate": 0.0315
   },
   "42011": {
-   "popularity": 0,
-   "decks": 74,
-   "eligible": 4839,
-   "rate": 0.0153
+   "popularity": 2,
+   "decks": 73,
+   "eligible": 4853,
+   "rate": 0.015
   },
   "42012": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 91,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0188
   },
   "42013": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 164,
-   "eligible": 4839,
-   "rate": 0.0339
+   "eligible": 4853,
+   "rate": 0.0338
   },
   "42014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 81,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0167
   },
   "42015": {
-   "popularity": 3,
-   "decks": 499,
-   "eligible": 4839,
-   "rate": 0.1031
+   "popularity": 6,
+   "decks": 501,
+   "eligible": 4853,
+   "rate": 0.1032
   },
   "42016": {
-   "popularity": 6,
-   "decks": 887,
-   "eligible": 4839,
-   "rate": 0.1833
+   "popularity": 8,
+   "decks": 890,
+   "eligible": 4853,
+   "rate": 0.1834
   },
   "42017": {
-   "popularity": 2,
-   "decks": 301,
-   "eligible": 4839,
-   "rate": 0.0622
+   "popularity": 4,
+   "decks": 303,
+   "eligible": 4853,
+   "rate": 0.0624
   },
   "42018": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 577,
-   "eligible": 4839,
-   "rate": 0.1192
+   "eligible": 4853,
+   "rate": 0.1189
   },
   "42019": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 155,
-   "eligible": 4839,
-   "rate": 0.032
+   "eligible": 4853,
+   "rate": 0.0319
   },
   "42020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 418,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.021
   },
   "42021": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 164,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0082
   },
   "42022": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 544,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0273
   },
   "42023": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 762,
-   "eligible": 19907,
-   "rate": 0.0383
+   "eligible": 19935,
+   "rate": 0.0382
   },
   "42029": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 212,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0456
   },
   "42030": {
-   "popularity": 0,
-   "decks": 17,
-   "eligible": 4581,
-   "rate": 0.0037
+   "popularity": 1,
+   "decks": 19,
+   "eligible": 4590,
+   "rate": 0.0041
   },
   "42031": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 87,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0164
   },
   "42032": {
-   "popularity": 0,
-   "decks": 108,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 107,
+   "eligible": 19935,
    "rate": 0.0054
   },
   "41012": {
-   "popularity": 1,
-   "decks": 185,
-   "eligible": 4581,
-   "rate": 0.0404
+   "popularity": 3,
+   "decks": 188,
+   "eligible": 4590,
+   "rate": 0.041
   },
   "41013": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 343,
-   "eligible": 4581,
-   "rate": 0.0749
+   "eligible": 4590,
+   "rate": 0.0747
   },
   "41015": {
-   "popularity": 3,
-   "decks": 484,
-   "eligible": 4581,
+   "popularity": 6,
+   "decks": 485,
+   "eligible": 4590,
    "rate": 0.1057
   },
   "41016": {
-   "popularity": 5,
-   "decks": 702,
-   "eligible": 4581,
-   "rate": 0.1532
+   "popularity": 7,
+   "decks": 704,
+   "eligible": 4590,
+   "rate": 0.1534
   },
   "41017": {
-   "popularity": 3,
-   "decks": 439,
-   "eligible": 4581,
-   "rate": 0.0958
+   "popularity": 6,
+   "decks": 440,
+   "eligible": 4590,
+   "rate": 0.0959
   },
   "41018": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 201,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0101
   },
   "41019": {
-   "popularity": 0,
-   "decks": 279,
-   "eligible": 19907,
-   "rate": 0.014
+   "popularity": 2,
+   "decks": 278,
+   "eligible": 19935,
+   "rate": 0.0139
   },
   "41020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 164,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0082
   },
   "41022": {
-   "popularity": 0,
-   "decks": 271,
-   "eligible": 19907,
-   "rate": 0.0136
+   "popularity": 2,
+   "decks": 270,
+   "eligible": 19935,
+   "rate": 0.0135
   },
   "41023": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 278,
-   "eligible": 19907,
-   "rate": 0.014
+   "eligible": 19935,
+   "rate": 0.0139
   },
   "41024": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 98,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0049
   },
   "41030": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 115,
-   "eligible": 4646,
-   "rate": 0.0248
+   "eligible": 4651,
+   "rate": 0.0247
   },
   "41031": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 154,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0291
   },
   "41032": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 36,
-   "eligible": 4839,
+   "eligible": 4853,
    "rate": 0.0074
   },
   "41033": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 120,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.006
   },
   "41014": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 397,
-   "eligible": 4581,
-   "rate": 0.0867
+   "eligible": 4590,
+   "rate": 0.0865
   },
   "41021": {
-   "popularity": 1,
-   "decks": 419,
-   "eligible": 19907,
-   "rate": 0.021
+   "popularity": 3,
+   "decks": 420,
+   "eligible": 19935,
+   "rate": 0.0211
   },
   "44013": {
-   "popularity": 5,
-   "decks": 84,
-   "eligible": 545,
-   "rate": 0.1541
+   "popularity": 7,
+   "decks": 83,
+   "eligible": 541,
+   "rate": 0.1534
   },
   "44014": {
    "popularity": 10,
-   "decks": 201,
-   "eligible": 545,
-   "rate": 0.3688
+   "decks": 199,
+   "eligible": 541,
+   "rate": 0.3678
   },
   "44015": {
-   "popularity": 8,
-   "decks": 130,
-   "eligible": 545,
-   "rate": 0.2385
+   "popularity": 9,
+   "decks": 128,
+   "eligible": 541,
+   "rate": 0.2366
   },
   "44016": {
-   "popularity": 7,
+   "popularity": 9,
    "decks": 128,
-   "eligible": 545,
-   "rate": 0.2349
+   "eligible": 541,
+   "rate": 0.2366
   },
   "44017": {
-   "popularity": 5,
+   "popularity": 7,
    "decks": 85,
-   "eligible": 545,
-   "rate": 0.156
+   "eligible": 541,
+   "rate": 0.1571
   },
   "44018": {
    "popularity": 10,
-   "decks": 237,
-   "eligible": 545,
-   "rate": 0.4349
+   "decks": 234,
+   "eligible": 541,
+   "rate": 0.4325
   },
   "44019": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 93,
-   "eligible": 545,
-   "rate": 0.1706
+   "eligible": 541,
+   "rate": 0.1719
   },
   "44020": {
    "popularity": 10,
-   "decks": 198,
-   "eligible": 545,
-   "rate": 0.3633
+   "decks": 195,
+   "eligible": 541,
+   "rate": 0.3604
   },
   "44021": {
    "popularity": 9,
-   "decks": 148,
-   "eligible": 545,
-   "rate": 0.2716
+   "decks": 147,
+   "eligible": 541,
+   "rate": 0.2717
   },
   "44022": {
    "popularity": 10,
-   "decks": 231,
-   "eligible": 545,
-   "rate": 0.4239
+   "decks": 229,
+   "eligible": 541,
+   "rate": 0.4233
   },
   "44023": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 96,
-   "eligible": 545,
-   "rate": 0.1761
+   "eligible": 541,
+   "rate": 0.1774
   },
   "44024": {
    "popularity": 10,
    "decks": 173,
-   "eligible": 545,
-   "rate": 0.3174
+   "eligible": 541,
+   "rate": 0.3198
   },
   "44025": {
    "popularity": 10,
-   "decks": 459,
-   "eligible": 545,
-   "rate": 0.8422
+   "decks": 456,
+   "eligible": 541,
+   "rate": 0.8429
   },
   "44026": {
    "popularity": 10,
-   "decks": 460,
-   "eligible": 545,
-   "rate": 0.844
+   "decks": 457,
+   "eligible": 541,
+   "rate": 0.8447
   },
   "44027": {
    "popularity": 10,
-   "decks": 457,
-   "eligible": 545,
-   "rate": 0.8385
+   "decks": 454,
+   "eligible": 541,
+   "rate": 0.8392
   },
   "44028": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 92,
-   "eligible": 545,
-   "rate": 0.1688
+   "eligible": 541,
+   "rate": 0.1701
   },
   "44029": {
    "popularity": 10,
-   "decks": 457,
-   "eligible": 545,
-   "rate": 0.8385
+   "decks": 453,
+   "eligible": 541,
+   "rate": 0.8373
   },
   "44030": {
    "popularity": 10,
-   "decks": 418,
-   "eligible": 545,
-   "rate": 0.767
+   "decks": 417,
+   "eligible": 541,
+   "rate": 0.7708
   },
   "44043": {
-   "popularity": 8,
-   "decks": 130,
-   "eligible": 545,
-   "rate": 0.2385
+   "popularity": 9,
+   "decks": 128,
+   "eligible": 541,
+   "rate": 0.2366
   },
   "44044": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 95,
-   "eligible": 545,
-   "rate": 0.1743
+   "eligible": 541,
+   "rate": 0.1756
   },
   "44045": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 59,
-   "eligible": 545,
-   "rate": 0.1083
+   "eligible": 541,
+   "rate": 0.1091
   },
   "44046": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 49,
-   "eligible": 545,
-   "rate": 0.0899
+   "eligible": 541,
+   "rate": 0.0906
   },
   "44047": {
    "popularity": 10,
-   "decks": 207,
-   "eligible": 545,
-   "rate": 0.3798
+   "decks": 205,
+   "eligible": 541,
+   "rate": 0.3789
   },
   "44048": {
    "popularity": 10,
    "decks": 181,
-   "eligible": 545,
-   "rate": 0.3321
+   "eligible": 541,
+   "rate": 0.3346
   },
   "44049": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 66,
-   "eligible": 545,
-   "rate": 0.1211
+   "eligible": 541,
+   "rate": 0.122
   },
   "44050": {
    "popularity": 10,
-   "decks": 180,
-   "eligible": 545,
-   "rate": 0.3303
+   "decks": 177,
+   "eligible": 541,
+   "rate": 0.3272
   },
   "44051": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 23,
-   "eligible": 545,
-   "rate": 0.0422
+   "eligible": 541,
+   "rate": 0.0425
   },
   "44052": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 24,
-   "eligible": 545,
-   "rate": 0.044
+   "eligible": 541,
+   "rate": 0.0444
   },
   "44053": {
-   "popularity": 8,
+   "popularity": 9,
    "decks": 147,
-   "eligible": 545,
-   "rate": 0.2697
+   "eligible": 541,
+   "rate": 0.2717
   },
   "44054": {
-   "popularity": 3,
-   "decks": 44,
-   "eligible": 545,
-   "rate": 0.0807
+   "popularity": 5,
+   "decks": 43,
+   "eligible": 541,
+   "rate": 0.0795
   },
   "44055": {
    "popularity": 10,
    "decks": 211,
-   "eligible": 545,
-   "rate": 0.3872
+   "eligible": 541,
+   "rate": 0.39
   },
   "44056": {
    "popularity": 9,
    "decks": 153,
-   "eligible": 545,
-   "rate": 0.2807
+   "eligible": 541,
+   "rate": 0.2828
   },
   "44057": {
    "popularity": 10,
-   "decks": 254,
-   "eligible": 545,
-   "rate": 0.4661
+   "decks": 251,
+   "eligible": 541,
+   "rate": 0.464
   },
   "44058": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 39,
-   "eligible": 545,
-   "rate": 0.0716
+   "eligible": 541,
+   "rate": 0.0721
   },
   "43013": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 110,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0237
   },
   "43014": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 59,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0127
   },
   "43015": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 44,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0095
   },
   "43016": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 44,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0095
   },
   "43018": {
-   "popularity": 2,
-   "decks": 236,
-   "eligible": 4646,
-   "rate": 0.0508
+   "popularity": 4,
+   "decks": 235,
+   "eligible": 4651,
+   "rate": 0.0505
   },
   "43019": {
-   "popularity": 1,
-   "decks": 217,
-   "eligible": 4646,
-   "rate": 0.0467
+   "popularity": 4,
+   "decks": 218,
+   "eligible": 4651,
+   "rate": 0.0469
   },
   "43020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 152,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0327
   },
   "43021": {
-   "popularity": 4,
-   "decks": 2256,
-   "eligible": 19907,
-   "rate": 0.1133
+   "popularity": 8,
+   "decks": 2252,
+   "eligible": 19935,
+   "rate": 0.113
   },
   "43034": {
-   "popularity": 0,
-   "decks": 24,
-   "eligible": 19907,
-   "rate": 0.0012
+   "popularity": 1,
+   "decks": 21,
+   "eligible": 19935,
+   "rate": 0.0011
   },
   "43035": {
-   "popularity": 0,
-   "decks": 26,
-   "eligible": 19907,
-   "rate": 0.0013
-  },
-  "43036": {
-   "popularity": 0,
-   "decks": 24,
-   "eligible": 19907,
+   "popularity": 1,
+   "decks": 23,
+   "eligible": 19935,
    "rate": 0.0012
   },
+  "43036": {
+   "popularity": 1,
+   "decks": 21,
+   "eligible": 19935,
+   "rate": 0.0011
+  },
   "43037": {
-   "popularity": 0,
-   "decks": 20,
-   "eligible": 19907,
-   "rate": 0.001
+   "popularity": 1,
+   "decks": 17,
+   "eligible": 19935,
+   "rate": 0.0009
   },
   "43038": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 77,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0168
   },
   "43039": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 186,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0351
   },
   "43040": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 85,
-   "eligible": 4839,
-   "rate": 0.0176
+   "eligible": 4853,
+   "rate": 0.0175
   },
   "44031": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 90,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0045
   },
   "43017": {
-   "popularity": 4,
-   "decks": 578,
-   "eligible": 4646,
-   "rate": 0.1244
+   "popularity": 7,
+   "decks": 579,
+   "eligible": 4651,
+   "rate": 0.1245
   },
   "43022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "43023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "43024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "43025": {
-   "popularity": 0,
-   "decks": 271,
-   "eligible": 19907,
-   "rate": 0.0136
+   "popularity": 2,
+   "decks": 270,
+   "eligible": 19935,
+   "rate": 0.0135
   },
   "43026": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 278,
-   "eligible": 19907,
-   "rate": 0.014
+   "eligible": 19935,
+   "rate": 0.0139
   },
   "43027": {
-   "popularity": 7,
-   "decks": 4425,
-   "eligible": 19907,
-   "rate": 0.2223
+   "popularity": 10,
+   "decks": 4427,
+   "eligible": 19935,
+   "rate": 0.2221
   },
   "45011": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 168,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0317
   },
   "45012": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 271,
-   "eligible": 5296,
-   "rate": 0.0512
+   "eligible": 5300,
+   "rate": 0.0511
   },
   "45014": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 116,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0219
   },
   "45015": {
-   "popularity": 6,
-   "decks": 953,
-   "eligible": 5296,
-   "rate": 0.1799
+   "popularity": 8,
+   "decks": 955,
+   "eligible": 5300,
+   "rate": 0.1802
   },
   "45016": {
-   "popularity": 5,
-   "decks": 759,
-   "eligible": 5296,
-   "rate": 0.1433
+   "popularity": 7,
+   "decks": 760,
+   "eligible": 5300,
+   "rate": 0.1434
   },
   "45017": {
-   "popularity": 6,
-   "decks": 960,
-   "eligible": 5296,
-   "rate": 0.1813
+   "popularity": 8,
+   "decks": 963,
+   "eligible": 5300,
+   "rate": 0.1817
   },
   "45020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 516,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0259
   },
   "45021": {
-   "popularity": 1,
-   "decks": 441,
-   "eligible": 19907,
+   "popularity": 3,
+   "decks": 442,
+   "eligible": 19935,
    "rate": 0.0222
   },
   "45041": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 228,
-   "eligible": 4646,
-   "rate": 0.0491
+   "eligible": 4651,
+   "rate": 0.049
   },
   "45042": {
-   "popularity": 1,
-   "decks": 123,
-   "eligible": 4646,
-   "rate": 0.0265
+   "popularity": 2,
+   "decks": 122,
+   "eligible": 4651,
+   "rate": 0.0262
   },
   "45043": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 454,
-   "eligible": 4646,
-   "rate": 0.0977
+   "eligible": 4651,
+   "rate": 0.0976
   },
   "45044": {
-   "popularity": 1,
-   "decks": 212,
-   "eligible": 4646,
-   "rate": 0.0456
+   "popularity": 4,
+   "decks": 210,
+   "eligible": 4651,
+   "rate": 0.0452
   },
   "45045": {
-   "popularity": 2,
-   "decks": 341,
-   "eligible": 4646,
-   "rate": 0.0734
+   "popularity": 5,
+   "decks": 342,
+   "eligible": 4651,
+   "rate": 0.0735
   },
   "45048": {
-   "popularity": 2,
-   "decks": 1374,
-   "eligible": 19907,
+   "popularity": 6,
+   "decks": 1376,
+   "eligible": 19935,
    "rate": 0.069
   },
   "45049": {
-   "popularity": 1,
-   "decks": 382,
-   "eligible": 19907,
-   "rate": 0.0192
+   "popularity": 2,
+   "decks": 380,
+   "eligible": 19935,
+   "rate": 0.0191
   },
   "45050": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 338,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.017
   },
   "45051": {
-   "popularity": 1,
-   "decks": 396,
-   "eligible": 19907,
-   "rate": 0.0199
+   "popularity": 2,
+   "decks": 395,
+   "eligible": 19935,
+   "rate": 0.0198
   },
   "45013": {
    "popularity": 9,
    "decks": 1496,
-   "eligible": 5296,
-   "rate": 0.2825
+   "eligible": 5300,
+   "rate": 0.2823
   },
   "45018": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 486,
-   "eligible": 5296,
-   "rate": 0.0918
+   "eligible": 5300,
+   "rate": 0.0917
   },
   "45019": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "45022": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "45023": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "45024": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "45046": {
-   "popularity": 5,
-   "decks": 701,
-   "eligible": 4646,
+   "popularity": 7,
+   "decks": 702,
+   "eligible": 4651,
    "rate": 0.1509
   },
   "45047": {
    "popularity": 10,
-   "decks": 2268,
-   "eligible": 4646,
-   "rate": 0.4882
+   "decks": 2271,
+   "eligible": 4651,
+   "rate": 0.4883
   },
   "45052": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 796,
-   "eligible": 19907,
-   "rate": 0.04
+   "eligible": 19935,
+   "rate": 0.0399
   },
   "46012": {
-   "popularity": 2,
-   "decks": 227,
-   "eligible": 4646,
-   "rate": 0.0489
+   "popularity": 4,
+   "decks": 228,
+   "eligible": 4651,
+   "rate": 0.049
   },
   "46013": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 141,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0303
   },
   "46014": {
-   "popularity": 2,
-   "decks": 360,
-   "eligible": 4646,
-   "rate": 0.0775
+   "popularity": 5,
+   "decks": 361,
+   "eligible": 4651,
+   "rate": 0.0776
   },
   "46015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 183,
-   "eligible": 4646,
-   "rate": 0.0394
+   "eligible": 4651,
+   "rate": 0.0393
   },
   "46016": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 198,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0426
   },
   "46017": {
-   "popularity": 4,
-   "decks": 572,
-   "eligible": 4646,
-   "rate": 0.1231
+   "popularity": 7,
+   "decks": 574,
+   "eligible": 4651,
+   "rate": 0.1234
   },
   "46018": {
-   "popularity": 2,
-   "decks": 344,
-   "eligible": 4646,
-   "rate": 0.074
+   "popularity": 5,
+   "decks": 345,
+   "eligible": 4651,
+   "rate": 0.0742
   },
   "46019": {
-   "popularity": 0,
-   "decks": 253,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 254,
+   "eligible": 19935,
    "rate": 0.0127
   },
   "46020": {
-   "popularity": 1,
-   "decks": 833,
-   "eligible": 19907,
-   "rate": 0.0418
+   "popularity": 4,
+   "decks": 835,
+   "eligible": 19935,
+   "rate": 0.0419
   },
   "46021": {
-   "popularity": 4,
-   "decks": 2485,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2487,
+   "eligible": 19935,
    "rate": 0.1248
   },
   "46022": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 106,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0053
   },
   "46023": {
-   "popularity": 4,
-   "decks": 2405,
-   "eligible": 19907,
-   "rate": 0.1208
+   "popularity": 8,
+   "decks": 2411,
+   "eligible": 19935,
+   "rate": 0.1209
   },
   "47011": {
-   "popularity": 1,
-   "decks": 200,
-   "eligible": 4581,
-   "rate": 0.0437
+   "popularity": 3,
+   "decks": 199,
+   "eligible": 4590,
+   "rate": 0.0434
   },
   "47012": {
-   "popularity": 2,
-   "decks": 315,
-   "eligible": 4581,
-   "rate": 0.0688
+   "popularity": 5,
+   "decks": 314,
+   "eligible": 4590,
+   "rate": 0.0684
   },
   "47013": {
-   "popularity": 2,
-   "decks": 309,
-   "eligible": 4581,
-   "rate": 0.0675
+   "popularity": 5,
+   "decks": 311,
+   "eligible": 4590,
+   "rate": 0.0678
   },
   "47014": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 171,
-   "eligible": 4581,
+   "eligible": 4590,
    "rate": 0.0373
   },
   "47015": {
-   "popularity": 1,
-   "decks": 180,
-   "eligible": 4581,
-   "rate": 0.0393
+   "popularity": 3,
+   "decks": 179,
+   "eligible": 4590,
+   "rate": 0.039
   },
   "47016": {
-   "popularity": 3,
-   "decks": 369,
-   "eligible": 4581,
+   "popularity": 5,
+   "decks": 370,
+   "eligible": 4590,
    "rate": 0.0806
   },
   "47018": {
-   "popularity": 1,
-   "decks": 320,
-   "eligible": 19907,
+   "popularity": 2,
+   "decks": 321,
+   "eligible": 19935,
    "rate": 0.0161
   },
   "47019": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 262,
-   "eligible": 19907,
-   "rate": 0.0132
+   "eligible": 19935,
+   "rate": 0.0131
   },
   "47021": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 356,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0179
   },
   "47022": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 114,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0057
   },
   "47028": {
-   "popularity": 1,
-   "decks": 199,
-   "eligible": 5296,
-   "rate": 0.0376
+   "popularity": 3,
+   "decks": 201,
+   "eligible": 5300,
+   "rate": 0.0379
   },
   "47029": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 56,
-   "eligible": 4839,
-   "rate": 0.0116
+   "eligible": 4853,
+   "rate": 0.0115
   },
   "47017": {
    "popularity": 10,
-   "decks": 1886,
-   "eligible": 4581,
-   "rate": 0.4117
+   "decks": 1890,
+   "eligible": 4590,
+   "rate": 0.4118
   },
   "47020": {
-   "popularity": 3,
-   "decks": 1907,
-   "eligible": 19907,
-   "rate": 0.0958
+   "popularity": 7,
+   "decks": 1904,
+   "eligible": 19935,
+   "rate": 0.0955
   },
   "48012": {
-   "popularity": 2,
-   "decks": 341,
-   "eligible": 4829,
-   "rate": 0.0706
+   "popularity": 5,
+   "decks": 345,
+   "eligible": 4849,
+   "rate": 0.0711
   },
   "48013": {
-   "popularity": 2,
-   "decks": 325,
-   "eligible": 4829,
-   "rate": 0.0673
+   "popularity": 5,
+   "decks": 326,
+   "eligible": 4849,
+   "rate": 0.0672
   },
   "48014": {
-   "popularity": 6,
-   "decks": 978,
-   "eligible": 4829,
-   "rate": 0.2025
+   "popularity": 8,
+   "decks": 983,
+   "eligible": 4849,
+   "rate": 0.2027
   },
   "48015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 178,
-   "eligible": 4829,
-   "rate": 0.0369
+   "eligible": 4849,
+   "rate": 0.0367
   },
   "48016": {
-   "popularity": 4,
-   "decks": 613,
-   "eligible": 4829,
-   "rate": 0.1269
+   "popularity": 7,
+   "decks": 615,
+   "eligible": 4849,
+   "rate": 0.1268
   },
   "48018": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 555,
-   "eligible": 4829,
-   "rate": 0.1149
+   "eligible": 4849,
+   "rate": 0.1145
   },
   "48020": {
-   "popularity": 1,
-   "decks": 194,
-   "eligible": 4829,
+   "popularity": 3,
+   "decks": 195,
+   "eligible": 4849,
    "rate": 0.0402
   },
   "48021": {
-   "popularity": 2,
-   "decks": 1052,
-   "eligible": 19845,
-   "rate": 0.053
+   "popularity": 5,
+   "decks": 1060,
+   "eligible": 19900,
+   "rate": 0.0533
   },
   "48031": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 25,
-   "eligible": 4630,
+   "eligible": 4643,
    "rate": 0.0054
   },
   "48032": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 243,
-   "eligible": 4567,
-   "rate": 0.0532
+   "eligible": 4581,
+   "rate": 0.053
   },
   "48017": {
-   "popularity": 4,
-   "decks": 575,
-   "eligible": 4839,
-   "rate": 0.1188
+   "popularity": 6,
+   "decks": 578,
+   "eligible": 4853,
+   "rate": 0.1191
   },
   "48019": {
    "popularity": 10,
-   "decks": 1693,
-   "eligible": 4839,
-   "rate": 0.3499
+   "decks": 1703,
+   "eligible": 4853,
+   "rate": 0.3509
   },
   "48022": {
-   "popularity": 2,
-   "decks": 1161,
-   "eligible": 19907,
-   "rate": 0.0583
+   "popularity": 5,
+   "decks": 1159,
+   "eligible": 19935,
+   "rate": 0.0581
   },
   "48023": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "48024": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "48025": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "49012": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 393,
-   "eligible": 4963,
-   "rate": 0.0792
+   "eligible": 4971,
+   "rate": 0.0791
   },
   "49013": {
-   "popularity": 4,
-   "decks": 618,
-   "eligible": 4963,
+   "popularity": 7,
+   "decks": 619,
+   "eligible": 4971,
    "rate": 0.1245
   },
   "49014": {
-   "popularity": 3,
-   "decks": 515,
-   "eligible": 4963,
-   "rate": 0.1038
+   "popularity": 6,
+   "decks": 517,
+   "eligible": 4971,
+   "rate": 0.104
   },
   "49015": {
-   "popularity": 3,
-   "decks": 537,
-   "eligible": 4963,
+   "popularity": 6,
+   "decks": 538,
+   "eligible": 4971,
    "rate": 0.1082
   },
   "49016": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 125,
-   "eligible": 4963,
-   "rate": 0.0252
+   "eligible": 4971,
+   "rate": 0.0251
   },
   "49017": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 314,
-   "eligible": 4963,
-   "rate": 0.0633
+   "eligible": 4971,
+   "rate": 0.0632
   },
   "49018": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 370,
-   "eligible": 4963,
-   "rate": 0.0746
+   "eligible": 4971,
+   "rate": 0.0744
   },
   "49019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 253,
-   "eligible": 4963,
-   "rate": 0.051
+   "eligible": 4971,
+   "rate": 0.0509
   },
   "49020": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 258,
-   "eligible": 4963,
-   "rate": 0.052
+   "eligible": 4971,
+   "rate": 0.0519
   },
   "49021": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 598,
-   "eligible": 18556,
-   "rate": 0.0322
+   "eligible": 18611,
+   "rate": 0.0321
   },
   "49022": {
-   "popularity": 2,
-   "decks": 1056,
-   "eligible": 18556,
-   "rate": 0.0569
+   "popularity": 5,
+   "decks": 1057,
+   "eligible": 18611,
+   "rate": 0.0568
   },
   "49033": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 18556,
+   "eligible": 18611,
    "rate": 0.0
   },
   "49034": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 18556,
+   "eligible": 18611,
    "rate": 0.0
   },
   "49035": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 18556,
+   "eligible": 18611,
    "rate": 0.0
   },
   "49036": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 18556,
+   "eligible": 18611,
    "rate": 0.0
   },
   "49037": {
-   "popularity": 1,
-   "decks": 680,
-   "eligible": 18556,
+   "popularity": 4,
+   "decks": 681,
+   "eligible": 18611,
    "rate": 0.0366
   },
   "49023": {
-   "popularity": 5,
-   "decks": 2991,
-   "eligible": 19907,
+   "popularity": 8,
+   "decks": 2995,
+   "eligible": 19935,
    "rate": 0.1502
   },
   "49024": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "49025": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "49026": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "50012": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 148,
-   "eligible": 4263,
+   "eligible": 4271,
    "rate": 0.0347
   },
   "50013": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 218,
-   "eligible": 4263,
-   "rate": 0.0511
+   "eligible": 4271,
+   "rate": 0.051
   },
   "50014": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 229,
-   "eligible": 4263,
-   "rate": 0.0537
+   "eligible": 4271,
+   "rate": 0.0536
   },
   "50015": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 111,
-   "eligible": 4263,
+   "eligible": 4271,
    "rate": 0.026
   },
   "50017": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 191,
-   "eligible": 4263,
-   "rate": 0.0448
+   "eligible": 4271,
+   "rate": 0.0447
   },
   "50018": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 84,
-   "eligible": 3854,
-   "rate": 0.0218
+   "eligible": 3867,
+   "rate": 0.0217
   },
   "50019": {
-   "popularity": 1,
-   "decks": 127,
-   "eligible": 3759,
-   "rate": 0.0338
+   "popularity": 3,
+   "decks": 128,
+   "eligible": 3773,
+   "rate": 0.0339
   },
   "50020": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 52,
-   "eligible": 4024,
+   "eligible": 4044,
    "rate": 0.0129
   },
   "50022": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 435,
-   "eligible": 16277,
-   "rate": 0.0267
+   "eligible": 16332,
+   "rate": 0.0266
   },
   "50023": {
-   "popularity": 0,
-   "decks": 218,
-   "eligible": 16277,
-   "rate": 0.0134
+   "popularity": 2,
+   "decks": 221,
+   "eligible": 16332,
+   "rate": 0.0135
   },
   "50024": {
-   "popularity": 0,
-   "decks": 249,
-   "eligible": 16277,
+   "popularity": 2,
+   "decks": 250,
+   "eligible": 16332,
    "rate": 0.0153
   },
   "50028": {
-   "popularity": 1,
-   "decks": 326,
-   "eligible": 16277,
+   "popularity": 2,
+   "decks": 327,
+   "eligible": 16332,
    "rate": 0.02
   },
   "50050": {
-   "popularity": 2,
-   "decks": 216,
-   "eligible": 3759,
-   "rate": 0.0575
+   "popularity": 4,
+   "decks": 218,
+   "eligible": 3773,
+   "rate": 0.0578
   },
   "50051": {
-   "popularity": 1,
-   "decks": 148,
-   "eligible": 3759,
-   "rate": 0.0394
+   "popularity": 3,
+   "decks": 150,
+   "eligible": 3773,
+   "rate": 0.0398
   },
   "50052": {
-   "popularity": 2,
-   "decks": 197,
-   "eligible": 3759,
-   "rate": 0.0524
+   "popularity": 4,
+   "decks": 198,
+   "eligible": 3773,
+   "rate": 0.0525
   },
   "50054": {
-   "popularity": 1,
-   "decks": 590,
-   "eligible": 16277,
+   "popularity": 4,
+   "decks": 591,
+   "eligible": 16332,
    "rate": 0.0362
   },
   "50055": {
-   "popularity": 1,
-   "decks": 450,
-   "eligible": 16277,
-   "rate": 0.0276
+   "popularity": 3,
+   "decks": 452,
+   "eligible": 16332,
+   "rate": 0.0277
   },
   "50056": {
-   "popularity": 1,
-   "decks": 561,
-   "eligible": 16277,
+   "popularity": 4,
+   "decks": 563,
+   "eligible": 16332,
    "rate": 0.0345
   },
   "50058": {
-   "popularity": 2,
-   "decks": 890,
-   "eligible": 16277,
-   "rate": 0.0547
+   "popularity": 5,
+   "decks": 891,
+   "eligible": 16332,
+   "rate": 0.0546
   },
   "50016": {
-   "popularity": 7,
+   "popularity": 8,
    "decks": 1109,
-   "eligible": 5296,
-   "rate": 0.2094
+   "eligible": 5300,
+   "rate": 0.2092
   },
   "50021": {
-   "popularity": 1,
-   "decks": 325,
-   "eligible": 19907,
-   "rate": 0.0163
+   "popularity": 2,
+   "decks": 326,
+   "eligible": 19935,
+   "rate": 0.0164
   },
   "50025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "50026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "50027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "50047": {
-   "popularity": 5,
-   "decks": 731,
-   "eligible": 4581,
-   "rate": 0.1596
+   "popularity": 7,
+   "decks": 733,
+   "eligible": 4590,
+   "rate": 0.1597
   },
   "50048": {
-   "popularity": 6,
-   "decks": 867,
-   "eligible": 4581,
+   "popularity": 8,
+   "decks": 869,
+   "eligible": 4590,
    "rate": 0.1893
   },
   "50049": {
-   "popularity": 2,
-   "decks": 315,
-   "eligible": 4581,
+   "popularity": 5,
+   "decks": 316,
+   "eligible": 4590,
    "rate": 0.0688
   },
   "50053": {
    "popularity": 10,
-   "decks": 1631,
-   "eligible": 4581,
+   "decks": 1634,
+   "eligible": 4590,
    "rate": 0.356
   },
   "50057": {
-   "popularity": 1,
-   "decks": 646,
-   "eligible": 19907,
-   "rate": 0.0325
+   "popularity": 4,
+   "decks": 649,
+   "eligible": 19935,
+   "rate": 0.0326
   },
   "51014": {
-   "popularity": 3,
-   "decks": 323,
-   "eligible": 3357,
-   "rate": 0.0962
+   "popularity": 6,
+   "decks": 325,
+   "eligible": 3371,
+   "rate": 0.0964
   },
   "51015": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 321,
-   "eligible": 3357,
-   "rate": 0.0956
+   "eligible": 3371,
+   "rate": 0.0952
   },
   "51016": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 158,
-   "eligible": 3357,
-   "rate": 0.0471
+   "eligible": 3371,
+   "rate": 0.0469
   },
   "51017": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 177,
-   "eligible": 3357,
-   "rate": 0.0527
+   "eligible": 3371,
+   "rate": 0.0525
   },
   "51018": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 401,
-   "eligible": 3357,
-   "rate": 0.1195
+   "eligible": 3371,
+   "rate": 0.119
   },
   "51019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 169,
-   "eligible": 3357,
-   "rate": 0.0503
+   "eligible": 3371,
+   "rate": 0.0501
   },
   "51021": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 99,
-   "eligible": 3357,
-   "rate": 0.0295
+   "eligible": 3371,
+   "rate": 0.0294
   },
   "51022": {
-   "popularity": 1,
-   "decks": 266,
-   "eligible": 14637,
+   "popularity": 2,
+   "decks": 268,
+   "eligible": 14692,
    "rate": 0.0182
   },
   "51023": {
-   "popularity": 1,
-   "decks": 252,
-   "eligible": 14637,
-   "rate": 0.0172
+   "popularity": 2,
+   "decks": 254,
+   "eligible": 14692,
+   "rate": 0.0173
   },
   "51024": {
-   "popularity": 1,
-   "decks": 248,
-   "eligible": 14637,
-   "rate": 0.0169
+   "popularity": 2,
+   "decks": 250,
+   "eligible": 14692,
+   "rate": 0.017
   },
   "51025": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 157,
-   "eligible": 14637,
+   "eligible": 14692,
    "rate": 0.0107
   },
   "51030": {
-   "popularity": 1,
-   "decks": 262,
-   "eligible": 14637,
+   "popularity": 2,
+   "decks": 263,
+   "eligible": 14692,
    "rate": 0.0179
   },
   "51036": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 3357,
+   "eligible": 3371,
    "rate": 0.0
   },
   "51037": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 87,
-   "eligible": 3815,
+   "eligible": 3823,
    "rate": 0.0228
   },
   "51038": {
-   "popularity": 1,
-   "decks": 127,
-   "eligible": 3462,
-   "rate": 0.0367
+   "popularity": 3,
+   "decks": 128,
+   "eligible": 3475,
+   "rate": 0.0368
   },
   "52013": {
-   "popularity": 1,
-   "decks": 149,
-   "eligible": 3669,
-   "rate": 0.0406
+   "popularity": 3,
+   "decks": 153,
+   "eligible": 3689,
+   "rate": 0.0415
   },
   "52014": {
-   "popularity": 2,
-   "decks": 291,
-   "eligible": 3669,
-   "rate": 0.0793
+   "popularity": 5,
+   "decks": 292,
+   "eligible": 3689,
+   "rate": 0.0792
   },
   "52016": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 364,
-   "eligible": 3669,
-   "rate": 0.0992
+   "eligible": 3689,
+   "rate": 0.0987
   },
   "52017": {
-   "popularity": 4,
-   "decks": 490,
-   "eligible": 3669,
-   "rate": 0.1336
+   "popularity": 7,
+   "decks": 491,
+   "eligible": 3689,
+   "rate": 0.1331
   },
   "52018": {
-   "popularity": 3,
-   "decks": 323,
-   "eligible": 3669,
-   "rate": 0.088
+   "popularity": 5,
+   "decks": 328,
+   "eligible": 3689,
+   "rate": 0.0889
   },
   "52019": {
    "popularity": 9,
-   "decks": 1065,
-   "eligible": 3669,
-   "rate": 0.2903
+   "decks": 1069,
+   "eligible": 3689,
+   "rate": 0.2898
   },
   "52020": {
-   "popularity": 2,
-   "decks": 200,
-   "eligible": 3669,
+   "popularity": 4,
+   "decks": 201,
+   "eligible": 3689,
    "rate": 0.0545
   },
   "52021": {
-   "popularity": 1,
-   "decks": 295,
-   "eligible": 14637,
-   "rate": 0.0202
+   "popularity": 2,
+   "decks": 296,
+   "eligible": 14692,
+   "rate": 0.0201
   },
   "52024": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 88,
-   "eligible": 14637,
+   "eligible": 14692,
    "rate": 0.006
   },
   "52032": {
-   "popularity": 1,
-   "decks": 155,
-   "eligible": 3815,
-   "rate": 0.0406
+   "popularity": 3,
+   "decks": 156,
+   "eligible": 3823,
+   "rate": 0.0408
   },
   "52033": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 107,
-   "eligible": 3462,
-   "rate": 0.0309
+   "eligible": 3475,
+   "rate": 0.0308
   },
   "52034": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 106,
-   "eligible": 3357,
-   "rate": 0.0316
+   "eligible": 3371,
+   "rate": 0.0314
   },
   "51020": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 835,
-   "eligible": 4581,
-   "rate": 0.1823
+   "eligible": 4590,
+   "rate": 0.1819
   },
   "51026": {
-   "popularity": 6,
-   "decks": 3509,
-   "eligible": 19907,
-   "rate": 0.1763
+   "popularity": 9,
+   "decks": 3519,
+   "eligible": 19935,
+   "rate": 0.1765
   },
   "51027": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "51028": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "51029": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "52015": {
-   "popularity": 4,
+   "popularity": 6,
    "decks": 544,
-   "eligible": 4839,
-   "rate": 0.1124
+   "eligible": 4853,
+   "rate": 0.1121
   },
   "52023": {
-   "popularity": 1,
-   "decks": 759,
-   "eligible": 19907,
-   "rate": 0.0381
+   "popularity": 4,
+   "decks": 761,
+   "eligible": 19935,
+   "rate": 0.0382
   },
   "52025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "52026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "52027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "52022": {
-   "popularity": 2,
-   "decks": 1576,
-   "eligible": 19907,
-   "rate": 0.0792
+   "popularity": 6,
+   "decks": 1586,
+   "eligible": 19935,
+   "rate": 0.0796
   },
   "53015": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 178,
-   "eligible": 3351,
-   "rate": 0.0531
+   "eligible": 3359,
+   "rate": 0.053
   },
   "53017": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 320,
-   "eligible": 3351,
-   "rate": 0.0955
+   "eligible": 3359,
+   "rate": 0.0953
   },
   "53018": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 168,
-   "eligible": 3351,
-   "rate": 0.0501
+   "eligible": 3359,
+   "rate": 0.05
   },
   "53019": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 203,
-   "eligible": 3351,
-   "rate": 0.0606
+   "eligible": 3359,
+   "rate": 0.0604
   },
   "53020": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 146,
-   "eligible": 3351,
-   "rate": 0.0436
+   "eligible": 3359,
+   "rate": 0.0435
   },
   "53021": {
-   "popularity": 2,
-   "decks": 212,
-   "eligible": 3351,
-   "rate": 0.0633
+   "popularity": 4,
+   "decks": 213,
+   "eligible": 3359,
+   "rate": 0.0634
   },
   "53023": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 109,
-   "eligible": 3351,
+   "eligible": 3359,
    "rate": 0.0325
   },
   "53024": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 69,
-   "eligible": 3351,
-   "rate": 0.0206
+   "eligible": 3359,
+   "rate": 0.0205
   },
   "53034": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 20,
-   "eligible": 3351,
+   "eligible": 3359,
    "rate": 0.006
   },
   "53035": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 195,
-   "eligible": 3102,
-   "rate": 0.0629
+   "eligible": 3115,
+   "rate": 0.0626
   },
   "53036": {
-   "popularity": 1,
-   "decks": 66,
-   "eligible": 2920,
-   "rate": 0.0226
+   "popularity": 2,
+   "decks": 68,
+   "eligible": 2934,
+   "rate": 0.0232
   },
   "53037": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 131,
-   "eligible": 3224,
-   "rate": 0.0406
+   "eligible": 3244,
+   "rate": 0.0404
   },
   "54012": {
-   "popularity": 2,
-   "decks": 240,
-   "eligible": 3102,
+   "popularity": 5,
+   "decks": 241,
+   "eligible": 3115,
    "rate": 0.0774
   },
   "54013": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 123,
-   "eligible": 3102,
-   "rate": 0.0397
+   "eligible": 3115,
+   "rate": 0.0395
   },
   "54014": {
-   "popularity": 5,
-   "decks": 448,
-   "eligible": 3102,
-   "rate": 0.1444
+   "popularity": 7,
+   "decks": 449,
+   "eligible": 3115,
+   "rate": 0.1441
   },
   "54016": {
-   "popularity": 5,
-   "decks": 466,
-   "eligible": 3102,
-   "rate": 0.1502
+   "popularity": 7,
+   "decks": 470,
+   "eligible": 3115,
+   "rate": 0.1509
   },
   "54017": {
-   "popularity": 3,
-   "decks": 265,
-   "eligible": 3102,
-   "rate": 0.0854
+   "popularity": 5,
+   "decks": 267,
+   "eligible": 3115,
+   "rate": 0.0857
   },
   "54018": {
-   "popularity": 3,
-   "decks": 263,
-   "eligible": 3102,
+   "popularity": 5,
+   "decks": 264,
+   "eligible": 3115,
    "rate": 0.0848
   },
   "54019": {
-   "popularity": 3,
-   "decks": 336,
-   "eligible": 3102,
-   "rate": 0.1083
+   "popularity": 6,
+   "decks": 337,
+   "eligible": 3115,
+   "rate": 0.1082
   },
   "54020": {
-   "popularity": 2,
-   "decks": 210,
-   "eligible": 3102,
+   "popularity": 5,
+   "decks": 211,
+   "eligible": 3115,
    "rate": 0.0677
   },
   "54022": {
-   "popularity": 0,
+   "popularity": 2,
    "decks": 139,
-   "eligible": 12894,
-   "rate": 0.0108
+   "eligible": 12949,
+   "rate": 0.0107
   },
   "54023": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 223,
-   "eligible": 12894,
-   "rate": 0.0173
+   "eligible": 12949,
+   "rate": 0.0172
   },
   "54032": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 129,
-   "eligible": 3224,
-   "rate": 0.04
+   "eligible": 3244,
+   "rate": 0.0398
   },
   "54033": {
-   "popularity": 0,
-   "decks": 130,
-   "eligible": 12894,
+   "popularity": 1,
+   "decks": 131,
+   "eligible": 12949,
    "rate": 0.0101
   },
   "53014": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 250,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0472
   },
   "53016": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 222,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0419
   },
   "53022": {
    "popularity": 10,
-   "decks": 1827,
-   "eligible": 5296,
-   "rate": 0.345
+   "decks": 1828,
+   "eligible": 5300,
+   "rate": 0.3449
   },
   "53025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "53026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "53027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "53028": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 544,
-   "eligible": 19907,
+   "eligible": 19935,
    "rate": 0.0273
   },
   "54015": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 430,
-   "eligible": 4646,
-   "rate": 0.0926
+   "eligible": 4651,
+   "rate": 0.0925
   },
   "54021": {
-   "popularity": 1,
-   "decks": 590,
-   "eligible": 16277,
+   "popularity": 4,
+   "decks": 591,
+   "eligible": 16332,
    "rate": 0.0362
   },
   "54024": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "54025": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "54026": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "55063": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 11168,
+   "eligible": 11223,
    "rate": 0.0
   },
   "55064": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 11168,
+   "eligible": 11223,
    "rate": 0.0
   },
   "55065": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 11168,
+   "eligible": 11223,
    "rate": 0.0
   },
   "55066": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 11168,
+   "eligible": 11223,
    "rate": 0.0
   },
   "56010": {
-   "popularity": 2,
-   "decks": 147,
-   "eligible": 2209,
-   "rate": 0.0665
+   "popularity": 5,
+   "decks": 149,
+   "eligible": 2222,
+   "rate": 0.0671
   },
   "56012": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 164,
-   "eligible": 2209,
-   "rate": 0.0742
+   "eligible": 2222,
+   "rate": 0.0738
   },
   "56013": {
    "popularity": 10,
-   "decks": 932,
-   "eligible": 2209,
-   "rate": 0.4219
+   "decks": 938,
+   "eligible": 2222,
+   "rate": 0.4221
   },
   "56016": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 50,
-   "eligible": 2209,
-   "rate": 0.0226
+   "eligible": 2222,
+   "rate": 0.0225
   },
   "56017": {
-   "popularity": 3,
-   "decks": 180,
-   "eligible": 2209,
-   "rate": 0.0815
+   "popularity": 5,
+   "decks": 182,
+   "eligible": 2222,
+   "rate": 0.0819
   },
   "56019": {
-   "popularity": 2,
-   "decks": 472,
-   "eligible": 9508,
-   "rate": 0.0496
+   "popularity": 5,
+   "decks": 473,
+   "eligible": 9563,
+   "rate": 0.0495
   },
   "56041": {
-   "popularity": 2,
-   "decks": 166,
-   "eligible": 2474,
-   "rate": 0.0671
+   "popularity": 5,
+   "decks": 167,
+   "eligible": 2494,
+   "rate": 0.067
   },
   "56043": {
-   "popularity": 4,
-   "decks": 312,
-   "eligible": 2474,
-   "rate": 0.1261
+   "popularity": 7,
+   "decks": 313,
+   "eligible": 2494,
+   "rate": 0.1255
   },
   "56045": {
-   "popularity": 3,
-   "decks": 215,
-   "eligible": 2474,
-   "rate": 0.0869
+   "popularity": 5,
+   "decks": 216,
+   "eligible": 2494,
+   "rate": 0.0866
   },
   "56046": {
    "popularity": 10,
-   "decks": 1216,
-   "eligible": 2474,
-   "rate": 0.4915
+   "decks": 1230,
+   "eligible": 2494,
+   "rate": 0.4932
   },
   "56047": {
-   "popularity": 4,
-   "decks": 315,
-   "eligible": 2474,
-   "rate": 0.1273
+   "popularity": 7,
+   "decks": 321,
+   "eligible": 2494,
+   "rate": 0.1287
   },
   "56050": {
-   "popularity": 2,
-   "decks": 143,
-   "eligible": 2474,
-   "rate": 0.0578
+   "popularity": 4,
+   "decks": 145,
+   "eligible": 2494,
+   "rate": 0.0581
   },
   "56052": {
-   "popularity": 1,
-   "decks": 305,
-   "eligible": 9508,
-   "rate": 0.0321
+   "popularity": 4,
+   "decks": 308,
+   "eligible": 9563,
+   "rate": 0.0322
   },
   "56129": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56130": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56131": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56132": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56133": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56134": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56135": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56136": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56207": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56208": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56209": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56210": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56211": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56212": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56213": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56214": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 9508,
+   "eligible": 9563,
    "rate": 0.0
   },
   "56011": {
-   "popularity": 5,
-   "decks": 718,
-   "eligible": 4646,
-   "rate": 0.1545
+   "popularity": 7,
+   "decks": 721,
+   "eligible": 4651,
+   "rate": 0.155
   },
   "56014": {
-   "popularity": 2,
-   "decks": 360,
-   "eligible": 4646,
-   "rate": 0.0775
+   "popularity": 5,
+   "decks": 361,
+   "eligible": 4651,
+   "rate": 0.0776
   },
   "56015": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 578,
-   "eligible": 4646,
-   "rate": 0.1244
+   "eligible": 4651,
+   "rate": 0.1243
   },
   "56018": {
-   "popularity": 2,
-   "decks": 277,
-   "eligible": 4646,
-   "rate": 0.0596
+   "popularity": 4,
+   "decks": 278,
+   "eligible": 4651,
+   "rate": 0.0598
   },
   "56020": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "56021": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "56022": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "56042": {
-   "popularity": 3,
-   "decks": 522,
-   "eligible": 4839,
-   "rate": 0.1079
+   "popularity": 6,
+   "decks": 525,
+   "eligible": 4853,
+   "rate": 0.1082
   },
   "56044": {
-   "popularity": 8,
-   "decks": 1248,
-   "eligible": 4839,
-   "rate": 0.2579
+   "popularity": 9,
+   "decks": 1253,
+   "eligible": 4853,
+   "rate": 0.2582
   },
   "56048": {
-   "popularity": 6,
-   "decks": 887,
-   "eligible": 4839,
-   "rate": 0.1833
+   "popularity": 8,
+   "decks": 890,
+   "eligible": 4853,
+   "rate": 0.1834
   },
   "56049": {
-   "popularity": 2,
-   "decks": 258,
-   "eligible": 4839,
-   "rate": 0.0533
+   "popularity": 4,
+   "decks": 260,
+   "eligible": 4853,
+   "rate": 0.0536
   },
   "56051": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 364,
-   "eligible": 4839,
-   "rate": 0.0752
+   "eligible": 4853,
+   "rate": 0.075
   },
   "56053": {
-   "popularity": 1,
-   "decks": 463,
-   "eligible": 19907,
-   "rate": 0.0233
+   "popularity": 3,
+   "decks": 466,
+   "eligible": 19935,
+   "rate": 0.0234
   },
   "59018": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 52,
-   "eligible": 1686,
-   "rate": 0.0308
+   "eligible": 1694,
+   "rate": 0.0307
   },
   "59019": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 28,
-   "eligible": 1686,
-   "rate": 0.0166
+   "eligible": 1694,
+   "rate": 0.0165
   },
   "59020": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 81,
-   "eligible": 1686,
-   "rate": 0.048
+   "eligible": 1694,
+   "rate": 0.0478
   },
   "59023": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 61,
-   "eligible": 1686,
-   "rate": 0.0362
+   "eligible": 1694,
+   "rate": 0.036
   },
   "59024": {
-   "popularity": 6,
+   "popularity": 8,
    "decks": 307,
-   "eligible": 1686,
-   "rate": 0.1821
+   "eligible": 1694,
+   "rate": 0.1812
   },
   "59025": {
-   "popularity": 0,
-   "decks": 22,
-   "eligible": 6101,
-   "rate": 0.0036
+   "popularity": 1,
+   "decks": 23,
+   "eligible": 6156,
+   "rate": 0.0037
   },
   "59026": {
-   "popularity": 0,
-   "decks": 84,
-   "eligible": 6101,
-   "rate": 0.0138
+   "popularity": 2,
+   "decks": 88,
+   "eligible": 6156,
+   "rate": 0.0143
   },
   "59028": {
-   "popularity": 2,
-   "decks": 417,
-   "eligible": 6101,
-   "rate": 0.0683
+   "popularity": 6,
+   "decks": 423,
+   "eligible": 6156,
+   "rate": 0.0687
   },
   "57032": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57033": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57034": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57035": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57074": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57075": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57076": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "57077": {
    "popularity": 0,
    "decks": 0,
-   "eligible": 8222,
+   "eligible": 8277,
    "rate": 0.0
   },
   "58012": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 107,
-   "eligible": 1375,
-   "rate": 0.0778
+   "eligible": 1389,
+   "rate": 0.077
   },
   "58013": {
-   "popularity": 3,
-   "decks": 121,
-   "eligible": 1375,
-   "rate": 0.088
+   "popularity": 5,
+   "decks": 124,
+   "eligible": 1389,
+   "rate": 0.0893
   },
   "58014": {
-   "popularity": 1,
-   "decks": 58,
-   "eligible": 1375,
-   "rate": 0.0422
+   "popularity": 3,
+   "decks": 59,
+   "eligible": 1389,
+   "rate": 0.0425
   },
   "58015": {
-   "popularity": 3,
-   "decks": 143,
-   "eligible": 1375,
-   "rate": 0.104
+   "popularity": 6,
+   "decks": 144,
+   "eligible": 1389,
+   "rate": 0.1037
   },
   "58016": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 65,
-   "eligible": 1375,
-   "rate": 0.0473
+   "eligible": 1389,
+   "rate": 0.0468
   },
   "58018": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 85,
-   "eligible": 1375,
-   "rate": 0.0618
+   "eligible": 1389,
+   "rate": 0.0612
   },
   "58019": {
-   "popularity": 2,
-   "decks": 95,
-   "eligible": 1591,
-   "rate": 0.0597
+   "popularity": 4,
+   "decks": 96,
+   "eligible": 1611,
+   "rate": 0.0596
   },
   "58020": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 96,
-   "eligible": 1686,
-   "rate": 0.0569
+   "eligible": 1694,
+   "rate": 0.0567
   },
   "58021": {
    "popularity": 10,
-   "decks": 463,
-   "eligible": 1375,
-   "rate": 0.3367
+   "decks": 466,
+   "eligible": 1389,
+   "rate": 0.3355
   },
   "58022": {
-   "popularity": 0,
+   "popularity": 1,
    "decks": 46,
-   "eligible": 6101,
+   "eligible": 6156,
    "rate": 0.0075
   },
   "58024": {
-   "popularity": 1,
-   "decks": 186,
-   "eligible": 6101,
-   "rate": 0.0305
+   "popularity": 3,
+   "decks": 187,
+   "eligible": 6156,
+   "rate": 0.0304
   },
   "58030": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 45,
-   "eligible": 1338,
-   "rate": 0.0336
+   "eligible": 1351,
+   "rate": 0.0333
   },
   "58031": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 280,
-   "eligible": 1686,
-   "rate": 0.1661
+   "eligible": 1694,
+   "rate": 0.1653
   },
   "58032": {
-   "popularity": 1,
-   "decks": 49,
-   "eligible": 1686,
-   "rate": 0.0291
+   "popularity": 2,
+   "decks": 50,
+   "eligible": 1694,
+   "rate": 0.0295
   },
   "58033": {
-   "popularity": 1,
-   "decks": 43,
-   "eligible": 1591,
-   "rate": 0.027
+   "popularity": 2,
+   "decks": 44,
+   "eligible": 1611,
+   "rate": 0.0273
   },
   "58034": {
-   "popularity": 1,
-   "decks": 275,
-   "eligible": 6101,
-   "rate": 0.0451
+   "popularity": 4,
+   "decks": 277,
+   "eligible": 6156,
+   "rate": 0.045
   },
   "59021": {
-   "popularity": 2,
-   "decks": 384,
-   "eligible": 5296,
-   "rate": 0.0725
+   "popularity": 5,
+   "decks": 385,
+   "eligible": 5300,
+   "rate": 0.0726
   },
   "59022": {
    "popularity": 9,
-   "decks": 1562,
-   "eligible": 5296,
-   "rate": 0.2949
+   "decks": 1565,
+   "eligible": 5300,
+   "rate": 0.2953
   },
   "59027": {
-   "popularity": 2,
-   "decks": 1128,
-   "eligible": 19907,
-   "rate": 0.0567
+   "popularity": 5,
+   "decks": 1133,
+   "eligible": 19935,
+   "rate": 0.0568
   },
   "59029": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "59030": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "59031": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "59032": {
-   "popularity": 1,
-   "decks": 275,
-   "eligible": 6101,
-   "rate": 0.0451
+   "popularity": 4,
+   "decks": 277,
+   "eligible": 6156,
+   "rate": 0.045
   },
   "59033": {
    "popularity": 10,
-   "decks": 7852,
-   "eligible": 19907,
-   "rate": 0.3944
+   "decks": 7860,
+   "eligible": 19935,
+   "rate": 0.3943
   },
   "59034": {
-   "popularity": 7,
-   "decks": 4371,
-   "eligible": 19907,
-   "rate": 0.2196
+   "popularity": 10,
+   "decks": 4373,
+   "eligible": 19935,
+   "rate": 0.2194
   },
   "58017": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 212,
-   "eligible": 4646,
+   "eligible": 4651,
    "rate": 0.0456
   },
   "58023": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "60019": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 104,
-   "eligible": 609,
-   "rate": 0.1708
+   "eligible": 623,
+   "rate": 0.1669
   },
   "60020": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 59,
-   "eligible": 609,
-   "rate": 0.0969
+   "eligible": 623,
+   "rate": 0.0947
   },
   "60021": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 59,
-   "eligible": 609,
-   "rate": 0.0969
+   "eligible": 623,
+   "rate": 0.0947
   },
   "60022": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 60,
-   "eligible": 609,
-   "rate": 0.0985
+   "eligible": 623,
+   "rate": 0.0963
   },
   "60023": {
-   "popularity": 5,
+   "popularity": 8,
    "decks": 101,
-   "eligible": 609,
-   "rate": 0.1658
+   "eligible": 623,
+   "rate": 0.1621
   },
   "60024": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 46,
-   "eligible": 609,
-   "rate": 0.0755
+   "eligible": 623,
+   "rate": 0.0738
   },
   "60026": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 43,
-   "eligible": 609,
-   "rate": 0.0706
+   "eligible": 623,
+   "rate": 0.069
   },
   "60027": {
-   "popularity": 5,
-   "decks": 94,
-   "eligible": 609,
-   "rate": 0.1544
+   "popularity": 7,
+   "decks": 95,
+   "eligible": 623,
+   "rate": 0.1525
   },
   "60028": {
    "popularity": 9,
-   "decks": 177,
-   "eligible": 609,
-   "rate": 0.2906
+   "decks": 178,
+   "eligible": 623,
+   "rate": 0.2857
   },
   "60029": {
-   "popularity": 2,
-   "decks": 152,
-   "eligible": 2375,
-   "rate": 0.064
+   "popularity": 6,
+   "decks": 155,
+   "eligible": 2430,
+   "rate": 0.0638
   },
   "60030": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 96,
-   "eligible": 2375,
-   "rate": 0.0404
+   "eligible": 2430,
+   "rate": 0.0395
   },
   "60031": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 49,
-   "eligible": 2375,
-   "rate": 0.0206
+   "eligible": 2430,
+   "rate": 0.0202
   },
   "60038": {
    "popularity": 10,
-   "decks": 427,
-   "eligible": 746,
-   "rate": 0.5724
+   "decks": 436,
+   "eligible": 766,
+   "rate": 0.5692
   },
   "60048": {
    "popularity": 10,
-   "decks": 298,
-   "eligible": 746,
-   "rate": 0.3995
+   "decks": 303,
+   "eligible": 766,
+   "rate": 0.3956
   },
   "60049": {
-   "popularity": 3,
-   "decks": 76,
-   "eligible": 746,
-   "rate": 0.1019
+   "popularity": 6,
+   "decks": 78,
+   "eligible": 766,
+   "rate": 0.1018
   },
   "60050": {
    "popularity": 10,
-   "decks": 297,
-   "eligible": 746,
-   "rate": 0.3981
+   "decks": 300,
+   "eligible": 766,
+   "rate": 0.3916
   },
   "60052": {
    "popularity": 10,
-   "decks": 296,
-   "eligible": 746,
-   "rate": 0.3968
+   "decks": 297,
+   "eligible": 766,
+   "rate": 0.3877
   },
   "60053": {
    "popularity": 10,
-   "decks": 383,
-   "eligible": 746,
-   "rate": 0.5134
+   "decks": 389,
+   "eligible": 766,
+   "rate": 0.5078
   },
   "60054": {
    "popularity": 10,
-   "decks": 342,
-   "eligible": 746,
-   "rate": 0.4584
+   "decks": 348,
+   "eligible": 766,
+   "rate": 0.4543
   },
   "60055": {
-   "popularity": 1,
-   "decks": 78,
-   "eligible": 2375,
-   "rate": 0.0328
+   "popularity": 4,
+   "decks": 81,
+   "eligible": 2430,
+   "rate": 0.0333
   },
   "60025": {
-   "popularity": 4,
-   "decks": 591,
-   "eligible": 4581,
-   "rate": 0.129
+   "popularity": 7,
+   "decks": 594,
+   "eligible": 4590,
+   "rate": 0.1294
   },
   "60051": {
-   "popularity": 4,
-   "decks": 575,
-   "eligible": 4839,
-   "rate": 0.1188
+   "popularity": 6,
+   "decks": 578,
+   "eligible": 4853,
+   "rate": 0.1191
   },
   "60056": {
-   "popularity": 5,
-   "decks": 2899,
-   "eligible": 19907,
-   "rate": 0.1456
+   "popularity": 8,
+   "decks": 2904,
+   "eligible": 19935,
+   "rate": 0.1457
   },
   "60057": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "60058": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "60059": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   },
   "61015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 14,
-   "eligible": 318,
-   "rate": 0.044
+   "eligible": 332,
+   "rate": 0.0422
   },
   "61016": {
-   "popularity": 1,
-   "decks": 198,
-   "eligible": 4581,
-   "rate": 0.0432
+   "popularity": 3,
+   "decks": 199,
+   "eligible": 4590,
+   "rate": 0.0434
   },
   "61017": {
-   "popularity": 5,
-   "decks": 47,
-   "eligible": 318,
-   "rate": 0.1478
+   "popularity": 7,
+   "decks": 49,
+   "eligible": 332,
+   "rate": 0.1476
   },
   "61019": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 33,
-   "eligible": 318,
-   "rate": 0.1038
+   "eligible": 332,
+   "rate": 0.0994
   },
   "61020": {
-   "popularity": 3,
-   "decks": 35,
-   "eligible": 318,
-   "rate": 0.1101
+   "popularity": 6,
+   "decks": 36,
+   "eligible": 332,
+   "rate": 0.1084
   },
   "61023": {
-   "popularity": 4,
+   "popularity": 7,
    "decks": 45,
-   "eligible": 318,
-   "rate": 0.1415
+   "eligible": 332,
+   "rate": 0.1355
   },
   "61024": {
-   "popularity": 2,
-   "decks": 24,
-   "eligible": 318,
-   "rate": 0.0755
+   "popularity": 5,
+   "decks": 25,
+   "eligible": 332,
+   "rate": 0.0753
   },
   "61025": {
-   "popularity": 1,
-   "decks": 37,
-   "eligible": 1319,
-   "rate": 0.0281
+   "popularity": 3,
+   "decks": 38,
+   "eligible": 1374,
+   "rate": 0.0277
   },
   "61026": {
-   "popularity": 1,
-   "decks": 27,
-   "eligible": 1319,
-   "rate": 0.0205
+   "popularity": 3,
+   "decks": 29,
+   "eligible": 1374,
+   "rate": 0.0211
   },
   "61027": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 51,
-   "eligible": 1319,
-   "rate": 0.0387
+   "eligible": 1374,
+   "rate": 0.0371
   },
   "61028": {
-   "popularity": 2,
-   "decks": 72,
-   "eligible": 1319,
+   "popularity": 5,
+   "decks": 75,
+   "eligible": 1374,
    "rate": 0.0546
   },
   "61029": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 24,
-   "eligible": 1319,
-   "rate": 0.0182
+   "eligible": 1374,
+   "rate": 0.0175
   },
   "61034": {
-   "popularity": 6,
-   "decks": 53,
-   "eligible": 274,
-   "rate": 0.1934
+   "popularity": 8,
+   "decks": 56,
+   "eligible": 287,
+   "rate": 0.1951
   },
   "61035": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 9,
-   "eligible": 274,
-   "rate": 0.0328
+   "eligible": 287,
+   "rate": 0.0314
   },
   "61036": {
-   "popularity": 6,
-   "decks": 56,
-   "eligible": 318,
-   "rate": 0.1761
+   "popularity": 8,
+   "decks": 57,
+   "eligible": 332,
+   "rate": 0.1717
   },
   "61037": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 26,
-   "eligible": 336,
-   "rate": 0.0774
+   "eligible": 344,
+   "rate": 0.0756
   },
   "61038": {
-   "popularity": 1,
-   "decks": 12,
-   "eligible": 367,
-   "rate": 0.0327
+   "popularity": 3,
+   "decks": 13,
+   "eligible": 387,
+   "rate": 0.0336
   },
   "61039": {
-   "popularity": 2,
-   "decks": 20,
-   "eligible": 367,
-   "rate": 0.0545
+   "popularity": 4,
+   "decks": 21,
+   "eligible": 387,
+   "rate": 0.0543
   },
   "61040": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 18,
-   "eligible": 367,
-   "rate": 0.049
+   "eligible": 387,
+   "rate": 0.0465
   },
   "62012": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 32,
-   "eligible": 336,
-   "rate": 0.0952
+   "eligible": 344,
+   "rate": 0.093
   },
   "62013": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 37,
-   "eligible": 336,
-   "rate": 0.1101
+   "eligible": 344,
+   "rate": 0.1076
   },
   "62014": {
-   "popularity": 2,
+   "popularity": 5,
    "decks": 25,
-   "eligible": 336,
-   "rate": 0.0744
+   "eligible": 344,
+   "rate": 0.0727
   },
   "62015": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 15,
-   "eligible": 336,
-   "rate": 0.0446
+   "eligible": 344,
+   "rate": 0.0436
   },
   "62018": {
-   "popularity": 3,
+   "popularity": 6,
    "decks": 36,
-   "eligible": 336,
-   "rate": 0.1071
+   "eligible": 344,
+   "rate": 0.1047
   },
   "62019": {
-   "popularity": 7,
+   "popularity": 8,
    "decks": 70,
-   "eligible": 336,
-   "rate": 0.2083
+   "eligible": 344,
+   "rate": 0.2035
   },
   "62020": {
-   "popularity": 1,
-   "decks": 61,
-   "eligible": 1319,
-   "rate": 0.0462
+   "popularity": 4,
+   "decks": 62,
+   "eligible": 1374,
+   "rate": 0.0451
   },
   "62021": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 59,
-   "eligible": 1319,
-   "rate": 0.0447
+   "eligible": 1374,
+   "rate": 0.0429
   },
   "62022": {
-   "popularity": 1,
-   "decks": 56,
-   "eligible": 1319,
-   "rate": 0.0425
+   "popularity": 4,
+   "decks": 58,
+   "eligible": 1374,
+   "rate": 0.0422
   },
   "62023": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 22,
-   "eligible": 1319,
-   "rate": 0.0167
+   "eligible": 1374,
+   "rate": 0.016
   },
   "62034": {
-   "popularity": 1,
+   "popularity": 3,
    "decks": 11,
-   "eligible": 274,
-   "rate": 0.0401
+   "eligible": 287,
+   "rate": 0.0383
   },
   "62035": {
-   "popularity": 1,
+   "popularity": 2,
    "decks": 6,
-   "eligible": 318,
-   "rate": 0.0189
+   "eligible": 332,
+   "rate": 0.0181
   },
   "62036": {
-   "popularity": 2,
+   "popularity": 4,
    "decks": 23,
-   "eligible": 367,
-   "rate": 0.0627
+   "eligible": 387,
+   "rate": 0.0594
   },
   "62037": {
-   "popularity": 0,
-   "decks": 13,
-   "eligible": 1319,
-   "rate": 0.0099
+   "popularity": 1,
+   "decks": 14,
+   "eligible": 1374,
+   "rate": 0.0102
   },
   "61018": {
-   "popularity": 3,
-   "decks": 396,
-   "eligible": 4581,
-   "rate": 0.0864
+   "popularity": 5,
+   "decks": 398,
+   "eligible": 4590,
+   "rate": 0.0867
   },
   "61021": {
-   "popularity": 5,
-   "decks": 702,
-   "eligible": 4581,
-   "rate": 0.1532
+   "popularity": 7,
+   "decks": 704,
+   "eligible": 4590,
+   "rate": 0.1534
   },
   "61022": {
-   "popularity": 2,
-   "decks": 270,
-   "eligible": 4581,
-   "rate": 0.0589
+   "popularity": 4,
+   "decks": 268,
+   "eligible": 4590,
+   "rate": 0.0584
   },
   "62016": {
-   "popularity": 3,
+   "popularity": 5,
    "decks": 471,
-   "eligible": 5296,
+   "eligible": 5300,
    "rate": 0.0889
   },
   "62017": {
    "popularity": 10,
-   "decks": 1833,
-   "eligible": 5296,
-   "rate": 0.3461
+   "decks": 1836,
+   "eligible": 5300,
+   "rate": 0.3464
   },
   "62024": {
-   "popularity": 1,
+   "popularity": 4,
    "decks": 51,
-   "eligible": 1319,
-   "rate": 0.0387
+   "eligible": 1374,
+   "rate": 0.0371
   },
   "62025": {
    "popularity": 10,
-   "decks": 17262,
-   "eligible": 19907,
-   "rate": 0.8671
+   "decks": 17287,
+   "eligible": 19935,
+   "rate": 0.8672
   },
   "62026": {
    "popularity": 10,
-   "decks": 17118,
-   "eligible": 19907,
-   "rate": 0.8599
+   "decks": 17141,
+   "eligible": 19935,
+   "rate": 0.8598
   },
   "62027": {
    "popularity": 10,
-   "decks": 17179,
-   "eligible": 19907,
-   "rate": 0.863
+   "decks": 17205,
+   "eligible": 19935,
+   "rate": 0.8631
   }
  }
 }

@@ -2,8 +2,12 @@
 
 There is no site that rates Marvel Champions player cards one by one, so this builds the same kind of measure RingsDB
 publishes for The Lord of the Rings: for every aspect / basic card, the share of decklists that could have used it
-(same aspect, published after the card's pack came out) and actually did. The share becomes a 0-10 score, 10 being
-the most-played cards (a share at or above the 95th percentile). Hero cards are not scored: they come with the hero.
+(same aspect, published after the card's pack came out) and actually did. The share becomes a 0-10 score on fixed
+breakpoints chosen from what the numbers mean in practice: the staples every deck of an aspect runs (Helicarrier,
+Team Training, Skilled Investigator) sit at 30% and above = 10, the well-known good cards (Hawkeye, Indomitable,
+Quincarrier) around 15-25% = 8-9, ordinary cards at 4-8% = 4-5, and cards under 2% of decks = 1-2. Basic cards
+compete for slots in every deck and run about a third lower, so they are judged on a proportionally lower scale.
+Hero cards are not scored: they come with the hero.
 
 Decklists are read day by day from https://marvelcdb.com/api/public/decklists/by_date/<date>, which is slow, so each
 day is cached under MC_CACHE (default: .cache/marvelcdb/ next to this file) and only new days are fetched.
@@ -21,6 +25,19 @@ API = "https://marvelcdb.com/api/public"
 UA = {"User-Agent": "Mozilla/5.0 (MC Autofill)"}
 ASPECTS = {"aggression", "justice", "leadership", "protection", "pool"}
 PLAYER_FACTIONS = ASPECTS | {"basic"}
+# score -> minimum share of eligible decks (aspect cards); basic cards use the same table scaled by BASIC_FACTOR
+BREAKPOINTS = [(10, 0.30), (9, 0.22), (8, 0.16), (7, 0.12), (6, 0.09), (5, 0.065), (4, 0.045), (3, 0.03), (2, 0.015), (1, 0.0001)]
+BASIC_FACTOR = 0.7
+
+
+def score(rate, faction):
+    if rate is None:
+        return None
+    f = BASIC_FACTOR if faction == "basic" else 1.0
+    for n, cut in BREAKPOINTS:
+        if rate >= cut * f:
+            return n
+    return 0
 
 
 def cache_dir():
@@ -107,19 +124,17 @@ def main(argv=None):
         eligible = [d for d in pool if d[0] >= first_release[fam]]
         used = sum(1 for d in eligible if fam in d[1])
         scores[fam] = {"decks": used, "eligible": len(eligible), "rate": round(used / len(eligible), 4) if eligible else None}
-    rates = sorted(s["rate"] for s in scores.values() if s["rate"] is not None)
-    cap = rates[int(len(rates) * 0.95)] if rates else 1
     out = {}
     for c in player:
         s = scores[family[c["code"]]]
-        pop = None if s["rate"] is None else min(10, round(10 * s["rate"] / cap)) if cap else 0
-        out[c["code"]] = {"popularity": pop, **s}
-    json.dump({"generated": end.isoformat(), "decklists": len(decks), "since": days[0], "cap_rate": cap, "cards": out},
+        out[c["code"]] = {"popularity": score(s["rate"], c["faction_code"]), **s}
+    json.dump({"generated": end.isoformat(), "decklists": len(decks), "since": days[0],
+               "breakpoints": {str(n): cut for n, cut in BREAKPOINTS}, "basic_factor": BASIC_FACTOR, "cards": out},
               open(OUT, "w", encoding="utf-8"), indent=1)
     dist = defaultdict(int)
     for v in out.values():
         dist[v["popularity"]] += 1
-    print(f"{len(out)} aspect/basic card codes scored (95th-percentile share {cap:.1%} = 10) -> {OUT}")
+    print(f"{len(out)} aspect/basic card codes scored (10 = played in 30%+ of eligible decks) -> {OUT}")
     print("  distribution:", dict(sorted(dist.items(), key=lambda kv: (kv[0] is None, kv[0] or 0))))
     top = sorted(((v["rate"] or 0, c["name"], c["faction_code"]) for c in player for v in [out[c["code"]]]), reverse=True)
     seen, shown = set(), []

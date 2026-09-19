@@ -9188,7 +9188,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "04036",
@@ -9198,7 +9198,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "04037",
@@ -9208,7 +9208,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "04038",
@@ -9218,7 +9218,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "04039",
@@ -11386,7 +11386,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "01051",
@@ -11396,7 +11396,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01052",
@@ -11406,7 +11406,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "01053",
@@ -11416,7 +11416,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "01054",
@@ -11426,7 +11426,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "01055",
@@ -11446,7 +11446,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "01057",
@@ -11466,7 +11466,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "01058",
@@ -11476,7 +11476,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01060",
@@ -11486,7 +11486,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "01061",
@@ -11496,7 +11496,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "01062",
@@ -11516,7 +11516,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01064",
@@ -11526,7 +11526,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "01065",
@@ -11546,7 +11546,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "01067",
@@ -11566,7 +11566,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "01069",
@@ -11576,7 +11576,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "01070",
@@ -11586,7 +11586,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01071",
@@ -11626,7 +11626,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "01075",
@@ -11636,7 +11636,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01076",
@@ -11646,7 +11646,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "01077",
@@ -11656,7 +11656,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "01078",
@@ -11666,7 +11666,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "01079",
@@ -11686,7 +11686,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "01081",
@@ -11706,7 +11706,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "01083",
@@ -11716,7 +11716,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "01084",
@@ -11726,7 +11726,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 10
     },
     {
      "code": "01085",
@@ -11736,7 +11736,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "01086",
@@ -11746,7 +11746,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "01087",
@@ -11756,7 +11756,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "01088",
@@ -11796,7 +11796,7 @@
      "qty": 4,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     },
     {
      "code": "01092",
@@ -11816,7 +11816,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     }
    ],
    "encounter_sets": [
@@ -12719,7 +12719,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "45012",
@@ -12729,7 +12729,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "45014",
@@ -12739,7 +12739,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "45015",
@@ -12749,7 +12749,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "45016",
@@ -12759,7 +12759,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "45017",
@@ -12769,7 +12769,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "45020",
@@ -12779,7 +12779,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "45021",
@@ -12789,7 +12789,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "45041",
@@ -12799,7 +12799,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "45042",
@@ -12809,7 +12809,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "45043",
@@ -12819,7 +12819,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "45044",
@@ -12829,7 +12829,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "45045",
@@ -12839,7 +12839,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "45048",
@@ -12849,7 +12849,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "45049",
@@ -12859,7 +12859,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "45050",
@@ -12869,7 +12869,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "45051",
@@ -12879,7 +12879,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "45013",
@@ -12899,7 +12899,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "45019",
@@ -12949,7 +12949,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "45047",
@@ -12969,7 +12969,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     }
    ],
    "encounter_sets": [
@@ -14633,7 +14633,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50013",
@@ -14643,7 +14643,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "50014",
@@ -14653,7 +14653,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "50015",
@@ -14663,7 +14663,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "50017",
@@ -14673,7 +14673,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50018",
@@ -14683,7 +14683,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "50019",
@@ -14693,7 +14693,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50020",
@@ -14703,7 +14703,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "50022",
@@ -14713,7 +14713,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50023",
@@ -14723,7 +14723,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "50024",
@@ -14733,7 +14733,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "50028",
@@ -14743,7 +14743,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "50050",
@@ -14753,7 +14753,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "50051",
@@ -14763,7 +14763,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50052",
@@ -14773,7 +14773,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "50054",
@@ -14783,7 +14783,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "50055",
@@ -14793,7 +14793,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "50056",
@@ -14803,7 +14803,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "50058",
@@ -14813,7 +14813,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "50016",
@@ -14823,7 +14823,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "50021",
@@ -14833,7 +14833,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "50025",
@@ -14873,7 +14873,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "50048",
@@ -14883,7 +14883,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "50049",
@@ -14893,7 +14893,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "50053",
@@ -14913,7 +14913,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     }
    ],
    "encounter_sets": [
@@ -16457,7 +16457,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56012",
@@ -16467,7 +16467,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56013",
@@ -16487,7 +16487,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "56017",
@@ -16497,7 +16497,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "56019",
@@ -16507,7 +16507,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56041",
@@ -16517,7 +16517,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56043",
@@ -16527,7 +16527,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "56045",
@@ -16537,7 +16537,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "56046",
@@ -16557,7 +16557,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "56050",
@@ -16567,7 +16567,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "56052",
@@ -16577,7 +16577,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "56011",
@@ -16587,7 +16587,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "56014",
@@ -16597,7 +16597,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56015",
@@ -16607,7 +16607,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "56018",
@@ -16617,7 +16617,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "56020",
@@ -16657,7 +16657,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "56044",
@@ -16667,7 +16667,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "56048",
@@ -16677,7 +16677,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "56049",
@@ -16687,7 +16687,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "56051",
@@ -16697,7 +16697,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "56053",
@@ -16707,7 +16707,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     }
    ],
    "encounter_sets": [
@@ -18473,7 +18473,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "60020",
@@ -18483,7 +18483,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "60021",
@@ -18493,7 +18493,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "60022",
@@ -18503,7 +18503,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "60023",
@@ -18513,7 +18513,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "60024",
@@ -18523,7 +18523,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "60026",
@@ -18533,7 +18533,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "60027",
@@ -18543,7 +18543,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "60028",
@@ -18563,7 +18563,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "60030",
@@ -18573,7 +18573,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "60031",
@@ -18583,7 +18583,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "60038",
@@ -18613,7 +18613,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "60050",
@@ -18663,7 +18663,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "60025",
@@ -18673,7 +18673,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "60051",
@@ -18683,7 +18683,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "60056",
@@ -18693,7 +18693,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "60057",
@@ -18798,7 +18798,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "32012",
@@ -18808,7 +18808,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "32013",
@@ -18818,7 +18818,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "32014",
@@ -18828,7 +18828,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "32015",
@@ -18838,7 +18838,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "32016",
@@ -18848,7 +18848,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "32017",
@@ -18858,7 +18858,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "32018",
@@ -18868,7 +18868,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "32019",
@@ -18878,7 +18878,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "32020",
@@ -18888,7 +18888,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "32021",
@@ -18898,7 +18898,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "32022",
@@ -18938,7 +18938,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "32042",
@@ -18948,7 +18948,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "32043",
@@ -18958,7 +18958,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "32044",
@@ -18968,7 +18968,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "32045",
@@ -18978,7 +18978,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "32046",
@@ -18988,7 +18988,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "32047",
@@ -18998,7 +18998,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "32048",
@@ -19008,7 +19008,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "32049",
@@ -19018,7 +19018,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "32051",
@@ -19028,7 +19028,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "32050",
@@ -19038,7 +19038,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "32052",
@@ -20778,7 +20778,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40015",
@@ -20788,7 +20788,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40016",
@@ -20798,7 +20798,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "40017",
@@ -20808,7 +20808,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40018",
@@ -20828,7 +20828,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "40020",
@@ -20838,7 +20838,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "40021",
@@ -20848,7 +20848,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40022",
@@ -20858,7 +20858,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40023",
@@ -20868,7 +20868,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "40024",
@@ -20878,7 +20878,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40025",
@@ -20888,7 +20888,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "40026",
@@ -20898,7 +20898,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "40027",
@@ -20908,7 +20908,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 9
     },
     {
      "code": "40028",
@@ -20918,7 +20918,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40029",
@@ -20928,7 +20928,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40030",
@@ -20938,7 +20938,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 5
     },
     {
      "code": "40050",
@@ -20948,7 +20948,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40051",
@@ -20958,7 +20958,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40053",
@@ -20968,7 +20968,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40054",
@@ -20978,7 +20978,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "40056",
@@ -20988,7 +20988,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "40057",
@@ -20998,7 +20998,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "40058",
@@ -21008,7 +21008,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "40059",
@@ -21018,7 +21018,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "40060",
@@ -21028,7 +21028,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "40064",
@@ -21038,7 +21038,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "40052",
@@ -21048,7 +21048,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "40055",
@@ -21058,7 +21058,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "40061",
@@ -21098,7 +21098,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     }
    ],
    "encounter_sets": [
@@ -22815,7 +22815,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "27011",
@@ -22825,7 +22825,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "27012",
@@ -22835,7 +22835,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "27014",
@@ -22845,7 +22845,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "27015",
@@ -22855,7 +22855,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "27016",
@@ -22865,7 +22865,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "27017",
@@ -22875,7 +22875,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "27018",
@@ -22885,7 +22885,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "27019",
@@ -22895,7 +22895,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "27023",
@@ -22905,7 +22905,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "27024",
@@ -22915,7 +22915,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "27040",
@@ -22925,7 +22925,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "27041",
@@ -22935,7 +22935,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "27042",
@@ -22945,7 +22945,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "27043",
@@ -22955,7 +22955,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "27044",
@@ -22965,7 +22965,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "27046",
@@ -22975,7 +22975,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "27047",
@@ -22985,7 +22985,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "27048",
@@ -22995,7 +22995,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "27049",
@@ -23005,7 +23005,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "27054",
@@ -23015,7 +23015,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "27055",
@@ -23025,7 +23025,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "27190",
@@ -23035,7 +23035,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "27191",
@@ -23045,7 +23045,7 @@
      "qty": 4,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "27013",
@@ -23055,7 +23055,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "27020",
@@ -23095,7 +23095,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "27050",
@@ -23105,7 +23105,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "27051",
@@ -24670,7 +24670,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "16014",
@@ -24680,7 +24680,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "16016",
@@ -24690,7 +24690,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "16017",
@@ -24700,7 +24700,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "16019",
@@ -24710,7 +24710,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "16020",
@@ -24720,7 +24720,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "16024",
@@ -24730,7 +24730,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "16040",
@@ -24740,7 +24740,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "16043",
@@ -24750,7 +24750,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "16045",
@@ -24760,7 +24760,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "16046",
@@ -24770,7 +24770,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "16047",
@@ -24780,7 +24780,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "16048",
@@ -24790,7 +24790,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "16052",
@@ -24800,7 +24800,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "16013",
@@ -24810,7 +24810,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "16015",
@@ -24830,7 +24830,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "16021",
@@ -24870,7 +24870,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "16042",
@@ -24880,7 +24880,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "16044",
@@ -24890,7 +24890,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "16049",
@@ -26380,7 +26380,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "21012",
@@ -26390,7 +26390,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "21013",
@@ -26400,7 +26400,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "21014",
@@ -26410,7 +26410,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "21015",
@@ -26420,7 +26420,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "21016",
@@ -26430,7 +26430,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "21018",
@@ -26440,7 +26440,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "21019",
@@ -26450,7 +26450,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "21022",
@@ -26460,7 +26460,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "21041",
@@ -26470,7 +26470,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "21042",
@@ -26480,7 +26480,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "21043",
@@ -26490,7 +26490,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "21046",
@@ -26500,7 +26500,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "21047",
@@ -26510,7 +26510,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "21048",
@@ -26520,7 +26520,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "21050",
@@ -26530,7 +26530,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "21052",
@@ -26540,7 +26540,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "21053",
@@ -26550,7 +26550,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "21054",
@@ -26560,7 +26560,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "21055",
@@ -26570,7 +26570,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "21058",
@@ -26580,7 +26580,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "21059",
@@ -26590,7 +26590,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "21060",
@@ -26600,7 +26600,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "21061",
@@ -26610,7 +26610,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "21064",
@@ -26620,7 +26620,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "21065",
@@ -26630,7 +26630,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "21017",
@@ -26640,7 +26640,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "21020",
@@ -26650,7 +26650,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "21021",
@@ -26660,7 +26660,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     },
     {
      "code": "21023",
@@ -26700,7 +26700,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "21045",
@@ -26720,7 +26720,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "21051",
@@ -26750,7 +26750,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "21062",
@@ -26760,7 +26760,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "21063",
@@ -28234,7 +28234,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "04016",
@@ -28254,7 +28254,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "04012",
@@ -28264,7 +28264,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "04013",
@@ -28274,7 +28274,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "04020",
@@ -28284,7 +28284,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "04040",
@@ -28294,7 +28294,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "04047",
@@ -28314,7 +28314,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "04015",
@@ -28324,7 +28324,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "04017",
@@ -28334,7 +28334,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "04022",
@@ -28344,7 +28344,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "04044",
@@ -28354,7 +28354,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "04045",
@@ -28364,7 +28364,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "04049",
@@ -28374,7 +28374,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "04021",
@@ -28384,7 +28384,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "04018",
@@ -28394,7 +28394,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "04019",
@@ -28454,7 +28454,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "04046",
@@ -28474,7 +28474,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "04050",
@@ -34931,7 +34931,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "42012",
@@ -34941,7 +34941,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "42013",
@@ -34951,7 +34951,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "42014",
@@ -34961,7 +34961,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "42015",
@@ -34971,7 +34971,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "42016",
@@ -34981,7 +34981,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "42017",
@@ -34991,7 +34991,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "42018",
@@ -35001,7 +35001,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "42019",
@@ -35011,7 +35011,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "42020",
@@ -35021,7 +35021,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "42021",
@@ -35031,7 +35031,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "42022",
@@ -35041,7 +35041,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "42023",
@@ -35051,7 +35051,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "42029",
@@ -35061,7 +35061,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "42030",
@@ -35071,7 +35071,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "42031",
@@ -35081,7 +35081,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "42032",
@@ -35091,7 +35091,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     }
    ],
    "encounter_sets": [],
@@ -35112,7 +35112,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "12011",
@@ -35122,7 +35122,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "12012",
@@ -35132,7 +35132,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "12013",
@@ -35142,7 +35142,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "12014",
@@ -35152,7 +35152,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "12015",
@@ -35162,7 +35162,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "12016",
@@ -35172,7 +35172,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "12017",
@@ -35182,7 +35182,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "12018",
@@ -35192,7 +35192,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "12020",
@@ -35202,7 +35202,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "12030",
@@ -35212,7 +35212,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "12031",
@@ -35222,7 +35222,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "12032",
@@ -35232,7 +35232,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "12033",
@@ -35242,7 +35242,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "12019",
@@ -35252,7 +35252,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "12021",
@@ -35303,7 +35303,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "51015",
@@ -35313,7 +35313,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "51016",
@@ -35323,7 +35323,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "51017",
@@ -35333,7 +35333,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "51018",
@@ -35343,7 +35343,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "51019",
@@ -35353,7 +35353,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "51021",
@@ -35363,7 +35363,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51022",
@@ -35373,7 +35373,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51023",
@@ -35383,7 +35383,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51024",
@@ -35393,7 +35393,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51025",
@@ -35403,7 +35403,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "51030",
@@ -35413,7 +35413,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51036",
@@ -35433,7 +35433,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "51038",
@@ -35443,7 +35443,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "51020",
@@ -35453,7 +35453,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "51026",
@@ -35463,7 +35463,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 9
     },
     {
      "code": "51027",
@@ -35558,7 +35558,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "08017",
@@ -35568,7 +35568,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "08031",
@@ -35578,7 +35578,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "08012",
@@ -35588,7 +35588,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "08013",
@@ -35598,7 +35598,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "08018",
@@ -35608,7 +35608,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "08023",
@@ -35618,7 +35618,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "08024",
@@ -35628,7 +35628,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "08030",
@@ -35638,7 +35638,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "08032",
@@ -35648,7 +35648,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "08033",
@@ -35658,7 +35658,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "08014",
@@ -35678,7 +35678,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "08016",
@@ -35688,7 +35688,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "08019",
@@ -35698,7 +35698,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 10
     },
     {
      "code": "08020",
@@ -35749,7 +35749,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "03015",
@@ -35759,7 +35759,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "03025",
@@ -35769,7 +35769,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "03032",
@@ -35779,7 +35779,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "03033",
@@ -35789,7 +35789,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "03013",
@@ -35799,7 +35799,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "03017",
@@ -35809,7 +35809,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "03019",
@@ -35819,7 +35819,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "03024",
@@ -35829,7 +35829,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "03031",
@@ -35839,7 +35839,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "03034",
@@ -35849,7 +35849,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "03014",
@@ -35859,7 +35859,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "03012",
@@ -35869,7 +35869,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "03016",
@@ -35899,7 +35899,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "03021",
@@ -35950,7 +35950,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "33012",
@@ -35960,7 +35960,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "33013",
@@ -35970,7 +35970,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "33014",
@@ -35980,7 +35980,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "33015",
@@ -35990,7 +35990,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "33016",
@@ -36000,7 +36000,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "33017",
@@ -36010,7 +36010,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "33018",
@@ -36020,7 +36020,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "33019",
@@ -36030,7 +36030,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 5
     },
     {
      "code": "33020",
@@ -36040,7 +36040,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "33021",
@@ -36050,7 +36050,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "33022",
@@ -36060,7 +36060,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "33023",
@@ -36070,7 +36070,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "33032",
@@ -36080,7 +36080,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "33033",
@@ -36090,7 +36090,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "33034",
@@ -36100,7 +36100,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "33035",
@@ -36110,7 +36110,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "33024",
@@ -36161,7 +36161,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "44014",
@@ -36181,7 +36181,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "44016",
@@ -36191,7 +36191,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "44017",
@@ -36201,7 +36201,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "44018",
@@ -36221,7 +36221,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "44020",
@@ -36261,7 +36261,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "44024",
@@ -36311,7 +36311,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "44029",
@@ -36341,7 +36341,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "44044",
@@ -36351,7 +36351,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "44045",
@@ -36361,7 +36361,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "44046",
@@ -36371,7 +36371,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "44047",
@@ -36401,7 +36401,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "44050",
@@ -36421,7 +36421,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "44052",
@@ -36431,7 +36431,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "44053",
@@ -36441,7 +36441,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "44054",
@@ -36451,7 +36451,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "44055",
@@ -36491,7 +36491,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "44031",
@@ -36501,7 +36501,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     }
    ],
    "encounter_sets": [
@@ -36584,7 +36584,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "09015",
@@ -36594,7 +36594,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "09019",
@@ -36604,7 +36604,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "09020",
@@ -36624,7 +36624,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "09012",
@@ -36634,7 +36634,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "09013",
@@ -36644,7 +36644,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "09016",
@@ -36654,7 +36654,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "09021",
@@ -36664,7 +36664,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "09026",
@@ -36674,7 +36674,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "09037",
@@ -36684,7 +36684,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "09038",
@@ -36694,7 +36694,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "09017",
@@ -36714,7 +36714,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "09022",
@@ -36754,7 +36754,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     }
    ],
    "encounter_sets": [
@@ -36828,7 +36828,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "19013",
@@ -36838,7 +36838,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "19015",
@@ -36848,7 +36848,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "19016",
@@ -36858,7 +36858,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "19017",
@@ -36868,7 +36868,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "19018",
@@ -36878,7 +36878,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "19020",
@@ -36888,7 +36888,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "19030",
@@ -36898,7 +36898,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "19031",
@@ -36908,7 +36908,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "19032",
@@ -36918,7 +36918,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "19014",
@@ -36928,7 +36928,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "19019",
@@ -36938,7 +36938,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "19021",
@@ -36948,7 +36948,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "19022",
@@ -36988,7 +36988,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     }
    ],
    "encounter_sets": [],
@@ -37009,7 +37009,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "53017",
@@ -37019,7 +37019,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "53018",
@@ -37029,7 +37029,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "53019",
@@ -37039,7 +37039,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "53020",
@@ -37049,7 +37049,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "53021",
@@ -37059,7 +37059,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "53023",
@@ -37069,7 +37069,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "53024",
@@ -37079,7 +37079,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "53034",
@@ -37089,7 +37089,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "53035",
@@ -37099,7 +37099,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "53036",
@@ -37109,7 +37109,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "53037",
@@ -37119,7 +37119,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "53014",
@@ -37129,7 +37129,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "53016",
@@ -37139,7 +37139,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "53022",
@@ -37189,7 +37189,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     }
    ],
    "encounter_sets": [
@@ -37263,7 +37263,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "37012",
@@ -37273,7 +37273,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "37013",
@@ -37283,7 +37283,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "37015",
@@ -37293,7 +37293,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "37019",
@@ -37303,7 +37303,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "37021",
@@ -37313,7 +37313,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "37030",
@@ -37323,7 +37323,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "37031",
@@ -37333,7 +37333,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "37014",
@@ -37343,7 +37343,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "37016",
@@ -37353,7 +37353,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "37017",
@@ -37363,7 +37363,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "37018",
@@ -37373,7 +37373,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "37020",
@@ -37383,7 +37383,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "37022",
@@ -37478,7 +37478,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "18012",
@@ -37488,7 +37488,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "18013",
@@ -37498,7 +37498,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "18015",
@@ -37508,7 +37508,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "18016",
@@ -37518,7 +37518,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "18018",
@@ -37528,7 +37528,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "18019",
@@ -37538,7 +37538,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "18020",
@@ -37548,7 +37548,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "18029",
@@ -37558,7 +37558,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "18030",
@@ -37568,7 +37568,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "18031",
@@ -37578,7 +37578,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "18014",
@@ -37588,7 +37588,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "18017",
@@ -37638,7 +37638,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     }
    ],
    "encounter_sets": [],
@@ -37659,7 +37659,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "59019",
@@ -37669,7 +37669,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "59020",
@@ -37679,7 +37679,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "59023",
@@ -37689,7 +37689,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "59024",
@@ -37699,7 +37699,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "59025",
@@ -37709,7 +37709,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "59026",
@@ -37719,7 +37719,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "59028",
@@ -37729,7 +37729,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "59021",
@@ -37739,7 +37739,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "59022",
@@ -37759,7 +37759,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "59029",
@@ -37799,7 +37799,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "59033",
@@ -37819,7 +37819,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     }
    ],
    "encounter_sets": [
@@ -37961,7 +37961,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "10016",
@@ -37971,7 +37971,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "10029",
@@ -37981,7 +37981,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "10011",
@@ -37991,7 +37991,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "10012",
@@ -38001,7 +38001,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "10013",
@@ -38011,7 +38011,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "10014",
@@ -38021,7 +38021,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "10018",
@@ -38041,7 +38041,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "10030",
@@ -38051,7 +38051,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "10031",
@@ -38071,7 +38071,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "10017",
@@ -38121,7 +38121,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     },
     {
      "code": "10024",
@@ -38152,7 +38152,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "46013",
@@ -38162,7 +38162,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "46014",
@@ -38172,7 +38172,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "46015",
@@ -38182,7 +38182,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "46016",
@@ -38192,7 +38192,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "46017",
@@ -38202,7 +38202,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "46018",
@@ -38212,7 +38212,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "46019",
@@ -38222,7 +38222,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "46020",
@@ -38232,7 +38232,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "46021",
@@ -38242,7 +38242,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "46022",
@@ -38252,7 +38252,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "46023",
@@ -38262,7 +38262,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     }
    ],
    "encounter_sets": [
@@ -38343,7 +38343,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "29015",
@@ -38353,7 +38353,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "29016",
@@ -38363,7 +38363,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "29017",
@@ -38373,7 +38373,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "29018",
@@ -38383,7 +38383,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "29020",
@@ -38393,7 +38393,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "29023",
@@ -38403,7 +38403,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "29024",
@@ -38413,7 +38413,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "29025",
@@ -38423,7 +38423,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "29027",
@@ -38433,7 +38433,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "29033",
@@ -38443,7 +38443,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "29034",
@@ -38453,7 +38453,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "29035",
@@ -38463,7 +38463,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "29019",
@@ -38473,7 +38473,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "29021",
@@ -38493,7 +38493,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "29026",
@@ -38577,7 +38577,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61016",
@@ -38587,7 +38587,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61017",
@@ -38597,7 +38597,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "61019",
@@ -38607,7 +38607,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "61020",
@@ -38617,7 +38617,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "61023",
@@ -38627,7 +38627,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "61024",
@@ -38637,7 +38637,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "61025",
@@ -38647,7 +38647,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61026",
@@ -38657,7 +38657,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61027",
@@ -38667,7 +38667,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "61028",
@@ -38677,7 +38677,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "61029",
@@ -38687,7 +38687,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "61034",
@@ -38697,7 +38697,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "61035",
@@ -38707,7 +38707,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61036",
@@ -38717,7 +38717,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "61037",
@@ -38727,7 +38727,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "61038",
@@ -38737,7 +38737,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "61039",
@@ -38747,7 +38747,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "61040",
@@ -38757,7 +38757,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "61018",
@@ -38767,7 +38767,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "61021",
@@ -38777,7 +38777,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "61022",
@@ -38787,7 +38787,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     }
    ],
    "encounter_sets": [],
@@ -38808,7 +38808,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "47012",
@@ -38818,7 +38818,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "47013",
@@ -38828,7 +38828,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "47014",
@@ -38838,7 +38838,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "47015",
@@ -38848,7 +38848,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "47016",
@@ -38858,7 +38858,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "47018",
@@ -38868,7 +38868,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "47019",
@@ -38878,7 +38878,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "47021",
@@ -38888,7 +38888,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "47022",
@@ -38898,7 +38898,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "47028",
@@ -38908,7 +38908,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "47029",
@@ -38918,7 +38918,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "47017",
@@ -38938,7 +38938,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     }
    ],
    "encounter_sets": [
@@ -39012,7 +39012,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "62013",
@@ -39022,7 +39022,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "62014",
@@ -39032,7 +39032,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "62015",
@@ -39042,7 +39042,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "62018",
@@ -39052,7 +39052,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "62019",
@@ -39062,7 +39062,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "62020",
@@ -39072,7 +39072,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "62021",
@@ -39082,7 +39082,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "62022",
@@ -39092,7 +39092,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "62023",
@@ -39102,7 +39102,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "62034",
@@ -39112,7 +39112,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "62035",
@@ -39122,7 +39122,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "62036",
@@ -39132,7 +39132,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "62037",
@@ -39142,7 +39142,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "62016",
@@ -39152,7 +39152,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "62017",
@@ -39172,7 +39172,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "62025",
@@ -39223,7 +39223,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "49013",
@@ -39233,7 +39233,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "49014",
@@ -39243,7 +39243,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "49015",
@@ -39253,7 +39253,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "49016",
@@ -39263,7 +39263,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "49017",
@@ -39273,7 +39273,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "49018",
@@ -39283,7 +39283,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "49019",
@@ -39293,7 +39293,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "49020",
@@ -39303,7 +39303,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "49021",
@@ -39313,7 +39313,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "49022",
@@ -39323,7 +39323,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "49033",
@@ -39373,7 +39373,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "49023",
@@ -39383,7 +39383,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "49024",
@@ -39487,7 +39487,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     },
     {
      "code": "05015",
@@ -39497,7 +39497,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "05014",
@@ -39507,7 +39507,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "05012",
@@ -39517,7 +39517,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "05024",
@@ -39527,7 +39527,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "05032",
@@ -39537,7 +39537,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "05033",
@@ -39547,7 +39547,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "05018",
@@ -39557,7 +39557,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "05023",
@@ -39567,7 +39567,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "05030",
@@ -39577,7 +39577,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "05031",
@@ -39587,7 +39587,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "05013",
@@ -39597,7 +39597,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "05016",
@@ -39647,7 +39647,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     }
    ],
    "encounter_sets": [],
@@ -39668,7 +39668,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "22012",
@@ -39678,7 +39678,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "22013",
@@ -39688,7 +39688,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "22014",
@@ -39698,7 +39698,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "22015",
@@ -39708,7 +39708,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "22018",
@@ -39718,7 +39718,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "22022",
@@ -39728,7 +39728,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "22032",
@@ -39738,7 +39738,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "22033",
@@ -39748,7 +39748,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "22034",
@@ -39758,7 +39758,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "22016",
@@ -39768,7 +39768,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "22017",
@@ -39798,7 +39798,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "22021",
@@ -39808,7 +39808,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "22023",
@@ -39818,7 +39818,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "22024",
@@ -39858,7 +39858,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     }
    ],
    "encounter_sets": [],
@@ -39879,7 +39879,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "48013",
@@ -39889,7 +39889,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "48014",
@@ -39899,7 +39899,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "48015",
@@ -39909,7 +39909,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "48016",
@@ -39919,7 +39919,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "48018",
@@ -39929,7 +39929,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "48020",
@@ -39939,7 +39939,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "48021",
@@ -39949,7 +39949,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "48031",
@@ -39959,7 +39959,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "48032",
@@ -39969,7 +39969,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "48017",
@@ -39979,7 +39979,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "48019",
@@ -39999,7 +39999,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "48023",
@@ -40112,7 +40112,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "28012",
@@ -40122,7 +40122,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "28013",
@@ -40132,7 +40132,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "28014",
@@ -40142,7 +40142,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "28016",
@@ -40152,7 +40152,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "28017",
@@ -40162,7 +40162,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "28018",
@@ -40172,7 +40172,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "28019",
@@ -40182,7 +40182,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "28020",
@@ -40192,7 +40192,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "28026",
@@ -40202,7 +40202,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "28027",
@@ -40212,7 +40212,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "28011",
@@ -40222,7 +40222,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "28015",
@@ -40306,7 +40306,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "34015",
@@ -40316,7 +40316,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "34016",
@@ -40326,7 +40326,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "34017",
@@ -40336,7 +40336,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "34018",
@@ -40346,7 +40346,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "34019",
@@ -40356,7 +40356,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "34020",
@@ -40366,7 +40366,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "34021",
@@ -40376,7 +40376,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "34022",
@@ -40386,7 +40386,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "34024",
@@ -40396,7 +40396,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "34032",
@@ -40406,7 +40406,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "34033",
@@ -40416,7 +40416,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "34034",
@@ -40426,7 +40426,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "34035",
@@ -40436,7 +40436,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "34023",
@@ -40446,7 +40446,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "34025",
@@ -40497,7 +40497,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "41013",
@@ -40507,7 +40507,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "41015",
@@ -40517,7 +40517,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "41016",
@@ -40527,7 +40527,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "41017",
@@ -40537,7 +40537,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "41018",
@@ -40547,7 +40547,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "41019",
@@ -40557,7 +40557,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "41020",
@@ -40567,7 +40567,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "41022",
@@ -40577,7 +40577,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "41023",
@@ -40587,7 +40587,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "41024",
@@ -40597,7 +40597,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "41030",
@@ -40607,7 +40607,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "41031",
@@ -40617,7 +40617,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "41032",
@@ -40627,7 +40627,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "41033",
@@ -40637,7 +40637,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "41014",
@@ -40647,7 +40647,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "41021",
@@ -40657,7 +40657,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     }
    ],
    "encounter_sets": [],
@@ -40678,7 +40678,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "14013",
@@ -40688,7 +40688,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "14014",
@@ -40698,7 +40698,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "14015",
@@ -40708,7 +40708,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "14017",
@@ -40718,7 +40718,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "14018",
@@ -40728,7 +40728,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "14022",
@@ -40738,7 +40738,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "14023",
@@ -40748,7 +40748,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "14029",
@@ -40758,7 +40758,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "14030",
@@ -40768,7 +40768,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "14031",
@@ -40778,7 +40778,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "14032",
@@ -40788,7 +40788,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "14016",
@@ -40849,7 +40849,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "38011",
@@ -40859,7 +40859,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "38012",
@@ -40869,7 +40869,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "38014",
@@ -40879,7 +40879,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "38016",
@@ -40889,7 +40889,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "38018",
@@ -40899,7 +40899,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "38019",
@@ -40909,7 +40909,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "38028",
@@ -40919,7 +40919,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "38013",
@@ -40939,7 +40939,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "38017",
@@ -40949,7 +40949,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "38020",
@@ -40959,7 +40959,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "38021",
@@ -41081,7 +41081,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "31015",
@@ -41091,7 +41091,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "31016",
@@ -41101,7 +41101,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "31017",
@@ -41111,7 +41111,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "31019",
@@ -41121,7 +41121,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "31020",
@@ -41131,7 +41131,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "31021",
@@ -41141,7 +41141,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "31022",
@@ -41151,7 +41151,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "31023",
@@ -41161,7 +41161,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "31024",
@@ -41171,7 +41171,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "31029",
@@ -41181,7 +41181,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "31018",
@@ -41191,7 +41191,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 9
     }
    ],
    "encounter_sets": [
@@ -41292,7 +41292,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "15011",
@@ -41302,7 +41302,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "15012",
@@ -41312,7 +41312,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "15013",
@@ -41322,7 +41322,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "15014",
@@ -41332,7 +41332,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "15015",
@@ -41342,7 +41342,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "15019",
@@ -41352,7 +41352,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "15028",
@@ -41362,7 +41362,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "15029",
@@ -41372,7 +41372,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "15030",
@@ -41382,7 +41382,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "15031",
@@ -41392,7 +41392,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "15016",
@@ -41422,7 +41422,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "15020",
@@ -41473,7 +41473,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "52014",
@@ -41483,7 +41483,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "52016",
@@ -41493,7 +41493,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "52017",
@@ -41503,7 +41503,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "52018",
@@ -41513,7 +41513,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "52019",
@@ -41533,7 +41533,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "52021",
@@ -41543,7 +41543,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "52024",
@@ -41553,7 +41553,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "52032",
@@ -41563,7 +41563,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "52033",
@@ -41573,7 +41573,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "52034",
@@ -41583,7 +41583,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "52015",
@@ -41593,7 +41593,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "52023",
@@ -41603,7 +41603,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "52025",
@@ -41643,7 +41643,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     }
    ],
    "encounter_sets": [
@@ -41708,7 +41708,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "30013",
@@ -41718,7 +41718,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "30014",
@@ -41728,7 +41728,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "30019",
@@ -41738,7 +41738,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "30020",
@@ -41748,7 +41748,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "30021",
@@ -41758,7 +41758,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "30029",
@@ -41768,7 +41768,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "30015",
@@ -41778,7 +41778,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "30016",
@@ -41788,7 +41788,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "30017",
@@ -41798,7 +41798,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "30018",
@@ -41808,7 +41808,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "30022",
@@ -41818,7 +41818,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "30023",
@@ -41828,7 +41828,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     }
    ],
    "encounter_sets": [
@@ -41938,7 +41938,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "17012",
@@ -41948,7 +41948,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "17013",
@@ -41958,7 +41958,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "17014",
@@ -41968,7 +41968,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "17015",
@@ -41978,7 +41978,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "17017",
@@ -41988,7 +41988,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "17019",
@@ -41998,7 +41998,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "17020",
@@ -42008,7 +42008,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "17021",
@@ -42018,7 +42018,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "17022",
@@ -42028,7 +42028,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "17023",
@@ -42038,7 +42038,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "17028",
@@ -42048,7 +42048,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "17029",
@@ -42058,7 +42058,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "17030",
@@ -42068,7 +42068,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "17016",
@@ -42078,7 +42078,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "17018",
@@ -42098,7 +42098,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     }
    ],
    "encounter_sets": [],
@@ -42119,7 +42119,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "36015",
@@ -42129,7 +42129,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "36016",
@@ -42139,7 +42139,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "36017",
@@ -42149,7 +42149,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "36018",
@@ -42159,7 +42159,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "36019",
@@ -42169,7 +42169,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "36020",
@@ -42179,7 +42179,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "36022",
@@ -42189,7 +42189,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "36026",
@@ -42199,7 +42199,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "36035",
@@ -42209,7 +42209,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "36021",
@@ -42219,7 +42219,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "36023",
@@ -42229,7 +42229,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "36024",
@@ -42239,7 +42239,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "36025",
@@ -42249,7 +42249,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "36027",
@@ -42387,7 +42387,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "06012",
@@ -42397,7 +42397,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "06019",
@@ -42407,7 +42407,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "06032",
@@ -42417,7 +42417,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "06017",
@@ -42427,7 +42427,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "06018",
@@ -42437,7 +42437,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "06014",
@@ -42447,7 +42447,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "06015",
@@ -42457,7 +42457,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "06020",
@@ -42467,7 +42467,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "06021",
@@ -42477,7 +42477,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "06031",
@@ -42497,7 +42497,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "06034",
@@ -42507,7 +42507,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "06022",
@@ -42547,7 +42547,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     },
     {
      "code": "06013",
@@ -42557,7 +42557,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "06016",
@@ -42588,7 +42588,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "25014",
@@ -42598,7 +42598,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "25018",
@@ -42608,7 +42608,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "25019",
@@ -42618,7 +42618,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "25020",
@@ -42628,7 +42628,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "25023",
@@ -42638,7 +42638,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "25024",
@@ -42648,7 +42648,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "25033",
@@ -42658,7 +42658,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "25034",
@@ -42668,7 +42668,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "25035",
@@ -42678,7 +42678,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "25036",
@@ -42688,7 +42688,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "25015",
@@ -42698,7 +42698,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "25016",
@@ -42708,7 +42708,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 8
+     "popularity": 9
     },
     {
      "code": "25017",
@@ -42728,7 +42728,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "25022",
@@ -42789,7 +42789,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "20012",
@@ -42799,7 +42799,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "20013",
@@ -42809,7 +42809,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "20015",
@@ -42819,7 +42819,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "20016",
@@ -42829,7 +42829,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "20021",
@@ -42839,7 +42839,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "20022",
@@ -42849,7 +42849,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "20026",
@@ -42859,7 +42859,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "20027",
@@ -42869,7 +42869,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "20028",
@@ -42879,7 +42879,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "20029",
@@ -42889,7 +42889,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "20014",
@@ -42939,7 +42939,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     }
    ],
    "encounter_sets": [],
@@ -42960,7 +42960,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "26014",
@@ -42970,7 +42970,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "26015",
@@ -42980,7 +42980,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "26016",
@@ -42990,7 +42990,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "26018",
@@ -43000,7 +43000,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "26022",
@@ -43010,7 +43010,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "26024",
@@ -43020,7 +43020,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "26033",
@@ -43030,7 +43030,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "26034",
@@ -43040,7 +43040,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "26035",
@@ -43050,7 +43050,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "26036",
@@ -43060,7 +43060,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "26017",
@@ -43070,7 +43070,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 6
+     "popularity": 8
     },
     {
      "code": "26019",
@@ -43080,7 +43080,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "26020",
@@ -43090,7 +43090,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "26021",
@@ -43100,7 +43100,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "26023",
@@ -43110,7 +43110,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 9
+     "popularity": 10
     },
     {
      "code": "26025",
@@ -43161,7 +43161,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "23013",
@@ -43171,7 +43171,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "23016",
@@ -43181,7 +43181,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 8
     },
     {
      "code": "23017",
@@ -43191,7 +43191,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "23018",
@@ -43201,7 +43201,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "23019",
@@ -43211,7 +43211,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "23024",
@@ -43221,7 +43221,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "23032",
@@ -43231,7 +43231,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "23033",
@@ -43241,7 +43241,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "23034",
@@ -43251,7 +43251,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "23035",
@@ -43261,7 +43261,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 5
     },
     {
      "code": "23014",
@@ -43271,7 +43271,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "23015",
@@ -43281,7 +43281,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "23020",
@@ -43301,7 +43301,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "23022",
@@ -43311,7 +43311,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "23023",
@@ -43321,7 +43321,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     },
     {
      "code": "23025",
@@ -43372,7 +43372,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 6
     },
     {
      "code": "13014",
@@ -43382,7 +43382,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "13017",
@@ -43392,7 +43392,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "13020",
@@ -43402,7 +43402,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "13012",
@@ -43412,7 +43412,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "13013",
@@ -43422,7 +43422,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "13016",
@@ -43432,7 +43432,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "13018",
@@ -43442,7 +43442,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 7
     },
     {
      "code": "13019",
@@ -43452,7 +43452,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 6
     },
     {
      "code": "13024",
@@ -43462,7 +43462,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "13031",
@@ -43472,7 +43472,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "13032",
@@ -43482,7 +43482,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "13033",
@@ -43492,7 +43492,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "13034",
@@ -43502,7 +43502,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "13015",
@@ -43552,7 +43552,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     }
    ],
    "encounter_sets": [],
@@ -43573,7 +43573,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "54013",
@@ -43583,7 +43583,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "54014",
@@ -43593,7 +43593,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "54016",
@@ -43603,7 +43603,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 7
     },
     {
      "code": "54017",
@@ -43613,7 +43613,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "54018",
@@ -43623,7 +43623,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "54019",
@@ -43633,7 +43633,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "54020",
@@ -43643,7 +43643,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "54022",
@@ -43653,7 +43653,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "54023",
@@ -43663,7 +43663,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "54032",
@@ -43673,7 +43673,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "54033",
@@ -43683,7 +43683,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "54015",
@@ -43693,7 +43693,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "54021",
@@ -43703,7 +43703,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "54024",
@@ -43798,7 +43798,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "35014",
@@ -43808,7 +43808,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "35015",
@@ -43818,7 +43818,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "35016",
@@ -43828,7 +43828,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "35017",
@@ -43838,7 +43838,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "35018",
@@ -43848,7 +43848,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "35019",
@@ -43858,7 +43858,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "35022",
@@ -43868,7 +43868,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "35023",
@@ -43878,7 +43878,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "35032",
@@ -43888,7 +43888,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "35033",
@@ -43898,7 +43898,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "35020",
@@ -43908,7 +43908,7 @@
      "qty": 2,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "35021",
@@ -43918,7 +43918,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "35024",
@@ -44013,7 +44013,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 5
     },
     {
      "code": "58013",
@@ -44023,7 +44023,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 5
     },
     {
      "code": "58014",
@@ -44033,7 +44033,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "58015",
@@ -44043,7 +44043,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 3
+     "popularity": 6
     },
     {
      "code": "58016",
@@ -44053,7 +44053,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "58018",
@@ -44063,7 +44063,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "58019",
@@ -44073,7 +44073,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "58020",
@@ -44083,7 +44083,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "58021",
@@ -44103,7 +44103,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "58024",
@@ -44113,7 +44113,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "58030",
@@ -44123,7 +44123,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "58031",
@@ -44133,7 +44133,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 5
+     "popularity": 8
     },
     {
      "code": "58032",
@@ -44143,7 +44143,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "58033",
@@ -44153,7 +44153,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "58034",
@@ -44163,7 +44163,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "58017",
@@ -44173,7 +44173,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "58023",
@@ -44204,7 +44204,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "43014",
@@ -44214,7 +44214,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43015",
@@ -44224,7 +44224,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43016",
@@ -44234,7 +44234,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43018",
@@ -44244,7 +44244,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 2
+     "popularity": 4
     },
     {
      "code": "43019",
@@ -44254,7 +44254,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 4
     },
     {
      "code": "43020",
@@ -44264,7 +44264,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "43021",
@@ -44274,7 +44274,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 8
     },
     {
      "code": "43034",
@@ -44284,7 +44284,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43035",
@@ -44294,7 +44294,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43036",
@@ -44304,7 +44304,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43037",
@@ -44314,7 +44314,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 1
     },
     {
      "code": "43038",
@@ -44324,7 +44324,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "43039",
@@ -44334,7 +44334,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 3
     },
     {
      "code": "43040",
@@ -44344,7 +44344,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 1
+     "popularity": 2
     },
     {
      "code": "43017",
@@ -44354,7 +44354,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 4
+     "popularity": 7
     },
     {
      "code": "43022",
@@ -44394,7 +44394,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "43026",
@@ -44404,7 +44404,7 @@
      "qty": 1,
      "double": false,
      "linked": null,
-     "popularity": 0
+     "popularity": 2
     },
     {
      "code": "43027",
@@ -44414,7 +44414,7 @@
      "qty": 3,
      "double": false,
      "linked": null,
-     "popularity": 7
+     "popularity": 10
     }
    ],
    "encounter_sets": [],
